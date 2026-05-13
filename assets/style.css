@@ -1,0 +1,257 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f6f8;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+.page-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #1a1a2e;
+}
+
+.section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 18px;
+    color: #1a1a2e;
+}
+
+.section h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+.section h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 0 8px;
+    color: #555;
+}
+
+/* KPI cards */
+.kpi-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 8px;
+}
+
+.kpi-card {
+    background: #f0f4ff;
+    border-radius: 8px;
+    padding: 14px 20px;
+    min-width: 140px;
+    flex: 1;
+}
+
+.kpi-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2c3e7a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.kpi-label {
+    font-size: 0.78rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* Fastest split cards */
+.split-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.split-card {
+    background: #f8f9fb;
+    border: 1px solid #e2e6ea;
+    border-radius: 7px;
+    padding: 10px 16px;
+    min-width: 110px;
+    flex: 1;
+}
+
+.split-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.split-time {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a7a4a;
+    margin: 2px 0;
+}
+
+.split-name {
+    font-size: 0.78rem;
+    color: #555;
+}
+
+.split-sub {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 2px;
+}
+
+/* Summary chart */
+.summary-chart {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+/* Tables */
+.tables-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.tables-row > div {
+    flex: 1;
+    min-width: 260px;
+}
+
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.summary-table th {
+    background: #f0f4ff;
+    padding: 7px 10px;
+    text-align: left;
+    font-weight: 600;
+    color: #2c3e7a;
+    border-bottom: 2px solid #d0d8f0;
+}
+
+.summary-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.summary-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Athlete controls */
+.controls-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.control-group label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.control-group--wide {
+    flex: 2;
+}
+
+/* Collapsible sections */
+.collapsible {
+    margin-bottom: 6px;
+}
+
+.collapsible > summary {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    padding: 8px 0;
+    user-select: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.collapsible > summary::before {
+    content: '▶';
+    font-size: 0.65rem;
+    color: #888;
+    transition: transform 0.15s;
+}
+
+.collapsible[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.collapsible > .split-row {
+    padding-top: 8px;
+}
+
+/* Stats bar */
+.stats-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.stat {
+    background: #f0f4ff;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #2c3e7a;
+}
+
+/* Athlete chart */
+.athlete-chart {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e8ed;
+    margin: 0 0 28px;
+}

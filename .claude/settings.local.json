@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(\\(Get-Content \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\\\\clonmel_parse.ipynb\" | ConvertFrom-Json\\).cells | ForEach-Object { $_.id })",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\" -MaxDepth 1 | Where-Object { $_.Name -notlike '.venv' -and $_.Name -notlike '__pycache__' })",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\" -Depth 1 | Where-Object { $_.Name -notlike '.venv' -and $_.Name -notlike '__pycache__' } | Select-Object Name, PSIsContainer)",
+      "PowerShell(ls \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\" | Where-Object { $_.Name -notmatch '\\\\.venv|__pycache__' })",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\\\\assets\")",
+      "PowerShell(cd \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\"; $proc = Start-Process python -ArgumentList \"app.py\" -PassThru -WindowStyle Hidden; Start-Sleep -Seconds 5; try { $resp = Invoke-WebRequest -Uri \"http://localhost:8050\" -TimeoutSec 5 -UseBasicParsing; Write-Host \"HTTP\" $resp.StatusCode } catch { Write-Host \"Error: $_\" }; $proc.Kill\\(\\))",
+      "PowerShell(cd \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\"; python app.py 2>&1; Write-Host \"Exit: $LASTEXITCODE\")",
+      "PowerShell($resp = Invoke-WebRequest -Uri \"http://localhost:8050\" -TimeoutSec 5 -UseBasicParsing; Write-Host \"HTTP\" $resp.StatusCode \"Content-length:\" $resp.RawContentLength)"
+    ]
+  }
+}
