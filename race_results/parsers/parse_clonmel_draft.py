@@ -82,16 +82,10 @@ def parse_race_line(line: str) -> dict | None:
     }
 
 
-def load_results(path: str = 'Clonmel.txt') -> pd.DataFrame:
+def load_results(path: str) -> pd.DataFrame:
     with open(path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     records = [parse_race_line(line) for line in lines[1:]]
     records = [r for r in records if r is not None]
     return pd.DataFrame(records)
-
-
-if __name__ == '__main__':
-    df = load_results()
-    print(df.shape)
-    print(df.head(10))

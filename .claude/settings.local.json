@@ -8,7 +8,11 @@
       "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\\\\assets\")",
       "PowerShell(cd \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\"; $proc = Start-Process python -ArgumentList \"app.py\" -PassThru -WindowStyle Hidden; Start-Sleep -Seconds 5; try { $resp = Invoke-WebRequest -Uri \"http://localhost:8050\" -TimeoutSec 5 -UseBasicParsing; Write-Host \"HTTP\" $resp.StatusCode } catch { Write-Host \"Error: $_\" }; $proc.Kill\\(\\))",
       "PowerShell(cd \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\"; python app.py 2>&1; Write-Host \"Exit: $LASTEXITCODE\")",
-      "PowerShell($resp = Invoke-WebRequest -Uri \"http://localhost:8050\" -TimeoutSec 5 -UseBasicParsing; Write-Host \"HTTP\" $resp.StatusCode \"Content-length:\" $resp.RawContentLength)"
+      "PowerShell($resp = Invoke-WebRequest -Uri \"http://localhost:8050\" -TimeoutSec 5 -UseBasicParsing; Write-Host \"HTTP\" $resp.StatusCode \"Content-length:\" $resp.RawContentLength)",
+      "PowerShell(cmd /c dir \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\\\\race_results\" /s /b)",
+      "PowerShell(New-Item -ItemType Directory \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\\\\race_results\\\\parsers\")",
+      "PowerShell(New-Item -ItemType File \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\\\\race_results\\\\__init__.py\")",
+      "PowerShell(New-Item -ItemType File \"c:\\\\Users\\\\James\\\\Documents\\\\GitHub\\\\sportsplits_scraper\\\\race_results\\\\parsers\\\\__init__.py\")"
     ]
   }
 }

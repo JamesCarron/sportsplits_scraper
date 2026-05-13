@@ -1,0 +1,293 @@
+Place Firstname Lastname TI_Age_Grp Grp Rk Bib Club Race Category Finish Time Leg1 split T1 split Bike split T2 split Run split
+1. Sean McMahon OverAll 1 215 Wicklow TC Open 00:57:49 00:08:30 00:00:46 00:31:39 00:00:54 00:15:59
+2. Christopher Horgan OverAll 2 145 Mallow TC Open 00:58:28 00:08:41 00:00:52 00:31:55 00:00:52 00:16:07
+3. Denis Hegarty OverAll 3 130 Tralee Tri Club Open 01:00:03 00:09:27 00:01:13 00:31:38 00:01:05 00:16:38
+4. Ciaran Kyne From 25 to 29 1 185 Piranha Triathlon Club Open 01:00:23 00:09:33 00:01:18 00:31:24 00:01:01 00:17:05
+5. John paul Vereker From 40 to 44 1 327 Waterford Triathlon Club Open 01:01:59 00:09:53 00:00:59 00:32:36 00:00:57 00:17:33
+6. Enda Bagnall From 45 to 49 1 5 Eden Tri Club Open 01:02:15 00:09:50 00:01:23 00:32:14 00:01:02 00:17:44
+7. Conor Talty From 35 to 39 1 322 Piranha Triathlon Club Open 01:02:16 00:10:08 00:01:31 00:31:44 00:01:30 00:17:20
+8. Ben Hickey From 35 to 39 2 137 Open 01:02:49 00:09:54 00:01:27 00:32:16 00:01:05 00:18:06
+9. Scott Graham From 35 to 39 3 113 Wicklow TC Open 01:02:50 00:09:24 00:01:02 00:33:17 00:01:13 00:17:52
+10. Justin Ryan From 35 to 39 4 303 Open 01:02:53 00:10:03 00:01:28 00:33:01 00:01:02 00:17:18
+11. Brendan Cassidy From 35 to 39 5 44 Cork Triathlon Club Open 01:03:06 00:11:20 00:01:16 00:31:05 00:01:09 00:18:14
+12. Paul Ogle From 45 to 49 2 268 Open 01:03:17 00:09:24 00:01:08 00:33:10 00:01:06 00:18:28
+13. Padraig Kelly From 40 to 44 2 168 Tralee Tri Club Open 01:03:25 00:10:04 00:01:15 00:32:54 00:01:00 00:18:11
+14. David Spring From 35 to 39 6 314 Tralee Tri Club Open 01:03:44 00:10:13 00:01:09 00:32:02 00:01:28 00:18:49
+15. Michael Lynch From 30 to 34 1 188 Piranha Triathlon Club Open 01:04:09 00:10:04 00:01:17 00:33:47 00:01:04 00:17:54
+16. James Burke From 30 to 34 2 30 Wicklow TC Open 01:04:18 00:10:32 00:00:55 00:33:38 00:00:56 00:18:15
+17. Darren O Sullivan From 45 to 49 3 252 Naas T C Open 01:04:27 00:10:08 00:01:19 00:32:42 00:01:18 00:18:59
+18. Joe O connor From 45 to 49 4 248 Tralee Tri Club Open 01:04:38 00:10:21 00:01:03 00:33:44 00:01:22 00:18:06
+19. Alan Maher From 40 to 44 3 194 Portmarnock TC Open 01:04:39
+20. Stephen Chambers From 35 to 39 7 46 South Coast TC Open 01:04:46 00:10:16 00:01:32 00:33:15 00:01:35 00:18:05
+21. Peter English From 30 to 34 3 84 Belpark TC Open 01:04:55 00:10:09 00:01:41 00:32:59 00:01:44 00:18:20
+22. Trevor Woods From 55 to 59 1 337 Cork Triathlon Club Open 01:05:01 00:09:23 00:01:05 00:33:43 00:01:07 00:19:41
+23. Enda Marren From 45 to 49 5 199 Piranha Triathlon Club Open 01:05:20 00:10:25 00:01:12 00:35:00 00:01:22 00:17:19
+24. Deirdre Casey OverAll 1 42 Cork Triathlon Club Female 01:05:55 00:09:26 00:01:01 00:33:53 00:00:58 00:20:35
+25. Sean Cooke From 18 to 19 1 59 Open 01:06:42 00:08:38 00:00:52 00:36:27 00:01:01 00:19:42
+26. Brian Stanley From 30 to 34 4 316 Piranha Triathlon Club Open 01:07:34 00:10:51 00:01:45 00:34:31 00:01:44 00:18:42
+27. Kieran Hopkins From 45 to 49 6 142 Open 01:07:45 00:10:59 00:01:16 00:34:22 00:01:06 00:20:01
+28. Michael Pearce From 40 to 44 4 282 Wicklow TC Open 01:07:52 00:09:37 00:01:02 00:35:04 00:01:23 00:20:44
+29. Jeffrey Brophy From 35 to 39 8 27 Carrick-on-Suir TC Open 01:08:04 00:10:39 00:01:13 00:35:42 00:00:56 00:19:33
+30. Fergus Meade From 40 to 44 5 217 Carlow TC Open 01:08:07 00:11:15 00:02:00 00:34:40 00:00:53 00:19:17
+31. Paul Kennedy From 45 to 49 7 174 Cork Triathlon Club Open 01:08:11 00:11:24 00:01:17 00:32:42 00:01:12 00:21:33
+32. David Fitzgerald From 30 to 34 5 88 Tralee Tri Club Open 01:08:11 00:10:35 00:01:32 00:35:53 00:01:50 00:18:20
+33. Daniel Freund From 40 to 44 6 103 East Cork Tribe Open 01:08:21 00:09:39 00:01:29 00:34:52 00:01:16 00:21:03
+34. Danny O sullivan From 35 to 39 9 251 Tralee Tri Club Open 01:08:24 00:10:32 00:02:14 00:34:48 00:02:00 00:18:48
+35. Megan Roberts OverAll 2 296 Piranha Triathlon Club Female 01:08:53 00:10:30 00:01:14 00:36:00 00:01:24 00:19:43
+36. Niamh Coffey OverAll 3 50 Killarney Triathlon Club Female 01:08:54 00:09:34 00:01:24 00:37:32 00:01:17 00:19:05
+37. Gabriel Le Donne From 18 to 19 2 180 Cobh Triathlon Club Open 01:09:07 00:10:20 00:01:57 00:37:24 00:01:02 00:18:22
+38. Adrian Cunningham From 45 to 49 8 64 Kilkenny Triathlon Club Open 01:09:25 00:10:14 00:01:10 00:35:28 00:01:23 00:21:07
+39. Maura Barry From 45 to 49 1 7 Cork Triathlon Club Female 01:09:46 00:11:49 00:01:39 00:35:11 00:01:23 00:19:42
+40. Stephen McGibney From 40 to 44 7 211 Naas T C Open 01:09:55 00:12:06 00:01:42 00:37:19 00:01:02 00:17:44
+41. Izabella Chidlow From 20 to 24 1 47 South Coast TC Female 01:10:04 00:09:10 00:01:00 00:38:13 00:00:55 00:20:44
+42. Tom Soden From 30 to 34 6 311 Open 01:10:08 00:09:38 00:01:06 00:35:08 00:01:11 00:23:03
+43. Jens Seggewiss From 30 to 34 7 307 Piranha Triathlon Club Open 01:10:15 00:10:25 00:02:42 00:34:51 00:02:49 00:19:25
+44. Danny Mullane From 30 to 34 8 232 Mallow TC Open 01:10:16 00:10:04 00:02:08 00:35:59 00:01:46 00:20:17
+45. David Flaherty From 50 to 54 1 91 Carrick-on-Suir TC Open 01:10:24 00:11:40 00:01:34 00:34:55 00:01:20 00:20:52
+46. Chrissy Harford From 35 to 39 1 123 Portmarnock TC Female 01:10:35 00:10:54 00:01:39 00:36:18 00:01:44 00:19:58
+47. Darragh Skehan From 35 to 39 10 309 Naas T C Open 01:10:42 00:11:05 00:01:20 00:37:13 00:01:08 00:19:54
+48. YUKI ICHIMURA From 25 to 29 2 149 Piranha Triathlon Club Open 01:10:44 00:12:16 00:02:01 00:37:10 00:01:42 00:17:33
+49. Padraig Healy From 35 to 39 11 127 Tried and Tested Open 01:10:48 00:11:11 00:01:49 00:38:21 00:01:11 00:18:15
+50. Conor Coleman From 45 to 49 9 52 South Coast TC Open 01:10:50 00:11:15 00:01:13 00:36:42 00:01:18 00:20:20
+51. Christopher Gallahue From 40 to 44 8 107 Blackwater Triathlon Club Open 01:11:08 00:11:13 00:01:37 00:36:34 00:01:16 00:20:28
+52. Peter Mcgloin From 45 to 49 10 212 Wicklow TC Open 01:11:11 00:10:24 00:01:22 00:37:35 00:01:23 00:20:25
+53. David O'shea From 40 to 44 9 277 Open 01:11:56 00:09:50 00:01:21 00:38:33 00:01:11 00:20:57
+54. Alan Brown From 45 to 49 11 29 Wicklow TC Open 01:12:01 00:10:07 00:01:38 00:37:29 00:01:05 00:21:40
+55. John Wallnutt From 60 to 64 1 329 Portmarnock TC Open 01:12:15 00:11:08 00:01:20 00:35:48 00:01:29 00:22:29
+56. Paul Kelly From 45 to 49 12 169 Open 01:12:42 00:10:45 00:01:53 00:38:03 00:01:43 00:20:16
+57. Gerard Pierse From 45 to 49 13 286 Tralee Tri Club Open 01:12:43 00:09:31 00:01:11 00:38:41 00:01:15 00:22:02
+58. Féidhlim Dervin From 35 to 39 12 69 T3 Triathlon Club Open 01:12:45 00:10:36 00:01:43 00:36:55 00:01:49 00:21:41
+59. Nicola Kehoe From 40 to 44 1 162 Waterford Triathlon Club Female 01:13:19 00:10:17 00:01:25 00:37:33 00:01:14 00:22:47
+60. Paul Flood From 45 to 49 14 96 Kilkenny Triathlon Club Open 01:13:20 00:11:52 00:01:16 00:37:47 00:01:26 00:20:57
+61. Faye Mansfield From 30 to 34 1 197 Piranha Triathlon Club Female 01:13:23 00:09:51 00:01:25 00:39:22 00:01:38 00:21:05
+62. Adam Brenner From 25 to 29 3 26 Kilkenny Triathlon Club Open 01:13:28 00:11:33 00:01:55 00:38:48 00:01:32 00:19:39
+63. Conor Heffernan From 30 to 34 9 128 Trilogy Triathlon Club Open 01:13:28 00:11:13 00:01:31 00:36:42 00:01:19 00:22:41
+64. Fiona Kelly From 35 to 39 2 166 Wicklow TC Female 01:13:52 00:10:05 00:01:45 00:37:52 00:01:32 00:22:37
+65. Liam Dunne From 30 to 34 10 79 Trilogy Triathlon Club Open 01:14:01 00:11:45 00:02:08 00:38:35 00:01:21 00:20:09
+66. Noel Cronin From 50 to 54 2 62 Tralee Tri Club Open 01:14:03 00:10:17 00:01:15 00:38:31 00:01:28 00:22:31
+67. Ronan Whelan From 50 to 54 3 332 Trilogy Triathlon Club Open 01:14:05 00:11:04 00:01:20 00:36:55 00:01:29 00:23:15
+68. Conor Breen From 35 to 39 13 23 Belpark TC Open 01:14:10 00:11:33 00:02:51 00:39:41 00:02:12 00:17:51
+69. Joanne Cummins From 40 to 44 2 63 Wicklow TC Female 01:14:20 00:10:58 00:01:15 00:37:56 00:01:49 00:22:20
+70. James Carron From 25 to 29 4 40 Cork Triathlon Club Open 01:14:34 00:09:41 00:02:00 00:42:15 00:01:31 00:19:04
+71. Senan O'Halloran From 40 to 44 10 270 Clonmel Triathlon Club Open 01:14:35 00:11:16 00:02:54 00:36:21 00:01:38 00:22:25
+72. Frank Flannery From 30 to 34 11 93 Piranha Triathlon Club Open 01:14:51 00:12:22 00:02:17 00:38:19 00:01:40 00:20:11
+73. Aisling Bohan From 30 to 34 2 14 Trilogy Triathlon Club Female 01:15:00 00:10:54 00:01:30 00:37:52 00:01:18 00:23:24
+74. Patricia Murphy From 35 to 39 3 240 Mallow TC Female 01:15:15 00:12:01 00:01:45 00:37:59 00:02:06 00:21:21
+75. Owen Ingarfield From 40 to 44 11 150 Piranha Triathlon Club Open 01:15:15 00:10:57 00:02:07 00:39:14 00:01:51 00:21:03
+76. Noel O'Regan From 60 to 64 2 276 Cork Triathlon Club Open 01:15:20 00:11:12 00:01:24 00:39:15 00:01:31 00:21:56
+77. Mark McEntee From 50 to 54 4 208 Open 01:15:31 00:11:53 00:01:45 00:38:56 00:01:27 00:21:27
+78. Howard Triggs From 60 to 64 3 324 Open 01:15:32 00:11:47 00:01:36 00:37:41 00:01:39 00:22:47
+79. David Sutton From 30 to 34 12 320 Naas T C Open 01:15:35 00:11:35 00:01:50 00:39:07 00:01:13 00:21:47
+80. Anthony Byrne From 50 to 54 5 33 Wicklow TC Open 01:15:37 00:11:04 00:01:52 00:38:32 00:01:13 00:22:55
+81. Cian Moloney From 35 to 39 14 219 Clonmel Triathlon Club Open 01:15:38 00:13:10 00:02:12 00:38:29 00:01:28 00:20:16
+82. Fiona Nelson From 30 to 34 3 244 Piranha Triathlon Club Female 01:15:39 00:09:47 00:02:22 00:39:48 00:01:33 00:22:07
+83. Alex Chadfield From 30 to 34 13 45 Belpark TC Open 01:15:39 00:10:55 00:02:31 00:40:40 00:01:55 00:19:36
+84. Bernard Kearney From 50 to 54 6 159 Piranha Triathlon Club Open 01:15:46 00:11:34 00:02:41 00:39:23 00:01:56 00:20:10
+85. Sophie O'Brien From 30 to 34 4 256 Piranha Triathlon Club Female 01:15:46 00:11:10 00:02:09 00:39:19 00:01:34 00:21:33
+86. Peter Heffernan From 30 to 34 14 129 Trilogy Triathlon Club Open 01:15:46 00:11:23 00:01:28 00:40:08 00:01:15 00:21:31
+87. Ciara Greene From 25 to 29 1 115 Cork Triathlon Club Female 01:15:55 00:10:14 00:01:34 00:40:39 00:01:37 00:21:51
+88. Vinny Power From 50 to 54 7 288 Carrick-on-Suir TC Open 01:16:04 00:12:29 00:01:56 00:39:12 00:01:43 00:20:42
+89. Val Farrell From 50 to 54 8 86 Open 01:16:13 00:12:16 00:02:10 00:38:08 00:01:25 00:22:13
+90. Pat Linehan From 60 to 64 4 326 Piranha Triathlon Club Open 01:16:18 00:11:11 00:01:54 00:38:30 00:02:40 00:22:01
+91. Sarah Blackett From 20 to 24 2 13 Waterford Triathlon Club Female 01:16:32 00:10:53 00:00:56 00:40:21 00:01:02 00:23:19
+92. Paddy Hopkins From 20 to 24 1 143 Piranha Triathlon Club Open 01:16:36 00:11:44 00:01:49 00:39:25 00:01:08 00:22:29
+93. Derek Kenefick From 45 to 49 15 171 South Coast TC Open 01:16:39 00:11:16 00:02:30 00:38:24 00:01:38 00:22:48
+94. Ronan Doyle From 35 to 39 15 77 Kilkenny Triathlon Club Open 01:16:41 00:11:46 00:02:29 00:40:07 00:01:07 00:21:09
+95. Tom Dowling From 45 to 49 16 76 Kilkenny Triathlon Club Open 01:16:50 00:13:26 00:01:59 00:37:35 00:01:43 00:22:05
+96. Laura Owens From 25 to 29 2 280 Mallow TC Female 01:16:54 00:11:43 00:01:32 00:39:42 00:01:18 00:22:37
+97. Eoin OConnell From 30 to 34 15 260 Wicklow TC Open 01:17:24 00:10:57 00:02:15 00:40:17 00:01:19 00:22:34
+98. Niall O'Donnell From 35 to 39 16 264 Piranha Triathlon Club Open 01:17:24 00:12:12 00:02:19 00:40:41 00:01:51 00:20:19
+99. Pablo Solar From 40 to 44 12 312 Piranha Triathlon Club Open 01:17:27 00:11:11 00:02:05 00:38:11 00:01:59 00:23:59
+100. Kathleen Ryan From 35 to 39 4 305 Cork Triathlon Club Female 01:17:31 00:11:48 00:01:59 00:42:02 00:01:04 00:20:37
+101. Martin Dunne From 45 to 49 17 80 Piranha Triathlon Club Open 01:17:41 00:11:15 00:01:48 00:40:54 00:01:55 00:21:46
+102. Andrew Hickey From 50 to 54 9 136 SCTC Open 01:17:49 00:12:01 00:02:12 00:38:55 00:02:19 00:22:20
+103. James Darcy From 35 to 39 17 334 Open 01:17:49 00:10:50 00:02:22 00:40:53 00:01:31 00:22:12
+104. John Campbell From 35 to 39 18 37 Wicklow TC Open 01:17:50 00:11:47 00:02:02 00:39:23 00:01:35 00:23:02
+105. Michael Mcswiggan From 50 to 54 10 216 Portmarnock TC Open 01:17:51 00:12:52 00:03:06 00:38:10 00:03:05 00:20:35
+106. Ailis Brosnan From 55 to 59 1 28 Tralee Tri Club Female 01:18:14 00:11:38 00:01:55 00:41:22 00:01:50 00:21:28
+107. Eadaoin O'Raw From 25 to 29 3 275 Wicklow TC Female 01:18:17 00:09:37 00:01:42 00:42:19 00:01:10 00:23:27
+108. Michael Butler From 50 to 54 11 31 Trilogy Triathlon Club Open 01:18:28 00:12:17 00:01:24 00:40:37 00:01:57 00:22:12
+109. Hailey Kotsaftis From 25 to 29 4 177 Belpark TC Female 01:18:31 00:10:44 00:02:27 00:42:19 00:01:26 00:21:33
+110. Eric Mahon From 25 to 29 5 195 Limerick TC Open 01:18:33 00:11:26 00:02:01 00:39:55 00:02:03 00:23:07
+111. Brian Wilkinson From 30 to 34 16 335 Piranha Triathlon Club Open 01:18:38 00:11:58 00:03:13 00:39:46 00:02:48 00:20:50
+112. Dan Mc Carthy From 60 to 64 5 201 Wicklow TC Open 01:18:42 00:11:28 00:02:11 00:39:16 00:02:46 00:23:00
+113. Edward O'Donoghue From 45 to 49 18 266 Kilkenny Triathlon Club Open 01:18:48 00:13:18 00:01:23 00:39:21 00:01:14 00:23:30
+114. Colin O'Neill From 45 to 49 19 272 Piranha Triathlon Club Open 01:18:49 00:12:25 00:01:36 00:38:44 00:02:02 00:24:00
+115. Scott Mckinlay From 40 to 44 13 214 Naas T C Open 01:18:49 00:11:04 00:02:17 00:38:20 00:01:42 00:25:25
+116. Ewan Haslett From 25 to 29 6 124 Fingal Triathlon Club Open 01:18:50 00:10:54 00:01:46 00:36:58 00:02:13 00:26:57
+117. Gina Lyons From 50 to 54 1 10 Blackwater Triathlon Club Female 01:18:52 00:12:52 00:01:33 00:40:25 00:01:40 00:22:21
+118. Deirdre Wallace From 35 to 39 5 328 Cork Triathlon Club Female 01:18:55 00:12:32 00:01:46 00:40:51 00:01:42 00:22:02
+119. Monica Freiband-O'Reilly From 35 to 39 6 102 Kilkenny Triathlon Club Female 01:18:56 00:11:31 00:02:43 00:38:48 00:01:55 00:23:58
+120. Eoghan Carey From 25 to 29 7 39 Cork Triathlon Club Open 01:19:01 00:12:29 00:02:38 00:39:41 00:02:06 00:22:05
+121. Shane Moore From 35 to 39 19 227 Piranha Triathlon Club Open 01:19:07 00:11:18 00:02:30 00:40:42 00:01:56 00:22:38
+122. Maire Diggin From 55 to 59 2 71 Pulse TC Female 01:19:09 00:12:17 00:00:56 00:41:00 00:01:34 00:23:20
+123. stephen francis From 50 to 54 12 100 Kilkenny Triathlon Club Open 01:19:21 00:12:04 00:03:14 00:40:02 00:02:43 00:21:16
+124. Jonathan Freeman From 35 to 39 20 101 Piranha Triathlon Club Open 01:19:25 00:10:41 00:02:53 00:40:18 00:01:37 00:23:54
+125. Kevin Ryan From 40 to 44 14 306 Portmarnock TC Open 01:19:32 00:12:21 00:02:21 00:41:37 00:01:48 00:21:24
+126. Joseph Darrer From 40 to 44 15 66 South Coast TC Open 01:19:32 00:11:09 00:02:09 00:41:59 00:01:49 00:22:24
+127. Patrice Holmes From 20 to 24 3 141 Cork Triathlon Club Female 01:19:37 00:09:49 00:01:59 00:43:19 00:01:36 00:22:52
+128. David Bray From 55 to 59 2 22 Piranha Triathlon Club Open 01:19:42 00:11:30 00:02:29 00:40:02 00:01:25 00:24:14
+129. David Phelan From 35 to 39 21 285 Clonmel Triathlon Club Open 01:19:45 00:11:06 00:02:12 00:41:26 00:01:04 00:23:54
+130. Gareth Mulcahy From 50 to 54 13 230 Portmarnock TC Open 01:19:55 00:11:44 00:02:36 00:39:46 00:02:17 00:23:30
+131. Mark Ramsey From 50 to 54 14 291 Portmarnock TC Open 01:19:56 00:12:21 00:02:10 00:40:07 00:01:22 00:23:53
+132. Linda O sullivan From 55 to 59 3 253 Cork Triathlon Club Female 01:20:00 00:12:53 00:02:17 00:41:15 00:01:55 00:21:39
+133. Chris Joynt From 55 to 59 3 154 Wicklow TC Open 01:20:13 00:11:33 00:01:52 00:40:57 00:01:55 00:23:55
+134. Paul Bowe From 50 to 54 15 17 Kilkenny Triathlon Club Open 01:20:23 00:13:25 00:02:55 00:39:42 00:01:44 00:22:34
+135. Willie Barry From 60 to 64 6 9 Cork Triathlon Club Open 01:20:37 00:11:24 00:02:50 00:41:01 00:01:32 00:23:48
+136. Aoife Doran From 40 to 44 3 74 Wicklow TC Female 01:20:46 00:12:23 00:01:55 00:41:09 00:01:27 00:23:49
+137. Seamus Foley From 50 to 54 16 98 Kilkenny Triathlon Club Open 01:20:49 00:13:08 00:03:41 00:38:04 00:01:30 00:24:24
+138. Alex Loughman From 18 to 19 3 186 Carlow TC Open 01:20:51 00:12:43 00:01:52 00:39:52 00:01:11 00:25:11
+139. Lynda O'gorman From 50 to 54 2 269 Cork Triathlon Club Female 01:21:05 00:11:24 00:02:28 00:41:39 00:02:07 00:23:25
+140. Theresa O connell From 45 to 49 2 247 South Coast TC Female 01:21:06 00:13:27 00:02:15 00:41:45 00:01:41 00:21:56
+141. David Gillespie From 60 to 64 7 111 Wicklow TC Open 01:21:07 00:11:12 00:01:12 00:39:25 00:01:26 00:27:51
+142. Linda Kenrick From 45 to 49 3 175 Naas T C Female 01:21:15 00:11:35 00:02:17 00:42:37 00:01:40 00:23:04
+143. Greg Holden From 55 to 59 4 140 Kilkenny Triathlon Club Open 01:21:20 00:11:26 00:01:28 00:41:31 00:01:37 00:25:16
+144. Donal O'Neill From 35 to 39 22 273 Kilkenny Triathlon Club Open 01:21:30 00:11:50 00:02:15 00:41:10 00:01:36 00:24:39
+145. Sinéad Renton From 50 to 54 3 295 Mallow TC Female 01:21:32 00:13:12 00:02:33 00:41:29 00:01:29 00:22:47
+146. Barry Morrissey From 55 to 59 5 228 Tried and Tested Open 01:21:35 00:12:19 00:02:17 00:40:00 00:01:24 00:25:33
+147. Patrick McGee From 45 to 49 20 210 Piranha Triathlon Club Open 01:21:43 00:12:11 00:03:39 00:42:17 00:01:33 00:22:00
+148. Alice Harding From 35 to 39 7 122 Kilkenny Triathlon Club Female 01:21:45 00:11:53 00:02:08 00:44:33 00:01:38 00:21:30
+149. Owen Keane From 40 to 44 16 158 South Coast TC Open 01:21:49 00:14:50 00:02:20 00:40:17 00:01:30 00:22:50
+150. Siobhan Forman From 55 to 59 4 99 Piranha Triathlon Club Female 01:21:52 00:13:15 00:01:49 00:39:58 00:02:25 00:24:23
+151. Eileen Ryan From 45 to 49 4 302 Blackwater Triathlon Club Female 01:21:53 00:12:25 00:02:00 00:40:37 00:01:53 00:24:56
+152. Hilary Creedon From 45 to 49 5 61 Cork Triathlon Club Female 01:22:01 00:11:19 00:02:10 00:42:23 00:01:38 00:24:29
+153. Siobhan Mccarthy From 50 to 54 4 205 Fingal Triathlon Club Female 01:22:08 00:11:46 00:01:35 00:43:50 00:01:27 00:23:28
+154. Ceallach Hennessy From 25 to 29 8 132 Open 01:22:19 00:13:32 00:03:26 00:42:13 00:02:13 00:20:53
+155. Edward Casey From 35 to 39 23 43 Tralee Tri Club Open 01:22:21 00:12:28 00:02:31 00:41:20 00:02:03 00:23:57
+156. Eimear Matthews From 60 to 64 1 200 Trilogy Triathlon Club Female 01:22:29 00:12:21 00:02:09 00:41:51 00:01:23 00:24:42
+157. Ronan Nagle From 50 to 54 17 243 Kinsale Triathlon Club Open 01:22:41 00:12:10 00:02:58 00:41:03 00:01:51 00:24:37
+158. Siobhan Sheppard From 20 to 24 4 308 Portmarnock TC Female 01:22:43 00:12:54 00:01:41 00:42:52 00:01:51 00:23:24
+159. Craig Bolton From 50 to 54 18 15 Piranha Triathlon Club Open 01:22:52 00:13:24 00:01:57 00:41:59 00:01:28 00:24:01
+160. Enda Mooney From 55 to 59 6 225 Open 01:22:52 00:13:25 00:02:58 00:39:22 00:02:48 00:24:18
+161. Peter Wedderburn From 60 to 64 8 331 Open 01:22:54 00:12:19 00:02:06 00:42:27 00:01:45 00:24:16
+162. Bernard Hanratty From 60 to 64 9 121 Piranha Triathlon Club Open 01:22:56 00:12:32 00:02:40 00:42:05 00:01:50 00:23:46
+163. Andrea Lyons From 40 to 44 4 189 Carrick-on-Suir TC Female 01:23:05 00:12:15 00:01:52 00:42:52 00:01:23 00:24:41
+164. Shay Butler From 45 to 49 21 32 T3 Triathlon Club Open 01:23:14 00:11:36 00:02:19 00:42:33 00:01:39 00:25:05
+165. Brian Regan From 35 to 39 24 294 Piranha Triathlon Club Open 01:23:16 00:11:46 00:03:06 00:42:19 00:01:58 00:24:05
+166. Brendan O'Callaghan From 65 to 69 1 259 Wicklow TC Open 01:23:22 00:13:19 00:02:35 00:42:15 00:01:44 00:23:27
+167. David Condon From 35 to 39 25 55 Open 01:23:26 00:13:01 00:02:39 00:42:15 00:02:55 00:22:34
+168. David O Driscoll From 20 to 24 2 249 Cork Triathlon Club Open 01:23:37 00:11:00 00:02:46 00:42:16 00:02:21 00:25:13
+169. DONALD FITZMAURICE From 60 to 64 10 89 Piranha Triathlon Club Open 01:23:43 00:12:25 00:02:33 00:39:35 00:01:26 00:27:42
+170. Lorraine Murtagh From 35 to 39 8 242 Cork Triathlon Club Female 01:23:43 00:12:16 00:02:53 00:43:46 00:02:03 00:22:43
+171. Liam Sweeney From 55 to 59 7 321 Wicklow TC Open 01:23:54 00:11:05 00:01:18 00:42:20 00:01:24 00:27:45
+172. David Gargan From 55 to 59 8 109 Fingal Triathlon Club Open 01:24:28 00:13:04 00:01:54 00:42:55 00:01:54 00:24:38
+173. Sammy Odenhoven From 35 to 39 9 263 T3 Triathlon Club Female 01:24:42 00:13:05 00:03:02 00:42:15 00:01:37 00:24:42
+174. Della McGuinness From 25 to 29 5 213 Fingal Triathlon Club Female 01:24:44 00:11:40 00:02:12 00:45:56 00:01:36 00:23:18
+175. Adeli Janse van Rensburg From 40 to 44 17 152 Piranha Triathlon Club Open 01:24:51 00:12:06 00:04:02 00:41:00 00:02:17 00:25:24
+176. Damien Webster From 35 to 39 26 330 Kilkenny Triathlon Club Open 01:24:51 00:12:58 00:02:23 00:43:57 00:02:06 00:23:24
+177. Trevor Spillane From 45 to 49 22 313 Open 01:24:57 00:15:52 00:02:51 00:43:25 00:02:42 00:20:04
+178. Anne Carter From 40 to 44 5 41 Portmarnock TC Female 01:25:10 00:11:05 00:02:34 00:41:37 00:02:17 00:27:34
+179. Tim Keenan From 30 to 34 17 161 Piranha Triathlon Club Open 01:25:10 00:11:55 00:02:48 00:44:50 00:01:20 00:24:14
+180. Lara Dillon From 45 to 49 6 72 Carlow TC Female 01:25:24 00:12:43 00:02:54 00:42:45 00:01:27 00:25:33
+181. Rachel Creane From 50 to 54 5 60 Portmarnock TC Female 01:25:34 00:10:45 00:02:45 00:45:26 00:01:59 00:24:37
+182. Chris McFerran From 35 to 39 27 209 Portmarnock TC Open 01:25:50 00:12:17 00:03:23 00:45:30 00:02:47 00:21:51
+183. Hugh Prendergast From 55 to 59 9 289 Wicklow TC Open 01:25:57 00:12:04 00:02:37 00:42:33 00:02:13 00:26:28
+184. Paul Grant From 50 to 54 19 114 Clonmel Triathlon Club Open 01:26:01 00:11:06 00:02:34 00:43:55 00:02:08 00:26:16
+185. Adele Hall From 35 to 39 10 120 Piranha Triathlon Club Female 01:26:05 00:12:50 00:02:20 00:43:07 00:01:46 00:26:00
+186. Mark Desmond From 30 to 34 18 70 Wicklow TC Open 01:26:09 00:12:16 00:01:58 00:44:23 00:01:26 00:26:06
+187. Monica Freiband-O'Reilly From 35 to 39 11 233 Kilkenny Triathlon Club Female 01:26:34 00:13:09 00:02:27 00:44:39 00:01:29 00:24:49
+188. Sarah Sreenan From 50 to 54 6 315 Piranha Triathlon Club Female 01:26:46 00:12:54 00:02:02 00:43:09 00:01:57 00:26:42
+189. Eoin Campbell From 60 to 64 11 36 Open 01:26:48 00:11:44 00:03:25 00:43:31 00:02:48 00:25:18
+190. Camila Monteiro From 35 to 39 12 221 Cork Triathlon Club Female 01:26:54 00:12:45 00:02:57 00:43:36 00:02:19 00:25:15
+191. Liam Gahan From 40 to 44 18 104 Open 01:27:17 00:13:11 00:02:00 00:45:33 00:01:26 00:25:05
+192. Damien O'Sullivan From 50 to 54 20 278 Cork Triathlon Club Open 01:27:27 00:12:23 00:02:16 00:44:13 00:02:15 00:26:18
+193. Noel Leahy From 55 to 59 10 183 Open 01:27:41 00:11:22 00:02:27 00:42:44 00:01:17 00:29:50
+194. Deirdre Joynt From 50 to 54 7 155 Wicklow TC Female 01:28:03 00:13:13 00:03:22 00:44:14 00:02:25 00:24:46
+195. Fiona Boyle From 45 to 49 7 18 Tralee Tri Club Female 01:28:03 00:12:41 00:03:22 00:44:40 00:03:08 00:24:11
+196. Ingunn Eiriksdottir From 40 to 44 6 83 Portmarnock TC Female 01:28:07 00:13:18 00:02:25 00:45:47 00:01:44 00:24:50
+197. Ann Lyons From 45 to 49 8 190 Blackwater Triathlon Club Female 01:28:08 00:13:01 00:02:25 00:44:32 00:02:10 00:25:57
+198. Barry O'Brien From 50 to 54 21 255 Mallow TC Open 01:28:12 00:14:00 00:01:55 00:42:57 00:02:44 00:26:34
+199. Liz Rouine From 65 to 69 1 297 Piranha Triathlon Club Female 01:28:22 00:12:46 00:03:24 00:46:41 00:01:44 00:23:46
+200. Fiona Murphy From 55 to 59 5 238 Naas T C Female 01:28:26 00:11:51 00:02:30 00:43:26 00:01:54 00:28:44
+201. Cian Duggan From 35 to 39 28 78 Belpark TC Open 01:28:32 00:12:05 00:02:57 00:40:55 00:01:41 00:30:53
+202. Ian Daniels From 45 to 49 23 65 Open 01:28:35 00:12:18 00:04:10 00:43:30 00:01:17 00:27:18
+203. Barry Murphy From 55 to 59 11 105 T3 Triathlon Club Open 01:28:47 00:12:40 00:02:36 00:45:20 00:01:50 00:26:20
+204. Ronan Ahern From 40 to 44 19 1 Cork Triathlon Club Open 01:29:09 00:12:47 00:03:35 00:44:26 00:02:49 00:25:30
+205. Joanne Kennedy From 50 to 54 8 172 Piranha Triathlon Club Female 01:29:16 00:12:53 00:02:12 00:45:31 00:01:25 00:27:13
+206. Declan Murray From 70 to 74 1 241 Portmarnock TC Open 01:29:31 00:12:30 00:02:12 00:46:56 00:02:16 00:25:34
+207. Connell Foley From 65 to 69 2 97 Piranha Triathlon Club Open 01:29:33 00:13:35 00:05:05 00:44:03 00:02:17 00:24:31
+208. Pat Morrissey From 65 to 69 3 229 Wexford T C Open 01:29:55 00:14:16 00:02:45 00:46:56 00:01:36 00:24:20
+209. Luke O'Byrne From 20 to 24 3 257 Open 01:30:03 00:12:13 00:02:58 00:46:35 00:01:58 00:26:17
+210. Patricia Kearney From 55 to 59 6 126 Cork Triathlon Club Female 01:30:06 00:12:53 00:02:39 00:46:18 00:01:51 00:26:22
+211. Tara Jackson From 40 to 44 7 151 Wicklow TC Female 01:30:06 00:12:19 00:02:13 00:41:11 00:02:06 00:32:17
+212. Ray Murray From 60 to 64 12 397 Clonmel Triathlon Club Open 01:30:07 00:13:05 00:03:27 00:45:59 00:01:06 00:26:27
+213. Dominic McDonnell From 35 to 39 29 206 Portmarnock TC Open 01:30:09 00:14:03 00:03:01 00:47:50 00:02:29 00:22:46
+214. Ciera Ellen Callanan From 30 to 34 5 35 Naas T C Female 01:30:10 00:10:56 00:02:09 00:48:55 00:02:33 00:25:36
+215. Norah Ruth From 45 to 49 9 299 Trilogy Triathlon Club Female 01:30:14 00:13:19 00:02:30 00:47:29 00:01:41 00:25:14
+216. Bryce Whibley From 50 to 54 22 333 Cork Triathlon Club Open 01:30:17 00:13:04 00:02:55 00:43:04 00:02:01 00:29:11
+217. George Gregory From 45 to 49 24 117 Clonmel Triathlon Club Open 01:30:18 00:17:23 00:03:31 00:41:25 00:01:54 00:26:03
+218. Audrey Pender From 40 to 44 8 283 Wicklow TC Female 01:30:18 00:12:56 00:02:11 00:45:59 00:02:24 00:26:46
+219. Darren Egan From 50 to 54 23 82 Fingal Triathlon Club Open 01:30:38 00:14:13 00:03:10 00:44:48 00:02:08 00:26:15
+220. Nicole Hennessy From 40 to 44 9 133 Kilkenny Triathlon Club Female 01:30:41 00:13:28 00:02:48 00:45:49 00:01:57 00:26:37
+221. Emma Hutchinson From 40 to 44 10 148 South Coast TC Female 01:30:52 00:12:33 00:03:21 00:46:47 00:02:29 00:25:40
+222. Majella Diskin From 70 to 74 1 73 Tralee Tri Club Female 01:30:57 00:13:21 00:03:10 00:46:57 00:02:00 00:25:27
+223. Marie Murphy From 35 to 39 13 198 Mallow TC Female 01:31:04 00:12:52 00:02:50 00:45:12 00:02:22 00:27:47
+224. Alix Cappelletti From 35 to 39 14 38 Carlow TC Female 01:31:14 00:13:47 00:03:00 00:46:36 00:02:14 00:25:35
+225. Joe Gubbins From 45 to 49 25 119 Open 01:31:36 00:13:30 00:04:06 00:46:08 00:03:33 00:24:17
+226. Patrick O'Connell From 45 to 49 26 261 Cork Triathlon Club Open 01:31:42 00:13:44 00:02:45 00:44:26 00:02:10 00:28:36
+227. Alan Kelly From 45 to 49 27 164 TriTanium TC Open 01:31:59 00:13:01 00:03:55 00:46:53 00:02:30 00:25:37
+228. Ann Payne From 60 to 64 2 281 Cork Triathlon Club Female 01:32:41 00:12:57 00:02:29 00:47:02 00:01:50 00:28:21
+229. Fiona Gallagher-Payet From 50 to 54 9 106 T3 Triathlon Club Female 01:32:42 00:12:39 00:02:53 00:46:37 00:01:36 00:28:55
+230. Elaine Kelly From 45 to 49 10 165 Portmarnock TC Female 01:33:06 00:12:36 00:03:54 00:45:38 00:02:43 00:28:13
+231. Donal Dowd From 65 to 69 4 75 Killarney Triathlon Club Open 01:33:12 00:14:12 00:02:45 00:46:40 00:02:11 00:27:21
+232. Sandra kelly From 45 to 49 11 170 TriTanium TC Female 01:33:42 00:11:22 00:02:56 00:47:53 00:02:07 00:29:21
+233. Áine Delaney From 40 to 44 11 68 South Coast TC Female 01:33:54 00:12:54 00:02:32 00:48:51 00:02:41 00:26:54
+234. Nichola Read From 60 to 64 3 293 Kilkenny Triathlon Club Female 01:33:55 00:14:19 00:02:40 00:45:37 00:03:00 00:28:17
+235. Colm Hayes From 40 to 44 20 125 Belpark TC Open 01:34:02 00:13:17 00:02:54 00:47:33 00:02:18 00:27:57
+236. Joan Lehane From 50 to 54 10 184 Cork Triathlon Club Female 01:34:14 00:11:56 00:02:48 00:46:41 00:01:57 00:30:51
+237. Nick Barry From 40 to 44 21 8 Open 01:34:24 00:12:19 00:03:56 00:46:29 00:03:11 00:28:28
+238. Sinead Babington From 35 to 39 15 4 Cork Triathlon Club Female 01:34:45 00:15:32 00:03:28 00:46:48 00:02:44 00:26:11
+239. Catherine Flanagan From 65 to 69 2 92 Naas T C Female 01:34:47 00:13:28 00:02:45 00:46:55 00:02:22 00:29:15
+240. Patrick Greene From 55 to 59 12 116 Athlone Triathlon Club Open 01:34:52 00:13:43 00:02:37 00:44:19 00:02:31 00:31:39
+241. Phil Cone From 50 to 54 24 56 Cork Triathlon Club Open 01:35:09 00:12:13 00:02:35 00:45:05 00:02:32 00:32:43
+242. Orla Jones From 45 to 49 12 153 Wicklow TC Female 01:35:19 00:13:01 00:03:20 00:48:30 00:02:33 00:27:53
+243. Conor Gill From 35 to 39 30 110 Wicklow TC Open 01:35:22 00:12:21 00:02:45 00:49:06 00:02:45 00:28:22
+244. John Leahy From 55 to 59 13 181 Open 01:35:42 00:14:00 00:04:16 00:45:37 00:01:57 00:29:50
+245. Brigid Coffey From 55 to 59 7 49 Tried and Tested Female 01:35:44 00:17:23 00:02:49 00:47:44 00:01:31 00:26:15
+246. Brighid Smyth From 60 to 64 4 310 Piranha Triathlon Club Female 01:36:04 00:12:43 00:04:38 00:48:25 00:02:43 00:27:34
+247. Roisin O'Brien From 40 to 44 12 338 Kilkenny Triathlon Club Female 01:36:11 00:10:05 00:01:36 00:47:02 00:02:08 00:35:17
+248. Maria Kennedy From 40 to 44 13 173 Kilkenny Triathlon Club Female 01:36:15 00:14:16 00:03:44 00:50:19 00:02:21 00:25:32
+249. Fiona Brennan From 40 to 44 14 25 Wicklow TC Female 01:36:18 00:14:10 00:02:26 00:48:21 00:02:12 00:29:07
+250. Mark Cahill From 45 to 49 28 34 Cork Triathlon Club Open 01:36:38 00:11:19 00:02:10 00:48:57 00:02:14 00:31:56
+251. Emma Horan From 35 to 39 16 144 Clonmel Triathlon Club Female 01:36:48 00:14:19 00:02:38 00:49:30 00:01:44 00:28:35
+252. Muireann Davis From 20 to 24 5 67 Fingal Triathlon Club Female 01:37:03 00:12:11 00:02:20 00:51:34 00:02:02 00:28:54
+253. Sean Bourke From 25 to 29 9 16 Open 01:37:14 00:13:45 00:03:58 00:47:40 00:03:37 00:28:13
+254. Kevin Cooney From 55 to 59 14 58 Naas T C Open 01:37:54 00:15:46 00:03:36 00:45:43 00:02:59 00:29:49
+255. Ciara Mitchell From 45 to 49 13 218 SCTC Female 01:38:19 00:13:15 00:03:12 00:47:53 00:02:20 00:31:37
+256. Karn Cliffe From 55 to 59 8 48 Naas T C Female 01:38:26 00:14:36 00:04:10 00:47:36 00:02:29 00:29:33
+257. Ciara Murphy From 40 to 44 15 235 Kilkenny Triathlon Club Female 01:38:31 00:14:18 00:03:39 00:50:33 00:01:32 00:28:27
+258. Ann-Marie Gargan From 50 to 54 11 108 Fingal Triathlon Club Female 01:38:39 00:16:25 00:02:29 00:52:22 00:01:34 00:25:46
+259. Sandra Reynolds From 50 to 54 12 179 Portmarnock TC Female 01:39:15 00:14:23 00:03:22 00:51:10 00:03:14 00:27:04
+260. David Mc Nally From 55 to 59 15 202 Tried and Tested Open 01:39:25 00:17:13 00:02:32 00:49:09 00:02:15 00:28:13
+261. Stella Pete From 30 to 34 6 284 Fingal Triathlon Club Female 01:39:25 00:13:13 00:02:26 00:47:52 00:02:14 00:33:39
+262. Celina Barrett From 55 to 59 9 6 Naas T C Female 01:41:01 00:14:02 00:02:09 00:49:58 00:03:29 00:31:22
+263. Jodie Shoer From 45 to 49 14 396 Clonmel Triathlon Club Female 01:41:11 00:15:31 00:02:28 00:52:16 00:01:21 00:29:33
+264. Shauna Twomey From 25 to 29 6 325 Carrick-on-Suir TC Female 01:41:17 00:13:53 00:03:03 00:53:30 00:01:25 00:29:24
+265. Michael Hill From 40 to 44 22 138 TriTanium TC Open 01:41:27 00:13:57 00:03:49 00:51:00 00:02:49 00:29:51
+266. Niamh Fleming From 55 to 59 10 95 Blackwater Triathlon Club Female 01:41:29 00:14:22 00:04:10 00:47:59 00:01:54 00:33:03
+267. Patricia Hogan From 55 to 59 11 139 South Coast TC Female 01:41:40 00:14:58 00:02:13 00:50:33 00:01:56 00:31:58
+268. Oliver kelly From 50 to 54 25 167 Tried and Tested Open 01:42:39 00:17:17 00:03:42 00:49:54 00:02:04 00:29:41
+269. Marcus Ó Léanacháin From 50 to 54 26 250 Open 01:43:40 00:14:29 00:08:02 00:48:49 00:03:50 00:28:28
+270. William Hender-Phillips From 35 to 39 31 131 Wicklow TC Open 01:44:11 00:15:49 00:02:38 00:51:39 00:03:05 00:30:58
+271. Beverley Huston From 60 to 64 5 147 Kilkenny Triathlon Club Female 01:44:49 00:15:34 00:03:01 00:55:57 00:01:49 00:28:26
+272. Caroline Dunphy From 40 to 44 16 81 Cork Triathlon Club Female 01:45:18 00:13:06 00:03:01 00:52:36 00:02:34 00:34:00
+273. Anna Beykova From 35 to 39 17 12 Portmarnock TC Female 01:46:43 00:17:42 00:02:33 00:48:19 00:02:08 00:35:59
+274. Miriam Brady From 50 to 54 13 20 Portmarnock TC Female 01:47:47 00:13:29 00:03:43 00:55:14 00:01:57 00:33:22
+275. Adam Conlan From 70 to 74 2 57 Piranha Triathlon Club Open 01:48:06 00:13:57 00:07:18 00:50:51 00:03:33 00:32:25
+276. Maria Mulderrig From 40 to 44 17 231 Portmarnock TC Female 01:48:12 00:13:52 00:03:26 00:58:06 00:02:28 00:30:18
+277. Fiona McCarthy From 45 to 49 15 203 Cork Triathlon Club Female 01:48:20 00:15:24 00:04:58 00:54:16 00:02:32 00:31:08
+278. Paul Stephenson From 40 to 44 23 318 Open 01:49:50 00:14:16 00:03:54 00:53:58 00:03:19 00:34:21
+279. Nuala Arrigan From 55 to 59 12 3 Trilogy Triathlon Club Female 01:50:22 00:16:10 00:03:35 00:50:34 00:03:03 00:36:57
+280. Patricia Murphy From 50 to 54 14 239 Fingal Triathlon Club Female 01:51:05 00:15:10 00:03:29 01:02:03 00:01:52 00:28:29
+281. Caitriona Ryan From 40 to 44 18 301 Kilkenny Triathlon Club Female 01:51:18 00:12:59 00:03:02 00:57:19 00:01:38 00:36:19
+282. Nicola Eustace From 55 to 59 13 85 Piranha Triathlon Club Female 01:51:47 00:14:54 00:04:30 01:00:39 00:01:53 00:29:49
+283. Catherine Murphy From 55 to 59 14 234 Piranha Triathlon Club Female 01:51:56 00:15:36 00:05:05 00:56:44 00:03:39 00:30:50
+284. Maitena OKelly From 55 to 59 15 271 T3 Triathlon Club Female 01:52:32 00:13:23 00:03:08 00:53:08 00:03:17 00:39:36
+285. Marian Flannery From 60 to 64 6 94 Kilkenny Triathlon Club Female 01:52:53 00:19:02 00:04:00 00:55:22 00:01:46 00:32:41
+286. Sue Gormley From 40 to 44 19 112 Portmarnock TC Female 01:53:17 00:15:46 00:02:53 00:56:06 00:03:10 00:35:20
+287. Mairead Leahy From 50 to 54 15 182 Female 01:54:51 00:15:59 00:04:58 00:58:35 00:03:39 00:31:38
+288. Marie Stone From 60 to 64 7 319 Kilkenny Triathlon Club Female 01:54:53 00:15:13 00:04:26 00:54:52 00:03:38 00:36:41
+289. Bobbi/Ann Marie/Sinead Relay Team 1 RELAY 1 339 RELAY 01:58:57 00:20:32 00:01:27 01:11:14 00:01:38 00:24:03
+290. Neil O Connell From 55 to 59 16 246 Open 02:01:18 00:16:59 00:04:04 01:00:36 00:02:51 00:36:46
+291. Gareth McCarthy From 65 to 69 5 204 Carrick-on-Suir TC Open 02:04:19 00:13:29 00:02:29 01:00:29 00:02:42 00:45:08
+292. Ronan O'Byrne From 45 to 49 29 258 Open 02:09:27 00:17:16 00:07:33 01:04:17 00:04:07 00:36:11

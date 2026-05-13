@@ -1,5 +1,4 @@
 import pandas as pd
-from parse_input import load_results
 
 SPLIT_COLS = ['Swim', 'T1', 'Bike', 'T2', 'Run', 'Finish']
 
@@ -60,12 +59,7 @@ def build_metrics_from_df(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def build_metrics(path: str = 'Clonmel.txt') -> pd.DataFrame:
-    df = load_results(path)
-    return build_metrics_from_df(df)
-
-
 if __name__ == '__main__':
-    df = build_metrics()
+    pass
     pct_cols = [c for c in df.columns if '_pct_' in c]
     print(df[['Name', 'Class', 'Age_Group'] + pct_cols].head(20))
