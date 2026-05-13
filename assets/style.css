@@ -14,6 +14,25 @@ body {
     padding: 24px 20px;
 }
 
+.race-selector-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.race-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #555;
+    white-space: nowrap;
+}
+
+.race-dropdown {
+    flex: 1;
+    max-width: 340px;
+}
+
 .page-title {
     font-size: 1.8rem;
     font-weight: 700;
@@ -254,4 +273,36 @@ hr {
     border: none;
     border-top: 1px solid #e5e8ed;
     margin: 0 0 28px;
+}
+
+/* Comparison stats */
+.comparison-stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.athlete-col {
+    flex: 1;
+    min-width: 220px;
+    background: #f8f9fb;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border-left: 4px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.athlete-col--a { border-left-color: #2c7bb6; }
+.athlete-col--b { border-left-color: #f07030; }
+
+.athlete-col-name {
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #1a1a2e;
+    margin-bottom: 2px;
 }

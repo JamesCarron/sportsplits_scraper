@@ -4,6 +4,9 @@ from figure_utils import _fmt_td
 
 SPLIT_COLS = ['Swim', 'T1', 'Bike', 'T2', 'Run', 'Finish']
 
+# Classes that represent actual competitors (exclude DNS/DNF/DQ/NYS/RELAY)
+_FINISH_CLASSES = {'Open', 'Female'}
+
 
 def _kpi_card(label: str, value: str) -> html.Div:
     return html.Div(className='kpi-card', children=[
@@ -13,14 +16,12 @@ def _kpi_card(label: str, value: str) -> html.Div:
 
 
 def _build_summary_stats(df: pd.DataFrame) -> list:
-    total = len(df)
-    class_counts = df['Class'].value_counts().to_dict()
-
-    fastest_row = df.loc[df['Finish'].idxmin()]
+    finishers = df[df['Class'].isin(_FINISH_CLASSES)]
+    class_counts = finishers['Class'].value_counts().to_dict()
+    fastest_row = finishers.loc[finishers['Finish'].idxmin()]
     fastest_str = f'{fastest_row["Name"]} ({_fmt_td(fastest_row["Finish"])})'
-
     return [
-        _kpi_card('Total Finishers', str(total)),
+        _kpi_card('Total Finishers', str(len(finishers))),
         _kpi_card('Open', str(class_counts.get('Open', 0))),
         _kpi_card('Female', str(class_counts.get('Female', 0))),
         _kpi_card('Fastest Finisher', fastest_str),
@@ -28,12 +29,13 @@ def _build_summary_stats(df: pd.DataFrame) -> list:
 
 
 def _build_fastest_splits(df: pd.DataFrame) -> list:
+    finishers = df[df['Class'].isin(_FINISH_CLASSES)]
     cells = []
     for col in SPLIT_COLS:
-        valid = df[col].dropna()
+        valid = finishers[col].dropna()
         if valid.empty:
             continue
-        row = df.loc[valid.idxmin()]
+        row = finishers.loc[valid.idxmin()]
         cells.append(html.Div(className='split-card', children=[
             html.Div(col, className='split-label'),
             html.Div(_fmt_td(row[col]), className='split-time'),
@@ -43,14 +45,13 @@ def _build_fastest_splits(df: pd.DataFrame) -> list:
 
 
 def _build_median_splits(df: pd.DataFrame) -> list:
-    """Card row showing median split time per discipline, grouped by class (no RELAY)."""
-    filtered = df[df['Class'] != 'RELAY']
+    finishers = df[df['Class'].isin(_FINISH_CLASSES)]
     cells = []
     for col in SPLIT_COLS:
-        valid = filtered[col].dropna()
+        valid = finishers[col].dropna()
         if valid.empty:
             continue
-        median_by_class = filtered.groupby('Class')[col].median().dropna()
+        median_by_class = finishers.groupby('Class')[col].median().dropna()
         sub = [
             html.Div(f'{cls}: {_fmt_td(t)}', className='split-sub')
             for cls, t in median_by_class.items()
@@ -63,25 +64,38 @@ def _build_median_splits(df: pd.DataFrame) -> list:
     return cells
 
 
-def make_layout(df: pd.DataFrame):
+def make_layout(race_names: list):
+    default_race = race_names[0]
     return html.Div(className='page', children=[
 
-        html.H1('Clonmel Triathlon Results', className='page-title'),
+        html.H1('Triathlon Results Analyser', className='page-title'),
+
+        # ── Race selector ─────────────────────────────────────────────────────
+        html.Div(className='race-selector-row', children=[
+            html.Label('Race', className='race-label'),
+            dcc.Dropdown(
+                id='race-selector',
+                options=[{'label': n, 'value': n} for n in race_names],
+                value=default_race,
+                clearable=False,
+                className='race-dropdown',
+            ),
+        ]),
 
         # ── Race Summary ──────────────────────────────────────────────────────
         html.Section(className='section', children=[
             html.H2('Race Summary'),
 
-            html.Div(className='kpi-row', children=_build_summary_stats(df)),
+            html.Div(id='summary-kpis', className='kpi-row'),
 
             html.Details(className='collapsible', children=[
                 html.Summary('Fastest Splits'),
-                html.Div(className='split-row', children=_build_fastest_splits(df)),
+                html.Div(id='summary-fastest', className='split-row'),
             ]),
 
             html.Details(className='collapsible', children=[
                 html.Summary('Median Split Times'),
-                html.Div(className='split-row', children=_build_median_splits(df)),
+                html.Div(id='summary-median', className='split-row'),
             ]),
         ]),
 
@@ -96,10 +110,7 @@ def make_layout(df: pd.DataFrame):
                     html.Label('Search athlete'),
                     dcc.Dropdown(
                         id='athlete-dropdown',
-                        options=sorted(
-                            [{'label': n, 'value': n} for n in df['Name'].dropna().unique()],
-                            key=lambda o: o['label'],
-                        ),
+                        options=[],
                         value=None,
                         placeholder='Type to search…',
                         searchable=True,
@@ -112,11 +123,11 @@ def make_layout(df: pd.DataFrame):
                     dcc.Dropdown(
                         id='view-selector',
                         options=[
-                            {'label': 'vs Class',      'value': 'class'},
-                            {'label': 'vs Whole Race', 'value': 'overall'},
-                            {'label': 'vs Age Group',  'value': 'ag'},
-                            {'label': 'Normalised',    'value': 'norm'},
-                            {'label': 'All (Extended)','value': 'extended'},
+                            {'label': 'vs Class',       'value': 'class'},
+                            {'label': 'vs Whole Race',  'value': 'overall'},
+                            {'label': 'vs Age Group',   'value': 'ag'},
+                            {'label': 'Normalised',     'value': 'norm'},
+                            {'label': 'All (Extended)', 'value': 'extended'},
                         ],
                         value='class',
                         clearable=False,
@@ -131,6 +142,61 @@ def make_layout(df: pd.DataFrame):
                 id='chart-loading',
                 type='circle',
                 children=html.Img(id='athlete-chart', src='', className='athlete-chart'),
+            ),
+        ]),
+
+        html.Hr(),
+
+        # ── Athlete Comparison ────────────────────────────────────────────────
+        html.Section(className='section', children=[
+            html.H2('Athlete Comparison'),
+
+            html.Div(className='controls-row', children=[
+                html.Div(className='control-group control-group--wide', children=[
+                    html.Label('Athlete A'),
+                    dcc.Dropdown(
+                        id='athlete-a-dropdown',
+                        options=[],
+                        value=None,
+                        placeholder='Type to search…',
+                        searchable=True,
+                        clearable=True,
+                    ),
+                ]),
+                html.Div(className='control-group control-group--wide', children=[
+                    html.Label('Athlete B'),
+                    dcc.Dropdown(
+                        id='athlete-b-dropdown',
+                        options=[],
+                        value=None,
+                        placeholder='Type to search…',
+                        searchable=True,
+                        clearable=True,
+                    ),
+                ]),
+                html.Div(className='control-group', children=[
+                    html.Label('View'),
+                    dcc.Dropdown(
+                        id='comparison-view-selector',
+                        options=[
+                            {'label': 'Split Times',    'value': 'times'},
+                            {'label': 'vs Class',       'value': 'class'},
+                            {'label': 'vs Whole Race',  'value': 'overall'},
+                            {'label': 'vs Age Group',   'value': 'ag'},
+                            {'label': 'Normalised',     'value': 'norm'},
+                        ],
+                        value='class',
+                        clearable=False,
+                    ),
+                ]),
+            ]),
+
+            html.Div(id='comparison-stats', className='comparison-stats'),
+
+            dcc.Loading(
+                id='comparison-loading',
+                type='circle',
+                children=html.Img(id='comparison-chart', src='', className='athlete-chart'),
             ),
         ]),
     ])

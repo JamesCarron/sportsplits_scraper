@@ -52,12 +52,17 @@ def add_normalised_percentiles(df: pd.DataFrame, base: str = 'pct_class') -> pd.
     return df
 
 
-def build_metrics(path: str = 'Clonmel.txt') -> pd.DataFrame:
-    df = load_results(path)
+def build_metrics_from_df(df: pd.DataFrame) -> pd.DataFrame:
+    """Apply all metric calculations to an already-loaded DataFrame."""
     df = add_percentiles(df)
     df = add_overall_percentiles(df)
     df = add_normalised_percentiles(df)
     return df
+
+
+def build_metrics(path: str = 'Clonmel.txt') -> pd.DataFrame:
+    df = load_results(path)
+    return build_metrics_from_df(df)
 
 
 if __name__ == '__main__':

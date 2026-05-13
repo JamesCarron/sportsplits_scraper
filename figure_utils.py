@@ -110,6 +110,178 @@ def plot_single_panel(name: str, view: str, df: pd.DataFrame):
     return fig
 
 
+def _fmt_delta(seconds: float) -> str:
+    """Format a signed seconds value as +M:SS or -M:SS."""
+    sign = '+' if seconds >= 0 else '-'
+    total = abs(int(seconds))
+    h, rem = divmod(total, 3600)
+    m, s = divmod(rem, 60)
+    t = f'{h}:{m:02d}:{s:02d}' if h else f'{m}:{s:02d}'
+    return f'{sign}{t}'
+
+
+def _draw_comparison_panel(ax, row_a, row_b, name_a, name_b, suffix, xlabel, ref_line):
+    """Grouped horizontal bars: two bars per split (A above, B below), RdYlGn by percentile."""
+    cmap = cm.RdYlGn
+    n = len(SPLIT_COLS)
+    y_positions = np.arange(n)
+    bar_h = 0.35
+
+    for i, col in enumerate(SPLIT_COLS):
+        val_a = row_a.get(f'{col}{suffix}', np.nan)
+        val_b = row_b.get(f'{col}{suffix}', np.nan)
+        time_a = _fmt_td(row_a[col])
+        time_b = _fmt_td(row_b[col])
+
+        color_a = cmap(val_a / 100) if pd.notna(val_a) else '#cccccc'
+        color_b = cmap(val_b / 100) if pd.notna(val_b) else '#cccccc'
+        w_a = val_a if pd.notna(val_a) else 0
+        w_b = val_b if pd.notna(val_b) else 0
+
+        ax.barh(i + bar_h / 2, w_a, height=bar_h, color=color_a, edgecolor='white')
+        ax.barh(i - bar_h / 2, w_b, height=bar_h, color=color_b, edgecolor='#999999',
+                hatch='/', linewidth=0.3)
+
+        ann_a = f'{val_a:.1f}%  ({time_a})' if pd.notna(val_a) else f'N/A  ({time_a})'
+        ann_b = f'{val_b:.1f}%  ({time_b})' if pd.notna(val_b) else f'N/A  ({time_b})'
+        ax.text(w_a + 1, i + bar_h / 2, ann_a, va='center', ha='left', fontsize=8)
+        ax.text(w_b + 1, i - bar_h / 2, ann_b, va='center', ha='left', fontsize=8)
+
+    if ref_line is not None:
+        ax.axvline(ref_line, color='#888888', linestyle='--', linewidth=1, alpha=0.6)
+        ax.text(ref_line + 0.8, n - 0.3, '50th', fontsize=7, color='#888888', va='top')
+
+    # Legend: solid patch for A, hatched patch for B
+    import matplotlib.patches as mpatches
+    ax.legend(
+        handles=[
+            mpatches.Patch(facecolor='#4e9a5e', edgecolor='white', label=name_a),
+            mpatches.Patch(facecolor='#a0c878', edgecolor='#999999', hatch='/', label=name_b),
+        ],
+        loc='lower right', fontsize=8, framealpha=0.7,
+    )
+
+    ax.set_yticks(y_positions)
+    ax.set_yticklabels(SPLIT_COLS)
+    ax.set_xlim(0, 100)
+    ax.set_xlabel(xlabel, fontsize=9)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.tick_params(axis='y', length=0)
+    ax.tick_params(axis='x', labelsize=9)
+
+
+def _draw_delta_panel(ax, row_a, row_b, name_a, name_b):
+    """Single bar per split: B_time - A_time in seconds. Green = A faster, Red = B faster."""
+    deltas = []
+    for col in SPLIT_COLS:
+        td_a = row_a[col]
+        td_b = row_b[col]
+        if pd.isna(td_a) or pd.isna(td_b):
+            deltas.append(np.nan)
+        else:
+            deltas.append(pd.Timedelta(td_b).total_seconds() - pd.Timedelta(td_a).total_seconds())
+
+    n = len(SPLIT_COLS)
+    colors = ['#2e8b57' if (pd.notna(d) and d >= 0) else '#c0392b' for d in deltas]
+    widths = [d if pd.notna(d) else 0 for d in deltas]
+
+    bars = ax.barh(SPLIT_COLS, widths, color=colors, edgecolor='white', height=0.5)
+
+    for bar, d in zip(bars, deltas):
+        if pd.isna(d):
+            continue
+        x = d
+        ha = 'left' if d >= 0 else 'right'
+        offset = 0.5 if d >= 0 else -0.5
+        ax.text(x + offset, bar.get_y() + bar.get_height() / 2,
+                _fmt_delta(d), va='center', ha=ha, fontsize=8)
+
+    ax.axvline(0, color='#555555', linewidth=1.2)
+    ax.set_xlabel(f'← {name_b} faster   |   {name_a} faster →', fontsize=9)
+    ax.set_title('Time Delta', fontsize=10, pad=8, fontweight='semibold')
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.tick_params(axis='y', length=0)
+    ax.tick_params(axis='x', labelsize=9)
+
+
+def _draw_time_comparison_panel(ax, row_a, row_b, name_a, name_b):
+    """Grouped horizontal bars showing raw split times in seconds."""
+    n = len(SPLIT_COLS)
+    y_positions = np.arange(n)
+    bar_h = 0.35
+    color_a = '#2c7bb6'
+    color_b = '#f07030'
+
+    for i, col in enumerate(SPLIT_COLS):
+        td_a = row_a[col]
+        td_b = row_b[col]
+        s_a = pd.Timedelta(td_a).total_seconds() if pd.notna(td_a) else 0
+        s_b = pd.Timedelta(td_b).total_seconds() if pd.notna(td_b) else 0
+
+        ax.barh(i + bar_h / 2, s_a, height=bar_h, color=color_a, edgecolor='white')
+        ax.barh(i - bar_h / 2, s_b, height=bar_h, color=color_b, edgecolor='white')
+
+        ax.text(s_a + 2, i + bar_h / 2, _fmt_td(td_a), va='center', ha='left', fontsize=8)
+        ax.text(s_b + 2, i - bar_h / 2, _fmt_td(td_b), va='center', ha='left', fontsize=8)
+
+    import matplotlib.patches as mpatches
+    ax.legend(
+        handles=[mpatches.Patch(color=color_a, label=name_a),
+                 mpatches.Patch(color=color_b, label=name_b)],
+        loc='lower right', fontsize=8, framealpha=0.7,
+    )
+
+    ax.set_yticks(y_positions)
+    ax.set_yticklabels(SPLIT_COLS)
+    ax.set_title('Split Times', fontsize=10, pad=8, fontweight='semibold')
+    ax.set_xlabel('Seconds', fontsize=9)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.tick_params(axis='y', length=0)
+    ax.tick_params(axis='x', labelsize=9)
+
+
+import warnings as _warnings
+
+
+def plot_comparison(name_a: str, name_b: str, view: str, df: pd.DataFrame):
+    """Build a comparison figure for two athletes."""
+    hits_a = _lookup(name_a, df)
+    hits_b = _lookup(name_b, df)
+    if hits_a.empty or len(hits_a) > 1 or hits_b.empty or len(hits_b) > 1:
+        return None
+
+    row_a = hits_a.iloc[0]
+    row_b = hits_b.iloc[0]
+
+    def _header(row):
+        place = int(row['Place']) if pd.notna(row['Place']) else '—'
+        return f'{row["Name"]}  ·  {row["Class"]}  ·  {row["Age_Group"]}  ·  Finish: {_fmt_td(row["Finish"])}  ·  Place: {place}'
+
+    with _warnings.catch_warnings():
+        _warnings.simplefilter('ignore', UserWarning)
+
+        if view == 'times':
+            fig, ax = plt.subplots(figsize=(12, 5))
+            fig.suptitle(f'{_header(row_a)}\n{_header(row_b)}', fontsize=10, fontweight='bold')
+            _draw_time_comparison_panel(ax, row_a, row_b, name_a, name_b)
+            plt.tight_layout()
+            return fig
+
+        suffix, label, xlabel, ref_line = _VIEW_META[view]
+        fig, (ax_pct, ax_delta) = plt.subplots(
+            2, 1, figsize=(12, 9), gridspec_kw={'hspace': 0.55}
+        )
+        fig.suptitle(f'{_header(row_a)}\n{_header(row_b)}', fontsize=10, fontweight='bold')
+        ax_pct.set_title(f'Percentile Comparison — {label}', fontsize=10, pad=8, fontweight='semibold')
+        _draw_comparison_panel(ax_pct, row_a, row_b, name_a, name_b, suffix, xlabel, ref_line)
+        _draw_delta_panel(ax_delta, row_a, row_b, name_a, name_b)
+        plt.tight_layout()
+        return fig
+
+
 def build_summary_fig(df: pd.DataFrame):
     """Horizontal bar chart of median split times by class."""
     splits = ['Swim', 'T1', 'Bike', 'T2', 'Run']
