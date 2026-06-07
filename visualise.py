@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from metrics import build_metrics
+from metrics import build_metrics_from_df
 
 plt.rcParams['figure.dpi'] = 150
 
@@ -198,8 +198,8 @@ def plot_athlete_extended(name: str, df: pd.DataFrame) -> None:
 
 
 if __name__ == '__main__':
-    df = build_metrics()
-    plot_athlete('James Carron', df)
-    plot_athlete('Lorraine Murtagh', df)
-    plot_athlete('Camila Monteiro', df)
-    plot_athlete_extended('James Carron', df)
+    from races import load_all
+    df = next(iter(load_all().values()))
+    name = df['Name'].iloc[0]
+    plot_athlete(name, df)
+    plot_athlete_extended(name, df)
