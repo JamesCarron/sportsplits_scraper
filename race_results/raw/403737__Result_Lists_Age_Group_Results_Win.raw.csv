@@ -1,0 +1,260 @@
+__contest__,__group__,BIB,ID,WithStatus([AgeGroupRankExcp]),FIRSTNAME,LASTNAME,YEAR,GenderTI,ATF2,TIME
+#1_Olympic Triathlon,#1_F35-39,279,328,9.,Leonardo,Lemos,1987,Open,,2:48:59
+#1_Olympic Triathlon,#2_F20-24,252,117,2.,Patrice,Holmes,2003,Female,Cork Tri club,2:39:40
+#1_Olympic Triathlon,#2_F20-24,125,85,3.,Caoimhe,O’Farrell,2002,Female,,3:11:29
+#1_Olympic Triathlon,#3_F25-29,11,205,2.,Amy,Pollmann-Daamen,2001,Female,Cobh tri club,2:19:08
+#1_Olympic Triathlon,#3_F25-29,148,87,3.,Roisin,Connick,1999,Female,New Ross Tri club,2:23:07
+#1_Olympic Triathlon,#3_F25-29,155,2,4.,Laura,Owens,1998,Female,Mallow Tri Club,2:25:33
+#1_Olympic Triathlon,#3_F25-29,208,242,5.,Kate,Ruane,1997,Female,South coast tri club,2:47:11
+#1_Olympic Triathlon,#3_F25-29,272,14,6.,Anna,Janssen-Heidenfeld,2000,Female,,2:51:15
+#1_Olympic Triathlon,#3_F25-29,97,165,7.,Orla,O’Shea,2000,Female,East Cork Tribe,2:57:29
+#1_Olympic Triathlon,#3_F25-29,123,233,8.,Éadaoin,McKeever,1999,Female,,3:13:32
+#1_Olympic Triathlon,#4_F30-34,270,82,2.,Fiona,Nelson,1996,Female,Piranha Triathlon Cub,2:20:47
+#1_Olympic Triathlon,#4_F30-34,64,185,3.,Sophie,O Brien,1993,Female,Scientific Triathlon,2:23:24
+#1_Olympic Triathlon,#4_F30-34,251,49,4.,Isabelle Cairns,Isabelle Cairns,1993,Female,Belpark,2:23:30
+#1_Olympic Triathlon,#4_F30-34,204,273,5.,Alice,Quinn,1994,Female,Templemore TC,2:24:08
+#1_Olympic Triathlon,#4_F30-34,119,262,6.,Regina,Durcan,1992,Female,Castlebar Triathlon Club,2:38:50
+#1_Olympic Triathlon,#4_F30-34,116,80,7.,Kate,Feehan,1995,Female,Castlebar Triathlon Club,2:51:56
+#1_Olympic Triathlon,#5_F35-39,16,86,2.,Fiona,Kelly,1991,Female,Wicklow Triathlon Club,2:18:35
+#1_Olympic Triathlon,#5_F35-39,153,276,3.,Lorna,Comyn,1988,Female,Mallow Tri Club,2:24:15
+#1_Olympic Triathlon,#5_F35-39,85,60,4.,Sinead,Barnett,1989,Female,Cork Tri club,2:26:33
+#1_Olympic Triathlon,#5_F35-39,174,245,5.,Patricia,Murphy,1989,Female,Mallow Tri Club,2:27:11
+#1_Olympic Triathlon,#5_F35-39,207,182,6.,Christine,Carroll,1987,Female,Crosshaven Tri,2:39:42
+#1_Olympic Triathlon,#5_F35-39,89,111,7.,Camila,Monteiro,1988,Female,Cork Triathlon Club,2:40:11
+#1_Olympic Triathlon,#5_F35-39,205,215,8.,Maggie,Sinnott,1989,Female,NA,2:40:44
+#1_Olympic Triathlon,#5_F35-39,173,250,10.,Máire,Murphy,1988,Female,Mallow Tri Club,2:49:58
+#1_Olympic Triathlon,#5_F35-39,31,202,11.,Fiona,Ward,1988,Female,cork triathalon club,3:01:47
+#1_Olympic Triathlon,#5_F35-39,34,286,12.,Jill,L'Estrange,1990,Female,,3:05:03
+#1_Olympic Triathlon,#5_F35-39,80,197,13.,April Joy,O'Sullivan,1990,Female,,3:14:11
+#1_Olympic Triathlon,#6_F40-44,132,255,2.,Joanne,Cummins,1986,Female,Wicklow Triathlon Club,2:20:14
+#1_Olympic Triathlon,#6_F40-44,182,260,3.,Nicola,Kehoe,1982,Female,Waterford Triathlon Club,2:21:52
+#1_Olympic Triathlon,#6_F40-44,24,102,4.,Bernadette,Ryan Rowe,1982,Female,Cobh Tri,2:37:13
+#1_Olympic Triathlon,#6_F40-44,203,115,5.,Carrie,Desmond,1982,Female,Wicklow Triathlong Club,2:38:16
+#1_Olympic Triathlon,#6_F40-44,17,121,6.,Audrey,Pender,1983,Female,Wicklow Triathlon Club,2:48:01
+#1_Olympic Triathlon,#6_F40-44,236,172,7.,Maggie,Murphy,1982,Female,New Ross,2:49:38
+#1_Olympic Triathlon,#6_F40-44,256,221,8.,Louise,Molloy,1984,Female,Naas Tri Club,3:13:12
+#1_Olympic Triathlon,#6_F40-44,277,263,9.,Julie,Stubbs,1986,Female,,3:19:24
+#1_Olympic Triathlon,#6_F40-44,114,310,10.,Marian,OGorman,1982,Female,Tralee Tri Club,3:23:57
+#1_Olympic Triathlon,#7_F45-49,206,137,2.,Hilary,Creedon,1977,Female,Cork Triathlon Club,2:34:34
+#1_Olympic Triathlon,#7_F45-49,62,303,3.,Leanne,McCarthy,1981,Female,Tralee Tri Club,3:00:10
+#1_Olympic Triathlon,#7_F45-49,142,274,4.,Róisín,Duffy,1981,Female,Cromane Tri Club,3:10:22
+#1_Olympic Triathlon,#7_F45-49,213,169,5.,Olwyn,Menzies,1978,Female,South coast tri club,3:20:19
+#1_Olympic Triathlon,#7_F45-49,175,41,6.,Elaine,McSweeney,1981,Female,Mallow Tri Club,3:23:25
+#1_Olympic Triathlon,#7_F45-49,261,239,DNF,Eileen,Ryan,1980,Female,Blackwater Triathlon Club,
+#1_Olympic Triathlon,#8_F50-54,268,218,2.,Denise,Casey,1973,Female,Killarney Tri club,2:20:47
+#1_Olympic Triathlon,#8_F50-54,259,103,3.,gina,lyons,1976,Female,Blackwater Triathlon Club,2:30:39
+#1_Olympic Triathlon,#8_F50-54,94,38,4.,Lynda,O gorman,1974,Female,Cork Triathlon Club,2:32:42
+#1_Olympic Triathlon,#8_F50-54,188,220,5.,sinead,Renton,1976,Female,Mallow Tri Club,2:34:52
+#1_Olympic Triathlon,#8_F50-54,163,279,6.,Denise,Kennedy,1974,Female,Tralee Tri Club,2:47:38
+#1_Olympic Triathlon,#8_F50-54,54,155,7.,Tara,Shine,1972,Female,,2:54:25
+#1_Olympic Triathlon,#8_F50-54,95,175,8.,joan,lehane,1974,Female,Cork Tri club,2:57:46
+#1_Olympic Triathlon,#8_F50-54,13,29,9.,Angela,McCall,1973,Female,Cobh tri club,3:03:12
+#1_Olympic Triathlon,#8_F50-54,166,92,10.,Carol,Murphy,1975,Female,South Coast,3:10:43
+#1_Olympic Triathlon,#8_F50-54,82,129,11.,Bebhinn,Joyce,1975,Female,Limerick triathlon club,3:34:41
+#1_Olympic Triathlon,#9_F55-59,149,227,2.,Ailis,Brosnan,1971,Female,Tralee Tri Club,2:35:40
+#1_Olympic Triathlon,#9_F55-59,84,28,3.,Jacqueline,Kelly,1967,Female,Mako,3:03:41
+#1_Olympic Triathlon,#9_F55-59,242,188,4.,Susan,Cantwell,1971,Female,Tralee Tri Club,3:06:05
+#1_Olympic Triathlon,#9_F55-59,8,43,5.,Frances,Whitty,1967,Female,Cobh tri club,3:33:48
+#1_Olympic Triathlon,#10_F60-64,43,1,2.,Ann,Payne,1963,Female,Cork Tri club,2:53:31
+#1_Olympic Triathlon,#11_O25-29,28,192,2.,Ivan,Merz,2001,Open,East Cork Tribe,2:05:00
+#1_Olympic Triathlon,#11_O25-29,250,173,3.,Jack,Merkushev,1997,Open,,2:14:12
+#1_Olympic Triathlon,#11_O25-29,221,222,4.,Conor,Roche,1999,Open,Cork Triathlon Club,2:18:43
+#1_Olympic Triathlon,#11_O25-29,190,306,5.,Daniel,Coady,1997,Open,Waterford Triathlon Club,2:24:26
+#1_Olympic Triathlon,#11_O25-29,273,278,6.,James,Carron,1997,Open,Cork Tri club,2:24:38
+#1_Olympic Triathlon,#11_O25-29,109,57,7.,Keelin,Skillington,2001,Open,Cork Tri club,2:25:23
+#1_Olympic Triathlon,#11_O25-29,129,90,8.,Conor,Okeeffe,1998,Open,CTC,2:26:59
+#1_Olympic Triathlon,#11_O25-29,88,304,9.,Patrick,Carey,1999,Open,,2:34:09
+#1_Olympic Triathlon,#11_O25-29,45,199,10.,Yury,Keating,1998,Open,Athy Triathlon Club,2:39:14
+#1_Olympic Triathlon,#11_O25-29,30,280,11.,Daragh,O Mahony,2000,Open,East Cork Tribe,2:39:49
+#1_Olympic Triathlon,#11_O25-29,180,290,12.,David,Walsh,1997,Open,,2:45:22
+#1_Olympic Triathlon,#11_O25-29,90,240,13.,Eoghan,Cahill,1998,Open,,2:45:31
+#1_Olympic Triathlon,#11_O25-29,40,35,14.,Luke,McCormack,2001,Open,Cork Tri club,2:50:50
+#1_Olympic Triathlon,#11_O25-29,105,66,15.,Luke,Ryan,1999,Open,,2:52:58
+#1_Olympic Triathlon,#11_O25-29,44,59,16.,Sean,Bourke,1998,Open,,3:05:54
+#1_Olympic Triathlon,#11_O25-29,198,113,17.,Ian,Casey,1997,Open,None,3:07:51
+#1_Olympic Triathlon,#11_O25-29,68,141,18.,Daniel,O'Leary,2000,Open,,3:08:55
+#1_Olympic Triathlon,#11_O25-29,124,153,19.,Daniel,Horgan,1998,Open,Cork Tri club,3:15:18
+#1_Olympic Triathlon,#11_O25-29,67,100,a.k.,Ryan,O’Leary,2000,Open,,
+#1_Olympic Triathlon,#12_O30-34,22,151,2.,James,Burke,1994,Open,Wicklow Triathlon Club,2:03:48
+#1_Olympic Triathlon,#12_O30-34,139,99,3.,Stuart,O'Sullivan,1993,Open,Belpark,2:06:19
+#1_Olympic Triathlon,#12_O30-34,271,214,4.,Brian,Stanley,1992,Open,Piranha Triathlon Club,2:10:27
+#1_Olympic Triathlon,#12_O30-34,86,56,5.,Tom,Soden,1992,Open,Wicklow Triathlon Club,2:12:05
+#1_Olympic Triathlon,#12_O30-34,161,112,6.,Arthur,Reis,1992,Open,Cork Tri club,2:14:20
+#1_Olympic Triathlon,#12_O30-34,131,118,7.,Nick,Smits,1993,Open,Cork Tri club,2:14:23
+#1_Olympic Triathlon,#12_O30-34,269,46,8.,Michael,Daly,1992,Open,MCTC Midleton Triathlon club,2:18:23
+#1_Olympic Triathlon,#12_O30-34,20,104,9.,Cian,Ryan,1992,Open,Cobh tri club,2:25:39
+#1_Olympic Triathlon,#12_O30-34,47,146,10.,Seamus,Stone,1996,Open,CTC,2:27:15
+#1_Olympic Triathlon,#12_O30-34,199,315,11.,Adam,Flood,1994,Open,BTC,2:34:15
+#1_Olympic Triathlon,#12_O30-34,263,243,12.,Sean,Underwood,1992,Open,,2:35:19
+#1_Olympic Triathlon,#12_O30-34,215,313,13.,Ryan,O’brien,1995,Open,None,2:35:48
+#1_Olympic Triathlon,#12_O30-34,138,48,14.,Niall,McAree,1993,Open,Cork Tri club,2:39:56
+#1_Olympic Triathlon,#12_O30-34,93,142,15.,Mark,Desmond,1995,Open,Wicklow Triathlon Club,2:40:31
+#1_Olympic Triathlon,#12_O30-34,210,47,16.,Travis,Buckley,1993,Open,Naas Tri Club,2:51:01
+#1_Olympic Triathlon,#12_O30-34,130,71,17.,Dário,Tavares Antunes,1996,Open,,2:51:58
+#1_Olympic Triathlon,#12_O30-34,144,96,18.,PETER,SHANAHAN,1992,Open,,2:53:48
+#1_Olympic Triathlon,#12_O30-34,257,171,19.,Eamon,Power,1992,Open,Belpark,2:56:10
+#1_Olympic Triathlon,#12_O30-34,136,101,20.,Dylan,Gouveia,1995,Open,,2:56:58
+#1_Olympic Triathlon,#13_O35-39,218,15,2.,Michael,Monahan,1989,Open,Naas Tri,1:55:52
+#1_Olympic Triathlon,#13_O35-39,69,91,3.,Ian,Kavanagh,1987,Open,East Cork Tribe,2:05:17
+#1_Olympic Triathlon,#13_O35-39,240,223,4.,Adam,Doyle,1988,Open,Cork Triathlon Club,2:05:51
+#1_Olympic Triathlon,#13_O35-39,60,93,5.,Michal,Buzynuk,1990,Open,Galway triathlon club,2:14:58
+#1_Olympic Triathlon,#13_O35-39,191,106,6.,James,Crowley,1988,Open,Mallow Tri Club,2:15:01
+#1_Olympic Triathlon,#13_O35-39,100,160,7.,James,Maher,1990,Open,Mallow Tri Club,2:16:34
+#1_Olympic Triathlon,#13_O35-39,187,179,8.,Simon,Forrest,1989,Open,East Cork Tribe,2:18:13
+#1_Olympic Triathlon,#13_O35-39,219,88,9.,Gareth,Kelly,1987,Open,,2:18:49
+#1_Olympic Triathlon,#13_O35-39,233,70,10.,Jack,Gleeson,1988,Open,,2:24:42
+#1_Olympic Triathlon,#13_O35-39,276,157,11.,Peter,Stubbs,1990,Open,,2:26:27
+#1_Olympic Triathlon,#13_O35-39,189,241,12.,Éamonn,Boland,1988,Open,Mallow Tri Club,2:28:01
+#1_Olympic Triathlon,#13_O35-39,179,78,13.,Cian,Moloney,1987,Open,Clonmel TC,2:28:46
+#1_Olympic Triathlon,#13_O35-39,35,123,14.,David,Bowe,1990,Open,,2:30:58
+#1_Olympic Triathlon,#13_O35-39,177,77,15.,David,Condon,1988,Open,,2:32:43
+#1_Olympic Triathlon,#13_O35-39,133,231,16.,Charlie,Johnston,1988,Open,Naas Tri,2:35:24
+#1_Olympic Triathlon,#13_O35-39,113,229,17.,Kevin,Foley,1987,Open,Tritanium TC,2:35:42
+#1_Olympic Triathlon,#13_O35-39,202,144,18.,Brian,Whyte,1990,Open,N/a,2:36:04
+#1_Olympic Triathlon,#13_O35-39,262,228,19.,Gerard,O regan,1989,Open,,2:37:32
+#1_Olympic Triathlon,#13_O35-39,253,9,20.,Jack,Lenihan,1989,Open,,2:41:40
+#1_Olympic Triathlon,#13_O35-39,33,183,21.,Ricardo,Millan,1990,Open,,2:41:59
+#1_Olympic Triathlon,#13_O35-39,150,253,22.,Cian,Duggan,1991,Open,Belpark,2:42:12
+#1_Olympic Triathlon,#13_O35-39,267,110,23.,Jason,Kelly,1988,Open,Cork triathlon Club,2:44:31
+#1_Olympic Triathlon,#13_O35-39,246,8,24.,Tom,Harrington,1991,Open,Crosshaven Tri,2:45:09
+#1_Olympic Triathlon,#13_O35-39,231,79,25.,Eric,O Connor,1988,Open,South Coast,2:45:12
+#1_Olympic Triathlon,#13_O35-39,108,210,26.,Darragh,Kennedy,1991,Open,Pulse,2:45:44
+#1_Olympic Triathlon,#13_O35-39,91,134,27.,Matthew,Kavanagh,1988,Open,Cork Triathlon Club,2:47:23
+#1_Olympic Triathlon,#13_O35-39,137,136,28.,DHIMITRI,NDREU,1991,Open,,2:57:27
+#1_Olympic Triathlon,#13_O35-39,21,311,29.,Robert,McGowan,1987,Open,Cobh tri club,3:02:18
+#1_Olympic Triathlon,#13_O35-39,241,244,30.,Ricardo,Terrazas,1987,Open,Cork Triathlon Club,3:04:10
+#1_Olympic Triathlon,#13_O35-39,92,187,31.,Tony,Flannigan,1990,Open,,3:07:02
+#1_Olympic Triathlon,#13_O35-39,106,257,32.,Gavin,O Donovan,1989,Open,Bathers,3:24:52
+#1_Olympic Triathlon,#14_O40-44,194,288,2.,Colm,Sheahan,1984,Open,NA,2:00:38
+#1_Olympic Triathlon,#14_O40-44,118,259,3.,Daniel,Freund,1984,Open,East Cork Tribe,2:04:19
+#1_Olympic Triathlon,#14_O40-44,176,108,4.,John,O Connell,1982,Open,Cork,2:06:13
+#1_Olympic Triathlon,#14_O40-44,18,12,5.,Michael,Pearce,1982,Open,Wicklow Triathlon Club,2:09:24
+#1_Olympic Triathlon,#14_O40-44,167,95,6.,James,Fitzgerald,1982,Open,TRIED & TESTED DUNGARVAN,2:09:43
+#1_Olympic Triathlon,#14_O40-44,192,269,7.,Sebastian,Helka,1983,Open,West Cork tri,2:12:22
+#1_Olympic Triathlon,#14_O40-44,258,314,8.,David,McCarthy,1982,Open,Blackwater Triathlon Club,2:13:09
+#1_Olympic Triathlon,#14_O40-44,237,219,9.,David,O shea,1984,Open,Cork Tri club,2:13:41
+#1_Olympic Triathlon,#14_O40-44,200,246,10.,Diarmuid,O'Sullivan,1985,Open,Killarney Tri club,2:17:27
+#1_Olympic Triathlon,#14_O40-44,181,31,11.,Daniel,Holden,1983,Open,kilkenny,2:18:33
+#1_Olympic Triathlon,#14_O40-44,110,208,12.,Gediminas,Daskauskas,1983,Open,Cork Triathlon Club,2:18:44
+#1_Olympic Triathlon,#14_O40-44,141,58,13.,Tom,O Neill,1983,Open,,2:19:06
+#1_Olympic Triathlon,#14_O40-44,196,55,14.,John,Connolly,1983,Open,,2:21:04
+#1_Olympic Triathlon,#14_O40-44,32,301,15.,Niall,Irish,1986,Open,Crosshaven Tri,2:24:25
+#1_Olympic Triathlon,#14_O40-44,186,277,16.,Matthew,Browne,1983,Open,,2:24:44
+#1_Olympic Triathlon,#14_O40-44,197,289,17.,Simon,Keegan,1984,Open,,2:29:48
+#1_Olympic Triathlon,#14_O40-44,243,52,18.,JAMES,O NEILL,1983,Open,Cork Tri club,2:29:50
+#1_Olympic Triathlon,#14_O40-44,79,195,19.,Karl,Scanlan,1985,Open,Cork Tri club,2:31:25
+#1_Olympic Triathlon,#14_O40-44,26,206,20.,Brian,O Donovan,1985,Open,Limerick triathlon club,2:31:53
+#1_Olympic Triathlon,#14_O40-44,14,189,21.,Nikolajs,Soldatenko,1986,Open,Mako,2:32:18
+#1_Olympic Triathlon,#14_O40-44,145,124,22.,Joseph,Tinnelly,1984,Open,East Cork Tribe,2:32:33
+#1_Olympic Triathlon,#14_O40-44,121,26,23.,TJ,Carew,1983,Open,South Coast,2:32:37
+#1_Olympic Triathlon,#14_O40-44,38,126,24.,Roger,Finn,1982,Open,Cobh tri club,2:37:57
+#1_Olympic Triathlon,#14_O40-44,230,272,25.,Paddy,Halpin,1983,Open,Belpark,2:44:09
+#1_Olympic Triathlon,#14_O40-44,275,224,26.,Connor,Goulding,1982,Open,South coast tri club,2:44:11
+#1_Olympic Triathlon,#14_O40-44,78,168,27.,declan,carey,1985,Open,,2:48:28
+#1_Olympic Triathlon,#14_O40-44,266,154,28.,Shane,Moran,1985,Open,Mallow Tri Club,2:49:24
+#1_Olympic Triathlon,#14_O40-44,238,18,29.,Graham,Deane,1983,Open,,2:56:14
+#1_Olympic Triathlon,#14_O40-44,111,128,30.,James,Kiely,1985,Open,Kinsale tri,3:00:19
+#1_Olympic Triathlon,#14_O40-44,143,65,31.,Gianfranco,Ghidini,1984,Open,Cromane Tri Club,3:00:33
+#1_Olympic Triathlon,#14_O40-44,65,285,32.,Emmett,Dunne,1982,Open,,3:00:46
+#1_Olympic Triathlon,#14_O40-44,281,40,33.,Stephen,O'Regan,1982,Open,Mallow Tri Club,3:25:08
+#1_Olympic Triathlon,#15_O45-49,6,45,2.,Brendan,Ryan,1979,Open,Cobh tri club,2:05:13
+#1_Olympic Triathlon,#15_O45-49,244,39,3.,Conor,Richardson,1979,Open,Total Tri Training,2:07:46
+#1_Olympic Triathlon,#15_O45-49,52,107,4.,Kevin,Gilleece,1980,Open,Cork Triathlon Club,2:08:05
+#1_Olympic Triathlon,#15_O45-49,282,282,5.,Paul,Kennedy,1980,Open,Cork triathlon Club,2:08:16
+#1_Olympic Triathlon,#15_O45-49,171,34,6.,Adrian,Cunningham,1979,Open,kilkenny,2:10:42
+#1_Olympic Triathlon,#15_O45-49,101,149,7.,Brian,O Riordan,1980,Open,Wicklow tri,2:11:54
+#1_Olympic Triathlon,#15_O45-49,57,254,8.,Peter,McGloin,1977,Open,Wicklow Triathlon Club,2:16:15
+#1_Olympic Triathlon,#15_O45-49,50,201,9.,Radoslaw,Gruszka,1979,Open,East Cork Tribe,2:17:03
+#1_Olympic Triathlon,#15_O45-49,135,248,10.,Ronan,Forde,1981,Open,East Cork Tribe,2:21:42
+#1_Olympic Triathlon,#15_O45-49,228,61,11.,John,Magner,1981,Open,Team Roca,2:23:12
+#1_Olympic Triathlon,#15_O45-49,7,44,12.,Dave,Ronan,1980,Open,Cobh tri club,2:26:04
+#1_Olympic Triathlon,#15_O45-49,260,98,13.,James,Fahey,1981,Open,Cork Tri club,2:26:48
+#1_Olympic Triathlon,#15_O45-49,224,236,14.,Paul,Costello,1978,Open,,2:27:10
+#1_Olympic Triathlon,#15_O45-49,214,145,15.,Mark,Lombard,1980,Open,,2:27:27
+#1_Olympic Triathlon,#15_O45-49,278,114,16.,Ken,Shevlin,1979,Open,Drogheda Triathlon Club,2:28:54
+#1_Olympic Triathlon,#15_O45-49,235,132,17.,Stephen,Kelleher,1977,Open,South coast tri club,2:32:07
+#1_Olympic Triathlon,#15_O45-49,81,22,18.,Steve,Flanagan,1981,Open,Belpark,2:32:32
+#1_Olympic Triathlon,#15_O45-49,29,216,19.,Michael,Deasy,1977,Open,Cork Triathlon Club,2:35:12
+#1_Olympic Triathlon,#15_O45-49,162,283,20.,Shay,Butler,1978,Open,T3 Dublin,2:36:37
+#1_Olympic Triathlon,#15_O45-49,222,63,21.,David,Dunne,1980,Open,Crosshaven TRi CLub,2:36:55
+#1_Olympic Triathlon,#15_O45-49,53,127,22.,Jack,O Sullivan,1977,Open,East Cork Tribe,2:37:10
+#1_Olympic Triathlon,#15_O45-49,128,266,23.,damien,Parker,1980,Open,East Cork Tribe,2:38:42
+#1_Olympic Triathlon,#15_O45-49,151,230,24.,Conor,Flynn,1978,Open,Naas Tri,2:40:05
+#1_Olympic Triathlon,#15_O45-49,156,25,25.,Barry,Cronin,1977,Open,Kinsale Tri Club,2:43:08
+#1_Olympic Triathlon,#15_O45-49,152,3,26.,Kennedy,Murphy,1980,Open,Long Pine AC,2:49:32
+#1_Olympic Triathlon,#15_O45-49,225,298,27.,John,Dollard,1977,Open,,2:49:54
+#1_Olympic Triathlon,#15_O45-49,112,207,28.,Brian,O'Sullivan,1977,Open,Tralee Tri Club,2:57:11
+#1_Olympic Triathlon,#15_O45-49,120,251,29.,Sean,Dunne,1979,Open,Cobh tri club,3:00:32
+#1_Olympic Triathlon,#15_O45-49,103,138,30.,Darran,Connolly,1979,Open,Team Hallion,3:01:18
+#1_Olympic Triathlon,#15_O45-49,83,247,31.,Thomas,Power,1977,Open,,3:05:16
+#1_Olympic Triathlon,#15_O45-49,168,67,32.,patrick,mccarthy,1977,Open,,3:06:00
+#1_Olympic Triathlon,#15_O45-49,170,235,33.,John,O Brien,1977,Open,Collins Triathlon Club,3:06:09
+#1_Olympic Triathlon,#15_O45-49,74,258,34.,Jimmy,Finnegan,1977,Open,Drogheda Triathlon Club,3:07:43
+#1_Olympic Triathlon,#15_O45-49,239,164,DNF,John,McDonald,1977,Open,New Ross Tri Club,
+#1_Olympic Triathlon,#16_O50-54,178,177,2.,Don,Lapierre,1974,Open,Cork Tri club,2:11:17
+#1_Olympic Triathlon,#16_O50-54,216,234,3.,Rob,O'Brien,1974,Open,Athy Triathlon Club,2:17:20
+#1_Olympic Triathlon,#16_O50-54,146,296,4.,Edward,O'Mahony,1976,Open,Cork Triathlon Club,2:18:19
+#1_Olympic Triathlon,#16_O50-54,217,51,5.,Robert,Swan,1972,Open,New Ross Triathlon club,2:21:06
+#1_Olympic Triathlon,#16_O50-54,37,308,6.,Karl,Marnane,1975,Open,,2:23:56
+#1_Olympic Triathlon,#16_O50-54,61,73,7.,James,Commins,1973,Open,New Ross Tri club,2:25:53
+#1_Olympic Triathlon,#16_O50-54,23,302,8.,Dennis,Lyons,1976,Open,,2:27:21
+#1_Olympic Triathlon,#16_O50-54,234,140,9.,Eddie,Fitzpatrick,1974,Open,Belpark,2:30:10
+#1_Olympic Triathlon,#16_O50-54,51,237,10.,Donnchadh,O'Sullivan,1973,Open,Cork Tri club,2:33:58
+#1_Olympic Triathlon,#16_O50-54,99,225,11.,Peter,Cagney,1976,Open,Cork Tri club,2:36:40
+#1_Olympic Triathlon,#16_O50-54,169,150,12.,Garvan,Wickham,1972,Open,COLLINS TRIATHLON,2:38:48
+#1_Olympic Triathlon,#16_O50-54,70,42,13.,Shane,Boylan,1974,Open,Drogheda Triathlon Club,2:41:51
+#1_Olympic Triathlon,#16_O50-54,247,125,14.,Cyril,Walsh,1975,Open,,2:43:34
+#1_Olympic Triathlon,#16_O50-54,159,75,15.,noel,Hannan,1972,Open,New Ross Tri club,2:43:47
+#1_Olympic Triathlon,#16_O50-54,249,198,16.,Barbara Anne,Richardson,1975,Open,,2:44:09
+#1_Olympic Triathlon,#16_O50-54,254,105,17.,Michael,Desmond,1974,Open,Cork Tri club,2:45:39
+#1_Olympic Triathlon,#16_O50-54,140,54,18.,Ronan,Anderson,1972,Open,Bathers,2:49:29
+#1_Olympic Triathlon,#16_O50-54,58,212,19.,David,Flynn,1973,Open,Mako,2:50:04
+#1_Olympic Triathlon,#16_O50-54,96,53,20.,Phil,Cone,1975,Open,Cork Tri club,2:50:23
+#1_Olympic Triathlon,#16_O50-54,232,170,21.,Jonathan,O'Connell,1975,Open,Limerick tri club,2:53:05
+#1_Olympic Triathlon,#16_O50-54,56,275,22.,Gregory,Sloane,1975,Open,Crosshaven Tri,2:53:56
+#1_Olympic Triathlon,#16_O50-54,201,37,23.,Charles,Russell,1973,Open,Blackwater Triathlon Club,3:01:21
+#1_Olympic Triathlon,#16_O50-54,42,193,24.,Jason,Browne,1973,Open,Naas Tri Club,3:01:44
+#1_Olympic Triathlon,#16_O50-54,12,21,25.,Ken,Murphy,1974,Open,,3:19:49
+#1_Olympic Triathlon,#16_O50-54,49,186,DNF,James,Kinsella,1974,Open,,
+#1_Olympic Triathlon,#17_O55-59,172,158,2.,Geoff,Collins,1970,Open,Mallow Tri Club,2:19:46
+#1_Olympic Triathlon,#17_O55-59,184,119,3.,martin,Bohane,1971,Open,Cork Tri club,2:30:41
+#1_Olympic Triathlon,#17_O55-59,274,209,4.,Ian,Murphy,1969,Open,South coast tri club,2:32:06
+#1_Olympic Triathlon,#17_O55-59,48,10,5.,Duncan,Byrne,1970,Open,,2:36:07
+#1_Olympic Triathlon,#17_O55-59,73,13,6.,Ruairi,Hickey,1969,Open,Drogheda Triathlon Club,2:37:56
+#1_Olympic Triathlon,#17_O55-59,164,281,7.,Liam,Sweeney,1969,Open,Wicklow tri,2:38:02
+#1_Olympic Triathlon,#17_O55-59,107,213,8.,Niall,Coughlan,1971,Open,Schull Tri Club,2:38:07
+#1_Olympic Triathlon,#17_O55-59,98,265,9.,Aidan,Barry,1968,Open,South coast tri club,2:39:19
+#1_Olympic Triathlon,#17_O55-59,15,83,10.,Fabian,Flood,1971,Open,New Ross Tri Club,2:40:56
+#1_Olympic Triathlon,#17_O55-59,66,81,11.,Hugh,Prendergast,1971,Open,Wicklow Triathlon Club,2:44:35
+#1_Olympic Triathlon,#17_O55-59,157,291,12.,Frank,Walsh,1968,Open,Kinsale tri,2:48:40
+#1_Olympic Triathlon,#17_O55-59,264,226,13.,Diarmuid,Crowley,1968,Open,,2:50:31
+#1_Olympic Triathlon,#17_O55-59,77,64,14.,Cameron,Bremner,1969,Open,Wicklow Triathlon Club,2:50:58
+#1_Olympic Triathlon,#17_O55-59,115,264,15.,Nick,Hassell,1968,Open,T3 Dublin,2:52:12
+#1_Olympic Triathlon,#17_O55-59,220,20,16.,Michael,O’Flynn,1969,Open,,2:54:26
+#1_Olympic Triathlon,#17_O55-59,160,19,17.,Paul,Cullen,1971,Open,New Ross Tri club,3:00:23
+#1_Olympic Triathlon,#17_O55-59,158,94,18.,Geoffrey,Walshe,1968,Open,,3:10:34
+#1_Olympic Triathlon,#18_O60,134,89,2.,Noel,O’Regan,1966,Open,cork triathalon club,2:22:52
+#1_Olympic Triathlon,#18_O60,209,294,3.,Willie,Barry,1966,Open,CTC,2:27:59
+#1_Olympic Triathlon,#18_O60,72,167,4.,Dave,Bartley,1965,Open,Blackwater Triathlon Club,2:33:17
+#1_Olympic Triathlon,#18_O60,154,271,5.,Shane,McGonigle,1966,Open,None,2:33:52
+#1_Olympic Triathlon,#18_O60,185,130,6.,Bernard,Hanratty,1963,Open,Piranha,2:37:00
+#1_Olympic Triathlon,#18_O60,165,176,7.,Alan,McGuinness,1966,Open,,2:39:10
+#1_Olympic Triathlon,#18_O60,126,238,8.,Tim,O’Sullivan,1965,Open,Cork Tri club,2:43:00
+#1_Olympic Triathlon,#18_O60,71,11,9.,Mark,Kimmins,1965,Open,Drogheda Triathlon Club,2:55:26
+#1_Olympic Triathlon,#18_O60,10,24,10.,Rory,O'Toole,1963,Open,Naas TC,2:55:58
+#1_Olympic Triathlon,#18_O60,19,267,11.,Paul,McSweeney,1965,Open,Cobh Tri Club,3:03:56
+#1_Olympic Triathlon,#18_O60,117,5,12.,Damien,Byrne,1962,Open,Cromane Tri Club,3:05:09
+#1_Olympic Triathlon,#18_O60,59,139,13.,Campbell,Scott,1966,Open,Campbell Scott,3:06:53
+#1_Olympic Triathlon,#19_O65-69,147,76,2.,Brendan,O’Callaghan,1961,Open,Wicklow Triathlon Club,2:51:54
+#1_Olympic Triathlon,#19_O65-69,195,270,3.,Billy,Carr,1960,Open,South coast tri club,3:06:23
+#2_Olympic Triathlon Relay,#20_,76,322,2.,Team ledgends,Team ledgends,,Open,,2:13:59
+#2_Olympic Triathlon Relay,#20_,27,321,3.,Rebel Education Racers,Rebel Education Racers,,Female,,2:38:52
+#2_Olympic Triathlon Relay,#20_,5,323,4.,The Chain Breakers,The Chain Breakers,,Open,,2:46:23
+#2_Olympic Triathlon Relay,#20_,39,325,5.,Vagabonds of the western Worl,Vagabonds of the western Worl,,Open,,2:49:04
+#2_Olympic Triathlon Relay,#20_,4,324,6.,Try-ing Our Best,Try-ing Our Best,,Open,,2:51:38
+#2_Olympic Triathlon Relay,#20_,75,318,7.,Cirque de Sore Legs,Cirque de Sore Legs,,Open,,2:54:36
+#2_Olympic Triathlon Relay,#20_,122,317,8.,Bryan can't swim,Bryan can't swim,,Open,,2:56:25
+#2_Olympic Triathlon Relay,#20_,36,326,9.,Virgos on the Run,Virgos on the Run,,Female,,3:04:45
+#2_Olympic Triathlon Relay,#20_,3,327,10.,Where's my Jumper,Where's my Jumper,,Open,,3:05:30
+#2_Olympic Triathlon Relay,#20_,9,320,11.,Flying Column,Flying Column,,Open,,3:17:42
+#2_Olympic Triathlon Relay,#20_,46,316,12.,An Spatula,An Spatula,,Open,,3:20:42

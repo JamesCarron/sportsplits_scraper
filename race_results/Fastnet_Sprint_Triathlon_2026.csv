@@ -30,12 +30,12 @@ Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
 29,153,Tony O'Halloran,O25-29,3,Open,Cork Triathlon Club,12:01,1:36,39:47,1:22,21:16,1:16:02
 30,148,Kim Hickey,F45-49,2,Female,Pulse TC,9:59,1:15,41:10,1:06,22:44,1:16:14
 31,256,Kieran O'donoghue,O45-49,7,Open,Killarney Triathlon Club,12:46,0:28,41:15,1:08,20:59,1:16:36
-32,40,Aaron Duncan,O30-34,3,Open,,10:17,1:28,40:25,,1:16:40,1:16:40
+32,40,Aaron Duncan,O30-34,3,Open,,10:17,1:28,40:25,0:20,24:10,1:16:40
 33,238,Alan Cronin,O45-49,8,Open,Killarney Triathlon Club,12:19,1:45,40:16,1:28,20:56,1:16:44
 34,254,Shane Healy,O35-39,3,Open,Killarney Triathlon Club,11:58,1:16,43:07,0:47,20:09,1:17:17
 35,170,Peter Blissett,O45-49,9,Open,Cork Triathlon Club,11:07,1:04,40:36,1:22,23:21,1:17:30
 36,211,Liam O Connor,O25-29,4,Open,Crosshaven Triathlon Club,12:11,2:02,42:35,1:25,19:19,1:17:32
-37,168,Patrick O'Connell,O45-49,10,Open,Cork Triathlon Club,8:53,1:15,45:39,0:48,20:57,1:17:32
+37,168,James Carron,O25-29,12,Open,Cork Triathlon Club,8:53,1:15,45:39,0:48,20:57,1:17:32
 38,202,John Magner,O45-49,11,Open,,11:58,1:45,40:19,0:54,22:59,1:17:55
 39,220,Simon Forrest,O35-39,4,Open,East Cork Tribe,10:38,1:38,44:07,0:53,21:16,1:18:32
 40,76,Paul Griffin,O45-49,12,Open,Cork Triathlon Club,10:38,1:36,40:50,1:35,24:08,1:18:47
@@ -125,7 +125,7 @@ Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
 124,275,Tim O'Sullivan,O60,4,Open,Cork Triathlon Club,12:46,2:27,47:06,2:09,27:48,1:32:16
 125,271,Eve McDonogh,F25-29,5,Female,Cork Triathlon Club,11:03,2:15,53:26,0:58,24:39,1:32:21
 126,132,Brian Murphy,O50-54,9,Open,,13:29,3:58,48:33,2:16,24:08,1:32:24
-127,48,Damian Murphy,O60,5,Open,,13:00,2:06,49:40,1:36,26:03,1:32:25
+127,48,Damian O Sullivan,O50-54,10,Open,Cork Triathlon Club,13:00,2:06,49:40,1:36,26:03,1:32:25
 128,103,Tom Dwyer,O20-24,8,Open,,12:00,1:59,52:14,0:43,25:35,1:32:31
 129,86,Oisín Forde,O25-29,8,Open,,13:55,2:46,52:06,0:39,23:10,1:32:36
 130,140,Toby Loughrey,O20-24,9,Open,,12:36,3:14,46:04,1:38,29:30,1:33:02
@@ -139,7 +139,7 @@ Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
 138,32,Tom Lennon,O55-59,10,Open,Cork Triathlon Club,14:59,3:08,46:50,1:52,27:26,1:34:15
 139,70,Alan Hewison,O65-69,2,Open,Trilogy Triathlon Club,13:23,2:24,51:35,1:40,25:39,1:34:41
 140,262,Eoin O'Callaghan,O40-44,12,Open,,18:08,0:38,49:23,1:59,24:48,1:34:56
-141,184,Kevin McCarthy,O50-54,10,Open,Cork Triathlon Club,13:04,3:09,51:22,2:10,25:15,1:35:00
+141,184,Kevin McCarthy,O50-54,11,Open,Cork Triathlon Club,13:04,3:09,51:22,2:10,25:15,1:35:00
 142,156,Ronan Ahern,O40-44,13,Open,Cork Triathlon Club,11:38,3:11,51:16,1:57,27:03,1:35:05
 143,142,Helena Paran,F25-29,7,Female,,12:45,2:42,53:07,1:06,26:03,1:35:43
 144,208,Liz Collins,F45-49,7,Female,Waterford Triathlon Club,11:56,2:52,52:58,1:35,26:22,1:35:43
@@ -160,18 +160,18 @@ Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
 159,261,Michael Godley,O30-34,7,Open,,14:57,2:35,55:43,1:17,23:33,1:38:05
 160,285,Elliot Crampton,O30-34,8,Open,,11:10,1:47,53:04,1:10,31:07,1:38:18
 161,4,Carmel Collins,F40-44,6,Female,West Cork Triathlon Club,12:31,0:26,54:30,0:28,30:48,1:38:43
-162,137,Barry Coleman,O60,6,Open,,16:20,3:29,47:45,1:48,29:39,1:39:01
+162,137,Barry Coleman,O60,5,Open,,16:20,3:29,47:45,1:48,29:39,1:39:01
 163,123,Yury Keating,O25-29,11,Open,Athy Triathlon Club,12:13,2:26,55:47,1:59,26:37,1:39:02
-164,41,Ian O'Sullivan,O50-54,11,Open,West Cork Triathlon Club,14:06,3:31,53:19,1:24,26:58,1:39:18
-165,110,John Walsh,O60,7,Open,Cobh Triathlon Club,11:33,2:12,48:42,2:15,34:39,1:39:21
+164,41,Ian O'Sullivan,O50-54,12,Open,West Cork Triathlon Club,14:06,3:31,53:19,1:24,26:58,1:39:18
+165,110,John Walsh,O60,6,Open,Cobh Triathlon Club,11:33,2:12,48:42,2:15,34:39,1:39:21
 166,197,Kieran O'Sullivan,O45-49,28,Open,Kinsale Triathlon Club,16:16,3:35,51:21,2:02,26:08,1:39:22
 167,281,Carol Hodgins,F45-49,9,Female,,14:05,2:49,55:34,1:05,25:54,1:39:27
 168,93,Claire Buttanshaw,F30-34,5,Female,,12:19,2:55,55:17,1:03,28:00,1:39:34
 169,52,Donal Dowd,O65-69,3,Open,Killarney Triathlon Club,13:48,2:15,52:01,2:19,29:12,1:39:35
 170,222,Claire Lane,F35-39,9,Female,Cork Triathlon Club,11:34,2:43,53:21,1:52,30:14,1:39:44
-171,248,Bryce Whibley,O50-54,12,Open,Cork Triathlon Club,14:21,2:00,51:01,1:12,31:12,1:39:46
+171,248,Bryce Whibley,O50-54,13,Open,Cork Triathlon Club,14:21,2:00,51:01,1:12,31:12,1:39:46
 172,252,Agnieszka Samsel,F45-49,10,Female,Pulse TC,20:58,0:45,46:43,2:34,28:46,1:39:46
-173,166,James Carron,O25-29,12,Open,Cork Triathlon Club,15:05,2:18,50:04,1:43,30:37,1:39:47
+173,166,Patrick O'Connell,O45-49,10,Open,Cork Triathlon Club,15:05,2:18,50:04,1:43,30:37,1:39:47
 174,286,Patricia Kearney,F50-54,7,Female,Cork Triathlon Club,13:55,2:55,53:06,1:46,28:37,1:40:19
 175,50,Yvonne Kennedy,F45-49,11,Female,South Coast TC,13:42,2:13,52:59,2:02,29:29,1:40:25
 176,200,Mags Truslove,F30-34,6,Female,,11:26,2:34,57:30,1:45,27:18,1:40:33
@@ -198,7 +198,7 @@ Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
 197,54,Mark Cahill,O45-49,29,Open,Cork Triathlon Club,11:23,2:05,56:38,1:39,32:55,1:44:40
 198,206,James Patrick Carroll,O35-39,16,Open,Crosshaven Triathlon Club,16:51,4:24,55:24,1:40,26:47,1:45:06
 199,130,Ailbhe Munro,F20-24,3,Female,,19:41,2:45,55:15,1:12,26:23,1:45:16
-200,269,Eoghan O’Donoghue,O50-54,13,Open,,14:28,3:12,54:45,2:14,30:43,1:45:22
+200,269,Eoghan O’Donoghue,O50-54,14,Open,,14:28,3:12,54:45,2:14,30:43,1:45:22
 201,79,Alicia McConnell,F60-64,3,Female,Schull Triathlon  Club,15:55,0:34,55:24,1:51,31:53,1:45:37
 202,127,Peter Layton,O20-24,12,Open,,15:23,0:32,1:00:21,2:40,26:44,1:45:40
 203,77,Rory Galvin,O45-49,30,Open,Cork Triathlon Club,17:23,0:37,55:29,1:18,30:56,1:45:43
@@ -216,51 +216,51 @@ Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
 215,205,Sujeet Karle,O40-44,16,Open,Crosshaven Triathlon Club,17:15,3:49,57:27,2:49,27:07,1:48:27
 216,233,Emma Dunne,F35-39,11,Female,,17:01,3:21,58:15,2:19,27:42,1:48:38
 217,223,Bridget Lehane,F50-54,14,Female,West Cork Triathlon Club,12:27,3:12,57:17,1:38,34:09,1:48:43
-218,111,Phil Cone,O50-54,14,Open,Cork Triathlon Club,11:27,2:10,54:41,2:26,38:01,1:48:45
+218,111,Phil Cone,O50-54,15,Open,Cork Triathlon Club,11:27,2:10,54:41,2:26,38:01,1:48:45
 219,62,Stephen Sheehy,O30-34,10,Open,,17:11,3:58,56:02,2:38,29:17,1:49:06
 220,176,Zack Anderson,O25-29,16,Open,Cork Triathlon Club,10:34,3:03,1:10:12,2:16,23:42,1:49:47
 221,38,Claire McCarthy,F35-39,12,Female,West Cork Triathlon Club,11:37,5:15,56:30,1:57,34:28,1:49:47
 222,186,Adriana Magueta,F30-34,9,Female,,11:39,3:38,1:00:30,1:02,33:29,1:50:18
 223,199,Michael Barron,O40-44,17,Open,Cork Triathlon Club,15:46,2:20,1:00:59,2:22,28:57,1:50:24
-224,227,Paul McSweeney,O60,8,Open,Cobh Triathlon Club,13:59,5:10,58:02,2:11,31:15,1:50:37
+224,227,Paul McSweeney,O60,7,Open,Cobh Triathlon Club,13:59,5:10,58:02,2:11,31:15,1:50:37
 225,17,Cathal McCarthy,O30-34,11,Open,,17:49,6:48,58:04,2:37,25:43,1:51:01
 226,95,Michael Buttanshaw,O65-69,4,Open,,14:43,3:33,57:46,2:18,33:01,1:51:21
-227,36,Ken Murphy,O50-54,15,Open,,20:23,0:43,57:56,0:26,32:02,1:51:30
-228,129,Caroline O'Halloran,F55-59,6,Female,,17:08,3:07,56:31,1:21,34:14,1:52:21
-229,112,Rachel Elley,F55-59,7,Female,Schull Triathlon  Club,12:54,4:13,1:02:38,1:06,31:33,1:52:24
-230,125,Finian McCarthy,O25-29,17,Open,,14:01,4:19,1:02:27,1:54,30:06,1:52:47
-231,59,Ainhoa Sánchez,F30-34,10,Female,,12:28,2:39,1:00:32,1:20,36:18,1:53:17
-232,243,Caroline Dunphy,F40-44,7,Female,Cork Triathlon Club,13:22,2:29,1:01:19,1:35,35:15,1:54:00
-233,89,Dara Lovern,O25-29,18,Open,,15:21,5:01,1:06:57,1:14,25:47,1:54:20
-234,207,Magdalena Biernat,F45-49,14,Female,Cobh Triathlon Club,14:45,2:29,1:03:33,1:53,31:43,1:54:23
-235,267,Alanna Murphy,F30-34,11,Female,,14:52,3:17,1:06:10,1:13,29:23,1:54:55
-236,49,Ciara Mitchell,F45-49,15,Female,South Coast TC,14:55,3:17,58:14,2:24,36:10,1:55:00
-237,126,Alice Fitzgerald,F60-64,4,Female,Tried and Tested,16:22,6:33,59:39,3:39,29:24,1:55:37
-238,21,Deirdre Scannell,F40-44,8,Female,Crosshaven Triathlon Club,15:54,3:47,1:01:12,2:14,33:19,1:56:26
-239,90,Antonia Rebreanu,F25-29,12,Female,,17:31,4:46,1:02:46,2:49,29:51,1:57:43
-240,98,Michael Scholefield,O65-69,5,Open,,19:56,5:25,1:00:28,2:38,29:21,1:57:48
-241,97,Lizzie Scholefield,F30-34,12,Female,,23:14,4:11,58:20,2:45,29:20,1:57:50
-242,45,Sara González Bello,F25-29,13,Female,West Cork Triathlon Club,14:05,4:53,1:06:45,1:55,30:37,1:58:15
-243,165,Clark Ryan,O25-29,19,Open,,15:14,4:51,1:07:51,1:27,29:41,1:59:04
-244,87,Dylan O'Meara,O30-34,12,Open,,16:29,3:53,1:10:03,1:00,28:12,1:59:37
-245,255,Tina O donoghue,F50-54,15,Female,Killarney Triathlon Club,16:42,2:25,1:03:03,2:06,35:38,1:59:54
-246,121,Marie O'Dea,F60-64,5,Female,Kinsale Triathlon Club,19:00,4:03,59:25,2:10,35:37,2:00:15
-247,64,Jacob English,O30-34,13,Open,,20:24,4:52,1:02:46,1:02,31:17,2:00:21
-248,83,Mikhaila Osullivan,F35-39,13,Female,,16:23,6:28,1:03:33,3:05,31:42,2:01:11
-249,69,Ann Dennehy,F45-49,16,Female,Kinsale Triathlon Club,17:02,3:09,1:01:03,2:27,38:37,2:02:18
-250,180,Darran Corcoran,O40-44,18,Open,Cork Triathlon Club,19:28,6:00,57:26,3:06,36:29,2:02:29
-251,24,Ruth O'Mahony,F55-59,8,Female,,20:06,0:43,1:01:03,2:52,38:09,2:02:53
-252,99,Susie Pierce,F45-49,17,Female,Wexford T C,21:29,4:15,1:03:41,1:13,34:12,2:04:50
-253,241,Louise Lyons,F60-64,6,Female,Kinsale Triathlon Club,21:38,3:46,1:02:25,2:22,34:40,2:04:51
-254,71,Anne Stockdale,F55-59,9,Female,Kinsale Triathlon Club,17:50,3:24,1:08:48,1:33,40:03,2:11:38
-255,61,Holly McKnight,F20-24,5,Female,Schull Triathlon  Club,14:42,0:32,1:10:52,1:33,43:59,2:11:38
-256,92,Deirdre Buttanshaw,F65-69,3,Female,,17:59,3:20,1:10:10,2:17,39:38,2:13:24
-257,100,Karen Dukelow,F45-49,18,Female,Cork Triathlon Club,24:12,3:31,1:10:06,1:10,37:07,2:16:06
-258,96,Rosie Johnson,F60-64,7,Female,,18:45,6:08,1:10:10,2:22,38:46,2:16:11
-259,94,Rob Johnson,O60,9,Open,,18:46,6:10,1:10:07,3:15,37:54,2:16:12
+227,36,Ken Murphy,O50-54,16,Open,,20:23,0:43,57:56,0:26,32:02,1:51:30
+228,23,Julie Butters,F45-49,14,Female,,18:15,2:32,56:15,1:48,32:53,1:51:43
+229,129,Caroline O'Halloran,F55-59,6,Female,,17:08,3:07,56:31,1:21,34:14,1:52:21
+230,112,Rachel Elley,F55-59,7,Female,Schull Triathlon  Club,12:54,4:13,1:02:38,1:06,31:33,1:52:24
+231,125,Finian McCarthy,O25-29,17,Open,,14:01,4:19,1:02:27,1:54,30:06,1:52:47
+232,59,Ainhoa Sánchez,F30-34,10,Female,,12:28,2:39,1:00:32,1:20,36:18,1:53:17
+233,243,Caroline Dunphy,F40-44,7,Female,Cork Triathlon Club,13:22,2:29,1:01:19,1:35,35:15,1:54:00
+234,89,Dara Lovern,O25-29,18,Open,,15:21,5:01,1:06:57,1:14,25:47,1:54:20
+235,207,Magdalena Biernat,F45-49,15,Female,Cobh Triathlon Club,14:45,2:29,1:03:33,1:53,31:43,1:54:23
+236,267,Alanna Murphy,F30-34,11,Female,,14:52,3:17,1:06:10,1:13,29:23,1:54:55
+237,49,Ciara Mitchell,F45-49,16,Female,South Coast TC,14:55,3:17,58:14,2:24,36:10,1:55:00
+238,126,Alice Fitzgerald,F60-64,4,Female,Tried and Tested,16:22,6:33,59:39,3:39,29:24,1:55:37
+239,21,Deirdre Scannell,F40-44,8,Female,Crosshaven Triathlon Club,15:54,3:47,1:01:12,2:14,33:19,1:56:26
+240,90,Antonia Rebreanu,F25-29,12,Female,,17:31,4:46,1:02:46,2:49,29:51,1:57:43
+241,98,Michael Scholefield,O65-69,5,Open,,19:56,5:25,1:00:28,2:38,29:21,1:57:48
+242,97,Lizzie Scholefield,F30-34,12,Female,,23:14,4:11,58:20,2:45,29:20,1:57:50
+243,45,Sara González Bello,F25-29,13,Female,West Cork Triathlon Club,14:05,4:53,1:06:45,1:55,30:37,1:58:15
+244,165,Clark Ryan,O25-29,19,Open,,15:14,4:51,1:07:51,1:27,29:41,1:59:04
+245,87,Dylan O'Meara,O30-34,12,Open,,16:29,3:53,1:10:03,1:00,28:12,1:59:37
+246,255,Tina O donoghue,F50-54,15,Female,Killarney Triathlon Club,16:42,2:25,1:03:03,2:06,35:38,1:59:54
+247,121,Marie O'Dea,F60-64,5,Female,Kinsale Triathlon Club,19:00,4:03,59:25,2:10,35:37,2:00:15
+248,64,Jacob English,O30-34,13,Open,,20:24,4:52,1:02:46,1:02,31:17,2:00:21
+249,83,Mikhaila Osullivan,F35-39,13,Female,,16:23,6:28,1:03:33,3:05,31:42,2:01:11
+250,69,Ann Dennehy,F45-49,17,Female,Kinsale Triathlon Club,17:02,3:09,1:01:03,2:27,38:37,2:02:18
+251,180,Darran Corcoran,O40-44,18,Open,Cork Triathlon Club,19:28,6:00,57:26,3:06,36:29,2:02:29
+252,24,Ruth O'Mahony,F55-59,8,Female,,20:06,0:43,1:01:03,2:52,38:09,2:02:53
+253,99,Susie Pierce,F45-49,18,Female,Wexford T C,21:29,4:15,1:03:41,1:13,34:12,2:04:50
+254,241,Louise Lyons,F60-64,6,Female,Kinsale Triathlon Club,21:38,3:46,1:02:25,2:22,34:40,2:04:51
+255,71,Anne Stockdale,F55-59,9,Female,Kinsale Triathlon Club,17:50,3:24,1:08:48,1:33,40:03,2:11:38
+256,61,Holly McKnight,F20-24,5,Female,Schull Triathlon  Club,14:42,0:32,1:10:52,1:33,43:59,2:11:38
+257,92,Deirdre Buttanshaw,F65-69,3,Female,,17:59,3:20,1:10:10,2:17,39:38,2:13:24
+258,100,Karen Dukelow,F45-49,19,Female,Cork Triathlon Club,24:12,3:31,1:10:06,1:10,37:07,2:16:06
+259,96,Rosie Johnson,F60-64,7,Female,,18:45,6:08,1:10:10,2:22,38:46,2:16:11
+260,94,Rob Johnson,O60,8,Open,,18:46,6:10,1:10:07,3:15,37:54,2:16:12
 ,412,N.N. 412,,,,,,,,,1:53:58,1:53:58
 ,213,Amy Hosford,,,Female,Kinsale Triathlon Club,30:25,1:05,,,,
 ,109,Michael Jacobi,,,Open,Killarney Triathlon Club,13:54,3:22,45:40,,,
 ,161,Anne marie O sullivan,,,Female,Killarney Triathlon Club,15:31,5:28,1:25:30,,,
 ,277,N.N. 277,,,,,12:15,2:25,47:40,1:15,33:30,1:37:05
-,23,N.N. 23,,,,,18:15,2:32,56:15,1:48,32:53,1:51:43
