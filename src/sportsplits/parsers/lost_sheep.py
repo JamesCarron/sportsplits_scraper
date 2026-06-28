@@ -1,3 +1,8 @@
+"""Parser for the CTC Lost Sheep 2025 results CSV.
+
+A flat CSV export (not a RaceResult event); returns the standard 13-column format
+described in data_format.md.
+"""
 import pandas as pd
 
 _GENDER_TO_CLASS = {'Male': 'Open', 'Female': 'Female'}

@@ -6,7 +6,7 @@ discovered by opening the results URL and inspecting the list's DataFields), the
 re-run scrape_and_process.ipynb. races.py builds its REGISTRY straight from this
 list, so nothing else needs editing and a name can never be registered twice.
 """
-from race_results.parsers.raceresult_common import EventSpec, build_event, scrape_event, process_event
+from sportsplits.parsers.raceresult.common import EventSpec, build_event, scrape_event, process_event
 
 # Layout notes (positions are indexes into each list row's DataFields):
 #

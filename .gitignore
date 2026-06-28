@@ -1,4 +1,14 @@
-/__pycache__
-/__pycache__
-/race_results/parsers/__pycache__
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/

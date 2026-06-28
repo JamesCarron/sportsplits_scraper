@@ -6,16 +6,16 @@ Plain-text race results file (`Clonmel.txt`). The first line is a header and is 
 
 ### RaceResult events (URL-based) — two-stage pipeline
 
-Events hosted on my.raceresult.com go through two separated stages (engine in `race_results/parsers/raceresult_common.py`, run from `scrape_and_process.ipynb`):
+Events hosted on my.raceresult.com go through two separated stages (engine in `src/sportsplits/parsers/raceresult/common.py`, run from `scrape_and_process.ipynb`):
 
-1. **Scrape → raw CSV** (`race_results/raw/<event>__<list>.raw.csv`). A faithful dump of the RaceResult JSON API: the API's own `DataFields` are the headers (preceded by two grouping columns `__contest__` / `__group__`), times stay as strings, names stay as `Last, First`, and the place keeps its trailing dot. No interpretation.
-2. **Process → processed CSV** (`race_results/<event>.csv`). The raw CSV(s) are mapped to the standard 13-column format below. Per-event differences (column positions, name order, class derivation, age-group source) live in an `EventSpec` in `raceresult_events.py`; that list is also the single source of truth for the app's `REGISTRY`.
+1. **Scrape → raw CSV** (`data/raw/<event>__<list>.raw.csv`). A faithful dump of the RaceResult JSON API: the API's own `DataFields` are the headers (preceded by two grouping columns `__contest__` / `__group__`), times stay as strings, names stay as `Last, First`, and the place keeps its trailing dot. No interpretation.
+2. **Process → processed CSV** (`data/processed/<event>.csv`). The raw CSV(s) are mapped to the standard 13-column format below. Per-event differences (column positions, name order, class derivation, age-group source) live in an `EventSpec` in `parsers/raceresult/events.py`; that list is also the single source of truth for the app's `REGISTRY`.
 
 Both stages overwrite their outputs, so re-pulling never duplicates rows. The metric columns (below) are **not** stored in the CSV — they are recomputed at app load by `metrics.build_metrics_from_df`.
 
 ## Raw Parse Output
 
-Produced by `parse_input.load_results()`. One row per athlete.
+Produced by the registry loaders in `sportsplits.races`. One row per athlete.
 
 | Column | Type | Nullable | Description |
 |---|---|---|---|

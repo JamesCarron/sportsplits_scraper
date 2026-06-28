@@ -8,7 +8,7 @@ import matplotlib.cm as cm
 import numpy as np
 import pandas as pd
 
-SPLIT_COLS = ['Swim', 'T1', 'Bike', 'T2', 'Run', 'Finish']
+from sportsplits.viz import SPLIT_COLS, fmt_td
 
 _VIEW_META = {
     'class':    ('_pct_class',   'vs Class',      'Percentile  (100 = fastest in class)',      50),
@@ -25,16 +25,6 @@ def fig_to_base64(fig) -> str:
     encoded = base64.b64encode(buf.read()).decode('ascii')
     plt.close(fig)
     return f'data:image/png;base64,{encoded}'
-
-
-def _fmt_td(td) -> str:
-    if pd.isna(td):
-        return 'N/A'
-    td = pd.Timedelta(td)
-    total_s = int(td.total_seconds())
-    h, rem = divmod(total_s, 3600)
-    m, s = divmod(rem, 60)
-    return f'{h}:{m:02d}:{s:02d}' if h else f'{m}:{s:02d}'
 
 
 def _lookup(name: str, df: pd.DataFrame):
@@ -97,12 +87,12 @@ def plot_single_panel(name: str, view: str, df: pd.DataFrame):
     }
 
     pct_vals = [row.get(f'{s}{suffix}', np.nan) for s in SPLIT_COLS]
-    tlabels  = [_fmt_td(row[s]) for s in SPLIT_COLS]
+    tlabels  = [fmt_td(row[s]) for s in SPLIT_COLS]
 
     fig, ax = plt.subplots(figsize=(12, 5))
     fig.suptitle(
         f'{row["Name"]}  ·  {row["Class"]}  ·  {row["Age_Group"]}'
-        f'  ·  Finish: {_fmt_td(row["Finish"])}  ·  Overall place: {int(row["Place"])}',
+        f'  ·  Finish: {fmt_td(row["Finish"])}  ·  Overall place: {int(row["Place"])}',
         fontsize=12, fontweight='bold',
     )
     _draw_panel(ax, row, SPLIT_COLS, pct_vals, tlabels, subtitles[view], xlabel, ref_line)
@@ -130,8 +120,8 @@ def _draw_comparison_panel(ax, row_a, row_b, name_a, name_b, suffix, xlabel, ref
     for i, col in enumerate(SPLIT_COLS):
         val_a = row_a.get(f'{col}{suffix}', np.nan)
         val_b = row_b.get(f'{col}{suffix}', np.nan)
-        time_a = _fmt_td(row_a[col])
-        time_b = _fmt_td(row_b[col])
+        time_a = fmt_td(row_a[col])
+        time_b = fmt_td(row_b[col])
 
         color_a = cmap(val_a / 100) if pd.notna(val_a) else '#cccccc'
         color_b = cmap(val_b / 100) if pd.notna(val_b) else '#cccccc'
@@ -223,8 +213,8 @@ def _draw_time_comparison_panel(ax, row_a, row_b, name_a, name_b):
         ax.barh(i + bar_h / 2, s_a, height=bar_h, color=color_a, edgecolor='white')
         ax.barh(i - bar_h / 2, s_b, height=bar_h, color=color_b, edgecolor='white')
 
-        ax.text(s_a + 2, i + bar_h / 2, _fmt_td(td_a), va='center', ha='left', fontsize=8)
-        ax.text(s_b + 2, i - bar_h / 2, _fmt_td(td_b), va='center', ha='left', fontsize=8)
+        ax.text(s_a + 2, i + bar_h / 2, fmt_td(td_a), va='center', ha='left', fontsize=8)
+        ax.text(s_b + 2, i - bar_h / 2, fmt_td(td_b), va='center', ha='left', fontsize=8)
 
     import matplotlib.patches as mpatches
     ax.legend(
@@ -258,7 +248,7 @@ def plot_comparison(name_a: str, name_b: str, view: str, df: pd.DataFrame):
 
     def _header(row):
         place = int(row['Place']) if pd.notna(row['Place']) else '—'
-        return f'{row["Name"]}  ·  {row["Class"]}  ·  {row["Age_Group"]}  ·  Finish: {_fmt_td(row["Finish"])}  ·  Place: {place}'
+        return f'{row["Name"]}  ·  {row["Class"]}  ·  {row["Age_Group"]}  ·  Finish: {fmt_td(row["Finish"])}  ·  Place: {place}'
 
     with _warnings.catch_warnings():
         _warnings.simplefilter('ignore', UserWarning)
@@ -300,7 +290,7 @@ def build_summary_fig(df: pd.DataFrame):
               .dropna()
               .sort_values()
         )
-        bar_labels = [_fmt_td(v) for v in medians.values]
+        bar_labels = [fmt_td(v) for v in medians.values]
         bars = ax.barh(medians.index.tolist(), medians.dt.total_seconds(),
                        color=colors[:len(medians)], edgecolor='white', height=0.5)
         for bar, lbl in zip(bars, bar_labels):

@@ -1,8 +1,9 @@
 import pandas as pd
 from dash import Input, Output, html
-from figure_utils import fig_to_base64, plot_single_panel, plot_comparison, _fmt_td
-from visualise import plot_athlete_extended
-from layout import _build_summary_stats, _build_fastest_splits, _build_median_splits
+from sportsplits.viz import fmt_td
+from sportsplits.viz.web import fig_to_base64, plot_single_panel, plot_comparison
+from sportsplits.viz.notebook import plot_athlete_extended
+from sportsplits.layout import _build_summary_stats, _build_fastest_splits, _build_median_splits
 
 
 def _athlete_stat_spans(row) -> list:
@@ -10,7 +11,7 @@ def _athlete_stat_spans(row) -> list:
         html.Span(f'Place: {int(row["Place"])}' if pd.notna(row["Place"]) else 'Place: —', className='stat'),
         html.Span(f'Class: {row["Class"]}',            className='stat'),
         html.Span(f'Age Group: {row["Age_Group"]}',    className='stat'),
-        html.Span(f'Finish: {_fmt_td(row["Finish"])}', className='stat'),
+        html.Span(f'Finish: {fmt_td(row["Finish"])}', className='stat'),
         html.Span(f'Club: {row["Club"]}',              className='stat'),
     ]
 

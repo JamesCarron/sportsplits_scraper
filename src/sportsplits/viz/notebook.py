@@ -2,21 +2,10 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from metrics import build_metrics_from_df
+
+from sportsplits.viz import SPLIT_COLS, fmt_td
 
 plt.rcParams['figure.dpi'] = 150
-
-SPLIT_COLS = ['Swim', 'T1', 'Bike', 'T2', 'Run', 'Finish']
-
-
-def fmt_td(td) -> str:
-    """Format a pd.Timedelta as M:SS or H:MM:SS."""
-    if pd.isna(td):
-        return 'N/A'
-    total_s = int(td.total_seconds())
-    h, rem = divmod(total_s, 3600)
-    m, s = divmod(rem, 60)
-    return f'{h}:{m:02d}:{s:02d}' if h else f'{m}:{s:02d}'
 
 
 def plot_athlete(name: str, df: pd.DataFrame) -> None:
@@ -198,7 +187,7 @@ def plot_athlete_extended(name: str, df: pd.DataFrame) -> None:
 
 
 if __name__ == '__main__':
-    from races import load_all
+    from sportsplits.races import load_all
     df = next(iter(load_all().values()))
     name = df['Name'].iloc[0]
     plot_athlete(name, df)

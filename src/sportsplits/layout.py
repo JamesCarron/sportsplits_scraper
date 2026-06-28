@@ -1,6 +1,6 @@
 import pandas as pd
 from dash import dcc, html
-from figure_utils import _fmt_td
+from sportsplits.viz import fmt_td
 
 SPLIT_COLS = ['Swim', 'T1', 'Bike', 'T2', 'Run', 'Finish']
 
@@ -19,7 +19,7 @@ def _build_summary_stats(df: pd.DataFrame) -> list:
     finishers = df[df['Class'].isin(_FINISH_CLASSES)]
     class_counts = finishers['Class'].value_counts().to_dict()
     fastest_row = finishers.loc[finishers['Finish'].idxmin()]
-    fastest_str = f'{fastest_row["Name"]} ({_fmt_td(fastest_row["Finish"])})'
+    fastest_str = f'{fastest_row["Name"]} ({fmt_td(fastest_row["Finish"])})'
     return [
         _kpi_card('Total Finishers', str(len(finishers))),
         _kpi_card('Open', str(class_counts.get('Open', 0))),
@@ -38,7 +38,7 @@ def _build_fastest_splits(df: pd.DataFrame) -> list:
         row = finishers.loc[valid.idxmin()]
         cells.append(html.Div(className='split-card', children=[
             html.Div(col, className='split-label'),
-            html.Div(_fmt_td(row[col]), className='split-time'),
+            html.Div(fmt_td(row[col]), className='split-time'),
             html.Div(row['Name'], className='split-name'),
         ]))
     return cells
@@ -53,12 +53,12 @@ def _build_median_splits(df: pd.DataFrame) -> list:
             continue
         median_by_class = finishers.groupby('Class')[col].median().dropna()
         sub = [
-            html.Div(f'{cls}: {_fmt_td(t)}', className='split-sub')
+            html.Div(f'{cls}: {fmt_td(t)}', className='split-sub')
             for cls, t in median_by_class.items()
         ]
         cells.append(html.Div(className='split-card', children=[
             html.Div(col, className='split-label'),
-            html.Div(_fmt_td(valid.median()), className='split-time'),
+            html.Div(fmt_td(valid.median()), className='split-time'),
             *sub,
         ]))
     return cells

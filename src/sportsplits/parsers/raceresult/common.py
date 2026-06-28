@@ -25,16 +25,13 @@ can never go stale -- see races.py.
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 
 import pandas as pd
 import requests
 
-# Processed CSVs live in the race_results/ folder (one level up from parsers/);
-# raw dumps go in a raw/ subfolder beside them.
-DATA_DIR = Path(__file__).resolve().parent.parent
-RAW_DIR = DATA_DIR / "raw"
+from sportsplits.config import RAW_DIR, PROCESSED_DIR
 
 SPLIT_COLS = ["Swim", "T1", "Bike", "T2", "Run", "Finish"]
 STANDARD_COLS = ["Place", "Bib", "Name", "Age_Group", "Group_Rank", "Class", "Club", *SPLIT_COLS]
@@ -57,7 +54,7 @@ class EventSpec:
     """
     event_id: str
     name: str                                  # registry / display name
-    processed_filename: str                    # output CSV name in race_results/
+    processed_filename: str                    # output CSV name in data/processed/
     main_list: str                             # RaceResult list with per-athlete results
     ag_list: str | None = None                 # age-group list (band and/or rank), or None
 
@@ -87,12 +84,7 @@ class EventSpec:
 
     @property
     def processed_path(self) -> Path:
-        return DATA_DIR / self.processed_filename
-
-    @property
-    def registry_path(self) -> str:
-        """Relative path the app's REGISTRY uses to load the processed CSV."""
-        return f"race_results/{self.processed_filename}"
+        return PROCESSED_DIR / self.processed_filename
 
     def raw_path(self, listname: str) -> Path:
         return raw_path(self.event_id, listname)
@@ -367,6 +359,7 @@ def save_processed(df: pd.DataFrame, path: Path) -> Path:
     out = df.copy()
     for col in SPLIT_COLS:
         out[col] = out[col].map(format_timedelta)
+    path.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(path, index=False, encoding="utf-8")
     return path
 
@@ -383,7 +376,7 @@ def build_event(spec: EventSpec) -> Path:
     return process_event(spec)
 
 
-def load_processed_csv(path: str) -> pd.DataFrame:
+def load_processed_csv(path) -> pd.DataFrame:
     """Load a processed CSV back into the standard 13-column format.
 
     This is the loader the app's REGISTRY uses: it re-parses the readable time
