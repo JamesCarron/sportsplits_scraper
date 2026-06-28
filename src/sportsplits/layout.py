@@ -82,6 +82,72 @@ def make_layout(race_names: list):
             ),
         ]),
 
+        # ── Add a race from my.raceresult.com ─────────────────────────────────
+        html.Details(className='add-race', children=[
+            html.Summary('➕ Add a race from my.raceresult.com'),
+
+            # Search the public event directory by name.
+            html.Div(className='add-race-form', children=[
+                dcc.Input(
+                    id='search-input',
+                    type='text',
+                    placeholder='Search by event name (e.g. Jailbreak)…',
+                    className='add-input add-input--url',
+                    debounce=False,
+                ),
+                html.Button('Search', id='search-btn', n_clicks=0, className='add-btn'),
+            ]),
+            html.Div(id='search-status', className='add-race-status'),
+            dcc.Loading(
+                type='circle',
+                children=dcc.RadioItems(
+                    id='search-results',
+                    options=[],
+                    value=None,
+                    className='search-results',
+                    labelClassName='search-result',
+                ),
+            ),
+            dcc.Loading(
+                type='circle',
+                children=html.Button(
+                    'Add selected race', id='search-add-btn', n_clicks=0,
+                    className='add-btn add-btn--wide',
+                ),
+            ),
+
+            html.Hr(className='add-divider'),
+
+            # Or paste a results URL / event id directly.
+            html.Div('Or paste a results URL directly:', className='add-race-hint'),
+            html.Div(className='add-race-form', children=[
+                dcc.Input(
+                    id='add-url',
+                    type='text',
+                    placeholder='https://my.raceresult.com/403737/',
+                    className='add-input add-input--url',
+                    debounce=True,
+                ),
+                dcc.Input(
+                    id='add-name',
+                    type='text',
+                    placeholder='Display name (e.g. Jailbreak 2027)',
+                    className='add-input add-input--name',
+                    debounce=True,
+                ),
+                dcc.Loading(
+                    type='circle',
+                    children=html.Button('Add', id='add-race-btn', n_clicks=0, className='add-btn'),
+                ),
+            ]),
+            html.Div(id='add-race-status', className='add-race-status'),
+            html.Div(
+                'Auto-detects the standard triathlon layout. The race is scraped, '
+                'saved, and stays available after a restart.',
+                className='add-race-hint',
+            ),
+        ]),
+
         # ── Race Summary ──────────────────────────────────────────────────────
         html.Section(className='section', children=[
             html.H2('Race Summary'),

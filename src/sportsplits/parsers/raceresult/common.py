@@ -272,6 +272,49 @@ def scrape_url(url: str, listnames: list[str] | None = None) -> dict:
     return written
 
 
+_EVENTS_SEARCH_URL = "https://my.raceresult.com/RREvents/list"
+
+
+def search_events(query: str, limit: int = 30) -> list[dict]:
+    """Search the public my.raceresult.com event directory by name/location.
+
+    Returns a list of ``{id, name, date, type, location, country}`` dicts,
+    de-duplicated and ordered newest first. This is the same endpoint the
+    raceresult.com homepage search box uses.
+    """
+    query = (query or "").strip()
+    if not query:
+        return []
+    r = requests.get(
+        _EVENTS_SEARCH_URL,
+        params={"filter": query, "lang": "en"},
+        timeout=30,
+        headers=_HEADERS,
+    )
+    r.raise_for_status()
+
+    events = []
+    for group in r.json():
+        for e in group.get("Events", []):
+            events.append({
+                "id": e.get("id"),
+                "name": " ".join(str(e.get("name") or "").split()),  # strip stray \n / double spaces
+                "date": e.get("dateFrom") or "",
+                "type": e.get("eventTypeName") or "",
+                "location": e.get("location") or "",
+                "country": e.get("countryName") or "",
+            })
+
+    # The API can repeat an event across groups; de-dupe by id, newest first.
+    seen, unique = set(), []
+    for e in sorted(events, key=lambda x: x["date"], reverse=True):
+        if e["id"] in seen:
+            continue
+        seen.add(e["id"])
+        unique.append(e)
+    return unique[:limit]
+
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Stage 2: process raw CSV(s) -> standard 13-column processed CSV
 # ──────────────────────────────────────────────────────────────────────────────
@@ -389,3 +432,111 @@ def load_processed_csv(path) -> pd.DataFrame:
     for col in SPLIT_COLS:
         df[col] = df[col].map(to_timedelta)
     return df
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Auto-detection: build an EventSpec straight from a live event's DataFields
+# ──────────────────────────────────────────────────────────────────────────────
+def slugify(name: str) -> str:
+    """Turn a display name into a safe CSV filename stem."""
+    return re.sub(r"[^A-Za-z0-9]+", "_", name).strip("_") or "race"
+
+
+def _idx_of(datafields, *needles, default=None):
+    """First column index whose (lower-cased) name contains any needle, else default."""
+    low = [f.lower() for f in datafields]
+    for needle in needles:
+        for i, f in enumerate(low):
+            if needle in f:
+                return i
+    return default
+
+
+def _pick_main_list(names: list[str]) -> str | None:
+    """Choose the per-athlete results list, preferring a Final/Full/Overall view."""
+    non_ag = [n for n in names if "age group" not in n.lower()]
+    for kw in ("final", "full result", "overall"):
+        for n in non_ag:
+            if kw in n.lower():
+                return n
+    if non_ag:
+        return non_ag[0]
+    return names[0] if names else None
+
+
+def _pick_ag_list(names: list[str]) -> str | None:
+    """Choose the age-group list, preferring the per-band 'Win' variant."""
+    ag = [n for n in names if "age group" in n.lower()]
+    for n in ag:
+        if "win" in n.lower():
+            return n
+    return ag[0] if ag else None
+
+
+def infer_field_mapping(datafields: list[str]) -> dict:
+    """Infer the per-column EventSpec fields from a main list's DataFields.
+
+    Assumes the standard RaceResult triathlon layout: BIB, ID, rank, identity
+    fields, then the six split/time columns last. Name order, class source and
+    inline-vs-AG-list age group are detected from the field names.
+    """
+    n = len(datafields)
+    low = [f.lower() for f in datafields]
+
+    if any("displayname" in f for f in low):
+        name_idx, name_format = _idx_of(datafields, "displayname"), "lastfirst"
+    else:
+        name_idx, name_format = _idx_of(datafields, "flname", "fullname", "name", default=3), "plain"
+
+    gender_ti = _idx_of(datafields, "genderti")
+    if gender_ti is not None:
+        class_idx, class_map = gender_ti, None
+    else:
+        class_idx, class_map = _idx_of(datafields, "sex", "gender", default=4), {"m": "Open", "f": "Female"}
+
+    return dict(
+        place_idx=2,
+        bib_idx=0,
+        id_idx=1,
+        name_idx=name_idx,
+        name_format=name_format,
+        class_idx=class_idx,
+        class_map=class_map,
+        club_idx=_idx_of(datafields, "club", "team", "atf2", default=6),
+        agegroup_idx=_idx_of(datafields, "agegroup", "age group", "age_group"),
+        split_idx=tuple(range(max(0, n - 6), n)),
+    )
+
+
+def infer_event_spec(url: str, name: str, processed_filename: str | None = None) -> EventSpec:
+    """Connect to a RaceResult event and auto-build an EventSpec for it.
+
+    Works for the common single-contest triathlon layout. Multi-contest events
+    keep every contest (no prefix filter); fine-tuning still means editing
+    events.py by hand.
+    """
+    m = re.search(r"(\d{4,})", str(url))
+    if not m:
+        raise ValueError(f"Could not find an event id in URL: {url!r}")
+    event_id = m.group(1)
+
+    client = RaceResultClient(event_id)
+    names = client.list_names()
+    main_list = _pick_main_list(names)
+    if not main_list:
+        raise ValueError(f"Event {event_id} publishes no result lists.")
+    ag_list = _pick_ag_list(names)
+
+    payload = client.fetch_list(main_list)
+    datafields = payload.get("DataFields", []) or []
+    if len(datafields) < 8:
+        raise ValueError(f"List {main_list!r} has too few columns ({len(datafields)}) to be a results list.")
+
+    return EventSpec(
+        event_id=event_id,
+        name=name,
+        processed_filename=processed_filename or f"{slugify(name)}.csv",
+        main_list=main_list,
+        ag_list=ag_list,
+        **infer_field_mapping(datafields),
+    )

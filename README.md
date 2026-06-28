@@ -41,9 +41,27 @@ The pipeline is two clearly separated stages (see `parsers/raceresult/common.py`
 2. **Process** → map the raw CSVs to the standard 13-column CSVs in `data/processed/`.
 
 Both stages overwrite their outputs, so re-pulling never duplicates rows. Open
-`scrape_and_process.ipynb` and run it to refresh every event. To **add** a race, append
-an `EventSpec` to `src/sportsplits/parsers/raceresult/events.py` and re-run the notebook —
-`races.py` builds its `REGISTRY` straight from that list, so the app picks it up automatically.
+`scrape_and_process.ipynb` and run it to refresh every event.
+
+### Add a race from the web app
+
+In the running app, expand **"➕ Add a race from my.raceresult.com"** under the race
+selector. Two ways to add:
+
+- **Search** the public event directory by name — results list each event's name, date,
+  type and location. Pick one and click **Add selected race**.
+- **Paste a results URL** (or bare event id) plus a display name and click **Add**.
+
+Either way the app auto-detects the event's column layout, scrapes and processes it, and
+selects it immediately. Added races are persisted to `data/user_events.json`, so they
+survive a restart. Auto-detection targets the standard triathlon layout; unusual
+multi-contest events may still need a hand-tuned spec.
+
+### Add a built-in race in code
+
+Append an `EventSpec` to `src/sportsplits/parsers/raceresult/events.py` (`BUILTIN_EVENTS`)
+and re-run the notebook — `races.py` builds its `REGISTRY` straight from `all_events()`,
+so the app picks it up automatically.
 
 The app's metric columns are computed at load time (`metrics.build_metrics_from_df`), so they
 are never baked into the CSVs and can't go stale.

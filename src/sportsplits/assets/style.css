@@ -69,6 +69,98 @@ body {
     color: #555;
 }
 
+/* ── Add a race ───────────────────────────────────────────────────────────── */
+.add-race {
+    margin: -8px 0 24px;
+}
+
+.add-race > summary {
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #2c7bb6;
+    user-select: none;
+}
+
+.add-race-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0 8px;
+}
+
+.add-input {
+    padding: 8px 10px;
+    border: 1px solid #cfd4da;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.add-input--url  { flex: 2; min-width: 260px; }
+.add-input--name { flex: 1; min-width: 200px; }
+
+.add-btn {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #2c7bb6;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-btn:hover { background: #24689b; }
+
+.add-race-status { font-size: 0.85rem; min-height: 1.2em; }
+.add-ok    { color: #2e8b57; font-weight: 600; }
+.add-error { color: #c0392b; font-weight: 600; }
+
+.add-race-hint {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 4px;
+}
+
+.add-btn--wide { margin-top: 10px; }
+
+.add-divider {
+    border: none;
+    border-top: 1px solid #e3e6ea;
+    margin: 18px 0 12px;
+}
+
+.search-results {
+    max-height: 230px;
+    overflow-y: auto;
+    margin: 8px 0;
+    border: 1px solid #e3e6ea;
+    border-radius: 6px;
+    padding: 4px 0;
+}
+
+.search-results:empty {
+    display: none;
+}
+
+.search-result {
+    display: block;
+    padding: 6px 12px;
+    font-size: 0.82rem;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-result:hover {
+    background: #f0f4f8;
+}
+
+.search-result input {
+    margin-right: 8px;
+}
+
 /* KPI cards */
 .kpi-row {
     display: flex;
