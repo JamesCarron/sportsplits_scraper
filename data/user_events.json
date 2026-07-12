@@ -1,0 +1,30 @@
+[
+  {
+    "event_id": "410524",
+    "name": "Hardman Waterville 2026",
+    "processed_filename": "Hardman_Waterville_2026.csv",
+    "main_list": "Online|Final",
+    "ag_list": "Result Lists|Age Group Results - Win",
+    "place_idx": 2,
+    "bib_idx": 0,
+    "id_idx": 1,
+    "name_idx": 3,
+    "name_format": "lastfirst",
+    "class_idx": 4,
+    "class_map": null,
+    "club_idx": 6,
+    "agegroup_idx": null,
+    "split_idx": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "main_contest_prefix": "",
+    "ag_id_idx": 1,
+    "ag_rank_idx": 2,
+    "identity_swaps": []
+  }
+]
