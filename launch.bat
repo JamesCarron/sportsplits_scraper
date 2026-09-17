@@ -10,7 +10,12 @@ if exist ".venv\Scripts\python.exe" (
     set "PY=python"
 )
 
-echo Starting the app... open http://localhost:8050 in your browser.
+echo Starting the app... your browser will open automatically once it's ready.
+
+REM Poll the port in the background and open the browser as soon as the app
+REM responds (startup can take a while - it loads/precomputes every race).
+start "" powershell -NoProfile -WindowStyle Hidden -Command "while (-not (Test-NetConnection -ComputerName localhost -Port 8050 -InformationLevel Quiet -WarningAction SilentlyContinue)) { Start-Sleep -Seconds 1 }; Start-Process 'http://localhost:8050'"
+
 "%PY%" run.py
 
 REM Keep the window open if the server exits or errors.
