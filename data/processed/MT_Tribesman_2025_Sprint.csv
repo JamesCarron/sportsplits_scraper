@@ -1,0 +1,299 @@
+Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
+1,193,"Bocquet, Mathys",,1,Open,Predator Triathlon Club,9:29,0:44,35:12,0:32,16:08,1:02:05
+2,127,"Reynolds, Darragh",,2,Open,,10:22,0:51,34:50,0:27,17:07,1:03:37
+3,141,"Dunne, Shane",,3,Open,Liquid Motion TC,9:47,0:47,34:36,0:30,18:01,1:03:41
+4,388,"Farrell, Conor",,4,Open,Naas TC,10:57,1:07,33:10,0:46,18:05,1:04:05
+5,352,"Killalea, Ross",,5,Open,Midland TC,10:25,0:48,37:21,0:30,16:02,1:05:06
+6,273,"Hoare, James",,6,Open,Naas TC,11:07,0:56,35:38,0:40,16:56,1:05:17
+7,367,"Monahan, Michael",,7,Open,Naas TC,10:37,0:56,34:40,0:36,18:30,1:05:19
+8,258,"Keville, Conor",,8,Open,Galway Triathlon Club,13:30,2:29,28:25,2:00,18:58,1:05:22
+9,116,"Nagle, Eoin",,9,Open,Belpark Triathlon Club,11:20,1:01,36:12,0:36,16:49,1:05:58
+10,404,"Asensio Blasco, Ernest",,10,Open,Tri an Mhi TC,11:09,0:59,36:39,0:35,16:57,1:06:19
+11,100,"O'Brien, Emma",,1,Female,Wicklow TC,10:12,0:55,37:21,0:38,17:19,1:06:25
+12,188,"Maher, Alan",,11,Open,Portmarnock TC,10:18,1:11,37:04,0:42,17:31,1:06:46
+13,380,"Vereker, Jp",,12,Open,Waterford Triathlon Club,12:21,1:04,35:29,0:40,17:33,1:07:07
+14,312,"Canavan Dignam, Luke",,13,Open,Galway Triathlon Club,11:53,1:25,35:31,0:32,18:19,1:07:40
+15,123,"Dooley, Kilian",,14,Open,,12:06,1:08,35:16,0:40,18:55,1:08:05
+16,182,"Condell, Gary",,15,Open,Trilogy Triathlon Club,14:26,0:57,34:11,0:37,18:07,1:08:18
+17,365,"Burke, James",,16,Open,Wicklow TC,12:49,0:59,35:53,0:50,17:56,1:08:27
+18,145,"Hennelly, Shane",,17,Open,Lanesboro Triathlon Club,13:11,1:06,35:51,0:36,17:58,1:08:42
+19,128,"Daly, Laura",,2,Female,Galway Triathlon Club,11:26,0:57,37:31,0:36,19:33,1:10:03
+20,400,"Cunningham, Adrian",,18,Open,Kilkenny Triathlon Club,11:48,1:14,36:46,1:03,19:46,1:10:37
+21,402,"Kinsella, Aine",,3,Female,Waterford Triathlon Club,11:47,1:08,38:23,0:47,19:06,1:11:11
+22,302,"English, Peter",,19,Open,Belpark Triathlon Club,12:08,2:00,37:13,1:03,18:48,1:11:12
+23,288,"Egan, Barry",,20,Open,Galway Triathlon Club,14:51,1:43,37:04,0:48,16:53,1:11:19
+24,236,"O'Sullivan, Stuart",,21,Open,Belpark Triathlon Club,12:19,1:26,37:58,0:40,19:39,1:12:02
+25,179,"Power, David",,22,Open,Belpark Triathlon Club,13:34,0:57,39:57,0:40,17:11,1:12:19
+26,232,"Connolly, Sean",,23,Open,Piranha Triathlon Club,11:37,1:59,38:30,0:46,20:18,1:13:10
+27,109,"Rooney, Sean",,24,Open,Galway Triathlon Club,12:35,1:30,38:11,1:11,19:50,1:13:17
+28,223,"Snooks, Darren",,25,Open,Liquid Motion TC,17:05,1:53,35:13,1:11,18:26,1:13:48
+29,356,"Wylie, Eoin",,26,Open,Belpark Triathlon Club,13:38,1:38,37:10,3:04,18:22,1:13:52
+30,374,"Larkin, Ciaran",,27,Open,3D Triathlon Club,13:20,1:51,38:38,0:32,19:55,1:14:16
+31,363,"Horan, David",,28,Open,Sligo Tri Club,15:44,2:29,33:48,2:11,20:15,1:14:27
+32,397,"Chidlow, Izabella",,4,Female,South Coast TC,11:11,0:56,41:36,1:04,20:11,1:14:58
+33,371,"Kelleher, Roisin",,5,Female,Limerick TC,14:39,1:18,37:40,0:50,20:41,1:15:08
+34,360,"O Conchubhair, Diarmuid",,29,Open,Galway Triathlon Club,14:11,1:45,37:44,0:52,20:40,1:15:12
+35,305,"Mulkerrins, Colin",,30,Open,Athy Triathlon Club,13:23,1:35,38:54,0:51,20:34,1:15:17
+36,239,"Brennan, James",,31,Open,Galway Triathlon Club,10:00,1:29,42:21,1:23,20:08,1:15:21
+37,125,"McEntee, Mark",,32,Open,Cork Triathlon Club,14:40,1:27,38:29,0:55,20:07,1:15:38
+38,339,"Boyle, Emma",,6,Female,Predator Triathlon Club,11:29,0:56,40:10,3:41,19:30,1:15:46
+39,257,"McGinley, Anna",,7,Female,Galway Triathlon Club,14:19,1:07,40:05,0:47,19:38,1:15:56
+40,224,"Mulcahy, Daniel",,33,Open,Castlebar Tri Club,17:04,1:36,36:38,1:14,19:31,1:16:03
+41,226,"Whyte, David",,33,Open,Athlone Triathlon Club,20:52,2:26,37:00,1:29,14:16,1:16:03
+42,115,"Pyper, Keith",,35,Open,Wicklow TC,14:13,1:27,37:27,0:51,22:09,1:16:07
+43,284,"Buzynuk, Michal",,36,Open,Galway Triathlon Club,14:19,1:26,38:56,0:52,20:38,1:16:11
+44,130,"Corless, Mary",,8,Female,Tri Lakes Triathlon Club,12:12,1:34,39:16,1:21,22:07,1:16:30
+45,107,"Murphy, Deirdre",,9,Female,Wicklow TC,12:31,1:22,40:58,0:58,21:01,1:16:50
+46,154,"Flood, Paul",,37,Open,Kilkenny Triathlon Club,15:08,1:16,39:02,1:10,20:32,1:17:08
+47,197,"Connaghan, John",,38,Open,Olympian Triathlon Club,14:06,1:07,40:02,0:45,21:14,1:17:14
+48,181,"Bohan, Aisling",,10,Female,Trilogy Triathlon Club,13:11,1:33,39:16,0:53,22:41,1:17:34
+49,167,"McSwiggan, Michael",,39,Open,Portmarnock TC,15:53,1:50,38:58,1:10,19:45,1:17:36
+50,163,"McHale, Maurice",,40,Open,Fingal Triathlon Club,14:07,3:05,38:46,1:06,20:37,1:17:41
+51,210,"Cumiskey, Clodagh",,11,Female,Liquid Motion TC,14:21,1:10,40:07,0:43,21:35,1:17:56
+52,256,"O Donnell, Colin",,41,Open,Galway Triathlon Club,11:38,1:46,42:49,1:38,20:08,1:17:59
+53,120,"Dunne, Liam",,42,Open,Trilogy Triathlon Club,14:33,1:59,41:14,0:56,19:43,1:18:25
+54,194,"Walls, Michael",,43,Open,,14:48,1:25,41:19,1:09,19:53,1:18:34
+55,350,"Mc Nerney, Brendan",,44,Open,,15:25,1:50,39:47,0:57,20:44,1:18:43
+56,355,"Coughlan, Kevin",,45,Open,Predator Triathlon Club,12:40,1:27,39:52,1:12,23:35,1:18:46
+57,383,"McGinley, Sean",,46,Open,247 Letterkenny Triathlon Club,10:46,1:06,35:17,0:42,31:00,1:18:51
+58,162,"Kirwan, Gearoid",,47,Open,Lough Key Triathlon Club,14:19,2:11,42:12,0:51,19:23,1:18:56
+59,364,"Kelly, Fiona",,12,Female,Wicklow TC,11:52,2:17,40:56,1:40,22:16,1:19:01
+60,405,"Gallagher, Derek",,48,Open,,16:04,1:43,38:38,1:04,21:39,1:19:08
+61,310,"Broderick, Ronan",,49,Open,Belpark Triathlon Club,15:11,2:44,42:12,1:02,18:00,1:19:09
+62,332,"McGuinness, Garrett",,50,Open,Athlone Triathlon Club,16:39,2:28,34:52,1:58,23:15,1:19:12
+63,255,"Walsh, Gabriel",,51,Open,Galway Triathlon Club,14:10,1:13,40:46,0:54,22:10,1:19:13
+64,244,"Davis, Zoë",,13,Female,Westport TC,11:01,1:10,42:52,0:55,23:30,1:19:28
+65,387,"Deane, Barry",,52,Open,Ennis Triathlon Club,13:36,1:31,40:04,1:33,22:44,1:19:28
+66,278,"Ludden, Alan",,53,Open,Portmarnock TC,13:51,1:55,40:45,0:43,22:32,1:19:46
+67,287,"Scanlan, Karl",,54,Open,Cork Triathlon Club,15:07,2:01,41:13,1:19,20:32,1:20:12
+68,206,"Bertrand, Lea",,14,Female,Galway Triathlon Club,11:46,2:16,45:04,0:27,20:52,1:20:25
+69,292,"Kolchanov, Mika",,55,Open,Westport TC,12:49,1:50,41:39,1:12,23:16,1:20:46
+70,379,"Murillo, David",,55,Open,,13:56,1:38,40:59,0:49,23:24,1:20:46
+71,275,"McHugh, Morgan",,57,Open,Galway Triathlon Club,14:44,1:21,40:38,0:41,23:28,1:20:52
+72,144,"Mcdermott, Lucy",,15,Female,Omagh TC,14:35,1:20,42:29,0:51,21:44,1:20:59
+73,243,"Lally, Elaine",,16,Female,Lanesboro Triathlon Club,11:52,1:28,43:11,0:54,23:49,1:21:14
+74,118,"Humes, Gary",,58,Open,Peninsula Triathlon Club,15:34,2:11,39:30,1:04,22:56,1:21:15
+75,263,"Conneely, Enda",,59,Open,Galway Triathlon Club,14:46,1:43,42:50,1:00,21:04,1:21:23
+76,254,"Coleman, Mark",,60,Open,Athlone Triathlon Club,14:53,1:37,40:14,1:10,23:39,1:21:33
+77,138,"Nic Shamhrain, Aoife",,17,Female,Belpark Triathlon Club,13:15,1:07,43:55,0:35,22:52,1:21:44
+78,105,"O Laoi, Ciaran",,61,Open,Galway Triathlon Club,14:39,1:43,43:20,0:54,21:18,1:21:54
+79,176,"Flanagan, Wayne",,62,Open,Athlone Triathlon Club,13:09,1:40,45:07,0:52,21:23,1:22:11
+80,190,"FitzGerald, Conor",,63,Open,Wicklow TC,13:29,1:48,43:28,0:59,22:57,1:22:41
+81,342,"Ryan, Siobhán",,18,Female,Tri Lakes Triathlon Club,12:58,1:39,43:37,0:56,23:51,1:23:01
+82,333,"Holmes, Patrice",,19,Female,Cork Triathlon Club,11:46,1:41,47:08,1:21,21:12,1:23:08
+83,335,"Hanbidge, Andrew",,64,Open,Carlow TC,14:47,2:09,43:37,1:21,21:20,1:23:14
+84,250,"McNicholl, Brian",,65,Open,,13:33,1:50,42:48,0:47,24:22,1:23:20
+85,191,"Wallnutt, John",,66,Open,Portmarnock TC,13:06,1:21,46:29,0:53,21:38,1:23:27
+86,149,"Murphy, Grace",,20,Female,Liquid Motion TC,15:56,1:43,40:31,1:02,24:19,1:23:31
+87,349,"Flynn, Colm",,67,Open,AMS Triathlon,15:32,2:34,43:11,0:53,21:22,1:23:32
+88,183,"Heffernan, Peter",,68,Open,Trilogy Triathlon Club,14:03,1:46,44:59,0:55,21:53,1:23:36
+89,270,"Mclaughlin, Peter",,69,Open,Northwest TC,15:01,1:37,43:03,1:02,23:04,1:23:47
+90,151,"McGuinness, Eoin",,70,Open,Lanesboro Triathlon Club,15:26,1:13,43:06,1:00,23:09,1:23:54
+91,336,"Thorpe, Aoife",,21,Female,Belpark Triathlon Club,12:23,1:48,47:28,0:26,21:56,1:24:01
+92,317,"Grogan, Pamela",,21,Female,Trilogy Triathlon Club,17:10,1:53,40:36,1:04,23:18,1:24:01
+93,252,"Mcswiggan, Niamh",,23,Female,Portmarnock TC,13:26,2:03,42:49,1:13,24:34,1:24:05
+94,341,"O'Dea, Iarlagh",,24,Female,Tri Lakes Triathlon Club,15:18,1:57,43:09,1:17,22:43,1:24:24
+95,199,"McAree, Niall",,71,Open,,14:41,2:28,41:33,3:41,22:02,1:24:25
+96,394,"McArdle, Brendan",,71,Open,,14:47,2:01,45:10,1:18,21:09,1:24:25
+97,165,"Ramsey, Mark",,73,Open,Portmarnock TC,14:27,1:38,43:20,1:15,23:48,1:24:28
+98,393,"Sinnott, Tom",,74,Open,Belpark Triathlon Club,14:04,3:11,43:35,1:00,22:50,1:24:40
+99,386,"Kelly, Fiona",,25,Female,Liquid Motion TC,16:01,1:42,43:04,1:05,22:51,1:24:43
+100,215,"Cellarius, Claire",,26,Female,Tri Lakes Triathlon Club,14:26,2:03,43:28,0:59,23:49,1:24:45
+101,235,"Hynes, Adam",,75,Open,AMS Triathlon,14:57,2:40,42:41,1:00,23:28,1:24:46
+102,113,"Flynn, Conor",,76,Open,Naas TC,15:44,1:58,44:05,1:05,21:55,1:24:47
+103,142,"Wall, Amy",,27,Female,Galway Triathlon Club,15:39,2:11,43:28,0:49,22:40,1:24:47
+104,111,"Triggs, Howard",,77,Open,,14:32,1:39,40:39,1:14,26:47,1:24:51
+105,328,"Delhoute, Louis",,78,Open,,17:34,2:30,41:01,1:18,22:45,1:25:08
+106,174,"Kavanagh, Lorna",,28,Female,Naas TC,15:01,2:15,43:28,0:55,23:36,1:25:15
+107,334,"Desmond, Ellen",,29,Female,Cork Triathlon Club,13:19,1:40,45:05,0:58,24:26,1:25:28
+108,279,"Cope, Lydia",,30,Female,Carlow TC,15:06,2:00,46:07,1:00,21:28,1:25:41
+109,267,"Hartigan, Helen",,31,Female,Limerick TC,15:50,1:35,43:56,0:57,23:34,1:25:52
+110,262,"Donohue, Eoghan",,79,Open,,12:53,2:38,47:13,1:12,21:58,1:25:54
+111,378,"Buckley, Elizabeth",,32,Female,,17:35,1:40,44:07,1:24,21:22,1:26:08
+112,195,"Hamill, Ruth",,33,Female,Templemore Triathlon Club,15:15,2:34,43:54,1:28,22:58,1:26:09
+113,327,"Corcoran, Monica",,34,Female,Trilogy Triathlon Club,16:20,2:10,43:35,1:19,22:47,1:26:11
+114,202,"McBride, Fiona",,35,Female,Wicklow TC,15:05,1:56,45:01,1:01,23:27,1:26:30
+115,234,"Schmeichel, Marcin",,80,Open,Galway Triathlon Club,18:05,3:10,41:21,1:18,22:39,1:26:33
+116,175,"Gallagher, Paddy",,81,Open,Tri Lakes Triathlon Club,16:10,3:42,41:25,1:52,23:39,1:26:48
+117,324,"Ryan Rowe, Bernadette",,36,Female,Cobh Triathlon Club,13:41,2:05,45:15,1:28,24:28,1:26:57
+118,315,"Carroll, Michael",,82,Open,Tullamore TC,15:46,1:50,43:09,1:12,25:03,1:27:00
+119,214,"Mc Caffrey, Ted",,83,Open,MSC Tri,15:02,3:01,42:17,1:52,24:49,1:27:01
+120,382,"courtney, emma",,37,Female,Belpark Triathlon Club,12:35,2:01,47:59,1:17,23:18,1:27:10
+121,203,"Devery, Terry",,84,Open,Cobh Triathlon Club,15:48,2:24,42:27,0:56,25:42,1:27:17
+122,155,"Harries, Stuart",,85,Open,,16:32,2:18,43:48,1:09,23:53,1:27:40
+123,265,"Wibault, Timothee",,86,Open,Galway Triathlon Club,15:38,3:59,44:00,1:14,23:06,1:27:57
+124,362,"McGarry, James",,87,Open,Galway Triathlon Club,16:17,0:20,50:22,0:10,20:49,1:27:58
+125,398,"Mac Dubhghaill, Maidhc",,88,Open,,15:10,2:46,45:41,0:38,23:45,1:28:00
+126,291,"Dixon, Chris",,89,Open,West Clare Triathlon Club,15:14,2:24,45:49,1:43,22:52,1:28:02
+127,322,"O Dubhghaill, Fiachra",,90,Open,Galway Triathlon Club,15:56,3:05,47:09,0:59,20:59,1:28:08
+128,187,"Bolton, Craig",,91,Open,Piranha Triathlon Club,17:21,2:14,43:49,1:13,23:39,1:28:16
+129,135,"Brennan, Rory",,92,Open,Galway Triathlon Club,12:57,2:12,44:19,1:16,27:46,1:28:30
+130,158,"Murphy, Gavin",,93,Open,Galway Triathlon Club,13:25,3:18,46:51,1:29,23:28,1:28:31
+131,373,"Kazimierczak, Adrianna",,38,Female,,13:18,2:33,49:32,0:44,22:24,1:28:31
+132,153,"Byrne, Paul",,94,Open,Portmarnock TC,14:06,2:12,44:07,1:22,26:51,1:28:38
+133,368,"Bartley, Eibhlis",,39,Female,Waterford Triathlon Club,11:30,1:30,48:57,0:31,26:18,1:28:46
+134,395,"Lyons, Jennifer",,40,Female,Portmarnock TC,14:37,2:02,45:53,1:03,25:15,1:28:50
+135,171,"Murphy, Claire",,41,Female,Portmarnock TC,17:32,1:59,44:48,1:00,23:44,1:29:03
+136,119,"O Regan, Gerard",,95,Open,Killarney TC,16:15,2:46,45:53,0:33,23:55,1:29:22
+137,177,"O Donoghue, Edward",,96,Open,Kilkenny Triathlon Club,19:27,1:36,42:34,1:05,24:45,1:29:27
+138,410,"Blake, Dara",,42,Female,Galway Triathlon Club,15:28,2:25,49:47,0:59,20:57,1:29:36
+139,281,"Mannion, Stephen",,97,Open,Athlone Triathlon Club,14:35,2:10,48:25,0:48,23:42,1:29:40
+140,295,"Thomas-Reaney, Emmet",,98,Open,Galway Triathlon Club,15:52,2:47,46:04,0:40,24:21,1:29:44
+141,148,"Sweeney, Torres",,43,Female,Naas TC,16:19,1:39,45:00,1:03,25:45,1:29:46
+142,396,"Howard, Joanne",,44,Female,Westport TC,15:44,2:15,43:38,1:17,26:54,1:29:48
+143,375,"Lawlor, Dara",,99,Open,Portmarnock TC,14:57,1:55,45:41,1:30,25:46,1:29:49
+144,241,"Golden, Colm",,100,Open,Sligo Tri Club,14:42,3:15,44:31,1:18,26:13,1:29:59
+145,314,"Carr, Paul",,101,Open,,15:49,2:18,47:37,0:43,23:37,1:30:04
+146,337,"Drea, Dermot",,102,Open,Tullamore TC,13:54,2:07,46:49,1:23,25:59,1:30:12
+147,186,"Kennedy, Joanne",,45,Female,Piranha Triathlon Club,15:10,1:55,46:44,0:50,25:33,1:30:12
+148,160,"McCool, Vera",,46,Female,Midland TC,15:33,1:27,45:11,1:33,26:29,1:30:13
+149,230,"Connon, Diarmuid",,103,Open,Athlone Triathlon Club,14:50,1:44,49:11,0:35,23:58,1:30:18
+150,377,"Dunne, Brian",,104,Open,AMS Triathlon,16:22,2:26,45:37,0:57,25:01,1:30:23
+151,248,"Mc Grath, Alan",,105,Open,,15:11,2:53,46:19,1:38,24:27,1:30:28
+152,213,"Carroll, Keith",,106,Open,Athlone Triathlon Club,17:03,3:28,43:07,1:54,24:59,1:30:31
+153,407,"Murphy, Joanne",,47,Female,Galway Triathlon Club,15:56,2:39,43:02,1:28,27:27,1:30:32
+154,289,"O’Brien, Orlagh",,48,Female,Belpark Triathlon Club,13:17,2:20,49:18,1:19,24:29,1:30:43
+155,345,"King, Martin",,107,Open,Tri Lakes Triathlon Club,16:53,2:13,45:19,1:32,24:50,1:30:47
+156,222,"Heery, Conor",,108,Open,,14:00,3:03,48:08,0:56,24:44,1:30:51
+157,238,"Jennings, Karl",,109,Open,,15:04,3:12,51:28,0:52,20:18,1:30:54
+158,390,"O Toole, Ellie",,49,Female,,16:01,3:06,46:04,2:08,23:40,1:30:59
+159,169,"Oates, Paraic",,110,Open,Galway Triathlon Club,15:59,2:56,45:54,1:51,24:28,1:31:08
+160,211,"Wyer, Nora",,50,Female,Naas TC,15:21,2:56,46:47,1:14,24:53,1:31:11
+161,392,"Starr, Michael",,111,Open,Galway Triathlon Club,15:11,2:43,45:34,1:31,26:15,1:31:14
+162,408,"O’keeffe, Rebecca",,51,Female,,14:19,2:26,50:17,0:40,23:35,1:31:17
+163,200,"Daniels, Ian",,112,Open,Limerick TC,13:46,3:13,46:13,0:37,27:30,1:31:19
+164,260,"Kavanagh, Ronan",,113,Open,Naas TC,17:28,1:54,45:29,0:56,25:34,1:31:21
+165,276,"Culleton, Roise",,52,Female,Trilogy Triathlon Club,15:23,1:57,47:23,0:57,25:42,1:31:22
+166,307,"Burke, Finola",,53,Female,Portmarnock TC,15:52,2:12,46:18,1:32,25:42,1:31:36
+167,112,"Cushen, Ali",,114,Open,Naas TC,16:00,2:23,45:48,0:51,26:39,1:31:41
+168,259,"Moylan, Adam",,115,Open,Galway Triathlon Club,22:24,2:44,45:42,1:20,19:40,1:31:50
+169,150,"Doyle, Brendan",,116,Open,Athlone Triathlon Club,15:12,1:50,47:42,1:03,26:11,1:31:58
+170,117,"Byers, Helen",,54,Female,Olympian Triathlon Club,19:58,2:19,44:59,1:11,23:42,1:32:09
+171,280,"Whelan, Gavin",,117,Open,Galway Triathlon Club,12:09,3:55,51:15,0:54,24:03,1:32:16
+172,385,"Young, Elizabeth",,55,Female,Liquid Motion TC,15:17,1:52,44:43,1:23,29:10,1:32:25
+173,326,"Worrall, Alma",,56,Female,Cobh Triathlon Club,13:38,2:14,49:07,1:30,26:06,1:32:35
+174,237,"Mangan, Cathal",,118,Open,,17:38,2:09,46:12,1:15,26:05,1:33:19
+175,290,"Buckley, Anna",,57,Female,Other - Not Listed,15:58,2:28,47:35,1:42,25:38,1:33:21
+176,344,"Keavey, Elizabeth",,58,Female,Tri Lakes Triathlon Club,16:45,3:33,44:55,2:05,26:37,1:33:55
+177,114,"Pender, Audrey",,59,Female,Wicklow TC,16:37,2:01,46:48,2:00,26:53,1:34:19
+178,136,"Wall, Miriam",,60,Female,Galway Triathlon Club,16:28,2:08,47:08,1:00,27:53,1:34:37
+179,403,"Thomas, Niamh",,61,Female,Castlebar Tri club,14:00,2:13,51:45,2:18,24:22,1:34:38
+180,298,"Gaynor, Peter",,119,Open,,19:49,4:45,44:27,1:38,24:00,1:34:39
+181,277,"Ludden, Clare-Anne",,62,Female,Portmarnock TC,14:43,3:32,49:08,1:18,26:08,1:34:49
+182,124,"Murray, Declan",,120,Open,Portmarnock TC,16:13,3:05,49:47,1:51,23:56,1:34:52
+183,198,"Brannigan, James",,121,Open,,16:25,4:55,47:35,1:54,24:22,1:35:11
+184,102,"McCarthy, Aisling",,63,Female,,16:29,3:29,50:13,0:46,24:31,1:35:28
+185,134,"Maher, Gerry",,122,Open,Sligo Tri Club,16:13,3:58,48:14,1:38,25:31,1:35:34
+186,338,"Conneely, Ruth",,64,Female,Westport TC,18:15,2:42,50:33,0:47,23:30,1:35:47
+187,366,"Gavin, Sadhbh",,65,Female,,14:29,2:49,48:24,0:48,29:30,1:36:00
+188,216,"Meagher, Liam",,123,Open,PJ Collins Triathlon,20:44,2:22,45:48,1:42,25:35,1:36:11
+189,166,"Ramsey, SallyAnne",,66,Female,Portmarnock TC,14:59,2:54,47:01,1:33,29:45,1:36:12
+190,319,"Egan, Lorraine",,67,Female,Galway Triathlon Club,15:47,2:57,49:57,0:09,27:34,1:36:24
+191,283,"Corey, Ronan",,124,Open,,14:10,3:17,53:56,1:04,23:57,1:36:24
+192,261,"Kavanagh, Madeleine",,68,Female,Trilogy Triathlon Club,16:16,2:14,48:15,1:22,28:46,1:36:53
+193,240,"Copeland, Paul",,125,Open,Athlone Triathlon Club,15:24,2:20,51:21,1:11,26:40,1:36:56
+194,303,"Curran, Aoife",,69,Female,Galway Triathlon Club,15:34,3:21,51:31,0:45,25:55,1:37:06
+195,286,"O’Byrne, Luke",,126,Open,Westport TC,14:40,2:25,50:28,0:58,28:56,1:37:27
+196,249,"Greene, Ciaran",,127,Open,,15:27,2:49,50:24,0:56,28:02,1:37:38
+197,294,"Coakley, Cliodhna",,70,Female,Westport TC,14:12,2:29,50:49,0:43,29:29,1:37:42
+198,217,"Mac Hale, David",,128,Open,,13:19,3:40,51:14,0:10,29:22,1:37:45
+199,227,"Murray Hickey, Clare",,71,Female,Wicklow TC,16:22,2:39,49:44,1:44,27:23,1:37:52
+200,218,"Mac Hale, John",,129,Open,,23:07,4:20,45:45,1:11,23:51,1:38:14
+201,391,"Keogh, Tracy",,72,Female,Galway Triathlon Club,17:04,3:08,49:16,0:42,28:05,1:38:15
+202,233,"Cavey, Christabel",,73,Female,Belpark Triathlon Club,16:08,2:23,51:42,1:08,27:06,1:38:27
+203,274,"Gillane, John",,130,Open,,15:38,3:35,53:53,0:39,24:51,1:38:36
+204,189,"Dever, Barry",,131,Open,Galway Triathlon Club,19:03,2:23,51:40,1:17,24:22,1:38:45
+205,389,"Ward, Patrick",,132,Open,,15:38,3:08,51:53,1:38,26:30,1:38:47
+206,301,"Woolley, Nick",,133,Open,Wicklow TC,15:03,2:37,52:55,0:59,27:19,1:38:53
+207,321,"Dillon, Bernie",,74,Female,Athy Triathlon Club,16:49,2:36,47:57,1:49,29:46,1:38:57
+208,358,"O Brien McCord, Patricia",,75,Female,Racing 795 TC,18:46,5:18,49:00,2:27,23:31,1:39:02
+209,139,"Johnson, Jenny",,76,Female,Sligo Tri Club,12:47,1:44,53:49,0:50,29:58,1:39:08
+210,147,"Trindade, Ricardo",,134,Open,,15:22,5:18,50:10,1:33,26:52,1:39:15
+211,129,"O Keeffe, Jacinta",,77,Female,Midland TC,17:49,2:09,50:13,1:50,27:16,1:39:17
+212,313,"Clarke, Katie",,78,Female,Galway Triathlon Club,15:35,3:08,53:56,0:39,26:31,1:39:49
+213,137,"Allen, Aideen",,79,Female,Galway Triathlon Club,14:38,2:36,47:14,1:57,33:49,1:40:14
+214,161,"McCool, Paul",,135,Open,Midland TC,15:35,2:19,51:37,0:54,29:51,1:40:16
+215,299,"McDonnell, David",,136,Open,Castlebar Tri Club,19:13,3:01,50:11,2:59,25:05,1:40:29
+216,343,"Byrne, Fergal",,137,Open,Tri Lakes Triathlon Club,22:02,3:32,47:16,1:36,26:18,1:40:44
+217,228,"Cassidy, Patrick",,138,Open,Athlone Triathlon Club,15:04,2:58,48:48,1:27,32:31,1:40:48
+218,251,"Dunne, Philip",,139,Open,Athlone Triathlon Club,18:52,2:06,52:15,0:42,27:20,1:41:15
+219,121,"Morley, Kieran",,140,Open,,15:36,6:56,48:58,3:56,25:56,1:41:22
+220,370,"Sheridan, Sabrina",,80,Female,Galway Triathlon Club,16:55,2:53,52:13,2:20,27:10,1:41:31
+221,245,"Reynolds, Evelyn",,81,Female,Galway Triathlon Club,15:48,2:49,55:02,1:16,26:55,1:41:50
+222,346,"Divilly, Martin",,141,Open,Galway Triathlon Club,13:55,1:39,38:53,6:48,40:49,1:42:04
+223,143,"Aksungurlu, Tuncay",,142,Open,,18:21,3:24,52:40,1:35,26:18,1:42:18
+224,159,"Strachan, Liam",,143,Open,,16:25,4:38,51:09,1:13,28:57,1:42:22
+225,304,"Crowley, Sinead",,82,Female,Galway Triathlon Club,17:20,2:57,55:19,0:34,27:00,1:43:10
+226,353,"Molloy, Louise",,83,Female,Naas TC,15:02,2:19,52:03,1:34,32:13,1:43:11
+227,266,"Moran, Marie",,84,Female,Galway Triathlon Club,18:08,2:34,50:55,1:53,30:10,1:43:40
+228,359,"Tobin, Joan",,85,Female,Athlone Triathlon Club,14:48,2:57,58:26,0:58,26:35,1:43:44
+229,357,"Feirtear, Karina",,86,Female,,18:11,4:36,51:42,1:42,27:36,1:43:47
+230,381,"Adams, Devin",,87,Female,,17:21,5:24,54:48,0:58,25:21,1:43:52
+231,297,"Purcell, AnneMarie",,88,Female,Wexford TC,17:49,3:11,52:02,1:49,29:04,1:43:55
+232,325,"Dolan, David",,144,Open,Athlone Triathlon Club,16:30,4:13,53:40,1:49,27:43,1:43:55
+233,293,"Uí Chonghaile, Máire",,89,Female,Mallow TC,20:17,2:45,52:49,0:51,27:22,1:44:04
+234,225,"Meagher, Patrick",,145,Open,Galway Triathlon Club,26:11,3:52,48:50,0:59,24:25,1:44:17
+235,309,"Dodd, Emmet",,146,Open,,20:19,4:35,53:38,0:46,26:01,1:45:19
+236,212,"Ni Chriochain, Majella",,90,Female,Galway Triathlon Club,19:46,4:14,50:21,1:53,29:14,1:45:28
+237,369,"Kavanagh, Ryan",,147,Open,Galway Triathlon Club,17:17,6:07,54:29,1:50,26:25,1:46:08
+238,329,"Oneill, Edward",,148,Open,,17:03,3:30,55:49,1:19,29:54,1:47:35
+239,122,"Baneham, Eric",,149,Open,,17:02,5:32,52:06,4:34,28:57,1:48:11
+240,231,"Keena, Edward",,150,Open,Athlone Triathlon Club,17:23,3:23,57:56,1:07,28:31,1:48:20
+241,271,"Murray, Pauline",,91,Female,Galway Triathlon Club,15:31,4:25,57:34,2:57,27:54,1:48:21
+242,320,"Braunstein, Sofia",,92,Female,,19:01,5:41,54:47,1:08,27:59,1:48:36
+243,264,"Hughes, Claire",,93,Female,Galway Triathlon Club,21:37,4:29,52:26,3:24,27:06,1:49:02
+244,401,"Brady, Orla",,94,Female,,18:40,6:03,53:50,1:21,29:15,1:49:09
+245,296,"Delaney, Ciaran",,151,Open,,17:48,3:17,57:04,0:47,30:32,1:49:28
+246,331,"Mullins, Sean",,152,Open,,15:00,4:59,54:25,1:51,34:27,1:50:42
+247,406,"Heffernan, Connor",,153,Open,AMS Triathlon,19:17,3:15,51:21,2:40,34:29,1:51:02
+248,164,"O'Shea, Edel",,95,Female,Limerick TC,17:29,4:56,55:47,1:16,31:42,1:51:10
+249,110,"Mc cormack, Jamie",,154,Open,Pulse TC,17:24,3:42,1:01:59,2:23,28:37,1:54:05
+250,316,"Coppinger, Cora",,96,Female,Galway Triathlon Club,15:09,5:20,57:35,1:36,34:38,1:54:18
+251,173,"O’Toole, Elizabeth",,97,Female,,18:32,6:05,1:00:19,0:54,29:56,1:55:46
+252,318,"Foden, Eadaoin",,98,Female,Galway Triathlon Club,15:22,2:08,1:12:18,0:43,26:19,1:56:50
+253,399,"Mitchell, Ruth",,99,Female,,18:37,2:48,1:04:24,0:12,31:41,1:57:42
+254,372,"Lyne, Maurice",,155,Open,,16:08,4:25,1:10:39,0:51,27:01,1:59:04
+255,104,"Moloney, Anne",,100,Female,Piranha Triathlon Club,16:20,3:06,58:38,1:02,41:50,2:00:56
+256,229,"Gorczyca, Marta",,101,Female,Athlone Triathlon Club,19:37,4:24,1:02:22,3:25,37:17,2:07:05
+257,306,"Doran, Stephen",,156,Open,,20:49,4:06,59:04,1:17,44:42,2:09:58
+258,201,"Wilson, Ann",,102,Female,Piranha Triathlon Club,24:09,6:13,1:04:48,1:20,40:40,2:17:10
+,126,"Logue, Frances",,,Female,,,,,,,
+,131,"Leonard, Maeve",,,Female,,,,,,,
+,132,"Linda, Reilly",,,Female,,,,,,,
+,133,"Sinnott, Margaret",,,Female,Invictus Tri Squad Belfast,,,,,,
+,140,"Moran, Aoife",,,Female,,,,,,,
+,156,"Neumerzhitskaya, Alina",,,Female,Cork Triathlon Club,,,,,,
+,185,"Barry, Maura",,,Female,Cork Triathlon Club,,,,,,
+,204,"Kelly, Laura",,,Female,,,,,,,
+,205,"O'Rahelly, Jane",,,Female,,,,,,,
+,253,"Delany, Sinead",,,Female,Drogheda Triathlon Club,,,,,,
+,323,"Pete, Stella",,,Female,,,,,,,
+,347,"Murray, Aislinn",,,Female,,,,,,,
+,384,"Hargadon, Antoinette",,,Female,Liquid Motion TC,,,,,,
+,285,"Culleton, Albert",,,Open,Trilogy Triathlon Club,15:21,,,,,
+,103,"Tiernan, Danny",,,Open,,,,,,,
+,106,"King, Tom",,,Open,,,,,,,
+,146,"Joynt, Chris",,,Open,Wicklow TC,,,,,,
+,157,"O' Mahony, Niall",,,Open,Belpark Triathlon Club,,,,,,
+,168,"Connolly, Keith",,,Open,,,,,,,
+,172,"Davis, Dean",,,Open,Keoghfit,,,,,,
+,178,"McKenna, Stewart",,,Open,T3 Triathlon Club,,,,,,
+,180,"Smart, Ronnie",,,Open,Olympian Triathlon Club,,,,,,
+,184,"Butler, Michael",,,Open,Trilogy Triathlon Club,,,,,,
+,192,"O'Brien, Barry",,,Open,Mallow TC,,,,,,
+,196,"Murray, Oisin",,,Open,,,,,,,
+,207,"Budds, Eoin",,,Open,Predator Triathlon Club,,,,,,
+,208,"Wallace, Gearoid",,,Open,,,,,,,
+,209,"Revill, Harry",,,Open,,,,,,,
+,219,"Feeney, Brian",,,Open,,,,,,,
+,220,"Gallacher, Paul",,,Open,,,,,,,
+,246,"Galvin, Vincent",,,Open,Pulse TC,,,,,,
+,268,"Chambers, Stephen",,,Open,South Coast TC,,,,,,
+,282,"Halpenny, Darragh",,,Open,Belpark Triathlon Club,,,,,,
+,300,"Murray, Ryan",,,Open,,,,,,,
+,311,"Daly, Paul",,,Open,Predator Triathlon Club,,,,,,
+,340,"Gallagher, Niall",,,Open,Cork Triathlon Club,,,,,,
+,348,"De Brun, Sean",,,Open,,,,,,,
+,351,"Phelan, Daire",,,Open,Trilogy Triathlon Club,,,,,,
+,354,"Benson, Karl",,,Open,Belpark Triathlon Club,,,,,,
+,170,"McMahon, Sean",,,Open,Piranha Triathlon Club,,,,,,

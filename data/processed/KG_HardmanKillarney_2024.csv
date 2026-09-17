@@ -1,0 +1,110 @@
+Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
+1,39,Nathan Ward,M30-34,1,Open,,1:00:20,1:52,4:53:20,2:13,3:33:45,9:31:32
+2,104,Ronan Potterton,M25-29,2,Open,Kildalkey Tri Club,1:06:48,1:45,5:15:21,1:17,3:13:01,9:38:14
+3,11,Paul Ogle,M40-44,3,Open,Waterford Triathlon Club,1:05:55,1:48,5:05:39,2:30,3:35:23,9:51:17
+4,1,Stephen Rowan,M35-39,4,Open,Pulse TC,1:09:29,1:42,5:14:27,1:13,3:35:39,10:02:32
+5,10,Johan Muller,M25-29,5,Open,Kilkenny Triathlon Club,1:14:54,1:46,5:26:57,1:32,3:22:25,10:07:36
+6,23,Enda McBrearty,M45-49,6,Open,,1:19:50,3:45,5:26:10,3:07,3:28:25,10:21:20
+7,54,Richard Wynne,M40-44,7,Open,,1:19:32,5:06,7:55:00,7:49,1:03:54,10:31:23
+8,26,Brian Sexton,M45-49,8,Open,Bottecchia Cycling Club,1:16:29,2:07,5:28:05,3:10,4:02:27,10:52:20
+9,60,Nicholas Lolli,M30-34,9,Open,Golden Gate Triathlon Club,1:09:16,5:04,5:59:24,6:28,3:48:02,11:08:17
+10,29,Samuel Carr,M20-24,10,Open,,1:10:09,5:36,5:42:04,1:53,4:20:04,11:19:49
+11,61,John Donovan,M30-34,11,Open,,1:34:40,7:34,5:56:32,4:07,3:48:18,11:31:12
+12,21,James Godfrey,M40-44,12,Open,,1:10:08,7:07,5:49:40,6:21,4:21:23,11:34:42
+13,64,Martin O Neill,M45-49,13,Open,,1:06:33,0:45,6:12:22,1:01,4:15:02,11:35:44
+14,92,Colm Deasy,M30-34,14,Open,,1:27:15,5:38,6:18:57,5:04,3:45:28,11:42:25
+15,28,John Paul Devine,M60-64,15,Open,Cork Tri Club,1:39:14,13:05,5:42:41,6:59,4:00:46,11:42:46
+16,32,Paddy Potterton,M30-34,16,Open,Kildalkey Triathlon Club,1:15:14,2:35,5:56:00,2:20,4:28:18,11:44:28
+17,105,Colm Mac Daid,M50-54,17,Open,,1:20:09,4:03,5:48:50,1:57,4:35:56,11:50:57
+18,68,Ruairi McGrath,M40-44,18,Open,Blackwater Triathlon Club,1:15:52,5:17,5:41:47,3:52,4:44:22,11:51:11
+19,108,Colin Fairweather,M30-34,19,Open,,1:18:16,5:51,5:48:24,3:53,4:36:48,11:53:15
+20,18,Mick Devine,M25-29,20,Open,,1:41:29,9:54,5:51:19,4:30,4:13:56,12:01:10
+21,78,Ross Sullivan,M35-39,21,Open,Thames Turbo,1:30:30,7:35,6:07:42,6:27,4:11:28,12:03:44
+22,65,Gavin OConnor,M45-49,22,Open,Cromane Tri Club,1:20:31,4:23,5:48:13,4:52,4:48:24,12:06:26
+23,94,Oisin Osullivan,M20-24,23,Open,,1:00:22,3:13,5:28:39,8:22,5:27:30,12:08:08
+24,34,Joseph Hemsted,M35-39,24,Open,,1:15:46,6:19,6:16:43,3:39,4:28:02,12:10:30
+25,69,Conal Sexton,M45-49,24,Open,,1:25:13,3:36,6:15:45,5:14,4:20:40,12:10:30
+26,51,Jonathon Backus,M35-39,26,Open,,1:23:15,3:55,6:31:18,2:13,4:18:52,12:19:36
+27,49,Stephen Murphy,M40-44,27,Open,MYPROCOACH,1:19:13,4:28,5:39:47,4:02,5:31:36,12:39:08
+28,80,Maxim Bondarenko,M30-34,28,Open,,1:25:35,5:57,6:54:51,5:48,4:13:25,12:45:38
+29,109,Lilly ODea,F45-49,1,Female,Boru Tri,1:22:31,1:58,6:32:32,1:51,4:47:34,12:46:28
+30,13,David Godfrey,M45-49,29,Open,Barracuda Tr,1:35:57,8:23,6:23:30,5:20,4:33:38,12:46:50
+31,70,Dean Darcy,M25-29,30,Open,No club,1:34:42,5:23,6:57:54,3:13,4:06:00,12:47:14
+32,63,James Cullen,M25-29,30,Open,,1:34:44,5:21,6:57:53,3:15,4:06:00,12:47:14
+33,25,Kevin Doyle,M50-54,32,Open,pulse,1:31:18,6:55,6:32:35,5:23,4:31:43,12:47:55
+34,87,Edward Power,M30-34,33,Open,,1:21:49,4:27,6:24:37,6:19,4:54:50,12:52:04
+35,91,Sinead Foley,F40-44,2,Female,Kilkenny Triathlon Club,1:28:15,4:01,6:58:36,2:26,4:23:47,12:57:07
+36,59,Sebastian Siwek,M45-49,34,Open,,1:32:31,4:49,6:30:09,5:34,4:55:50,13:08:54
+37,57,Artur Nowak,M50-54,35,Open,Tralee Triathlon Club,1:37:26,5:53,6:30:30,3:58,4:51:57,13:09:45
+38,52,Gianfranco Ghidini,M40-44,36,Open,Cromane Tri Club,1:30:19,4:59,6:29:33,5:01,5:03:09,13:13:04
+39,100,Ivan Kelleher,M50-54,37,Open,Cork Tri Club,1:18:06,4:28,6:05:54,7:05,5:47:40,13:23:15
+40,36,Tim Kiernan,M30-34,38,Open,,1:08:00,4:21,6:34:38,4:07,5:32:13,13:23:19
+41,96,Gavin Donovan,M30-34,39,Open,,1:18:44,6:29,7:35:00,3:40,4:23:46,13:27:41
+42,12,John Taylor,M65-69,40,Open,Thames Turbo Triathlon Club,1:24:59,6:38,6:14:12,6:27,5:35:31,13:27:48
+43,76,Pablo Marcos Corral,M50-54,41,Open,CLUB ATLETISMO-MTB BRIHUEGA,1:22:50,7:23,6:24:01,8:12,5:29:53,13:32:21
+44,101,Patrick Langton,M55-59,42,Open,Kilkenny tri club,1:10:05,7:08,6:38:18,10:08,5:34:25,13:40:06
+45,85,David Dolan,M45-49,43,Open,,1:24:10,4:38,7:07:16,4:30,5:00:48,13:41:24
+46,53,Rob Wynne,M35-39,44,Open,,1:48:56,7:51,7:03:27,5:23,4:42:21,13:48:00
+47,62,Jonathan Bull,M40-44,45,Open,Peninsula Triathlon Club,1:27:34,5:47,6:36:12,8:54,5:31:41,13:50:11
+48,93,Robert Larkin,M25-29,46,Open,Pulse Triathlon Club,1:33:16,6:44,7:19:51,4:27,4:51:20,13:55:40
+49,66,Liam Curran,M50-54,47,Open,Omagh Triathlon Club,1:20:18,6:57,7:02:14,3:20,5:25:26,13:58:18
+50,81,Michael Wells,M35-39,48,Open,,1:25:00,9:03,6:48:39,7:07,5:36:54,14:06:45
+51,73,Jonathan Mcbride,M50-54,49,Open,Tri limits,1:38:01,4:25,7:07:36,4:55,5:15:13,14:10:11
+52,47,Tj Carew,M40-44,50,Open,South Coast Tri,1:37:11,6:35,6:44:27,5:16,5:37:56,14:11:27
+53,95,Edward Casey,M35-39,51,Open,Tralee triathlon club,1:32:50,4:33,6:51:13,10:58,5:34:15,14:13:51
+54,56,Colm Mac Eoin,M50-54,52,Open,,1:27:51,6:09,6:33:52,6:31,6:00:11,14:14:36
+55,15,Paul O Connell,M50-54,53,Open,,1:40:32,8:50,7:34:33,7:44,4:48:13,14:19:53
+56,83,Richard Allen,M40-44,54,Open,,1:43:50,10:07,6:33:35,5:17,5:49:51,14:22:42
+57,37,Kim McCourt,F40-44,3,Female,Templemore Triathlon Club,1:43:18,5:29,7:24:03,3:50,5:06:52,14:23:34
+58,82,Mark Lee,M30-34,55,Open,,1:16:12,9:04,6:52:27,10:53,5:56:06,14:24:44
+59,77,John Neville,M45-49,56,Open,,1:19:31,3:19,6:56:59,4:06,6:03:50,14:27:48
+60,4,John Hogan,M50-54,57,Open,Mallow Tri Club,1:38:02,9:09,7:33:18,7:42,4:59:53,14:28:07
+61,75,Sean Monahan,M35-39,58,Open,,1:19:09,18:02,7:25:06,11:47,5:17:07,14:31:12
+62,74,Eoin Minagh,M25-29,59,Open,St brigids gaa roscommon,1:41:29,9:59,7:28:14,5:43,5:07:14,14:32:41
+63,5,Herman Manso,M55-59,60,Open,Lisburn triathlon club,2:03:16,12:28,7:02:11,9:07,5:05:38,14:32:42
+64,107,Erwin De Wilde,M60-64,61,Open,,1:11:34,10:03,7:15:53,3:49,5:54:12,14:35:34
+65,99,Karl Doran,M55-59,62,Open,,1:58:44,10:46,7:56:50,6:09,4:32:40,14:45:10
+66,71,Philip Ward,M45-49,63,Open,,1:45:27,11:09,7:20:10,3:54,5:33:40,14:54:22
+67,79,Neil Lavery,M50-54,64,Open,,1:41:46,5:29,7:16:21,5:05,5:46:17,14:55:00
+68,9,John Corkish,M55-59,65,Open,,1:19:43,5:35,6:55:15,14:20,6:24:02,14:58:58
+69,98,Clare Fitzpatrick,F50-54,4,Female,,1:40:12,5:51,7:30:40,5:10,5:41:41,15:03:35
+70,48,Steven Driesen,M50-54,66,Open,,1:58:54,10:24,7:33:23,11:36,5:09:17,15:03:35
+71,46,Graeme Jansen,M55-59,67,Open,,1:09:29,3:52,7:40:22,9:47,6:10:40,15:14:12
+72,44,David Lee,M30-34,68,Open,,1:07:55,8:20,6:43:50,9:37,7:11:49,15:21:33
+,14,Nick Elford,M45-49,,Open,,1:42:39,7:04,6:43:10,5:03,,
+,19,Edward John Bulfin,M65-69,,Open,,2:08:17,11:35,7:51:38,,,
+,27,Vanessa Fenton,F50-54,,Female,Piranha,1:09:56,5:44,5:55:58,3:02,,
+,35,David Scanlon,M35-39,,Open,,1:50:23,5:46,8:10:29,3:05,,
+,41,Ross Lacey,M35-39,,Open,TriTanium TC,1:40:09,9:06,8:07:26,6:16,,
+,42,Ciarain Kilcullen,M35-39,,Open,,1:19:36,4:34,5:33:35,4:39,,
+,43,William Murphy,M50-54,,Open,,1:33:25,6:45,7:10:49,10:04,,
+,67,Richie Plunkett,M55-59,,Open,Tritainium Triathlone Club,1:35:40,13:36,8:07:25,6:13,,
+,86,Cillian Moffat,M30-34,,Open,Team WattsUp,1:11:09,1:21,5:05:43,2:02,,
+,88,Mags Moran,F40-44,,Female,Crosshaven Tri Club,1:37:44,7:23,7:50:18,3:39,,
+,2,Ross Little,M20-24,,Open,,,,,,,
+,3,Robert Mills,M30-34,,Open,,,,,,,
+,6,Simon Rouse,M40-44,,Open,,,,,,,
+,7,Samuel Marks,M25-29,,Open,Ful-on Tri,,,,,,
+,8,Justine Keohane,F40-44,,Female,Crosshaven / Keogh fit,,,,,,
+,16,Colin Dickson,M50-54,,Open,,,,,,,
+,17,Mark Hurm,M60-64,,Open,,,,,,,
+,20,Mark Harrison,M45-49,,Open,,,,,,,
+,22,Marie-Claire McCarthy,F30-34,,Female,,,,,,,
+,24,Darragh O'Gorman,M35-39,,Open,,,,,,,
+,30,SarahJane Hanmore,F30-34,,Female,,,,,,,
+,31,Barry Guckian,M45-49,,Open,Sligo Triathlon Club,,,,,,
+,33,Oliver McWilliams,M40-44,,Open,,,,,,,
+,38,Leonard O'Sullivan,M50-54,,Open,Watergrasshill Tri Club,,,,,,
+,40,Austin Cooney,M50-54,,Open,Keoghfit,,,,,,
+,45,Keith Murphy,M50-54,,Open,Pulse,,,,,,
+,50,Dave Mc Grath,M45-49,,Open,Blackwater Tri Club,,,,,,
+,55,Luke Hanley,M25-29,,Open,,,,,,,
+,58,Conor Murphy,M30-34,,Open,Clonmel Triathlon Club,,,,,,
+,72,Brian McDowell,M40-44,,Open,,,,,,,
+,84,James Mc neill,M40-44,,Open,,,,,,,
+,89,Mick Audley,M40-44,,Open,Killarney TC,,,,,,
+,90,Callum Black,M30-34,,Open,,,,,,,
+,97,John Butler,M45-49,,Open,,,,,,,
+,102,Colm O’Brien,M45-49,,Open,Sorrento Cycling Club,,,,,,
+,103,Gerard Gosen,M50-54,,Open,,,,,,,
+,106,Stephen Moffatt,M50-54,,Open,,,,,,,

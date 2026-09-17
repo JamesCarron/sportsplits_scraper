@@ -63,6 +63,15 @@ Append an `EventSpec` to `src/sportsplits/parsers/raceresult/events.py` (`BUILTI
 and re-run the notebook — `races.py` builds its `REGISTRY` straight from `all_events()`,
 so the app picks it up automatically.
 
+## Ironman World Championship races
+
+The race selector's **Collection** dropdown separates the full-distance Ironman World
+Championship and Ironman 70.3 World Championship races (2016–2025) from your own races.
+Unlike RaceResult, these aren't auto-scraped — see
+[docs/DATA_FORMAT.md](docs/DATA_FORMAT.md#ironman-world-championship-races--manual-fetch-then-process)
+for why, and how to add another race id to
+`src/sportsplits/parsers/ironman/events.py`.
+
 The app's metric columns are computed at load time (`metrics.build_metrics_from_df`), so they
 are never baked into the CSVs and can't go stale.
 

@@ -12,3 +12,6 @@ dist/
 # Virtual environments
 .venv/
 venv/
+
+# Scratch/working output (session summaries, exploratory analysis, local reports)
+local/

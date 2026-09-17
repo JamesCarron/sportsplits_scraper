@@ -3,6 +3,7 @@ from sportsplits.parsers.clonmel import load_final as _load_clonmel_final, load_
 from sportsplits.parsers.lost_sheep import load_results as _load_lost_sheep
 from sportsplits.parsers.raceresult.common import load_processed_csv
 from sportsplits.parsers.raceresult.events import EVENTS, add_event
+from sportsplits.parsers.ironman.events import EVENTS as IRONMAN_EVENTS
 from sportsplits.metrics import build_metrics_from_df
 
 # Registry: display name → (file path, loader function).
@@ -20,6 +21,27 @@ REGISTRY = {
 
 for _spec in EVENTS:
     REGISTRY[_spec.name] = (_spec.processed_path, load_processed_csv)
+
+for _spec in IRONMAN_EVENTS:
+    REGISTRY[_spec.name] = (_spec.processed_path, load_processed_csv)
+
+# Race names, grouped for the UI's collection filter. Built as a function (not a
+# module-level snapshot) so it reflects races added at runtime via the "Add a race"
+# form -- anything not a built-in Ironman race falls into 'My Races'.
+_IRONMAN_FULL_NAMES = {e.name for e in IRONMAN_EVENTS if e.distance == 'full'}
+_IRONMAN_703_NAMES = {e.name for e in IRONMAN_EVENTS if e.distance == '70.3'}
+
+
+def race_collections(race_names) -> dict:
+    """{collection label: [race names]} for the given (live) set of race names."""
+    race_names = list(race_names)
+    my_races = [n for n in race_names if n not in _IRONMAN_FULL_NAMES and n not in _IRONMAN_703_NAMES]
+    return {
+        'All Races': race_names,
+        'My Races': my_races,
+        'Ironman World Championship': [n for n in race_names if n in _IRONMAN_FULL_NAMES],
+        'Ironman 70.3 World Championship': [n for n in race_names if n in _IRONMAN_703_NAMES],
+    }
 
 
 def load_all() -> dict:

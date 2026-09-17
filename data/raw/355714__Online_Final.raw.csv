@@ -1,0 +1,346 @@
+__contest__,__group__,BIB,ID,"switch([GenderRank]=1;""[img:my\medal_1.png|height:15px]"";[GenderRank]=2;""[img:my\medal_2.png|height:15px]"";[GenderRank]=3;""[img:my\medal_3.png|height:15px]"";[GenderRank]>3;[GenderRank.P])",FLNAME,CLUB,Swim,TRANSITION1,Bike,TRANSITION2,Run,TIME
+#1_National Series Sprint Triathlon,#1_Female Category,446,372,[img:my\medal_1.png|height:15px],Saoirse O'Brien,Piranha Triathlon Club,00:09:03,00:00:35,00:37:04,00:00:29,00:18:47,01:05:58
+#1_National Series Sprint Triathlon,#1_Female Category,164,190,[img:my\medal_2.png|height:15px],Laura Daly,Galway Triathlon Club,00:10:17,00:00:38,00:35:35,00:00:41,00:19:49,01:07:00
+#1_National Series Sprint Triathlon,#1_Female Category,120,282,[img:my\medal_3.png|height:15px],Lara Buck,Wicklow TC,00:10:15,00:00:48,00:38:25,00:00:44,00:19:04,01:09:16
+#1_National Series Sprint Triathlon,#1_Female Category,442,370,4.,Aimee Carr,Not Applicable,00:09:51,00:00:39,00:38:46,00:00:28,00:19:39,01:09:23
+#1_National Series Sprint Triathlon,#1_Female Category,242,234,5.,Zoe Hughes,Optima Racing Team London,00:09:34,00:00:27,00:41:07,00:00:25,00:18:12,01:09:45
+#1_National Series Sprint Triathlon,#1_Female Category,121,288,6.,Eve Burns,,00:09:18,00:00:34,00:39:36,00:00:41,00:21:06,01:11:15
+#1_National Series Sprint Triathlon,#1_Female Category,361,345,7.,Naoise O Donnell,Galway Triathlon Club,00:09:55,00:00:58,00:39:44,00:00:46,00:21:19,01:12:42
+#1_National Series Sprint Triathlon,#1_Female Category,136,155,8.,Izabella Chidlow,South Coast TC,00:09:40,00:00:38,00:41:03,00:00:39,00:20:50,01:12:50
+#1_National Series Sprint Triathlon,#1_Female Category,292,331,9.,Nessa Mangan,Predator Triathlon Club,00:10:23,00:00:35,00:42:43,00:00:35,00:20:57,01:15:13
+#1_National Series Sprint Triathlon,#1_Female Category,272,337,10.,Manon Laboure,UCD Triathlon Club,00:10:43,00:00:43,00:42:00,00:00:35,00:21:20,01:15:21
+#1_National Series Sprint Triathlon,#1_Female Category,399,296,11.,Kathleen Ryan,Cork Triathlon Club 2025,00:13:20,00:01:19,00:39:25,00:01:04,00:20:36,01:15:44
+#1_National Series Sprint Triathlon,#1_Female Category,332,160,12.,Carmel Moran,Pulse TC,00:12:58,00:01:13,00:40:28,00:00:52,00:20:47,01:16:18
+#1_National Series Sprint Triathlon,#1_Female Category,127,350,13.,Sharon Cahill,Tralee Tri Club,00:13:22,00:01:06,00:39:57,00:01:02,00:21:13,01:16:40
+#1_National Series Sprint Triathlon,#1_Female Category,223,115,14.,Ciara Greene,Cork Triathlon Club 2025,00:11:35,00:00:59,00:42:24,00:00:54,00:21:11,01:17:03
+#1_National Series Sprint Triathlon,#1_Female Category,309,171,15.,Kayleigh McCormack,Naas TC,00:12:46,00:01:15,00:41:32,00:00:59,00:21:45,01:18:17
+#1_National Series Sprint Triathlon,#1_Female Category,273,216,16.,Elaine Lally,Lanesboro Triathlon Club,00:10:53,00:01:00,00:41:33,00:00:44,00:24:21,01:18:31
+#1_National Series Sprint Triathlon,#1_Female Category,430,238,17.,AVA Whelan,Piranha Triathlon Club,00:14:22,00:01:14,00:38:32,00:01:53,00:23:39,01:19:40
+#1_National Series Sprint Triathlon,#1_Female Category,455,360,18.,Zoë Davis,Westport TC,00:10:43,00:02:02,00:41:25,00:01:10,00:24:25,01:19:45
+#1_National Series Sprint Triathlon,#1_Female Category,418,225,19.,Deirdre Wallace,Cork Triathlon Club 2025,00:14:49,00:01:55,00:42:01,00:00:38,00:21:57,01:21:20
+#1_National Series Sprint Triathlon,#1_Female Category,222,81,20.,Olivia Gordon,,00:13:56,00:01:45,00:42:09,00:00:53,00:23:06,01:21:49
+#1_National Series Sprint Triathlon,#1_Female Category,134,118,21.,Claire Cellarius,Tri Lakes Triathlon Club,00:12:51,00:01:32,00:41:50,00:01:00,00:24:36,01:21:49
+#1_National Series Sprint Triathlon,#1_Female Category,236,60,22.,Patrice Holmes,Cork Triathlon Club 2025,00:10:56,00:01:13,00:46:27,00:01:13,00:22:15,01:22:04
+#1_National Series Sprint Triathlon,#1_Female Category,151,294,23.,Lydia Cope,Carlow TC,00:13:42,00:01:29,00:44:10,00:01:03,00:22:06,01:22:30
+#1_National Series Sprint Triathlon,#1_Female Category,169,254,24.,Ellen Desmond,Cork Triathlon Club 2025,00:12:13,00:01:15,00:43:36,00:00:48,00:24:39,01:22:31
+#1_National Series Sprint Triathlon,#1_Female Category,377,150,25.,Eileen O’Sullivan,,00:14:01,00:01:29,00:42:09,00:00:32,00:24:26,01:22:37
+#1_National Series Sprint Triathlon,#1_Female Category,365,162,26.,Ellie O Toole,,00:12:03,00:01:58,00:44:41,00:01:02,00:23:08,01:22:52
+#1_National Series Sprint Triathlon,#1_Female Category,344,286,27.,Grace Murphy,Liquid Motion TC,00:14:24,00:01:45,00:40:37,00:01:11,00:25:18,01:23:15
+#1_National Series Sprint Triathlon,#1_Female Category,417,228,28.,Ruth Waldron,,00:14:15,00:01:55,00:42:47,00:00:51,00:23:58,01:23:46
+#1_National Series Sprint Triathlon,#1_Female Category,152,96,29.,Lynette Costello,Athlone Triathlon Club,00:12:39,00:01:17,00:40:36,00:00:54,00:28:34,01:24:00
+#1_National Series Sprint Triathlon,#1_Female Category,185,335,30.,Jennifer Duffy,Belpark Triathlon Club,00:13:48,00:01:00,00:43:50,00:00:58,00:24:39,01:24:15
+#1_National Series Sprint Triathlon,#1_Female Category,155,98,31.,Hilary Creedon,Cork Triathlon Club 2025,00:13:18,00:01:53,00:43:05,00:01:12,00:24:49,01:24:17
+#1_National Series Sprint Triathlon,#1_Female Category,340,75,32.,Caroline Murphy,Tralee Tri Club,00:15:03,00:01:29,00:43:45,00:01:20,00:22:57,01:24:34
+#1_National Series Sprint Triathlon,#1_Female Category,229,188,33.,Antoinette Hargadon,Liquid Motion TC,00:14:48,00:01:41,00:42:52,00:01:08,00:24:09,01:24:38
+#1_National Series Sprint Triathlon,#1_Female Category,143,270,34.,Kate Collins,Boru TC,00:14:47,00:02:44,00:39:54,00:01:19,00:26:06,01:24:50
+#1_National Series Sprint Triathlon,#1_Female Category,295,45,35.,Orla Mc Andrew,Wicklow TC,00:13:20,00:01:35,00:42:02,00:01:30,00:27:25,01:25:52
+#1_National Series Sprint Triathlon,#1_Female Category,408,139,36.,Torres Sweeney,Naas TC,00:13:34,00:01:10,00:45:10,00:01:18,00:24:53,01:26:05
+#1_National Series Sprint Triathlon,#1_Female Category,266,65,37.,Eilish Kilkenny,Galway Triathlon Club,00:13:53,00:00:57,00:43:27,00:00:48,00:27:35,01:26:40
+#1_National Series Sprint Triathlon,#1_Female Category,124,21,38.,Helen Byers,Olympian Triathlon Club,00:17:20,00:01:33,00:43:30,00:00:59,00:23:19,01:26:41
+#1_National Series Sprint Triathlon,#1_Female Category,189,58,39.,Regina Durcan,Castlebar Tri club,00:13:27,00:01:39,00:44:06,00:01:09,00:26:29,01:26:50
+#1_National Series Sprint Triathlon,#1_Female Category,225,341,40.,Charlotte Griffin,,00:10:12,00:01:56,00:49:24,00:00:40,00:24:39,01:26:51
+#1_National Series Sprint Triathlon,#1_Female Category,441,358,41.,Esther Luttig,Wicklow TC,00:14:13,00:01:22,00:47:20,00:01:13,00:23:25,01:27:33
+#1_National Series Sprint Triathlon,#1_Female Category,308,67,42.,Vera McCool,Midland TC,00:14:12,00:01:07,00:45:38,00:01:13,00:25:55,01:28:05
+#1_National Series Sprint Triathlon,#1_Female Category,241,189,43.,Joanne Howard,Westport TC,00:15:34,00:02:14,00:42:57,00:01:52,00:25:45,01:28:22
+#1_National Series Sprint Triathlon,#1_Female Category,173,73,44.,Majella Diskin,Tralee Tri Club,00:15:14,00:01:59,00:45:24,00:01:02,00:24:57,01:28:36
+#1_National Series Sprint Triathlon,#1_Female Category,203,113,45.,Eadaoin Foden,Galway Triathlon Club,00:12:38,00:02:09,00:48:09,00:00:28,00:25:15,01:28:39
+#1_National Series Sprint Triathlon,#1_Female Category,128,329,46.,Ciera Callanan,Naas TC,00:12:06,00:01:33,00:47:18,00:01:44,00:26:10,01:28:51
+#1_National Series Sprint Triathlon,#1_Female Category,168,172,47.,Maura Dervin,Lanesboro Triathlon Club,00:17:01,00:01:48,00:46:18,00:00:38,00:23:13,01:28:58
+#1_National Series Sprint Triathlon,#1_Female Category,196,57,48.,Kate Feehan,Castlebar Tri Club,00:14:46,00:01:23,00:44:14,00:00:54,00:27:48,01:29:05
+#1_National Series Sprint Triathlon,#1_Female Category,438,107,49.,Nora Wyer,Naas TC,00:14:46,00:01:58,00:44:31,00:01:19,00:26:40,01:29:14
+#1_National Series Sprint Triathlon,#1_Female Category,286,261,50.,Fiona Lyons,Galway Triathlon Club,00:13:08,00:01:12,00:46:05,00:01:19,00:27:46,01:29:30
+#1_National Series Sprint Triathlon,#1_Female Category,245,192,51.,Tara Jackson,Wicklow TC,00:14:33,00:01:27,00:42:39,00:01:05,00:29:57,01:29:41
+#1_National Series Sprint Triathlon,#1_Female Category,250,263,52.,Claire Judge,Piranha Triathlon Club,00:12:51,00:02:39,00:49:06,00:01:04,00:24:05,01:29:45
+#1_National Series Sprint Triathlon,#1_Female Category,190,249,53.,Lorraine Egan,Galway Triathlon Club,00:13:56,00:01:45,00:46:23,00:00:33,00:27:54,01:30:31
+#1_National Series Sprint Triathlon,#1_Female Category,251,169,54.,Lorna Kavanagh,Naas TC,00:13:26,00:01:37,00:49:57,00:00:55,00:24:57,01:30:52
+#1_National Series Sprint Triathlon,#1_Female Category,139,31,55.,Clíodhna Coakley,Westport TC,00:13:58,00:01:39,00:46:12,00:00:40,00:29:06,01:31:35
+#1_National Series Sprint Triathlon,#1_Female Category,382,30,56.,Audrey Pender,Wicklow TC,00:14:16,00:01:34,00:47:49,00:01:44,00:26:30,01:31:53
+#1_National Series Sprint Triathlon,#1_Female Category,391,165,57.,Amber Redmond,Galway Triathlon Club,00:19:27,00:02:38,00:45:09,00:00:29,00:24:27,01:32:10
+#1_National Series Sprint Triathlon,#1_Female Category,261,74,58.,Joanne Kennedy,Piranha Triathlon Club,00:14:46,00:01:45,00:48:42,00:00:52,00:27:04,01:33:09
+#1_National Series Sprint Triathlon,#1_Female Category,105,39,59.,Aislinn Boden,,00:12:19,00:01:21,00:51:32,00:00:47,00:27:11,01:33:10
+#1_National Series Sprint Triathlon,#1_Female Category,342,179,60.,Ciara Murphy,Belpark Triathlon Club,00:15:58,00:02:06,00:48:25,00:01:26,00:25:45,01:33:40
+#1_National Series Sprint Triathlon,#1_Female Category,380,260,61.,Connie Patterson,,00:17:02,00:01:34,00:49:42,00:01:08,00:24:30,01:33:56
+#1_National Series Sprint Triathlon,#1_Female Category,244,108,62.,Ellen Hynes,3D Triathlon Club,00:11:54,00:01:58,00:52:45,00:00:41,00:26:40,01:33:58
+#1_National Series Sprint Triathlon,#1_Female Category,235,338,63.,Eimear Hoare,Naas TC,00:13:36,00:02:17,00:44:26,00:01:18,00:32:28,01:34:05
+#1_National Series Sprint Triathlon,#1_Female Category,176,184,64.,Regina Donnellan,Lanesboro Triathlon Club,00:18:56,00:01:58,00:47:22,00:01:39,00:24:13,01:34:08
+#1_National Series Sprint Triathlon,#1_Female Category,411,84,65.,Joan Tobin,Athlone Triathlon Club,00:14:54,00:02:00,00:49:26,00:01:34,00:26:31,01:34:25
+#1_National Series Sprint Triathlon,#1_Female Category,209,224,66.,Sorcha Foley,,00:15:51,00:02:28,00:47:58,00:01:39,00:26:43,01:34:39
+#1_National Series Sprint Triathlon,#1_Female Category,137,191,67.,Katie Clarke,Galway Triathlon Club,00:13:35,00:02:18,00:52:07,00:00:40,00:26:00,01:34:40
+#1_National Series Sprint Triathlon,#1_Female Category,182,133,68.,Danielle Downey,,00:17:10,00:03:29,00:49:48,00:00:38,00:23:40,01:34:45
+#1_National Series Sprint Triathlon,#1_Female Category,269,351,69.,Marie Killeen,Liquid Motion TC,00:14:54,00:02:18,00:47:30,00:01:19,00:29:03,01:35:04
+#1_National Series Sprint Triathlon,#1_Female Category,435,300,70.,Eabha Woods,,00:15:49,00:01:50,00:51:44,00:00:58,00:25:29,01:35:50
+#1_National Series Sprint Triathlon,#1_Female Category,347,142,71.,Clare Murray,Wicklow TC,00:14:21,00:02:31,00:49:06,00:01:28,00:28:31,01:35:57
+#1_National Series Sprint Triathlon,#1_Female Category,304,147,72.,Leanne McCarthy,Tralee Tri Club,00:14:31,00:02:51,00:47:17,00:01:52,00:29:31,01:36:02
+#1_National Series Sprint Triathlon,#1_Female Category,206,22,73.,Gemma Foley,,00:19:04,00:02:27,00:45:26,00:01:29,00:28:16,01:36:42
+#1_National Series Sprint Triathlon,#1_Female Category,398,244,74.,Cara Ryan,UCD Triathlon Club,00:18:05,00:02:21,00:49:52,00:01:11,00:25:29,01:36:58
+#1_National Series Sprint Triathlon,#1_Female Category,195,104,75.,Eimear Griffin,,00:15:03,00:02:27,00:49:09,00:01:37,00:29:20,01:37:36
+#1_National Series Sprint Triathlon,#1_Female Category,341,145,76.,Ciara Murphy,UCD Triathlon Club,00:12:51,00:01:45,00:48:55,00:02:27,00:32:11,01:38:09
+#1_National Series Sprint Triathlon,#1_Female Category,383,255,77.,Stella Pete,Fingal Triathlon Club,00:15:12,00:01:33,00:48:25,00:01:31,00:32:13,01:38:54
+#1_National Series Sprint Triathlon,#1_Female Category,372,134,78.,Kate O'Reilly,,00:14:23,00:03:12,00:53:03,00:00:35,00:28:08,01:39:21
+#1_National Series Sprint Triathlon,#1_Female Category,401,203,79.,Sinéad Ryan,,00:17:12,00:02:41,00:50:49,00:01:22,00:27:28,01:39:32
+#1_National Series Sprint Triathlon,#1_Female Category,150,333,80.,Mairead Cooney,Naas TC,00:14:58,00:02:12,00:50:50,00:01:55,00:30:30,01:40:25
+#1_National Series Sprint Triathlon,#1_Female Category,445,371,81.,Carolanne Rushe,Sligo Tri Club,00:21:31,00:02:29,00:43:45,00:02:28,00:31:49,01:42:02
+#1_National Series Sprint Triathlon,#1_Female Category,217,242,82.,Katerina Georgi,UCD Triathlon Club,00:15:56,00:04:27,00:49:51,00:01:10,00:30:55,01:42:19
+#1_National Series Sprint Triathlon,#1_Female Category,291,259,83.,Hazel Mangan,,00:16:36,00:03:15,00:51:33,00:01:41,00:29:35,01:42:40
+#1_National Series Sprint Triathlon,#1_Female Category,410,186,84.,Danielle Thomas,Galway Triathlon Club,00:14:13,00:02:39,00:49:44,00:01:13,00:35:58,01:43:47
+#1_National Series Sprint Triathlon,#1_Female Category,122,154,85.,Antoinette Butler,Midland TC,00:14:03,00:02:40,00:53:34,00:01:15,00:32:44,01:44:16
+#1_National Series Sprint Triathlon,#1_Female Category,102,23,86.,Sarah Barter,,00:16:44,00:03:03,00:53:32,00:01:04,00:30:06,01:44:29
+#1_National Series Sprint Triathlon,#1_Female Category,177,243,87.,Michelle Donnelly,Lanesboro Triathlon Club,00:19:37,00:01:56,00:53:26,00:00:30,00:29:41,01:45:10
+#1_National Series Sprint Triathlon,#1_Female Category,159,176,88.,Bernadette Cuddy,Lanesboro Triathlon Club,00:15:44,00:01:42,00:53:45,00:01:18,00:33:33,01:46:02
+#1_National Series Sprint Triathlon,#1_Female Category,371,152,89.,Kate O'Halloran,Cavan Triathlon Club,00:13:53,00:03:02,01:01:35,00:01:23,00:26:13,01:46:06
+#1_National Series Sprint Triathlon,#1_Female Category,125,227,90.,Aisling Byrne,Galway Triathlon Club,00:19:49,00:02:17,00:54:31,00:00:52,00:28:43,01:46:12
+#1_National Series Sprint Triathlon,#1_Female Category,263,336,91.,Cliona Kenny,Naas TC,00:16:04,00:02:17,01:03:05,00:00:33,00:24:58,01:46:57
+#1_National Series Sprint Triathlon,#1_Female Category,246,200,92.,Sarah Jenkins,Galway Triathlon Club,00:16:46,00:02:13,00:56:53,00:01:08,00:30:11,01:47:11
+#1_National Series Sprint Triathlon,#1_Female Category,167,264,93.,Laura Dermody,Lanesboro Triathlon Club,00:17:42,00:03:25,00:54:14,00:01:30,00:30:32,01:47:23
+#1_National Series Sprint Triathlon,#1_Female Category,154,6,94.,Fiona Cox,Lough Key Triathlon Club,00:15:34,00:02:05,00:57:21,00:01:42,00:32:01,01:48:43
+#1_National Series Sprint Triathlon,#1_Female Category,384,120,95.,Cora Petrie,Pulse TC,00:19:05,00:02:09,00:52:01,00:01:16,00:34:34,01:49:05
+#1_National Series Sprint Triathlon,#1_Female Category,385,131,96.,Daire Power,,00:18:01,00:03:06,01:01:51,00:00:31,00:27:45,01:51:14
+#1_National Series Sprint Triathlon,#1_Female Category,111,197,97.,Melanie Brash,,00:15:58,00:02:58,01:03:10,00:00:49,00:28:19,01:51:14
+#1_National Series Sprint Triathlon,#1_Female Category,191,100,98.,Nicola Eustace,Piranha Triathlon Club,00:19:32,00:03:02,00:59:56,00:00:58,00:27:50,01:51:18
+#1_National Series Sprint Triathlon,#1_Female Category,406,201,99.,Sinead skelly,Lanesboro Triathlon Club,00:19:10,00:01:54,00:56:15,00:00:55,00:34:44,01:52:58
+#1_National Series Sprint Triathlon,#1_Female Category,447,373,100.,Edel O'Shea,Not Applicable,00:16:35,00:03:34,00:57:07,00:00:55,00:35:09,01:53:20
+#1_National Series Sprint Triathlon,#1_Female Category,202,241,101.,Linda Flynn,Lanesboro Triathlon Club,00:17:02,00:02:22,00:59:49,00:01:07,00:33:58,01:54:18
+#1_National Series Sprint Triathlon,#1_Female Category,327,173,102.,Sharmista Mitra,Galway Triathlon Club,00:16:00,00:03:52,00:58:32,00:00:51,00:35:44,01:54:59
+#1_National Series Sprint Triathlon,#1_Female Category,113,302,103.,Eva Breheny Clarke,Belpark Triathlon Club,00:17:22,00:03:15,01:02:31,00:00:41,00:32:29,01:56:18
+#1_National Series Sprint Triathlon,#1_Female Category,165,14,104.,Suzanne Daly,,00:19:01,00:04:08,00:59:47,00:00:39,00:33:00,01:56:35
+#1_National Series Sprint Triathlon,#1_Female Category,107,185,105.,Louise Boudin,Lanesboro Triathlon Club,00:25:56,00:03:40,00:57:14,00:02:31,00:29:35,01:58:56
+#1_National Series Sprint Triathlon,#1_Female Category,115,193,106.,Takysha Brennan,,00:17:09,00:02:36,01:02:53,00:01:03,00:35:51,01:59:32
+#1_National Series Sprint Triathlon,#1_Female Category,403,166,107.,Iva Sekulic,UCD Triathlon Club,00:20:53,00:04:16,00:53:24,00:01:12,00:42:18,02:02:03
+#1_National Series Sprint Triathlon,#1_Female Category,423,12,108.,Niamh Walsh,Belpark Triathlon Club,00:22:42,00:06:57,01:03:35,00:01:06,00:33:37,02:07:57
+#1_National Series Sprint Triathlon,#1_Female Category,140,230,109.,Emery Colbert,Galway Triathlon Club,00:26:13,00:02:02,01:01:09,00:01:14,00:41:29,02:12:07
+#1_National Series Sprint Triathlon,#1_Female Category,310,138,110.,Niamh Mccullagh,,00:18:42,00:02:00,01:05:56,00:00:35,00:46:23,02:13:36
+#1_National Series Sprint Triathlon,#1_Female Category,156,132,111.,Fiona Crespin,,00:22:49,00:04:30,01:09:04,00:01:20,00:45:51,02:23:34
+#1_National Series Sprint Triathlon,#1_Female Category,409,16,,Agnes Szczesniak,,00:15:45,00:02:46,00:52:13,00:01:26,00:32:35,01:44:45
+#1_National Series Sprint Triathlon,#1_Female Category,103,279,,Anna Beykova,Portmarnock TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,171,354,,Sarah Diamond,Wicklow TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,216,13,,Richenda Garland,,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,228,280,,Alice Harding,Kilkenny Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,232,151,,Ita Henegha,,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,252,237,,Madeleine Kavanagh,Trilogy Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,256,181,,Clodagh Keegan,Midland TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,257,182,,Lorna Keegan,TriTanium TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,319,1,,Emma McKie,Limerick TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,336,168,,Faye Morrissey,Piranha Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,337,69,,Maria Mulderrig,Portmarnock TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,345,317,,Joanne Murphy,Galway Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,348,349,,Clare Murray,Wicklow TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,349,214,,Joanna Mylotte,Galway Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,351,15,,Aine Neville,,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,359,2,,Teresa O Connor,Castlebar Tri Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,363,324,,Lynne O loughlin,Galway Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,437,356,,Aisling Wyer,Naas TC,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,352,117,,Majella Ní Chríocháin,Galway Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#1_Female Category,397,48,,Norah Ruth,Trilogy Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,114,92,[img:my\medal_1.png|height:15px],Archie Bremner,Wicklow TC,00:08:32,00:00:26,00:33:00,00:00:35,00:16:49,00:59:22
+#1_National Series Sprint Triathlon,#2_Open Category,330,97,[img:my\medal_2.png|height:15px],Donal Mongey,Naas TC,00:10:21,00:00:34,00:31:31,00:00:27,00:16:54,00:59:47
+#1_National Series Sprint Triathlon,#2_Open Category,440,357,[img:my\medal_3.png|height:15px],Pearse Gallagher,Not Applicable,00:08:42,00:00:25,00:33:33,00:00:30,00:17:05,01:00:15
+#1_National Series Sprint Triathlon,#2_Open Category,320,130,4.,Sean McMahon,Piranha Triathlon Club,00:08:56,00:00:28,00:34:08,00:00:40,00:16:39,01:00:51
+#1_National Series Sprint Triathlon,#2_Open Category,283,266,5.,Ryan Lundy,Northwest TC,00:09:21,00:00:42,00:32:47,00:00:32,00:17:45,01:01:07
+#1_National Series Sprint Triathlon,#2_Open Category,367,119,6.,Eddy O'Byrne,Belpark Triathlon Club,00:08:46,00:00:38,00:33:29,00:00:38,00:17:47,01:01:18
+#1_National Series Sprint Triathlon,#2_Open Category,267,251,7.,Ross Killalea,Midland TC,00:09:06,00:00:33,00:34:41,00:00:31,00:16:57,01:01:48
+#1_National Series Sprint Triathlon,#2_Open Category,444,368,8.,Tim Waters,Naas TC,00:11:11,00:00:41,00:34:53,00:00:53,00:17:07,01:04:45
+#1_National Series Sprint Triathlon,#2_Open Category,227,103,9.,Darragh Halpenny,Belpark Triathlon Club,00:09:44,00:00:34,00:36:23,00:00:30,00:17:38,01:04:49
+#1_National Series Sprint Triathlon,#2_Open Category,184,275,10.,Oliver Duffield,,00:09:05,00:00:33,00:37:22,00:00:26,00:17:36,01:05:02
+#1_National Series Sprint Triathlon,#2_Open Category,178,307,11.,Stephen Donnelly,Liquid Motion TC,00:10:45,00:00:57,00:34:57,00:00:46,00:17:38,01:05:03
+#1_National Series Sprint Triathlon,#2_Open Category,218,274,12.,Ruaidhri Geraghty,Galway Triathlon Club,00:10:45,00:00:47,00:34:03,00:01:09,00:19:39,01:06:23
+#1_National Series Sprint Triathlon,#2_Open Category,288,106,13.,Alan Maher,Portmarnock TC,00:09:22,00:00:58,00:36:57,00:01:07,00:18:10,01:06:34
+#1_National Series Sprint Triathlon,#2_Open Category,180,82,14.,Kilian Dooley,,00:11:49,00:00:47,00:34:02,00:00:41,00:19:30,01:06:49
+#1_National Series Sprint Triathlon,#2_Open Category,388,101,15.,Patrick Quinn,Ennis Triathlon Club,00:11:22,00:00:49,00:35:34,00:00:44,00:18:36,01:07:05
+#1_National Series Sprint Triathlon,#2_Open Category,233,44,16.,Shane Hennelly,Lanesboro Triathlon Club,00:12:09,00:00:44,00:35:20,00:00:47,00:18:13,01:07:13
+#1_National Series Sprint Triathlon,#2_Open Category,237,29,17.,Kieran Hopkins,,00:11:32,00:00:52,00:34:31,00:00:40,00:19:40,01:07:15
+#1_National Series Sprint Triathlon,#2_Open Category,183,277,18.,Alistair Duffield,,00:09:54,00:00:57,00:36:43,00:00:38,00:19:28,01:07:40
+#1_National Series Sprint Triathlon,#2_Open Category,375,148,19.,Stuart O'Sullivan,Belpark Triathlon Club,00:10:52,00:01:07,00:36:36,00:00:28,00:19:14,01:08:17
+#1_National Series Sprint Triathlon,#2_Open Category,174,232,20.,Martin Divilly,Galway Triathlon Club,00:12:32,00:01:13,00:33:58,00:00:42,00:20:14,01:08:39
+#1_National Series Sprint Triathlon,#2_Open Category,381,3,21.,Michael Pearce,Wicklow TC,00:10:30,00:00:38,00:36:54,00:00:56,00:20:43,01:09:41
+#1_National Series Sprint Triathlon,#2_Open Category,373,159,22.,Niall O'Reilly,Pulse TC,00:12:22,00:00:53,00:37:32,00:00:46,00:18:10,01:09:43
+#1_National Series Sprint Triathlon,#2_Open Category,129,346,23.,Luke Canavan Dignam,Galway Triathlon Club,00:11:36,00:00:46,00:35:32,00:00:44,00:21:05,01:09:43
+#1_National Series Sprint Triathlon,#2_Open Category,132,212,24.,Matthew Carroll,Naas TC,00:11:10,00:00:34,00:35:03,00:00:46,00:22:20,01:09:53
+#1_National Series Sprint Triathlon,#2_Open Category,160,339,25.,Adrian Cunningham,Kilkenny Triathlon Club,00:10:51,00:00:47,00:36:10,00:00:48,00:21:19,01:09:55
+#1_National Series Sprint Triathlon,#2_Open Category,198,221,26.,David Fitzgerald,Tralee Tri Club,00:11:42,00:01:03,00:38:09,00:00:55,00:18:09,01:09:58
+#1_National Series Sprint Triathlon,#2_Open Category,277,293,27.,Gabriel Le Donne,Cobh Triathlon Club,00:11:28,00:00:37,00:39:07,00:00:33,00:18:23,01:10:08
+#1_National Series Sprint Triathlon,#2_Open Category,214,180,28.,Vincent Galvin,Pulse TC,00:11:57,00:01:06,00:37:09,00:00:44,00:19:46,01:10:42
+#1_National Series Sprint Triathlon,#2_Open Category,407,125,29.,Tom Soden,Wicklow TC,00:10:09,00:00:42,00:37:37,00:00:44,00:21:54,01:11:06
+#1_National Series Sprint Triathlon,#2_Open Category,213,77,30.,Chris Gallahue,Blackwater Triathlon Club,00:11:48,00:00:46,00:37:44,00:00:47,00:20:20,01:11:25
+#1_National Series Sprint Triathlon,#2_Open Category,370,308,31.,Martin O'Grady,Galway Triathlon Club,00:12:25,00:01:06,00:35:23,00:01:01,00:21:44,01:11:39
+#1_National Series Sprint Triathlon,#2_Open Category,405,110,32.,Darragh Skehan,Naas TC,00:12:05,00:00:50,00:38:16,00:00:31,00:19:59,01:11:41
+#1_National Series Sprint Triathlon,#2_Open Category,451,364,33.,Tom Downes,Wicklow TC,00:13:26,00:01:25,00:36:44,00:00:44,00:19:26,01:11:45
+#1_National Series Sprint Triathlon,#2_Open Category,432,271,34.,Steven Whitehead,UCD Triathlon Club,00:11:04,00:01:14,00:39:00,00:01:02,00:19:46,01:12:06
+#1_National Series Sprint Triathlon,#2_Open Category,119,281,35.,Brendan Buck,Wicklow TC,00:11:35,00:00:43,00:38:39,00:00:41,00:20:50,01:12:28
+#1_National Series Sprint Triathlon,#2_Open Category,358,219,36.,Diarmuid O Conchubhair,Galway Triathlon Club,00:12:42,00:01:21,00:37:03,00:00:42,00:20:46,01:12:34
+#1_National Series Sprint Triathlon,#2_Open Category,260,167,37.,Paul Kelly,Cork Triathlon Club 2025,00:12:11,00:00:49,00:39:17,00:00:47,00:19:44,01:12:48
+#1_National Series Sprint Triathlon,#2_Open Category,311,4,38.,Ryan McDonald,Hi Elbow,00:13:06,00:00:58,00:38:39,00:00:53,00:19:19,01:12:55
+#1_National Series Sprint Triathlon,#2_Open Category,123,183,39.,Michal Buzynuk,Galway Triathlon Club,00:12:26,00:00:56,00:37:48,00:01:07,00:20:57,01:13:14
+#1_National Series Sprint Triathlon,#2_Open Category,313,32,40.,Peter McGloin,Wicklow TC,00:11:49,00:00:53,00:38:43,00:00:57,00:20:56,01:13:18
+#1_National Series Sprint Triathlon,#2_Open Category,420,170,41.,John Wallnutt,Portmarnock TC,00:11:28,00:00:49,00:37:39,00:00:55,00:22:39,01:13:30
+#1_National Series Sprint Triathlon,#2_Open Category,386,204,42.,Dáire Power,Naas TC,00:13:18,00:01:09,00:37:53,00:01:01,00:20:34,01:13:55
+#1_National Series Sprint Triathlon,#2_Open Category,421,235,43.,Michael Walls,,00:12:41,00:01:12,00:38:55,00:01:20,00:20:22,01:14:30
+#1_National Series Sprint Triathlon,#2_Open Category,300,83,44.,Micheal Mc Mahon,Ennis Triathlon Club,00:11:47,00:01:41,00:40:19,00:01:04,00:20:11,01:15:02
+#1_National Series Sprint Triathlon,#2_Open Category,338,50,45.,Colin Mulkerrins,Athy Triathlon Club,00:13:04,00:01:11,00:38:30,00:01:02,00:21:25,01:15:12
+#1_National Series Sprint Triathlon,#2_Open Category,247,207,46.,Daragh Jennings,Galway Triathlon Club,00:12:23,00:01:04,00:39:33,00:01:03,00:21:13,01:15:16
+#1_National Series Sprint Triathlon,#2_Open Category,221,89,47.,Harry Goonan,,00:14:13,00:01:35,00:38:58,00:01:38,00:19:03,01:15:27
+#1_National Series Sprint Triathlon,#2_Open Category,219,157,48.,David Gibson,,00:12:22,00:01:31,00:38:39,00:01:26,00:21:32,01:15:30
+#1_National Series Sprint Triathlon,#2_Open Category,254,323,49.,Alan Kearney,,00:11:30,00:01:34,00:39:23,00:01:08,00:22:03,01:15:38
+#1_National Series Sprint Triathlon,#2_Open Category,293,285,50.,Mark Maybury,UCD Triathlon Club,00:11:54,00:02:21,00:39:03,00:01:17,00:21:06,01:15:41
+#1_National Series Sprint Triathlon,#2_Open Category,270,122,51.,Cillian Kirk,Athy Triathlon Club,00:10:55,00:00:50,00:41:54,00:00:50,00:21:17,01:15:46
+#1_National Series Sprint Triathlon,#2_Open Category,157,347,52.,Noel Cronin,Not Applicable,00:11:26,00:00:48,00:40:30,00:01:04,00:22:10,01:15:58
+#1_National Series Sprint Triathlon,#2_Open Category,312,87,53.,Mark McEntee,Cork Triathlon Club 2025,00:13:19,00:01:49,00:38:34,00:00:38,00:21:51,01:16:11
+#1_National Series Sprint Triathlon,#2_Open Category,112,217,54.,Jim Breen,Tralee Tri Club,00:13:15,00:01:38,00:39:26,00:01:18,00:20:58,01:16:35
+#1_National Series Sprint Triathlon,#2_Open Category,334,352,55.,Brian Morley,Liquid Motion TC,00:13:41,00:02:17,00:36:49,00:01:32,00:22:17,01:16:36
+#1_National Series Sprint Triathlon,#2_Open Category,264,149,56.,John Kenny,,00:11:44,00:01:46,00:40:08,00:00:36,00:22:29,01:16:43
+#1_National Series Sprint Triathlon,#2_Open Category,362,311,57.,Ciaran O Laoi,Galway Triathlon Club,00:13:05,00:01:17,00:39:58,00:00:45,00:21:44,01:16:49
+#1_National Series Sprint Triathlon,#2_Open Category,424,156,58.,Michael Walshe,Midland TC,00:13:14,00:00:52,00:39:34,00:00:40,00:22:39,01:16:59
+#1_National Series Sprint Triathlon,#2_Open Category,201,86,59.,Frank Flannery,Piranha Triathlon Club,00:13:33,00:01:53,00:40:00,00:01:20,00:20:28,01:17:14
+#1_National Series Sprint Triathlon,#2_Open Category,353,343,60.,Darragh Nicholas,Limerick TC,00:15:32,00:01:20,00:39:59,00:00:43,00:19:54,01:17:28
+#1_National Series Sprint Triathlon,#2_Open Category,243,114,61.,Adam Hynes,AMS Triathlon,00:13:23,00:02:02,00:39:26,00:00:55,00:21:54,01:17:40
+#1_National Series Sprint Triathlon,#2_Open Category,316,284,62.,Morgan Mchugh,Galway Triathlon Club,00:12:44,00:00:49,00:40:27,00:00:40,00:23:17,01:17:57
+#1_National Series Sprint Triathlon,#2_Open Category,449,375,63.,Morgan Fox,,00:13:22,00:02:13,00:37:12,00:01:42,00:23:39,01:18:08
+#1_National Series Sprint Triathlon,#2_Open Category,296,233,64.,Dan Mc Carthy,Wicklow TC,00:12:03,00:01:34,00:39:16,00:01:32,00:23:51,01:18:16
+#1_National Series Sprint Triathlon,#2_Open Category,354,306,65.,Dan Nolan,UCD Triathlon Club,00:14:11,00:02:03,00:43:37,00:00:34,00:18:23,01:18:48
+#1_National Series Sprint Triathlon,#2_Open Category,200,163,66.,Wayne Flanagan,Athlone Triathlon Club,00:11:54,00:01:16,00:42:30,00:00:38,00:22:40,01:18:58
+#1_National Series Sprint Triathlon,#2_Open Category,110,20,67.,Ben Bradley,,00:12:42,00:02:10,00:39:42,00:01:14,00:23:22,01:19:10
+#1_National Series Sprint Triathlon,#2_Open Category,366,231,68.,Enda O'Brien,Galway Triathlon Club,00:12:57,00:01:45,00:42:37,00:00:58,00:21:17,01:19:34
+#1_National Series Sprint Triathlon,#2_Open Category,281,63,69.,Gustavo Longo,Portmarnock TC,00:11:51,00:01:44,00:41:31,00:02:45,00:21:55,01:19:46
+#1_National Series Sprint Triathlon,#2_Open Category,138,309,70.,Luke Clarke,,00:12:54,00:02:24,00:41:57,00:01:06,00:21:27,01:19:48
+#1_National Series Sprint Triathlon,#2_Open Category,279,121,71.,David Leonard,Pulse TC,00:13:54,00:01:19,00:40:56,00:01:22,00:22:19,01:19:50
+#1_National Series Sprint Triathlon,#2_Open Category,258,62,72.,Martin Kelleher,Naas TC,00:12:38,00:01:29,00:40:20,00:01:18,00:24:42,01:20:27
+#1_National Series Sprint Triathlon,#2_Open Category,448,374,73.,Stephen Corrigan,Tri Lakes Triathlon Club,00:08:47,00:02:42,00:40:09,00:01:05,00:27:51,01:20:34
+#1_National Series Sprint Triathlon,#2_Open Category,429,299,74.,Alan Whelan,Midland TC,00:14:33,00:01:13,00:40:02,00:00:59,00:23:52,01:20:39
+#1_National Series Sprint Triathlon,#2_Open Category,208,78,75.,Kevin Foley,TriTanium TC,00:15:45,00:01:39,00:41:08,00:00:37,00:21:33,01:20:42
+#1_National Series Sprint Triathlon,#2_Open Category,454,366,76.,Richie Whelan,Naas TC,00:13:19,00:02:00,00:43:54,00:01:14,00:20:18,01:20:45
+#1_National Series Sprint Triathlon,#2_Open Category,117,161,77.,Pearse Brewster,UCD Triathlon Club,00:12:49,00:02:31,00:43:05,00:01:22,00:21:37,01:21:24
+#1_National Series Sprint Triathlon,#2_Open Category,331,19,78.,Jonathan Monroe,,00:11:34,00:02:03,00:41:58,00:00:44,00:25:06,01:21:25
+#1_National Series Sprint Triathlon,#2_Open Category,294,61,79.,Julien Maydew,Wicklow TC,00:12:58,00:01:44,00:44:30,00:01:04,00:21:26,01:21:42
+#1_National Series Sprint Triathlon,#2_Open Category,131,49,80.,Paul Carr,,00:13:23,00:01:32,00:41:09,00:01:00,00:24:58,01:22:02
+#1_National Series Sprint Triathlon,#2_Open Category,318,328,81.,Damian McKeever,Wicklow TC,00:11:25,00:02:11,00:43:38,00:01:24,00:24:08,01:22:46
+#1_National Series Sprint Triathlon,#2_Open Category,163,248,82.,Matthew D'Arcy,,00:14:21,00:02:09,00:44:36,00:01:33,00:20:08,01:22:47
+#1_National Series Sprint Triathlon,#2_Open Category,192,257,83.,Aonghus fahy,,00:13:50,00:02:02,00:43:49,00:00:57,00:22:10,01:22:48
+#1_National Series Sprint Triathlon,#2_Open Category,248,116,84.,Yanto Jones,Galway Triathlon Club,00:15:22,00:01:49,00:41:23,00:01:02,00:23:20,01:22:56
+#1_National Series Sprint Triathlon,#2_Open Category,197,158,85.,Luke Finlayson,Galway Triathlon Club,00:11:33,00:02:27,00:44:23,00:01:07,00:23:30,01:23:00
+#1_National Series Sprint Triathlon,#2_Open Category,422,164,86.,David Walsh,Galway Triathlon Club,00:11:30,00:03:04,00:46:40,00:01:10,00:20:50,01:23:14
+#1_National Series Sprint Triathlon,#2_Open Category,322,272,87.,Brian M McNicholl,Galway Triathlon Club,00:12:37,00:01:36,00:43:36,00:00:31,00:24:54,01:23:14
+#1_National Series Sprint Triathlon,#2_Open Category,350,105,88.,Ronan Nagle,Kinsale Triathlon Club,00:13:36,00:02:35,00:42:19,00:01:18,00:23:34,01:23:22
+#1_National Series Sprint Triathlon,#2_Open Category,193,240,89.,Edward Fahy,Limerick TC,00:14:12,00:01:55,00:42:07,00:01:26,00:23:48,01:23:28
+#1_National Series Sprint Triathlon,#2_Open Category,204,297,90.,Oisin Foden,Galway Triathlon Club,00:13:11,00:01:58,00:45:35,00:01:10,00:22:08,01:24:02
+#1_National Series Sprint Triathlon,#2_Open Category,434,246,91.,Timothée Wibault,Galway Triathlon Club,00:13:58,00:03:23,00:42:16,00:02:27,00:22:15,01:24:19
+#1_National Series Sprint Triathlon,#2_Open Category,379,26,92.,Daniel Olič,Tequila Running Club,00:13:12,00:02:58,00:43:00,00:01:52,00:23:19,01:24:21
+#1_National Series Sprint Triathlon,#2_Open Category,106,76,93.,Craig Bolton,Piranha Triathlon Club,00:14:39,00:01:25,00:43:22,00:01:02,00:24:12,01:24:40
+#1_National Series Sprint Triathlon,#2_Open Category,436,340,94.,Joshua Wright,,00:15:39,00:02:41,00:46:33,00:00:25,00:19:34,01:24:52
+#1_National Series Sprint Triathlon,#2_Open Category,321,129,95.,Andy McNamara,Athlone Triathlon Club,00:12:49,00:01:36,00:44:15,00:01:38,00:24:38,01:24:56
+#1_National Series Sprint Triathlon,#2_Open Category,148,198,96.,Stephen Connolly Mc Enery,,00:16:24,00:03:27,00:43:13,00:01:31,00:20:24,01:24:59
+#1_National Series Sprint Triathlon,#2_Open Category,240,353,97.,Brian Hourigan,Limerick TC,00:15:04,00:01:57,00:41:23,00:01:41,00:25:04,01:25:09
+#1_National Series Sprint Triathlon,#2_Open Category,413,265,98.,Adrian Trinchinet,UCD Triathlon Club,00:11:44,00:02:02,00:47:38,00:00:33,00:23:13,01:25:10
+#1_National Series Sprint Triathlon,#2_Open Category,343,127,99.,Gavin Murphy,Galway Triathlon Club,00:12:49,00:02:54,00:44:35,00:01:06,00:23:52,01:25:16
+#1_National Series Sprint Triathlon,#2_Open Category,431,174,100.,Gavin Whelan,Galway Triathlon Club,00:11:36,00:02:18,00:45:55,00:00:35,00:24:53,01:25:17
+#1_National Series Sprint Triathlon,#2_Open Category,357,258,101.,Muiris Ó Clochartaigh,Castlebar Tri club,00:15:27,00:02:14,00:44:10,00:00:55,00:22:43,01:25:29
+#1_National Series Sprint Triathlon,#2_Open Category,355,291,102.,Luca Samuel Ntsoumou,UCD Triathlon Club,00:14:09,00:01:58,00:44:51,00:00:30,00:24:11,01:25:39
+#1_National Series Sprint Triathlon,#2_Open Category,393,344,103.,James Reynolds,,00:13:37,00:02:01,00:44:20,00:01:21,00:24:35,01:25:54
+#1_National Series Sprint Triathlon,#2_Open Category,301,111,104.,Brendan McArdle,,00:14:16,00:01:42,00:47:13,00:00:59,00:21:54,01:26:04
+#1_National Series Sprint Triathlon,#2_Open Category,378,315,105.,John OCarroll,Galway Triathlon Club,00:12:45,00:01:45,00:45:35,00:01:24,00:24:57,01:26:26
+#1_National Series Sprint Triathlon,#2_Open Category,427,348,106.,Darragh Waters,Galway Triathlon Club,00:11:00,00:02:11,00:45:06,00:00:54,00:27:21,01:26:32
+#1_National Series Sprint Triathlon,#2_Open Category,179,289,107.,Eoghan Donohue,,00:12:25,00:01:48,00:46:48,00:01:29,00:24:15,01:26:45
+#1_National Series Sprint Triathlon,#2_Open Category,412,90,108.,Brian Travers,,00:15:45,00:01:58,00:44:40,00:01:13,00:23:40,01:27:16
+#1_National Series Sprint Triathlon,#2_Open Category,253,123,109.,Ronan Kavanagh,Naas TC,00:15:40,00:01:09,00:43:59,00:01:34,00:24:54,01:27:16
+#1_National Series Sprint Triathlon,#2_Open Category,275,59,110.,Olaf Lally,Longford TC,00:16:32,00:01:36,00:45:53,00:00:42,00:22:34,01:27:17
+#1_National Series Sprint Triathlon,#2_Open Category,368,141,111.,Iarla O'Carroll,,00:12:47,00:02:01,00:43:38,00:01:06,00:27:47,01:27:19
+#1_National Series Sprint Triathlon,#2_Open Category,161,177,112.,Stuart Curtis,Fingal Triathlon Club,00:13:58,00:01:55,00:42:26,00:01:37,00:27:31,01:27:27
+#1_National Series Sprint Triathlon,#2_Open Category,230,287,113.,Stuart Harries,Galway Triathlon Club,00:14:10,00:02:18,00:43:32,00:01:10,00:26:20,01:27:30
+#1_National Series Sprint Triathlon,#2_Open Category,186,267,114.,Tom Dully,Athlone Triathlon Club,00:15:03,00:01:33,00:43:49,00:00:53,00:26:34,01:27:52
+#1_National Series Sprint Triathlon,#2_Open Category,135,178,115.,Yannick Chevalier,Fingal Triathlon Club,00:15:40,00:02:19,00:44:40,00:01:10,00:24:20,01:28:09
+#1_National Series Sprint Triathlon,#2_Open Category,104,187,116.,Ryan Bissett,Naas TC,00:11:52,00:02:30,00:45:04,00:01:46,00:27:01,01:28:13
+#1_National Series Sprint Triathlon,#2_Open Category,101,25,117.,Johannes Appel,,00:15:19,00:03:22,00:43:19,00:02:14,00:24:52,01:29:06
+#1_National Series Sprint Triathlon,#2_Open Category,162,342,118.,Ali Cushen,Naas TC,00:14:44,00:01:55,00:44:15,00:01:06,00:27:13,01:29:13
+#1_National Series Sprint Triathlon,#2_Open Category,205,222,119.,Cormac Foley,,00:16:54,00:02:51,00:42:57,00:02:00,00:24:34,01:29:16
+#1_National Series Sprint Triathlon,#2_Open Category,199,112,120.,Daniel Fitzmaurice,Galway Triathlon Club,00:15:39,00:04:03,00:42:04,00:01:59,00:26:06,01:29:51
+#1_National Series Sprint Triathlon,#2_Open Category,439,140,121.,Norbert Zareba,Wicklow TC,00:13:45,00:01:57,00:47:08,00:01:22,00:25:43,01:29:55
+#1_National Series Sprint Triathlon,#2_Open Category,226,310,122.,Ruairi Guckian,Galway Triathlon Club,00:13:07,00:02:08,00:50:15,00:00:25,00:24:36,01:30:31
+#1_National Series Sprint Triathlon,#2_Open Category,158,303,123.,Diarmuid Crowley,,00:16:51,00:02:27,00:44:31,00:01:43,00:25:33,01:31:05
+#1_National Series Sprint Triathlon,#2_Open Category,271,8,124.,Ozgun Koramaz,Tri Lakes Triathlon Club,00:14:23,00:02:55,00:45:13,00:01:41,00:26:57,01:31:09
+#1_National Series Sprint Triathlon,#2_Open Category,181,53,125.,Ronan Dooley,Galway Triathlon Club,00:12:06,00:03:29,00:48:10,00:01:55,00:26:05,01:31:45
+#1_National Series Sprint Triathlon,#2_Open Category,303,262,126.,Neil McCarrick,,00:14:01,00:02:13,00:50:08,00:00:45,00:25:45,01:32:52
+#1_National Series Sprint Triathlon,#2_Open Category,376,322,127.,Jack O'Toole,Other - Not Listed,00:16:25,00:02:45,00:48:00,00:00:46,00:25:32,01:33:28
+#1_National Series Sprint Triathlon,#2_Open Category,414,175,128.,Ricardo Trindade,,00:13:13,00:03:39,00:49:43,00:02:02,00:24:59,01:33:36
+#1_National Series Sprint Triathlon,#2_Open Category,402,146,129.,Stephen Ryan,,00:15:17,00:02:32,00:49:50,00:01:06,00:24:58,01:33:43
+#1_National Series Sprint Triathlon,#2_Open Category,329,304,130.,Damien Moloney,Galway Triathlon Club,00:12:35,00:01:50,00:44:34,00:02:01,00:32:47,01:33:47
+#1_National Series Sprint Triathlon,#2_Open Category,146,143,131.,Stephen Connell,Galway Triathlon Club,00:17:13,00:03:08,00:49:13,00:01:15,00:23:38,01:34:27
+#1_National Series Sprint Triathlon,#2_Open Category,224,137,132.,Patrick Greene,,00:15:16,00:01:46,00:46:32,00:01:41,00:29:24,01:34:39
+#1_National Series Sprint Triathlon,#2_Open Category,207,223,133.,James Foley,,00:15:46,00:02:03,00:50:15,00:01:11,00:25:24,01:34:39
+#1_National Series Sprint Triathlon,#2_Open Category,360,321,134.,Ben O Donnell,,00:16:29,00:03:35,00:49:22,00:00:35,00:24:38,01:34:39
+#1_National Series Sprint Triathlon,#2_Open Category,262,136,135.,Patrick Kennedy,,00:14:00,00:02:13,00:48:49,00:00:34,00:29:14,01:34:50
+#1_National Series Sprint Triathlon,#2_Open Category,302,109,136.,Nicholas McCabe,Midland TC,00:14:58,00:01:33,00:48:23,00:01:44,00:28:50,01:35:28
+#1_National Series Sprint Triathlon,#2_Open Category,289,218,137.,Gerry Maher,Sligo Tri Club,00:15:17,00:03:43,00:48:22,00:01:12,00:27:04,01:35:38
+#1_National Series Sprint Triathlon,#2_Open Category,210,253,138.,Raymond Forde,,00:17:29,00:04:07,00:45:02,00:01:47,00:27:31,01:35:56
+#1_National Series Sprint Triathlon,#2_Open Category,220,93,139.,Conor Gill,Wicklow TC,00:14:15,00:02:19,00:49:30,00:01:23,00:28:38,01:36:05
+#1_National Series Sprint Triathlon,#2_Open Category,404,305,140.,Brian Sheils,Lanesboro Triathlon Club,00:13:56,00:02:12,00:46:55,00:00:53,00:32:55,01:36:51
+#1_National Series Sprint Triathlon,#2_Open Category,346,326,141.,Jonathon Murphy,,00:19:26,00:03:15,00:51:59,00:00:30,00:21:44,01:36:54
+#1_National Series Sprint Triathlon,#2_Open Category,274,215,142.,John Lally,Lanesboro Triathlon Club,00:21:20,00:01:18,00:43:49,00:01:20,00:29:09,01:36:56
+#1_National Series Sprint Triathlon,#2_Open Category,284,208,143.,Martin Lynch,Galway Triathlon Club,00:18:03,00:02:45,00:48:04,00:01:34,00:26:31,01:36:57
+#1_National Series Sprint Triathlon,#2_Open Category,290,194,144.,Cathal Mangan,,00:18:11,00:01:45,00:47:21,00:01:25,00:28:45,01:37:27
+#1_National Series Sprint Triathlon,#2_Open Category,298,9,145.,Eoghan Mc Dermott,,00:14:16,00:03:21,00:56:05,00:00:42,00:23:24,01:37:48
+#1_National Series Sprint Triathlon,#2_Open Category,126,71,146.,Stephen Byrne,Galway Triathlon Club,00:23:43,00:01:17,00:46:38,00:01:03,00:25:18,01:37:59
+#1_National Series Sprint Triathlon,#2_Open Category,100,206,147.,Tuncay Aksungurlu,Tri Lakes Triathlon Club,00:18:03,00:02:36,00:49:17,00:01:24,00:27:09,01:38:29
+#1_National Series Sprint Triathlon,#2_Open Category,392,80,148.,Kevin Reidy,Tri Lakes Triathlon Club,00:19:52,00:02:18,00:47:51,00:01:29,00:27:08,01:38:38
+#1_National Series Sprint Triathlon,#2_Open Category,234,295,149.,Mick Hennessy,,00:19:16,00:02:37,00:47:51,00:01:08,00:28:26,01:39:18
+#1_National Series Sprint Triathlon,#2_Open Category,356,318,150.,Jimmy O Brien,,00:17:04,00:03:49,00:51:47,00:00:59,00:26:14,01:39:53
+#1_National Series Sprint Triathlon,#2_Open Category,307,68,151.,Paul McCool,Midland TC,00:14:46,00:02:00,00:51:49,00:00:53,00:30:56,01:40:24
+#1_National Series Sprint Triathlon,#2_Open Category,211,250,152.,Fran Foy,AMS Triathlon,00:18:11,00:03:01,00:52:34,00:01:31,00:25:59,01:41:16
+#1_National Series Sprint Triathlon,#2_Open Category,170,247,153.,Barry Dever,Galway Triathlon Club,00:15:36,00:02:26,00:51:49,00:01:18,00:31:37,01:42:46
+#1_National Series Sprint Triathlon,#2_Open Category,426,301,154.,Patrick Ward,,00:15:52,00:02:37,00:53:35,00:01:14,00:30:10,01:43:28
+#1_National Series Sprint Triathlon,#2_Open Category,278,320,155.,Keith Lee,,00:19:57,00:02:58,00:57:05,00:00:31,00:25:29,01:46:00
+#1_National Series Sprint Triathlon,#2_Open Category,324,18,156.,Liam Meagher,Collins Cycle Centre Triathlon Club,00:22:47,00:02:52,00:51:06,00:01:27,00:28:03,01:46:15
+#1_National Series Sprint Triathlon,#2_Open Category,306,205,157.,Matthew McConnell,,00:18:30,00:03:19,00:53:33,00:01:44,00:29:20,01:46:26
+#1_National Series Sprint Triathlon,#2_Open Category,144,72,158.,Adam Conlan,Piranha Triathlon Club,00:16:41,00:04:25,00:50:00,00:02:58,00:32:38,01:46:42
+#1_National Series Sprint Triathlon,#2_Open Category,389,220,159.,Paul Quinn,Tri Lakes Triathlon Club,00:25:14,00:03:26,00:46:40,00:01:08,00:30:16,01:46:44
+#1_National Series Sprint Triathlon,#2_Open Category,147,88,160.,Brian Connolly,,00:16:05,00:01:35,00:59:08,00:00:24,00:29:44,01:46:56
+#1_National Series Sprint Triathlon,#2_Open Category,416,319,161.,Daniel Waldron,,00:20:44,00:03:22,00:58:26,00:01:00,00:23:31,01:47:03
+#1_National Series Sprint Triathlon,#2_Open Category,390,330,162.,Ronan Quinn,Naas TC,00:21:33,00:03:23,00:48:48,00:02:14,00:31:16,01:47:14
+#1_National Series Sprint Triathlon,#2_Open Category,325,17,163.,Patrick Meagher,Tribes Triathlon Club,00:26:06,00:04:54,00:50:38,00:00:35,00:26:03,01:48:16
+#1_National Series Sprint Triathlon,#2_Open Category,369,256,164.,Robert O'Connell,,00:19:17,00:05:59,00:45:02,00:02:35,00:35:32,01:48:25
+#1_National Series Sprint Triathlon,#2_Open Category,394,327,165.,Gary Roberts,Pulse TC,00:22:02,00:03:10,00:52:01,00:01:57,00:29:38,01:48:48
+#1_National Series Sprint Triathlon,#2_Open Category,326,325,166.,Balazs Meszaros,,00:18:51,00:05:27,00:51:10,00:02:04,00:31:28,01:49:00
+#1_National Series Sprint Triathlon,#2_Open Category,149,332,167.,Kevin Cooney,Naas TC,00:24:31,00:02:31,00:49:34,00:02:03,00:30:47,01:49:26
+#1_National Series Sprint Triathlon,#2_Open Category,317,298,168.,Colin McIlrath,,00:19:00,00:02:44,00:55:06,00:01:05,00:31:46,01:49:41
+#1_National Series Sprint Triathlon,#2_Open Category,231,94,169.,William Hender-Phillips,Wicklow TC,00:23:27,00:02:12,00:52:12,00:02:03,00:30:37,01:50:31
+#1_National Series Sprint Triathlon,#2_Open Category,297,124,170.,Jamie Mc Cormack,,00:18:07,00:02:25,00:56:49,00:01:07,00:33:25,01:51:53
+#1_National Series Sprint Triathlon,#2_Open Category,419,10,171.,Gearoid Wallace,,00:23:20,00:03:12,00:58:30,00:02:13,00:27:45,01:55:00
+#1_National Series Sprint Triathlon,#2_Open Category,443,367,172.,Shane Gillen,Not Applicable,00:19:03,00:05:54,01:02:29,00:01:10,00:32:46,02:01:22
+#1_National Series Sprint Triathlon,#2_Open Category,305,334,,Michael McConigley,Liquid Motion TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,335,42,,Niall Morley,Liquid Motion TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,108,276,,Paul Bowe,Kilkenny Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,116,269,,Adam Brenner,Kilkenny Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,118,102,,Alasdair Brown,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,130,268,,Eoghan Carey,Cork Triathlon Club 2025,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,133,47,,Alexander Cathcart,Trilogy Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,141,79,,Mark Coleman,Athlone Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,142,7,,Geoff Collins,Mallow Tri Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,145,66,,Brian Connaughton,Portmarnock TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,153,355,,Kevin Coughlan,Not Applicable,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,166,27,,Ian Daniels,Limerick TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,172,229,,Darren Dillon,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,175,211,,Ethan Doherty,Westport TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,187,95,,Patrick Dunne,Galway Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,194,313,,Sean Farrell,3D Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,212,236,,Cormac Gallagher,MSC Tri,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,215,28,,Fernando Gamero,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,238,213,,David Horan,Sligo Tri Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,239,283,,Christopher Horgan,Mallow Tri Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,249,54,,Ciaran Judge,Portmarnock TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,255,290,,Ivan Kearns,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,265,153,,Jack Kerrigan,Cavan Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,268,273,,Damien Killane,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,276,239,,Don Lapierre,Cork Triathlon Club 2025,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,280,99,,Barry Linehan,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,285,135,,John Lyonbs,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,287,85,,Shane MacCarthy,Wicklow TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,314,252,,Shane McGonigle,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,315,196,,Garrett McGuinness,Athlone Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,323,70,,Michael McSwiggan,Portmarnock TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,387,210,,Sean Quigley,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,395,126,,Sean Rooney,Galway Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,400,278,,Kevin Ryan,Portmarnock TC,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,415,52,,Jp Vereker,Waterford Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,425,245,,Andrew Wanat,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,428,5,,Paris Kovi Weavers,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,433,24,,David Whyte,Athlone Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,453,361,,Declan Kelly,Athlone Triathlon Club,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,333,37,,Gerard Moran,,,,,,,
+#1_National Series Sprint Triathlon,#2_Open Category,339,292,,Colm Mulryan,,,,,,,

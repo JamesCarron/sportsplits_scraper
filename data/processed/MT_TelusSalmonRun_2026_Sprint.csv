@@ -1,0 +1,176 @@
+Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
+1,160,Shane Dunne,25-29,1,Open,Liquid Motion TC,8:39,0:45,31:58,0:37,18:42,1:00:41
+2,173,Stephen Donnelly,40-44,2,Open,Liquid Motion TC,10:15,1:04,31:56,0:34,18:07,1:01:56
+3,128,Darragh Reynolds,Junior 17-19,3,Open,Liquid Motion TC,8:53,0:40,33:53,0:35,19:39,1:03:40
+4,74,Mike Millar,40-44,4,Open,,11:13,1:01,33:52,0:43,18:39,1:05:28
+5,164,Darragh Gibbons,30-34,5,Open,Liquid Motion TC,11:20,1:18,33:29,0:49,19:38,1:06:34
+6,194,Enda Marren,45-49,6,Open,Piranha Triathlon Club,11:56,1:12,34:34,0:43,18:15,1:06:40
+7,106,David Devaney,30-34,7,Open,,11:12,1:44,36:37,1:26,18:21,1:09:20
+8,159,James Horan,35-39,8,Open,,10:15,1:36,36:21,1:04,21:49,1:11:05
+9,89,Matthew Molloy,50-54,9,Open,Virginia Triathlon & Cycling Club,11:48,0:59,36:16,1:06,20:58,1:11:07
+10,96,Des O Brien,45-49,10,Open,Liquid Motion TC,12:05,1:04,36:24,1:23,20:12,1:11:08
+11,68,Eamon Mcandrew,50-54,11,Open,Sligo Tri Club,12:27,1:06,38:23,0:59,19:46,1:12:41
+12,155,Des Padden,40-44,12,Open,Liquid Motion TC,13:14,1:06,37:34,0:55,20:36,1:13:25
+13,133,Paul O'Connor,35-39,13,Open,Liquid Motion TC,11:39,1:26,37:43,1:05,21:35,1:13:28
+14,144,Sinead Whitelaw,40-44,1,Female,Midland TC,11:22,0:52,39:46,0:43,21:02,1:13:45
+15,135,Damien Killane,45-49,14,Open,,12:07,1:34,37:38,0:49,21:58,1:14:06
+16,62,Barry O'Kane,45-49,15,Open,Sligo Tri Club,12:17,1:42,38:44,0:55,20:55,1:14:33
+17,132,Daragh Jennings,20-24,16,Open,Galway Triathlon Club,12:35,1:18,37:31,1:02,22:16,1:14:42
+18,129,Aine O Connor,40-44,2,Female,Lough Key Triathlon Club,11:15,1:12,39:14,0:58,23:23,1:16:02
+19,171,David Donnelly,55-59,17,Open,Liquid Motion TC,12:11,1:55,37:44,1:36,23:19,1:16:45
+20,36,David Higgins,40-44,18,Open,Sligo Tri Club,11:23,1:27,38:50,0:54,24:23,1:16:57
+21,107,Shane Mcquaid,45-49,19,Open,Lough Key Triathlon Club,18:15,1:32,36:32,0:57,21:09,1:18:25
+22,49,Jennifer O'Connell,50-54,3,Female,T3 Triathlon Club,11:45,1:28,41:16,1:35,22:43,1:18:47
+23,180,Grace Murphy,35-39,4,Female,Liquid Motion TC,13:13,1:56,37:35,0:53,25:20,1:18:57
+24,121,Mark Reynolds,45-49,20,Open,Liquid Motion TC,13:38,1:43,38:32,1:09,24:01,1:19:03
+25,110,Celine Byrne,35-39,5,Female,Liquid Motion TC,12:59,1:35,39:11,0:50,24:42,1:19:17
+26,165,Kieran Mcgowan,45-49,21,Open,Sligo Tri Club,13:08,1:23,40:27,1:45,23:23,1:20:06
+27,87,Paraig Smith,55-59,22,Open,Virginia Triathlon & Cycling Club,13:21,1:58,39:07,1:17,24:27,1:20:10
+28,166,Keith O Brien,50-54,23,Open,Liquid Motion TC,13:04,1:57,40:56,2:01,22:16,1:20:14
+29,11,Philip Mc Aloon,45-49,24,Open,Liquid Motion TC,13:49,1:24,40:10,1:05,23:51,1:20:19
+30,191,Liam Mcquaid,45-49,25,Open,Lough Key Triathlon Club,11:45,1:51,41:08,1:26,25:14,1:21:24
+31,45,Adrian Hamilton,45-49,26,Open,Sligo Tri Club,12:11,2:32,40:45,1:37,24:30,1:21:35
+32,113,Luke Myers,20-24,27,Open,,13:02,1:53,42:54,1:00,22:48,1:21:37
+33,163,Brian Mcnulty,45-49,28,Open,,14:37,2:09,40:31,0:58,23:24,1:21:39
+34,167,Stephen Geddes,40-44,29,Open,,13:33,2:42,38:50,1:16,25:28,1:21:49
+35,91,Grace Callaghan,35-39,6,Female,Sligo Tri Club,12:17,1:16,42:18,0:52,25:10,1:21:53
+36,10,Paul Carr,35-39,30,Open,,12:49,1:51,39:44,1:06,26:25,1:21:55
+37,76,Sergio Canive Martínez,45-49,31,Open,,14:41,2:50,36:54,1:02,26:34,1:22:01
+38,161,Antoinette Hargadon,40-44,7,Female,Liquid Motion TC,12:44,1:24,42:08,1:18,24:36,1:22:10
+39,48,Conor O'Brien,45-49,32,Open,Sligo Tri Club,12:51,1:33,39:59,0:56,27:19,1:22:38
+40,37,Howard Triggs,60-64,33,Open,,12:16,1:41,40:31,1:13,27:14,1:22:55
+41,94,Calum Fraser,20-24,34,Open,,11:44,1:57,44:11,1:17,23:47,1:22:56
+42,75,John Mcintyre,45-49,35,Open,,14:25,1:57,40:46,1:26,24:40,1:23:14
+43,147,Darran Rodden,45-49,36,Open,Lough Key Triathlon Club,14:03,1:16,42:29,0:39,25:05,1:23:32
+44,58,Claire Smyth,40-44,8,Female,Sligo Tri Club,12:06,1:41,44:13,1:01,24:37,1:23:38
+45,15,Olaf Lally,45-49,37,Open,Longford TC,14:18,1:49,44:37,0:56,23:08,1:24:48
+46,56,Wayne Brown,55-59,38,Open,Virginia Triathlon & Cycling Club,13:47,2:21,40:52,1:28,26:27,1:24:55
+47,111,Eoghan Ó Cruadhlaoich,25-29,39,Open,,13:51,2:51,44:41,1:02,22:47,1:25:12
+48,83,Ian Doherty,40-44,40,Open,Sligo Tri Club,13:04,2:06,44:33,1:28,24:40,1:25:51
+49,184,Michele Reynolds,55-59,9,Female,Liquid Motion TC,14:31,1:58,41:01,1:43,26:48,1:26:01
+50,183,Niall Prendergast,40-44,41,Open,,13:52,3:13,43:21,1:22,24:37,1:26:25
+51,124,Anne Heaney,50-54,10,Female,Castlebar Tri Club,12:03,1:49,44:41,1:15,26:47,1:26:35
+52,57,Fergus Hargadon,45-49,42,Open,Sligo Tri Club,14:52,2:39,43:51,1:29,23:47,1:26:38
+53,60,Ronan Mullan,Junior 17-19,43,Open,Sligo Tri Club,13:34,1:43,45:22,1:57,24:08,1:26:44
+54,84,Cliona Finn,35-39,11,Female,Castlebar Tri Club,12:37,2:35,46:08,0:48,24:42,1:26:50
+55,82,Stephen Cowley,50-54,44,Open,,14:13,1:17,42:00,0:52,28:37,1:26:59
+56,100,Ken Russell,50-54,45,Open,Sligo Tri Club,13:44,1:58,43:47,1:51,25:45,1:27:05
+57,174,Audrey Garvey,45-49,12,Female,Liquid Motion TC,13:39,2:26,43:51,1:36,25:46,1:27:18
+58,65,Sara Mason,40-44,13,Female,Sligo Tri Club,12:30,1:20,44:10,0:49,28:40,1:27:29
+59,8,Padraig Hegarty,55-59,46,Open,Drogheda Triathlon Club,16:52,2:22,43:08,1:42,23:28,1:27:32
+60,92,Noel Rooney,45-49,47,Open,MSC Tri,15:40,1:52,44:40,1:18,24:25,1:27:55
+61,123,Katie Kellett,50-54,14,Female,Liquid Motion TC,13:44,2:20,48:54,0:45,22:24,1:28:07
+62,196,Betty Walsh,55-59,15,Female,Westport TC 2026,12:30,1:56,45:29,0:48,27:55,1:28:38
+63,79,Alan Duggan,35-39,48,Open,Sligo Tri Club,18:09,1:45,42:46,2:01,24:02,1:28:43
+64,46,Hugh Rouse,40-44,49,Open,,13:01,2:16,42:09,1:44,29:48,1:28:58
+65,125,Yolanda Gallagher,45-49,16,Female,MSC Tri,12:36,1:26,47:04,1:03,26:55,1:29:04
+66,70,Paul Mc Guinness,65-69,50,Open,Cuilcagh TC,12:33,1:52,45:19,1:48,27:37,1:29:09
+67,127,Kieran Meehan,40-44,51,Open,,15:34,3:02,48:18,0:46,21:40,1:29:20
+68,179,Conor Harte,55-59,52,Open,Lough Key Triathlon Club,15:18,2:18,43:30,1:05,27:37,1:29:48
+69,120,Anne Marie Reidy,50-54,17,Female,Tri Lakes Triathlon Club,14:02,1:45,44:11,1:46,28:11,1:29:55
+70,145,Andreas Natvik,30-34,53,Open,Sligo Tri Club,16:08,4:57,46:23,0:54,21:44,1:30:06
+71,3,Oisin Kyne,30-34,54,Open,,15:14,2:14,45:07,0:37,27:00,1:30:12
+72,117,Oliver Wilson,40-44,55,Open,Castlebar Tri Club,12:26,3:33,47:01,1:38,26:13,1:30:51
+73,143,Aoife Clancy,35-39,18,Female,Westport TC 2026,15:29,2:15,45:05,1:55,26:11,1:30:55
+74,130,Helen Mchugh,35-39,19,Female,Castlebar Tri Club,14:52,3:18,46:46,1:18,24:49,1:31:03
+75,118,Kalina Cmuchalska,35-39,20,Female,Liquid Motion TC,13:08,2:28,46:41,1:21,27:33,1:31:11
+76,168,Eilish O'Brien,45-49,21,Female,Liquid Motion TC,12:13,1:27,47:54,1:08,28:38,1:31:20
+77,25,Eimear Colreavy,25-29,22,Female,,14:17,1:48,48:49,0:45,25:55,1:31:34
+78,54,Inga Albrecht,30-34,23,Female,Sligo Tri Club,13:05,1:12,45:43,1:09,30:40,1:31:49
+79,23,Chris Maguire,30-34,56,Open,,14:29,2:03,45:04,1:18,29:14,1:32:08
+80,126,Conor Rowland,25-29,57,Open,,15:41,3:57,46:28,0:52,25:32,1:32:30
+81,185,Noel Keaveney,60-64,58,Open,Sligo Tri Club,15:03,1:54,47:57,1:40,26:11,1:32:45
+82,151,Eleanor Rooney,60-64,24,Female,MSC Tri,15:03,1:33,44:40,1:18,30:40,1:33:14
+83,85,Eadaoin Moran,40-44,25,Female,,15:13,2:07,49:21,0:54,25:50,1:33:25
+84,181,Andrew Conway,30-34,59,Open,,17:25,2:27,51:42,1:09,20:45,1:33:28
+85,192,Rachel Gallagher,40-44,26,Female,Liquid Motion TC,13:55,2:02,44:25,1:32,31:37,1:33:31
+86,114,Matthew Myers,50-54,60,Open,Peninsula Triathlon Club,13:20,1:56,44:16,1:26,32:40,1:33:38
+87,177,Sarah Donnelly,25-29,27,Female,,11:18,2:18,47:40,0:38,32:04,1:33:58
+88,176,Rebecca Donnelly,20-24,27,Female,,10:32,2:24,45:18,3:40,32:04,1:33:58
+89,148,Padraic Mcweeney,60-64,61,Open,Longford TC,14:20,2:22,45:13,2:55,29:33,1:34:23
+90,12,Patrick Quinn,55-59,62,Open,Liquid Motion TC,18:07,3:25,43:46,1:38,27:54,1:34:50
+91,38,Sonya Thomson,45-49,29,Female,Templemore Triathlon Club,14:01,2:31,47:22,1:37,29:35,1:35:06
+92,153,Pamela Zarb,55-59,30,Female,MSC Tri,14:32,2:07,49:02,1:59,28:48,1:36:28
+93,26,Maura Mullen,40-44,31,Female,Sligo Tri Club,14:47,2:36,49:29,1:00,28:38,1:36:30
+94,108,Laura Kilgallon,45-49,32,Female,Liquid Motion TC,14:05,2:40,49:56,1:49,28:06,1:36:36
+95,182,Lisa Mulvey,25-29,33,Female,Sligo Tri Club,16:33,4:58,49:23,1:54,24:20,1:37:08
+96,42,Louise Mc Manus,60-64,34,Female,Cuilcagh TC,12:54,1:55,48:53,2:03,31:51,1:37:36
+97,103,Thomas Lynott,20-24,63,Open,Liquid Motion TC,11:29,2:05,49:59,1:16,32:54,1:37:43
+98,90,Eugene Hoade,55-59,64,Open,Tri Lakes Triathlon Club,12:22,2:37,43:17,1:56,37:39,1:37:51
+99,193,Paul Quinn,55-59,65,Open,Tri Lakes Triathlon Club,17:46,2:25,42:29,2:23,32:51,1:37:54
+100,51,Stephanie Lismore,40-44,35,Female,Olympian Triathlon Club,12:25,2:21,50:11,2:16,31:15,1:38:28
+101,33,Joanna Miskelly,45-49,36,Female,,18:41,3:01,45:53,2:01,29:01,1:38:37
+102,172,Diane Coyne,45-49,37,Female,,15:25,2:16,48:23,0:48,31:49,1:38:41
+103,190,Levi Keavney,30-34,66,Open,,17:48,2:50,50:20,2:22,25:27,1:38:47
+104,178,John Hallahan,40-44,67,Open,,14:48,2:11,48:00,0:51,33:01,1:38:51
+105,43,Chiara Conway,45-49,38,Female,Sligo Tri Club,15:20,4:16,46:23,1:22,31:36,1:38:57
+106,64,Sarah Battle,40-44,39,Female,,13:19,2:11,51:36,1:10,30:50,1:39:06
+107,35,Inga Saladziute,40-44,40,Female,Sligo Tri Club,17:52,2:12,51:29,0:53,27:31,1:39:57
+108,63,Sam Ardiff,25-29,68,Open,,14:34,4:44,52:46,1:01,26:59,1:40:04
+109,31,Grace Sheridan,25-29,41,Female,,15:19,3:33,54:58,1:00,25:20,1:40:10
+110,137,Mary Hoey,60-64,42,Female,MSC Tri,15:11,1:58,52:18,1:50,29:34,1:40:51
+111,170,Orla Donnelly,55-59,43,Female,Liquid Motion TC,12:06,2:25,50:44,1:57,34:08,1:41:20
+112,6,Roisin Mcdaid,35-39,44,Female,,14:08,1:53,48:52,1:43,35:32,1:42:08
+113,40,Tony Mcgoldrick,55-59,69,Open,Cuilcagh TC,17:11,3:00,51:53,2:39,27:47,1:42:30
+114,2,Seamus Kyne,60-64,70,Open,,22:16,3:33,46:48,3:06,27:49,1:43:32
+115,29,Francesca Reddington,20-24,45,Female,,14:02,1:46,54:56,1:11,32:03,1:43:58
+116,152,Alison Carter,55-59,46,Female,,16:04,2:45,48:31,2:16,35:38,1:45:14
+117,154,Martina Cawley,40-44,47,Female,Liquid Motion TC,16:22,3:38,51:15,2:34,32:13,1:46:02
+118,19,Cathy Murtagh,40-44,48,Female,Sligo Tri Club,18:23,2:11,52:07,1:41,31:56,1:46:18
+119,134,Clara Moss,45-49,49,Female,Liquid Motion TC,15:17,4:18,53:00,1:39,32:11,1:46:25
+120,93,Anne-Marie Flaherty,40-44,50,Female,Sligo Tri Club,13:51,2:25,54:47,1:35,36:47,1:49:25
+121,22,Jamie Mc Cormakc,40-44,71,Open,,15:49,2:57,54:33,1:25,35:03,1:49:47
+122,34,Gavin Mcconvey,60-64,72,Open,,20:55,3:47,48:55,2:08,34:58,1:50:43
+123,32,Tony Sheridan,55-59,73,Open,,17:16,2:00,57:31,2:10,32:16,1:51:13
+124,69,Kevin Mcdermott,65-69,74,Open,Carlow TC,16:01,3:48,51:43,1:47,38:27,1:51:46
+125,59,Alan Ardiff,60-64,75,Open,,14:56,4:04,53:55,1:00,38:14,1:52:09
+126,131,Mick Hegarty,65-69,76,Open,,16:47,1:56,59:57,1:45,36:33,1:56:58
+127,104,Diana Ursul,35-39,51,Female,Athlone Triathlon Club,17:17,2:43,59:16,1:48,36:14,1:57:18
+128,27,Marion Sweeney,40-44,52,Female,Sligo Tri Club,20:29,2:34,59:51,0:56,33:35,1:57:25
+129,157,Geraldine Rooney,60-64,53,Female,MSC Tri,16:33,2:12,57:57,2:17,40:18,1:59:17
+130,109,Karen Brown,50-54,54,Female,Not Applicable,16:03,2:51,57:16,1:02,44:23,2:01:35
+131,77,Patricia Coyne,45-49,55,Female,Lanesboro Triathlon Club,15:24,3:27,1:03:31,1:13,38:06,2:01:41
+132,139,Clare Boyle,60-64,56,Female,MSC Tri,15:11,2:57,59:46,2:40,42:26,2:03:00
+133,24,Bridie Colreavy,60-64,57,Female,Sligo Tri Club,16:00,2:37,1:02:29,1:10,42:12,2:04:28
+134,141,Dean Gillespie,30-34,77,Open,Liquid Motion TC,11:17,0:55,39:16,,2:13:30,2:13:30
+135,169,Jamie Devaney,35-39,77,Open,,15:58,,1:09:17,1:54,1:02:19,2:13:30
+136,28,Mary Heery,60-64,58,Female,Sligo Tri Club,15:39,4:13,1:12:13,1:35,42:43,2:16:23
+137,162,Annette Kelly,60-64,59,Female,MSC Tri,25:52,4:17,53:53,2:40,50:37,2:17:19
+,55,Matthew Evans,45-49,,Open,,13:24,4:48,53:41,2:05,,
+,156,Gary Omahoney,40-44,,Open,Liquid Motion TC,12:41,2:05,,,,
+,52,Liz Hughes,45-49,,Female,Drogheda Triathlon Club,,,,,,
+,4,Deirdre Kelly,45-49,,Female,Sligo Tri Club,,,,,,
+,5,James Evans,30-34,,Open,,,,,,,
+,7,John Kelly,45-49,,Open,Sligo Tri Club,,,,,,
+,9,Aaron Murtagh,30-34,,Open,,,,,,,
+,13,Jenny Johnson,40-44,,Female,Sligo Tri Club,,,,,,
+,14,Elaine Reilly,45-49,,Female,Cuilcagh TC,,,,,,
+,16,Brian Dunleavy,40-44,,Open,,,,,,,
+,17,Rosie Dignam,40-44,,Female,Sligo Tri Club,,,,,,
+,21,Trevor Cawley,40-44,,Open,Sligo Tri Club,,,,,,
+,30,Aoibhe Dunne,20-24,,Female,Liquid Motion TC,,,,,,
+,39,Colm Tobin,35-39,,Open,Lough Key Triathlon Club,,,,,,
+,44,Mary Quinn,45-49,,Female,Sligo Tri Club,,,,,,
+,47,Michael Waters,45-49,,Open,Sligo Tri Club,,,,,,
+,50,David Mellett,50-54,,Open,Castlebar Tri Club,,,,,,
+,53,Michelle White,55-59,,Female,Tri an Mhi TC,,,,,,
+,61,Paul Carr,35-39,,Open,Sligo Tri Club,,,,,,
+,67,Laura Tighe,35-39,,Female,,,,,,,
+,71,Monica Ahumada,35-39,,Female,Fingal Triathlon Club,,,,,,
+,72,John Treacy,65-69,,Open,,,,,,,
+,73,Jonathan Gasse,40-44,,Open,,,,,,,
+,78,Sarah Jenkins,40-44,,Female,Galway Triathlon Club,,,,,,
+,80,Danielle Thomas,35-39,,Female,Galway Triathlon Club,,,,,,
+,81,David Lipsett,45-49,,Open,MSC Tri,,,,,,
+,95,Sorcha Killian,25-29,,Female,,,,,,,
+,98,Ian O Seibhlinn,45-49,,Open,Sligo Tri Club,,,,,,
+,102,Declan Byrne,65-69,,Open,Not Applicable,,,,,,
+,112,Siobhan Swaysland,40-44,,Female,Belpark Triathlon Club,,,,,,
+,115,Rory Devine,35-39,,Open,,,,,,,
+,119,Lamar Fatani,20-24,,Female,,,,,,,
+,136,Darragh Murphy,30-34,,Open,,,,,,,
+,138,Dara Mcdermott,55-59,,Female,Belpark Triathlon Club,,,,,,
+,142,Matthew Scandrett,30-34,,Open,Castlebar Tri Club,,,,,,
+,146,Mervyn Forde,45-49,,Open,Tri Lakes Triathlon Club,,,,,,
+,149,Ronan O Byrne,45-49,,Open,,,,,,,
+,186,Niamh Mcguinn,40-44,,Female,,,,,,,

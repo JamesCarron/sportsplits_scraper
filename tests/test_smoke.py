@@ -10,7 +10,7 @@ from sportsplits.races import REGISTRY, load_all
 def test_load_all_returns_every_race_with_metrics():
     dfs = load_all()
     assert set(dfs) == set(REGISTRY)
-    assert len(dfs) == 6
+    assert len(dfs) == 35
     for name, df in dfs.items():
         assert len(df) > 0, f"{name} loaded no rows"
         assert df.shape[1] == 37, f"{name} has {df.shape[1]} columns, expected 37"

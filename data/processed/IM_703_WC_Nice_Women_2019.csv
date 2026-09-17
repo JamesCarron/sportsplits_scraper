@@ -1,0 +1,2023 @@
+Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
+1,1,Daniela Ryf,FPRO,1,Female,Switzerland,26:32,,2:33:38,,1:18:37,4:23:04
+2,4,Holly Lawrence,FPRO,2,Female,United Kingdom,26:23,,2:36:50,,1:20:08,4:27:02
+3,7,Imogen Simmonds,FPRO,3,Female,Switzerland,26:40,,2:36:16,,1:21:10,4:28:10
+4,26,Chelsea Sodaro,FPRO,4,Female,United States,27:23,,2:41:34,,1:17:56,4:31:07
+5,2,Lucy Charles-Barclay,FPRO,5,Female,United Kingdom,25:23,,2:42:03,,1:20:19,4:31:50
+6,6,Radka Kahlefeldt,FPRO,6,Female,Czechia,26:37,,2:43:02,,1:19:59,4:33:38
+7,61,Amelia Watkinson,FPRO,7,Female,New Zealand,26:40,,2:37:59,,1:25:21,4:34:06
+8,19,Manon Genet,FPRO,8,Female,France,29:16,,2:39:26,,1:21:16,4:34:14
+9,9,Emma Pallant-Browne,FPRO,9,Female,United Kingdom,27:36,,2:45:06,,1:17:53,4:34:26
+10,27,Sara Svensk,FPRO,10,Female,Sweden,29:23,,2:44:12,,1:17:18,4:35:23
+11,16,India Lee,FPRO,11,Female,United Kingdom,26:32,,2:42:18,,1:22:56,4:36:10
+12,54,Kaisa Sali,FPRO,12,Female,Finland,29:17,,2:43:15,,1:20:17,4:37:18
+13,42,Paula Findlay,FPRO,13,Female,Canada,26:39,,2:42:17,,1:26:13,4:39:21
+14,20,Jackie Hering,FPRO,14,Female,United States,29:16,,2:48:24,,1:17:51,4:39:50
+15,35,Judith Corachan Vaquera,FPRO,15,Female,Spain,27:31,,2:49:53,,1:22:07,4:43:51
+16,53,Kat Matthews,FPRO,16,Female,United Kingdom,29:15,,2:48:28,,1:23:24,4:45:15
+17,59,Grace Thek,FPRO,17,Female,Australia,27:32,,2:53:39,,1:21:16,4:46:42
+18,34,Jeanne Collonge,FPRO,18,Female,France,31:06,,2:46:13,,1:25:55,4:47:50
+19,38,Nina Derron,FPRO,19,Female,Switzerland,29:19,,2:51:06,,1:24:54,4:49:34
+20,52,Anne Reischmann,FPRO,20,Female,Germany,31:07,,2:46:20,,1:27:41,4:49:48
+21,28,Annah Watkinson,FPRO,21,Female,South Africa,29:28,,2:53:42,,1:22:34,4:50:23
+22,5,Pâmella Nascimento De Oliveira,FPRO,22,Female,Brazil,26:21,,2:51:13,,1:28:47,4:50:48
+23,919,Johanna Daumas Carrier,F40-44,1,Female,France,27:16,,2:52:19,,1:26:47,4:51:09
+24,56,Jenny Schulz,FPRO,23,Female,Germany,31:12,,2:54:50,,1:20:08,4:51:15
+25,36,Luiza Cravo,FPRO,24,Female,Brazil,31:13,,2:53:14,,1:23:02,4:52:13
+26,46,Kinsey Mattison,FPRO,25,Female,United States,26:34,,2:53:46,,1:27:33,4:52:25
+27,14,Haley Chura,FPRO,26,Female,United States,26:28,,2:59:58,,1:22:08,4:53:09
+28,1206,Rachel Clausing,F35-39,1,Female,United States,32:33,,2:48:32,,1:27:49,4:53:56
+29,22,Carrie Lester,FPRO,27,Female,Australia,28:05,,2:54:10,,1:27:26,4:54:20
+30,18,Danielle Dingman,FPRO,28,Female,United States,39:20,,2:49:45,,1:21:59,4:55:04
+31,44,Ewa Komander,FPRO,29,Female,Poland,29:25,,2:48:05,,1:34:06,4:56:05
+32,1492,Tracy Clinch,F30-34,1,Female,Australia,31:06,,2:58:03,,1:21:33,4:56:06
+33,1671,Caitlin Standifer,F30-34,2,Female,United States,35:10,,2:51:40,,1:22:46,4:56:13
+34,1648,MORGANE RIOU,F30-34,3,Female,France,34:32,,2:50:33,,1:27:05,4:56:36
+35,29,Pamela-Ann Bachelder St-Pierre,FPRO,30,Female,Canada,34:47,,2:54:56,,1:22:49,4:56:38
+36,1753,Charlene Clavel,F25-29,1,Female,France,30:38,,2:52:09,,1:29:13,4:57:17
+37,1572,Stefanie Kuhnert,F30-34,4,Female,Germany,29:33,,2:53:14,,1:30:47,4:58:35
+38,1935,Sidney Andrew,F18-24,1,Female,United States,27:01,,2:52:18,,1:32:05,4:58:55
+39,39,Dimity-Lee Duke,FPRO,31,Female,Australia,31:11,,2:52:15,,1:31:22,4:59:31
+40,50,Maddy Pesch,FPRO,32,Female,United States,29:17,,2:54:01,,1:32:12,4:59:57
+41,55,Mariella Sawyer,FPRO,33,Female,South Africa,34:47,,2:59:12,,1:21:50,5:00:00
+42,57,Felicity Sheedy-Ryan,FPRO,34,Female,Australia,26:56,,3:09:42,,1:19:24,5:00:13
+43,1579,Magdalena Lenz,F30-34,5,Female,Poland,35:03,,2:56:03,,1:24:42,5:00:19
+44,30,Lauren Barnett,FPRO,35,Female,United States,32:45,,2:57:00,,1:26:30,5:00:45
+45,1608,Fiona Moriarty,F30-34,6,Female,Ireland,33:25,,2:52:26,,1:29:27,5:00:55
+46,49,Romina Palacio Balena,FPRO,36,Female,Argentina,29:15,,3:01:49,,1:25:27,5:01:06
+47,1635,Ruth Astle,F30-34,7,Female,United Kingdom,34:06,,2:54:04,,1:27:30,5:01:14
+48,58,Bianca Steurer,FPRO,37,Female,Austria,32:59,,2:55:15,,1:28:25,5:01:29
+49,1722,Alexia Bailly,F25-29,2,Female,France,28:13,,2:56:23,,1:32:03,5:01:32
+50,1979,Julie Iemmolo,F18-24,2,Female,France,27:17,,2:54:43,,1:34:47,5:02:03
+51,1159,Cathy Yndestad,F40-44,2,Female,Canada,29:59,,2:58:03,,1:29:13,5:02:06
+52,1822,Fanny Kleiner,F25-29,3,Female,Switzerland,33:41,,2:54:54,,1:28:26,5:02:26
+53,2010,Usoa Ostolaza Zabala,F18-24,3,Female,Spain,31:12,,2:58:57,,1:28:09,5:03:31
+54,949,Amy Farrell,F40-44,3,Female,United States,33:52,,2:57:56,,1:26:43,5:04:09
+55,1182,Sarah Bishop,F35-39,2,Female,United States,33:16,,2:59:05,,1:25:59,5:04:25
+56,1406,Anne Tabarant,F35-39,3,Female,France,27:56,,3:01:51,,1:29:53,5:04:41
+57,8,Ellie Salthouse,FPRO,38,Female,Australia,26:23,,3:15:00,,1:18:58,5:04:47
+58,1212,Fanny Cospain,F35-39,4,Female,France,36:48,,2:56:47,,1:25:36,5:04:55
+59,1530,Rebecca Goodwin,F30-34,8,Female,United Kingdom,33:43,,2:55:29,,1:31:11,5:05:00
+60,1986,Katharina Krüger,F18-24,4,Female,Germany,28:22,,3:01:43,,1:29:59,5:05:08
+61,1792,Lisa Gerß,F25-29,4,Female,Germany,32:07,,3:00:03,,1:28:33,5:05:54
+62,1763,Monique De Abreu,F25-29,5,Female,Australia,34:42,,2:58:29,,1:28:15,5:06:04
+63,1949,Adriana Isaura Carreño,F18-24,5,Female,Mexico,30:01,,3:02:07,,1:28:39,5:06:07
+64,2017,Amber Rombaut,F18-24,6,Female,Belgium,28:01,,2:59:37,,1:34:04,5:06:27
+65,25,Frankie Sanjana,FPRO,39,Female,United Kingdom,34:19,,2:58:42,,1:28:11,5:06:33
+66,1830,Elise Lagerstrom,F25-29,6,Female,United States,27:58,,3:01:54,,1:32:04,5:06:37
+67,1253,Alina Hanschke,F35-39,5,Female,Mexico,31:42,,3:01:37,,1:27:28,5:06:43
+68,1814,Laura Jansen,F25-29,7,Female,Germany,33:17,,2:59:18,,1:28:54,5:06:54
+69,47,Xenia Luxem,FPRO,40,Female,Belgium,34:48,,2:59:38,,1:28:39,5:07:11
+70,1457,Hannah Arlom,F30-34,9,Female,Germany,30:19,,2:56:47,,1:34:49,5:07:26
+71,1701,Andrea Wirz,F30-34,10,Female,Switzerland,32:05,,2:56:39,,1:33:30,5:07:33
+72,1729,Line Bonde,F25-29,8,Female,Denmark,32:52,,2:54:21,,1:34:49,5:07:34
+73,1956,Carla Dahan,F18-24,7,Female,France,31:07,,2:53:25,,1:37:59,5:07:52
+74,1954,Jemima Cooper,F18-24,8,Female,United Kingdom,33:35,,3:02:00,,1:27:40,5:07:53
+75,1662,Karen Schultheiss,F30-34,11,Female,Switzerland,37:06,,2:49:04,,1:37:35,5:08:23
+76,1742,Kathryn Buss,F25-29,9,Female,United States,33:54,,2:54:25,,1:33:46,5:08:35
+77,1955,Anneline Coutinho,F18-24,9,Female,France,30:28,,2:55:18,,1:38:09,5:08:37
+78,1101,Sharon Schmidt-Mongrain,F40-44,4,Female,United States,31:54,,3:01:35,,1:30:36,5:09:14
+79,1577,Anna Lechowicz,F30-34,12,Female,Poland,35:53,,2:58:55,,1:30:18,5:09:49
+80,1444,Jennifer Zenker,F35-39,6,Female,Australia,27:26,,3:01:08,,1:36:32,5:10:25
+81,608,Sam Warriner,F45-49,1,Female,New Zealand,30:25,,2:59:06,,1:35:28,5:10:30
+82,1699,Astrid Werner,F30-34,13,Female,Germany,34:37,,2:57:42,,1:31:57,5:10:40
+83,1748,Jamie Chapman,F25-29,10,Female,United States,30:45,,2:58:57,,1:35:22,5:10:49
+84,1685,Inna Samitova,F30-34,14,Female,,29:26,,3:00:38,,1:36:12,5:11:25
+85,1750,Anastasiia Chernenko,F25-29,11,Female,Ukraine,28:10,,3:04:53,,1:32:51,5:11:29
+86,1396,Molly Smith,F35-39,7,Female,United States,36:17,,2:59:30,,1:30:35,5:11:45
+87,1499,Diane Cutillas,F30-34,15,Female,France,35:28,,2:59:29,,1:29:25,5:11:48
+88,1491,Claudia Wipfler,F30-34,16,Female,Germany,34:48,,3:00:38,,1:29:15,5:11:55
+89,1616,Carolyn Olsen,F30-34,17,Female,United States,36:13,,3:01:20,,1:29:12,5:12:14
+90,1242,Désirée Germann,F35-39,8,Female,Switzerland,35:16,,2:54:09,,1:36:36,5:12:36
+91,1848,Emily McNaughtan,F25-29,12,Female,New Zealand,31:41,,2:59:07,,1:34:58,5:12:36
+92,1632,Elise Portugal,F30-34,18,Female,Peru,28:21,,3:02:09,,1:35:30,5:12:47
+93,1916,Caroline Vandeschrick,F25-29,13,Female,France,33:44,,2:59:20,,1:34:15,5:12:52
+94,1810,Marine Imbach,F25-29,14,Female,France,31:13,,3:03:26,,1:33:08,5:12:53
+95,1665,Kristina Grieger,F30-34,19,Female,Germany,33:42,,3:04:22,,1:29:24,5:13:01
+96,1140,Jeanet van den Berg,F40-44,5,Female,Netherlands,35:55,,2:59:35,,1:32:11,5:13:12
+97,845,Elisabetta Villa,F45-49,2,Female,Italy,37:24,,3:03:06,,1:27:26,5:13:21
+98,671,Linda GUINOISEAU,F45-49,3,Female,France,34:38,,3:01:31,,1:31:27,5:13:55
+99,788,Alexandra Rechel,F45-49,4,Female,Germany,35:24,,2:58:50,,1:34:52,5:14:19
+100,1177,Adeline Beauchet,F35-39,9,Female,France,29:26,,3:06:22,,1:33:51,5:14:21
+101,2012,Marjolaine Pierré,F18-24,10,Female,France,30:06,,3:06:20,,1:32:18,5:14:28
+102,1718,Mathilde Ansoborlo,F25-29,15,Female,France,30:42,,3:06:12,,1:32:46,5:14:33
+103,1933,Fatima Alanis,F18-24,11,Female,Mexico,33:44,,3:10:10,,1:26:26,5:14:57
+104,1479,Laurie Canac,F30-34,20,Female,France,34:43,,2:58:55,,1:35:10,5:15:07
+105,1284,Judit Koronika,F35-39,10,Female,Hungary,32:24,,3:08:49,,1:27:30,5:15:08
+106,1511,Stephanie Ede,F30-34,21,Female,United Kingdom,33:54,,3:00:18,,1:35:20,5:15:18
+107,769,Becky Paige,F45-49,5,Female,United States,30:02,,3:07:28,,1:31:58,5:15:29
+108,1386,Valérie Schmidt,F35-39,11,Female,Switzerland,32:03,,2:59:23,,1:38:38,5:15:32
+109,1629,Ewelina Wolos,F30-34,22,Female,Poland,35:11,,2:54:00,,1:41:00,5:15:40
+110,1178,Aurelie Beaurepaire,F35-39,12,Female,France,33:24,,3:01:10,,1:35:04,5:15:49
+111,31,Maria Eugenia Barrera Anduaga,FPRO,41,Female,Mexico,29:17,,3:01:01,,1:40:27,5:15:59
+112,2013,Paula Ponte Moreira,F18-24,12,Female,Brazil,31:31,,3:05:53,,1:32:46,5:16:04
+113,1469,Carolina Bilato,F30-34,23,Female,Brazil,32:33,,3:06:28,,1:31:34,5:16:07
+114,1785,Héloïse Focquenoy,F25-29,16,Female,France,31:53,,3:01:42,,1:36:04,5:16:26
+115,1519,Maricarmen Farias,F30-34,24,Female,Mexico,36:27,,2:55:56,,1:36:52,5:16:29
+116,679,Dacil Hernandez Hernandez,F45-49,6,Female,Spain,32:19,,3:08:15,,1:30:35,5:16:35
+117,1970,Ellen Guiney,F18-24,13,Female,Australia,30:56,,3:00:29,,1:40:25,5:16:36
+118,1762,Lydia Dant,F25-29,17,Female,United Kingdom,31:00,,3:00:33,,1:39:31,5:16:38
+119,63,Kyra Wiens,FPRO,42,Female,United States,30:18,,3:09:10,,1:32:30,5:16:46
+120,775,Kelly Phuah,F45-49,7,Female,Australia,34:13,,2:59:56,,1:36:32,5:16:51
+121,967,Nicole Gaillard,F40-44,6,Female,Switzerland,33:44,,3:03:34,,1:34:40,5:16:57
+122,1826,Michelle Krebs,F25-29,18,Female,South Africa,32:09,,3:03:11,,1:35:28,5:17:23
+123,1043,Michela Menegon,F40-44,7,Female,Italy,29:02,,3:06:45,,1:36:17,5:17:25
+124,797,Rhian Roxburgh,F45-49,8,Female,United Kingdom,28:59,,3:03:35,,1:39:04,5:17:37
+125,1927,Anna Weinhardt,F25-29,19,Female,Hungary,31:16,,3:02:59,,1:38:10,5:17:37
+126,1564,Amy Kilpin,F30-34,25,Female,United Kingdom,33:41,,3:03:09,,1:34:21,5:17:39
+127,1573,Anais Labalec,F30-34,26,Female,France,31:25,,3:01:33,,1:39:18,5:18:04
+128,1637,Roslynn Quirk,F30-34,27,Female,Australia,35:42,,2:55:40,,1:40:19,5:18:07
+129,1471,Evgenia Boulmeti,F30-34,28,Female,Greece,34:04,,3:00:59,,1:37:37,5:18:09
+130,1752,Daria Chunareva,F25-29,20,Female,Russian Federation,37:36,,3:03:41,,1:32:12,5:18:09
+131,1373,Bex Rimmington,F35-39,13,Female,United Kingdom,28:27,,3:04:26,,1:38:25,5:18:15
+132,1796,Carolina Granfors,F25-29,21,Female,Finland,33:22,,3:01:27,,1:37:34,5:18:32
+133,1035,Catherine Mathew,F40-44,8,Female,United Kingdom,34:03,,3:01:22,,1:38:28,5:18:49
+134,1951,Chia-Chia Chang,F18-24,14,Female,Taiwan,29:01,,3:08:58,,1:34:55,5:19:00
+135,1463,Coralie Baumann,F30-34,29,Female,United States,28:46,,3:07:08,,1:35:53,5:19:01
+136,1672,Lucy Brash,F30-34,30,Female,United Kingdom,34:24,,3:06:42,,1:31:30,5:19:04
+137,1596,Tara Mcwilliams,F30-34,31,Female,United States,28:31,,3:11:06,,1:33:28,5:19:17
+138,888,Monica Bonfanti,F40-44,9,Female,Italy,34:11,,3:01:51,,1:33:23,5:19:17
+139,1414,Cecilia Valdes,F35-39,14,Female,Chile,34:55,,3:05:10,,1:34:25,5:19:19
+140,1938,Claudia Fernanda Arguijo Aguirre,F18-24,15,Female,Mexico,32:01,,3:10:05,,1:32:44,5:19:30
+141,1569,Alysha DAVIS,F30-34,32,Female,United States,36:58,,3:05:09,,1:31:21,5:19:32
+142,1624,Flora Perrin,F30-34,33,Female,France,31:01,,3:07:19,,1:36:10,5:19:38
+143,1741,Meryl Burger,F25-29,22,Female,Netherlands,35:42,,3:03:27,,1:34:51,5:19:43
+144,883,Gunhild Berntsen,F40-44,10,Female,Norway,32:29,,3:08:41,,1:33:22,5:19:51
+145,1458,Mireia Arrillaga,F30-34,34,Female,Spain,30:40,,3:03:34,,1:39:49,5:19:53
+146,1740,Tani Burge,F25-29,23,Female,Australia,34:55,,3:07:06,,1:33:17,5:20:01
+147,1462,Natalie Batey,F30-34,35,Female,United Kingdom,33:02,,3:08:17,,1:31:23,5:20:10
+148,1790,Gessica Gambaro,F25-29,24,Female,Switzerland,32:58,,3:04:25,,1:36:45,5:20:16
+149,1090,Elizabeth Richardson,F40-44,11,Female,United Kingdom,33:35,,3:06:10,,1:35:34,5:20:19
+150,1099,Tiina Sarparanta,F40-44,12,Female,Finland,27:38,,3:07:17,,1:39:04,5:20:23
+151,620,Carla Ciaudano,F45-49,9,Female,Italy,38:35,,2:59:54,,1:36:03,5:20:25
+152,1446,Anne Zijderveld,F35-39,15,Female,Netherlands,30:17,,3:05:25,,1:38:06,5:20:25
+153,1889,Lærke Schjødt Rasmussen,F25-29,25,Female,Denmark,36:13,,3:01:26,,1:36:11,5:20:27
+154,2004,Luisa Moroff,F18-24,16,Female,Germany,32:32,,3:07:24,,1:35:26,5:20:30
+155,1673,Bec Stedman,F30-34,36,Female,Australia,34:21,,3:02:03,,1:37:51,5:20:30
+156,1959,Guadalupe Diaz Sebriano,F18-24,17,Female,Argentina,32:49,,3:09:19,,1:33:18,5:20:31
+157,1116,Sharon Styles,F40-44,13,Female,Canada,32:23,,3:07:48,,1:35:13,5:20:45
+158,1193,Mariana Brugger,F35-39,16,Female,Portugal,35:22,,3:04:40,,1:34:00,5:20:54
+159,975,Katharina Grölz,F40-44,14,Female,Germany,37:30,,3:04:27,,1:33:38,5:21:03
+160,1804,Mollie Hebda,F25-29,26,Female,United States,27:58,,3:07:57,,1:39:09,5:21:03
+161,1150,Silvia Weishaeupl,F40-44,15,Female,Germany,33:54,,3:11:08,,1:30:28,5:21:18
+162,1884,Andrea Sanchez,F25-29,27,Female,Mexico,29:15,,3:09:21,,1:36:41,5:21:22
+163,1548,Franziska Hollmig,F30-34,37,Female,Germany,36:06,,2:58:42,,1:40:00,5:21:23
+164,498,Brigitte Mcmahon,F50-54,1,Female,Switzerland,29:03,,3:10:22,,1:36:32,5:21:25
+165,1539,Ursula Hankinson,F30-34,38,Female,United Kingdom,34:44,,3:03:20,,1:37:54,5:21:28
+166,1659,Anne Schafhausen,F30-34,39,Female,Germany,40:05,,3:10:38,,1:24:45,5:21:35
+167,1969,Georgia Grobler,F18-24,18,Female,South Africa,32:12,,3:10:44,,1:33:46,5:21:43
+168,1682,Alexandra Ersted,F30-34,40,Female,Denmark,33:05,,3:04:08,,1:38:08,5:21:46
+169,287,Catherine Houseaux,F55-59,1,Female,France,35:26,,3:01:50,,1:37:47,5:21:47
+170,1122,Renee Swinson,F40-44,16,Female,United States,36:08,,2:59:06,,1:40:30,5:21:53
+171,1732,Mation Boudé,F25-29,28,Female,France,35:12,,3:04:44,,1:36:15,5:21:53
+172,1901,Marieke Stasch,F25-29,29,Female,Germany,33:04,,3:10:14,,1:33:20,5:21:53
+173,1243,Vanessa Gianinni,F35-39,17,Female,Brazil,30:54,,3:13:58,,1:31:03,5:21:55
+174,1621,Fernanda Penkal,F30-34,41,Female,Brazil,39:10,,3:00:28,,1:35:48,5:21:56
+175,1903,Annamarie Strehlow,F25-29,30,Female,United States,33:57,,3:04:26,,1:35:39,5:21:58
+176,876,Ana Barbosa,F40-44,17,Female,Brazil,38:04,,3:11:41,,1:25:12,5:21:59
+177,1141,Valerie Van Hauwaert,F40-44,18,Female,Belgium,36:45,,3:06:12,,1:33:29,5:22:01
+178,536,Sarah Russell,F50-54,2,Female,United States,36:00,,3:08:56,,1:30:12,5:22:06
+179,1993,Zaira Lorenzo Perez,F18-24,19,Female,Spain,29:37,,3:12:13,,1:34:27,5:22:20
+180,755,Corinne Moss,F45-49,10,Female,United Kingdom,33:20,,2:59:20,,1:44:27,5:22:20
+181,590,Gaby Andres,F45-49,11,Female,Belgium,37:12,,3:05:58,,1:33:27,5:22:27
+182,1547,Annamarie Hofstetter,F30-34,42,Female,United States,34:41,,3:05:00,,1:36:20,5:22:30
+183,1609,Ivett Nagy,F30-34,43,Female,Hungary,32:21,,3:11:00,,1:33:33,5:22:33
+184,1417,Michelle Van Deventer,F35-39,18,Female,United Kingdom,37:43,,3:01:12,,1:36:55,5:22:38
+185,1978,Frederikke Idon-Andersen,F18-24,20,Female,Denmark,34:03,,3:09:09,,1:34:07,5:22:42
+186,1117,Manuela Suess,F40-44,19,Female,Germany,34:19,,3:03:43,,1:39:05,5:22:45
+187,1658,Claudia Scaldini,F30-34,44,Female,Brazil,35:58,,3:05:34,,1:34:39,5:22:50
+188,998,Tina In-Albon,F40-44,20,Female,Switzerland,33:07,,3:17:04,,1:26:45,5:23:04
+189,1326,Yanina Minaglia,F35-39,19,Female,Argentina,30:51,,3:08:07,,1:37:14,5:23:09
+190,984,Andrea Haslebacher,F40-44,21,Female,Switzerland,32:32,,2:58:36,,1:46:05,5:23:14
+191,1554,Bettina Innocenti,F30-34,45,Female,France,30:42,,3:11:40,,1:35:08,5:23:19
+192,1772,Livia Eggler,F25-29,31,Female,Switzerland,37:57,,3:08:46,,1:29:11,5:23:20
+193,2031,Izabela Sobanska,F18-24,21,Female,Poland,34:39,,3:03:29,,1:39:40,5:23:21
+194,638,Michelle Depa,F45-49,12,Female,United States,36:22,,3:04:03,,1:38:07,5:23:22
+195,1966,Fatima Georgina Garcia Tellez,F18-24,22,Female,Mexico,34:03,,3:05:04,,1:38:28,5:23:28
+196,1403,Trude Stormo,F35-39,20,Female,Norway,35:53,,3:06:37,,1:34:49,5:23:41
+197,1465,Giulia Bedorin,F30-34,46,Female,Italy,29:29,,3:12:09,,1:35:49,5:23:42
+198,1494,Maria Jose Coco,F30-34,47,Female,Mexico,35:37,,3:07:08,,1:34:44,5:23:42
+199,1349,Ioana Osa Larruzea,F35-39,21,Female,Spain,34:11,,3:12:12,,1:31:27,5:23:49
+200,1739,Gabrielle Bunten,F25-29,32,Female,United States,27:41,,3:09:05,,1:40:40,5:23:59
+201,584,Peggy Yetman,F50-54,3,Female,United States,35:05,,3:07:19,,1:34:59,5:24:01
+202,907,Jenny Close,F40-44,22,Female,United Kingdom,38:19,,3:03:21,,1:36:33,5:24:05
+203,1215,Peta Cutler,F35-39,22,Female,Australia,34:05,,3:05:24,,1:36:33,5:24:06
+204,1217,Nolwenn Daniel,F35-39,23,Female,France,34:50,,3:10:13,,1:34:20,5:24:18
+205,1805,Sophie Herzog,F25-29,33,Female,Switzerland,33:18,,3:04:57,,1:40:59,5:24:18
+206,1400,Kathrin Stausberg,F35-39,24,Female,Germany,31:08,,3:10:28,,1:36:29,5:24:21
+207,1380,Marie-France Roy,F35-39,25,Female,Canada,33:27,,3:13:02,,1:30:54,5:24:22
+208,812,Lillan Sindahl,F45-49,13,Female,Denmark,36:12,,3:05:21,,1:36:03,5:24:30
+209,399,Nicole Best,F50-54,4,Female,Germany,32:01,,3:07:35,,1:39:51,5:24:33
+210,1527,Olivia Ghisoni,F30-34,48,Female,France,38:40,,3:02:15,,1:38:30,5:24:38
+211,1532,Malin Gren,F30-34,49,Female,Sweden,33:06,,3:12:51,,1:33:24,5:24:39
+212,1939,Zoe Bello,F18-24,23,Female,Venezuela,33:42,,3:10:28,,1:34:25,5:24:42
+213,1874,Irina Raschle,F25-29,34,Female,Switzerland,35:32,,3:02:08,,1:40:52,5:24:44
+214,1345,Hallie Nicoll,F35-39,26,Female,United States,33:28,,3:10:44,,1:34:36,5:24:47
+215,1818,Jacqueline Kallina,F25-29,35,Female,Austria,30:43,,3:13:40,,1:34:32,5:24:49
+216,436,Michelle Enslin,F50-54,5,Female,South Africa,34:44,,3:04:19,,1:38:08,5:25:03
+217,1678,Mena Suter,F30-34,50,Female,Switzerland,30:39,,3:03:35,,1:43:03,5:25:05
+218,1339,Audrey Nalin,F35-39,27,Female,France,38:15,,3:05:08,,1:35:24,5:25:09
+219,1544,Megan Hendry,F30-34,51,Female,Australia,30:05,,3:08:00,,1:42:23,5:25:18
+220,2011,Holly Pedersen,F18-24,24,Female,Australia,34:19,,3:05:42,,1:39:17,5:25:33
+221,1692,Tuula Vesalainen,F30-34,52,Female,Finland,40:28,,3:06:09,,1:33:48,5:25:36
+222,1661,Elena Livia Schiano Lomoriello,F30-34,53,Female,Italy,35:17,,3:06:56,,1:37:36,5:25:41
+223,717,Liesbeth Leysen,F45-49,14,Female,Belgium,35:02,,3:06:47,,1:37:55,5:25:56
+224,1853,Allison Merlo,F25-29,36,Female,United States,32:25,,3:08:54,,1:37:16,5:26:01
+225,1683,Bieke Trenson,F30-34,54,Female,Belgium,34:36,,3:00:37,,1:44:45,5:26:03
+226,1996,Fabia Maramotti,F18-24,25,Female,Italy,27:28,,3:06:22,,1:46:20,5:26:04
+227,1370,Ana Revilla,F35-39,28,Female,Spain,35:31,,3:11:13,,1:32:42,5:26:07
+228,1464,Julianna Bednar,F30-34,55,Female,United States,33:58,,3:14:08,,1:31:06,5:26:09
+229,1691,Liliana Verissimo,F30-34,56,Female,Portugal,36:15,,3:14:37,,1:29:52,5:26:17
+230,1247,Natasha Lee Gorrie,F35-39,29,Female,,32:22,,3:03:02,,1:43:58,5:26:29
+231,1664,Elena Seybanova,F30-34,57,Female,Russian Federation,34:55,,3:04:32,,1:41:18,5:26:35
+232,1760,Jeanne Courtois,F25-29,37,Female,France,36:31,,3:02:42,,1:41:15,5:26:37
+233,1930,Jo Wright,F25-29,38,Female,United Kingdom,37:53,,3:02:05,,1:41:39,5:26:46
+234,1004,Frederique Joussemet,F40-44,23,Female,France,28:54,,3:17:55,,1:34:32,5:26:48
+235,1447,Kylie Acford,F30-34,58,Female,Canada,30:23,,3:20:44,,1:29:25,5:26:54
+236,1237,Sarah Fraser,F35-39,30,Female,United Kingdom,31:42,,3:12:00,,1:37:28,5:27:02
+237,1450,Dee Allen,F30-34,59,Female,United Kingdom,35:51,,3:08:41,,1:36:51,5:27:07
+238,1322,Danica Metcalfe,F35-39,31,Female,Canada,37:25,,3:10:57,,1:32:33,5:27:07
+239,1357,Silke Piri,F35-39,32,Female,Germany,41:24,,3:03:10,,1:35:35,5:27:09
+240,273,Gill FULLEN,F55-59,2,Female,United Kingdom,39:21,,3:07:28,,1:34:35,5:27:14
+241,460,Diana Hassel,F50-54,6,Female,United States,33:39,,3:05:19,,1:41:52,5:27:18
+242,1555,Marina Jacob Martins,F30-34,60,Female,Brazil,42:46,,3:08:21,,1:29:37,5:27:29
+243,1766,Clare Denkes,F25-29,39,Female,Australia,34:45,,3:04:35,,1:40:17,5:27:30
+244,1026,Harris Louise,F40-44,24,Female,United Kingdom,40:30,,3:04:50,,1:35:34,5:27:33
+245,1545,Stephanie Hinse,F30-34,61,Female,Canada,31:29,,3:06:12,,1:44:42,5:27:38
+246,1323,Flavia Meyer,F35-39,33,Female,Brazil,32:49,,3:14:41,,1:33:40,5:27:40
+247,1195,Sara Bund,F35-39,34,Female,Germany,32:56,,3:11:58,,1:36:31,5:27:42
+248,640,Elke Dom,F45-49,15,Female,Belgium,33:07,,3:08:17,,1:40:07,5:27:44
+249,1214,Liz Cullen,F35-39,35,Female,Canada,30:57,,3:06:42,,1:43:23,5:27:46
+250,512,Louella O'Herlihy,F50-54,7,Female,United Kingdom,36:07,,3:09:11,,1:36:55,5:27:51
+251,1534,Anna Guzman,F30-34,62,Female,United States,34:48,,3:06:19,,1:40:31,5:28:10
+252,1402,Steffi Steinberg,F35-39,36,Female,Germany,35:52,,3:07:22,,1:39:36,5:28:20
+253,1398,Amy Stanton,F35-39,37,Female,United States,32:36,,3:11:06,,1:39:24,5:28:27
+254,1803,Megan Hebda,F25-29,40,Female,United States,32:11,,3:18:50,,1:31:45,5:28:30
+255,1473,Clemence Briche,F30-34,63,Female,Guadeloupe,35:01,,3:04:09,,1:41:28,5:28:32
+256,1557,Floriane Jeannin,F30-34,64,Female,France,32:06,,3:10:45,,1:39:54,5:28:36
+257,1571,Jessica Cullen,F30-34,65,Female,Canada,38:00,,3:10:48,,1:32:59,5:28:38
+258,1024,Caroline Longchamp,F40-44,25,Female,Canada,41:01,,3:04:27,,1:38:02,5:28:41
+259,1317,Laura Mcdonald,F35-39,38,Female,United States,31:18,,3:07:27,,1:43:24,5:28:44
+260,1185,Petra Bolzli,F35-39,39,Female,Switzerland,32:34,,3:02:27,,1:47:49,5:28:50
+261,1640,Eliane Raymond-Dufresne,F30-34,66,Female,Canada,34:13,,3:07:57,,1:40:50,5:28:52
+262,1309,Jessica Marino,F35-39,40,Female,United States,35:12,,3:10:07,,1:36:56,5:28:55
+263,1522,Marisol Franco Acevedo,F30-34,67,Female,Mexico,36:33,,3:10:10,,1:35:40,5:28:55
+264,1110,Konstantina-Nantia Sintzanaki,F40-44,26,Female,Greece,37:10,,3:07:40,,1:38:03,5:29:02
+265,462,Marion Hebding,F50-54,8,Female,Germany,37:43,,3:00:51,,1:44:09,5:29:07
+266,1434,Cassie Whittington,F35-39,41,Female,United States,33:21,,3:14:15,,1:34:29,5:29:08
+267,1163,Tamara Zeltner,F40-44,27,Female,Germany,35:14,,3:09:46,,1:37:32,5:29:10
+268,652,Carola Fiori-Balestra,F45-49,16,Female,Switzerland,37:15,,3:08:47,,1:38:14,5:29:11
+269,1517,LARISSA MARYA FABRINI DE OLIVEIRA,F30-34,68,Female,Brazil,38:06,,3:11:13,,1:32:24,5:29:12
+270,963,Karen Frum,F40-44,28,Female,United States,37:55,,3:16:03,,1:28:33,5:29:13
+271,1046,Kelly Miller,F40-44,29,Female,Australia,34:47,,3:08:43,,1:37:50,5:29:17
+272,1199,Rosa Lilia Castillo Hernandez,F35-39,42,Female,Mexico,31:25,,3:15:17,,1:35:29,5:29:51
+273,381,Barbara Alber,F50-54,9,Female,Germany,35:48,,3:03:57,,1:44:35,5:29:57
+274,1366,Victoria Randall,F35-39,43,Female,United Kingdom,36:31,,3:04:48,,1:42:35,5:30:06
+275,649,Allison Felley Jacquemont,F45-49,17,Female,Canada,33:41,,3:06:37,,1:43:20,5:30:10
+276,1887,Sera Sayar,F25-29,41,Female,Turkey,30:53,,3:17:11,,1:34:57,5:30:11
+277,1261,Stephanie Hess,F35-39,44,Female,Switzerland,34:16,,3:12:18,,1:38:04,5:30:18
+278,1920,Juliana Villasante Dueñas,F25-29,42,Female,Mexico,31:31,,3:13:54,,1:39:22,5:30:26
+279,331,Nataša Nakrst,F55-59,3,Female,Slovenia,34:13,,3:09:15,,1:39:47,5:30:29
+280,1280,Anna Khriashcheva,F35-39,45,Female,Russian Federation,38:23,,3:14:57,,1:31:22,5:30:40
+281,989,Anke Hennecke,F40-44,30,Female,Germany,33:26,,3:09:53,,1:41:48,5:30:42
+282,1165,Laurina Zijgers,F40-44,31,Female,Netherlands,30:36,,3:19:38,,1:35:34,5:30:55
+283,799,Beth Ruiz,F45-49,18,Female,United States,39:12,,2:59:40,,1:44:02,5:30:55
+284,740,Rebecca Mckee,F45-49,19,Female,United States,35:33,,3:08:11,,1:40:05,5:30:57
+285,1529,Isabel Gomez Fargas,F30-34,69,Female,Spain,32:44,,3:16:43,,1:35:08,5:30:59
+286,1585,Adriana Lopez Hernandez,F30-34,70,Female,Mexico,32:01,,3:16:59,,1:35:06,5:31:04
+287,1256,Oriana Heer,F35-39,46,Female,Switzerland,35:55,,3:06:39,,1:43:21,5:31:04
+288,1508,Ash Dragon,F30-34,71,Female,Australia,29:03,,3:18:12,,1:38:33,5:31:10
+289,1383,Rebecca Sack,F35-39,47,Female,Germany,33:45,,3:10:08,,1:41:30,5:31:13
+290,1946,Maleen Butterbrodt,F18-24,26,Female,Germany,29:00,,3:17:51,,1:39:38,5:31:16
+291,786,Marisa Rastetter,F45-49,20,Female,United States,31:25,,3:09:21,,1:43:40,5:31:25
+292,1264,Manue Hooper-Bue,F35-39,48,Female,Australia,31:54,,3:15:20,,1:38:42,5:31:29
+293,1921,Liza Visser,F25-29,43,Female,South Africa,32:38,,3:08:05,,1:44:43,5:31:35
+294,1976,Laura Elena Hoffmann,F18-24,27,Female,Germany,33:21,,3:12:57,,1:39:37,5:31:43
+295,829,Suzy Thomas,F45-49,21,Female,United States,33:20,,3:18:07,,1:33:41,5:31:51
+296,1307,Elisabetta Mantoan,F35-39,49,Female,Italy,35:15,,3:08:37,,1:42:00,5:31:51
+297,1167,Henrietta Aitken,F35-39,50,Female,United Kingdom,33:38,,3:12:18,,1:38:50,5:32:03
+298,239,Caroline Anderson,F55-59,4,Female,Australia,35:53,,3:11:47,,1:38:47,5:32:09
+299,2018,Sabrina von Koch,F18-24,28,Female,Germany,30:28,,3:11:37,,1:45:10,5:32:14
+300,576,Kirsten Wieditz,F50-54,10,Female,Germany,42:12,,3:15:25,,1:28:46,5:32:27
+301,1091,Sarah Richmond,F40-44,32,Female,Australia,37:13,,3:07:24,,1:41:49,5:32:32
+302,495,Jennifer Mahoney,F50-54,11,Female,United States,36:45,,3:16:05,,1:33:42,5:32:36
+303,488,Amy Lichon,F50-54,12,Female,United States,36:10,,3:12:46,,1:38:15,5:32:54
+304,1717,Annabelle Bramwell,F25-29,44,Female,New Zealand,34:55,,3:11:31,,1:40:47,5:32:57
+305,678,Cibelle HERNANDEZ,F45-49,22,Female,Mexico,34:04,,3:15:57,,1:36:28,5:33:03
+306,1086,Karin Rameder,F40-44,33,Female,Austria,40:00,,3:07:13,,1:39:40,5:33:05
+307,1594,Cecilie Holst,F30-34,72,Female,Denmark,30:25,,3:10:52,,1:46:04,5:33:06
+308,1787,Allison Gadaleta,F25-29,45,Female,United States,36:39,,3:11:19,,1:38:50,5:33:11
+309,1377,Katharina Roer,F35-39,51,Female,Germany,34:15,,3:07:28,,1:43:44,5:33:18
+310,1851,Charlotte Mensaert,F25-29,46,Female,Belgium,35:27,,3:16:03,,1:35:26,5:33:20
+311,1022,Linda Linhart,F40-44,34,Female,Sweden,34:35,,3:08:17,,1:43:25,5:33:21
+312,1731,Giulia Bossi,F25-29,47,Female,Italy,35:46,,3:13:11,,1:38:04,5:33:22
+313,1846,Juliet May,F25-29,48,Female,United Kingdom,,,,,,5:33:23
+314,1777,Rachel Farrell,F25-29,49,Female,Ireland,30:04,,3:14:01,,1:42:04,5:33:33
+315,709,Eryn Kubinski,F45-49,23,Female,United States,32:41,,3:07:18,,1:47:04,5:33:33
+316,1174,Eleonora Bado,F35-39,52,Female,Italy,35:34,,3:11:17,,1:40:53,5:33:34
+317,594,Rochelle Arko,F45-49,24,Female,United States,36:50,,3:12:09,,1:37:38,5:33:38
+318,1252,Heather Hamilton,F35-39,53,Female,United States,36:13,,3:16:46,,1:34:14,5:33:41
+319,538,Leslie Sanderson,F50-54,13,Female,Canada,29:01,,3:17:53,,1:40:05,5:33:43
+320,787,Nathalie Rebeyrole,F45-49,25,Female,France,36:29,,3:13:59,,1:37:32,5:33:43
+321,1636,Lisa Purzner,F30-34,73,Female,Canada,34:02,,3:10:43,,1:41:22,5:33:53
+322,834,Sian Tovey,F45-49,26,Female,United Kingdom,39:09,,3:05:44,,1:42:35,5:33:56
+323,1961,Rebecca Duxbury,F18-24,29,Female,United Kingdom,36:58,,3:11:38,,1:38:42,5:33:57
+324,937,Jena Diliberto,F40-44,35,Female,United States,34:22,,3:19:11,,1:34:14,5:34:06
+325,1408,Marialuisa Tavernini,F35-39,54,Female,Italy,29:20,,3:14:12,,1:44:20,5:34:06
+326,1273,Sara Jarillo Lopez,F35-39,55,Female,Spain,35:30,,3:20:01,,1:32:23,5:34:07
+327,1918,Ariadna Vidal,F25-29,50,Female,Spain,28:56,,3:10:44,,1:49:03,5:34:09
+328,1263,April Hince,F35-39,56,Female,United States,33:53,,3:12:26,,1:42:07,5:34:12
+329,703,Uta Knape,F45-49,27,Female,Germany,38:48,,3:05:44,,1:43:18,5:34:15
+330,1733,Laure Bovet,F25-29,51,Female,France,34:16,,3:06:38,,1:47:12,5:34:16
+331,2014,Maria Pia Raffo,F18-24,30,Female,Peru,32:48,,3:13:02,,1:42:47,5:34:20
+332,1535,Rosie Haddock,F30-34,74,Female,United Kingdom,37:29,,3:16:47,,1:33:33,5:34:26
+333,617,Maria Remedios Carrasco Tavero,F45-49,28,Female,Spain,37:10,,3:12:31,,1:38:21,5:34:28
+334,1559,Anne-Charlotte Joinville,F30-34,75,Female,France,35:07,,3:13:00,,1:39:52,5:34:29
+335,996,Deborah Hope,F40-44,36,Female,United Kingdom,35:23,,3:11:43,,1:42:22,5:34:32
+336,33,Gisele Bertucci,FPRO,43,Female,Brazil,31:08,,3:16:26,,1:41:46,5:34:32
+337,1745,Gabriela Cerda,F25-29,52,Female,Chile,35:37,,3:10:31,,1:41:28,5:34:33
+338,1229,Kelly Emich Lambert,F35-39,57,Female,United States,35:24,,3:10:38,,1:40:27,5:34:34
+339,622,Siobhan Clement,F45-49,29,Female,Canada,36:19,,3:11:17,,1:40:11,5:34:36
+340,990,Gema Hernandez Andoain,F40-44,37,Female,Spain,32:30,,3:21:20,,1:35:51,5:34:41
+341,891,Catiana Brayton,F40-44,38,Female,United States,35:40,,3:10:17,,1:41:19,5:34:42
+342,2037,Florencia Vásquez,F18-24,31,Female,Chile,34:41,,3:07:06,,1:47:17,5:34:50
+343,1134,Martika Torres,F40-44,39,Female,Colombia,33:48,,3:18:12,,1:36:19,5:34:50
+344,947,Susan Fanning,F40-44,40,Female,United States,31:55,,3:17:25,,1:38:50,5:34:51
+345,1461,Mathilde Batailler,F30-34,76,Female,France,36:45,,3:14:20,,1:37:47,5:34:59
+346,1867,Johanna Pennella,F25-29,53,Female,Argentina,37:27,,3:11:58,,1:39:24,5:35:15
+347,1315,Maud Simonin,F35-39,58,Female,France,40:58,,3:10:36,,1:36:37,5:35:16
+348,1543,Lindsay Henderson,F30-34,77,Female,Canada,34:32,,3:12:59,,1:41:13,5:35:18
+349,1885,Catherine Sands,F25-29,54,Female,Ireland,34:57,,3:11:29,,1:41:38,5:35:22
+350,1720,Morgane Armiroli,F25-29,55,Female,France,37:59,,2:59:00,,1:50:50,5:35:23
+351,1220,Maureen Demaret,F35-39,59,Female,France,44:42,,3:08:21,,1:36:20,5:35:29
+352,1607,Mores Jackie,F30-34,78,Female,Luxembourg,39:16,,3:11:22,,1:37:13,5:35:30
+353,1700,Susie Wilkinson,F30-34,79,Female,United Kingdom,34:16,,3:17:16,,1:37:43,5:35:30
+354,1451,Melanie Altenbeck-Zorn,F30-34,80,Female,Germany,38:58,,3:11:20,,1:39:03,5:35:33
+355,1418,Toinette Del Castello,F35-39,60,Female,South Africa,35:14,,3:12:33,,1:41:46,5:35:35
+356,1582,Ana Augusta Lima Soares Barbosa,F30-34,81,Female,Brazil,35:47,,3:16:04,,1:36:45,5:35:37
+357,1913,Veronika Vadovicova,F25-29,56,Female,Slovakia,,,3:07:20,,1:37:03,5:35:37
+358,956,Rosa Baptista Teixeira Fernandes,F40-44,41,Female,Brazil,35:48,,3:17:27,,1:35:23,5:35:40
+359,1895,Kristalina Smars,F25-29,57,Female,Sweden,41:21,,3:07:14,,1:41:11,5:35:40
+360,1592,Mireia Masip,F30-34,82,Female,Spain,36:33,,3:11:08,,1:41:39,5:35:43
+361,1947,Ellie Campbell,F18-24,32,Female,United Kingdom,34:03,,3:09:08,,1:44:41,5:35:48
+362,1044,LISANDRA BATISTA,F40-44,42,Female,Brazil,36:27,,3:21:28,,1:31:26,5:35:49
+363,1422,Leen Vanden Daelen,F35-39,61,Female,Belgium,36:25,,3:11:34,,1:41:58,5:35:52
+364,1121,Brandi Swicegood,F40-44,43,Female,United States,35:37,,3:08:46,,1:44:26,5:35:55
+365,1726,Josephin Becker,F25-29,58,Female,Germany,38:25,,3:09:48,,1:41:53,5:35:55
+366,878,Vanessa Bartsch,F40-44,44,Female,Germany,32:55,,3:14:17,,1:41:49,5:36:04
+367,1928,Evelyn Werking,F25-29,59,Female,United States,33:49,,3:17:49,,1:37:47,5:36:13
+368,777,Maria Romilda Porrini,F45-49,30,Female,Uruguay,36:19,,3:18:39,,1:35:39,5:36:15
+369,1354,Jess Perry,F35-39,62,Female,United States,35:36,,3:16:54,,1:37:12,5:36:17
+370,1980,Flora Johnson,F18-24,33,Female,United Kingdom,32:10,,3:11:55,,1:46:39,5:36:19
+371,1394,Holly Smith,F35-39,63,Female,United States,38:31,,3:14:16,,1:34:24,5:36:24
+372,1428,Petra Vymetalova,F35-39,64,Female,Czechia,38:14,,3:10:40,,1:40:50,5:36:28
+373,940,Marylene Draillard,F40-44,45,Female,France,36:46,,3:07:54,,1:42:52,5:36:30
+374,1619,Katie Peach,F30-34,83,Female,Canada,35:57,,3:17:46,,1:37:14,5:36:30
+375,1764,Rosanne De Boer,F25-29,60,Female,Netherlands,30:35,,3:21:36,,1:38:48,5:36:31
+376,1631,Yulia Polevaya,F30-34,84,Female,Russian Federation,36:37,,3:09:33,,1:42:11,5:36:37
+377,1591,Soledad Martinez,F30-34,85,Female,Argentina,48:06,,3:05:34,,1:36:37,5:36:41
+378,1021,Alessia Ligugnana Cason,F40-44,46,Female,Italy,33:23,,3:14:30,,1:41:40,5:36:42
+379,981,Katie Hamister,F40-44,47,Female,United States,36:54,,3:12:56,,1:40:17,5:36:47
+380,1213,Maurya Couvares,F35-39,65,Female,United States,29:11,,3:13:54,,1:47:23,5:36:53
+381,1611,Sophie Needham,F30-34,86,Female,United Kingdom,34:38,,3:11:58,,1:42:20,5:36:56
+382,1894,Maude Sirois,F25-29,61,Female,Canada,32:44,,3:10:47,,1:48:07,5:36:57
+383,1042,Jenny Melik,F40-44,48,Female,New Zealand,34:27,,3:19:38,,1:35:45,5:36:59
+384,948,Lorena Fariña,F40-44,49,Female,Argentina,39:29,,3:10:40,,1:39:56,5:37:00
+385,1113,Mariana Solorzano,F40-44,50,Female,Mexico,36:07,,3:15:11,,1:39:42,5:37:04
+386,537,Katherine Ryan,F50-54,14,Female,Australia,34:48,,3:14:03,,1:42:09,5:37:05
+387,1270,Nieves Infante Velez,F35-39,66,Female,Spain,33:57,,3:13:57,,1:41:22,5:37:07
+388,1668,Abigail Smeaton,F30-34,87,Female,New Zealand,36:23,,3:01:15,,1:52:44,5:37:10
+389,1926,Rosaline Wedzinga,F25-29,62,Female,Netherlands,35:46,,3:01:19,,1:54:13,5:37:12
+390,1025,Cristine Lopes,F40-44,51,Female,Brazil,38:59,,3:11:07,,1:37:44,5:37:15
+391,1137,Ewa Urbanska,F40-44,52,Female,Poland,39:43,,3:04:31,,1:47:38,5:37:16
+392,851,Nicky Western,F45-49,31,Female,Australia,38:57,,3:04:56,,1:47:40,5:37:28
+393,1765,Anne De La Parra,F25-29,63,Female,Mexico,35:25,,3:11:09,,1:43:42,5:37:31
+394,723,Frederique Loustalet,F45-49,32,Female,France,35:45,,3:19:43,,1:35:04,5:37:36
+395,1300,Cynthya Lorena Lozada Gonzalez,F35-39,67,Female,Mexico,41:52,,3:20:12,,1:28:03,5:37:43
+396,1968,Alejandra Gomez Ugarte Valerio,F18-24,34,Female,Mexico,30:52,,3:12:21,,1:48:30,5:37:44
+397,1716,Mathilde Alster,F25-29,64,Female,Denmark,34:14,,3:19:24,,1:36:48,5:37:47
+398,1281,Courtney Kistler,F35-39,68,Female,United States,29:53,,3:17:34,,1:43:33,5:37:49
+399,2030,Meghan Smith,F18-24,35,Female,United States,33:15,,3:12:05,,1:45:53,5:37:49
+400,1618,Margie Patricia Real,F30-34,88,Female,Panama,36:23,,3:10:31,,1:43:05,5:37:55
+401,877,Sonja Barth,F40-44,53,Female,Germany,36:31,,3:08:27,,1:46:24,5:38:13
+402,1975,Héléna Herman,F18-24,36,Female,France,33:04,,3:16:33,,1:42:58,5:38:14
+403,1841,Lamprini Liouta,F25-29,65,Female,Greece,38:25,,3:14:35,,1:38:38,5:38:27
+404,646,Kirstine Faerch,F45-49,33,Female,Denmark,36:00,,3:10:52,,1:44:55,5:38:28
+405,960,Shannon Florea,F40-44,54,Female,United States,33:37,,3:22:12,,1:36:08,5:38:31
+406,1783,Eliza Flint,F25-29,66,Female,Australia,39:53,,3:11:44,,1:40:05,5:38:33
+407,1282,Courtney Knapp,F35-39,69,Female,United States,35:15,,3:24:19,,1:32:03,5:38:33
+408,1845,Aurélie Mathieu,F25-29,67,Female,France,37:30,,3:07:49,,1:47:04,5:38:39
+409,1441,Ana Maria Ybarra Corcuera,F35-39,70,Female,Mexico,44:22,,3:04:54,,1:42:24,5:38:42
+410,2015,Sophia Ramsauer,F18-24,37,Female,Germany,32:31,,3:03:26,,1:57:31,5:38:46
+411,1510,Elizabeth Duncombe,F30-34,89,Female,United Kingdom,37:24,,3:20:39,,1:32:47,5:38:50
+412,1551,Katie Horan,F30-34,90,Female,United States,36:27,,3:12:46,,1:44:24,5:38:55
+413,1423,Gemma Vezzani,F35-39,71,Female,Italy,36:41,,3:14:12,,1:42:17,5:39:02
+414,1504,Carolina DEMENTIEV,F30-34,91,Female,Panama,30:41,,3:30:58,,1:31:41,5:39:05
+415,1854,Mikelle Coelho,F25-29,68,Female,Brazil,32:05,,3:16:37,,1:43:16,5:39:09
+416,1625,Robyn Perry,F30-34,92,Female,South Africa,34:42,,3:08:17,,1:48:53,5:39:11
+417,1721,Daniella Bailey,F25-29,69,Female,United Kingdom,38:00,,3:13:19,,1:40:37,5:39:22
+418,2016,Amelie Ratignier,F18-24,38,Female,France,33:23,,3:16:21,,1:43:43,5:39:26
+419,482,Minna Lahtinen,F50-54,15,Female,Finland,36:13,,3:13:55,,1:40:31,5:39:27
+420,1789,Maite Galipeau-Theberge,F25-29,70,Female,Canada,41:05,,3:13:41,,1:37:45,5:39:32
+421,1702,Anja Wittwer,F30-34,93,Female,Germany,36:43,,3:19:37,,1:36:38,5:39:32
+422,1095,Amanda Lawrence,F40-44,55,Female,United States,34:20,,3:16:32,,1:41:34,5:39:36
+423,1336,Ellen Murphy,F35-39,72,Female,Ireland,34:13,,3:17:32,,1:42:22,5:39:39
+424,1181,Melanie Benson,F35-39,73,Female,Canada,31:48,,3:14:46,,1:43:45,5:39:42
+425,134,Jenny Alcorn,F60-64,1,Female,Australia,36:54,,3:11:47,,1:44:56,5:39:42
+426,1145,Emanuela Venturelli,F40-44,56,Female,Italy,39:05,,3:13:04,,1:40:55,5:39:46
+427,886,Lucía Blanco Arriola,F40-44,57,Female,Spain,36:17,,3:08:10,,1:48:40,5:39:47
+428,1666,Veronica Signorini,F30-34,94,Female,Italy,29:14,,3:19:55,,1:43:09,5:39:50
+429,789,Nadia Renesson Philipon,F45-49,34,Female,France,35:57,,3:16:50,,1:40:30,5:39:50
+430,1070,Alessandra Olsen,F40-44,58,Female,Brazil,37:09,,3:15:12,,1:39:32,5:39:52
+431,1102,Hillary Schmitt,F40-44,59,Female,United States,36:02,,3:26:21,,1:30:04,5:39:59
+432,611,Jennifer Burtner,F45-49,35,Female,United States,40:45,,3:09:56,,1:41:56,5:40:04
+433,1839,Celia Lerideau,F25-29,71,Female,France,37:36,,3:16:50,,1:37:11,5:40:05
+434,914,Kylie Cox,F40-44,60,Female,New Zealand,38:53,,3:10:05,,1:43:37,5:40:06
+435,1566,Anne Kirsten,F30-34,95,Female,Germany,33:38,,3:14:39,,1:46:27,5:40:09
+436,1964,Heidi FREHLICH,F18-24,39,Female,Canada,31:27,,3:28:42,,1:33:17,5:40:09
+437,920,Barbara Davolio,F40-44,61,Female,Italy,39:52,,3:05:56,,1:48:04,5:40:23
+438,232,Nelly Wojtasinski,F60-64,2,Female,France,38:57,,3:11:29,,1:42:29,5:40:24
+439,898,Ana Caleya Santiago,F40-44,62,Female,Spain,36:02,,3:25:28,,1:31:40,5:40:29
+440,943,Christina Edwards,F40-44,63,Female,United States,37:06,,3:13:26,,1:43:11,5:40:29
+441,1967,Marie-Michelle Germain,F18-24,40,Female,Canada,34:08,,3:14:19,,1:44:39,5:40:30
+442,1376,Terri Rodzevik,F35-39,74,Female,United States,31:21,,3:13:33,,1:48:48,5:40:33
+443,1272,Leanne James,F35-39,75,Female,United Kingdom,42:58,,3:12:30,,1:38:53,5:40:34
+444,1235,Fabiola Fernández,F35-39,76,Female,Chile,40:17,,3:14:21,,1:39:23,5:40:35
+445,1812,Hannah Jackson,F25-29,72,Female,Australia,34:49,,3:12:53,,1:45:41,5:40:36
+446,1963,Marie-Odile Francoeur,F18-24,41,Female,Canada,33:26,,3:10:32,,1:50:16,5:40:37
+447,1298,Kate Looney,F35-39,77,Female,United States,36:44,,3:18:42,,1:37:38,5:40:39
+448,860,Audra Adair,F40-44,64,Female,United States,39:20,,3:16:20,,1:37:23,5:40:40
+449,1602,Caroline Merlier,F30-34,96,Female,France,35:25,,3:19:58,,1:39:03,5:40:41
+450,1219,Annabeth Dean,F35-39,78,Female,United States,39:15,,3:09:41,,1:44:50,5:40:47
+451,1216,Vanessa Cuyvers,F35-39,79,Female,Belgium,35:07,,3:16:42,,1:41:38,5:40:57
+452,1436,Ines Adriana Wong Diaz,F35-39,80,Female,Mexico,38:10,,3:16:16,,1:40:29,5:40:59
+453,1840,Molly Lesser,F25-29,73,Female,United States,36:35,,3:10:29,,1:47:42,5:40:59
+454,859,Clara Abascal Menocal,F40-44,65,Female,Mexico,36:55,,3:14:16,,1:42:09,5:41:01
+455,1389,Emilie Seifert,F35-39,81,Female,France,37:21,,3:17:52,,1:39:12,5:41:12
+456,583,Emma Yates,F50-54,16,Female,United Kingdom,42:53,,3:14:41,,1:35:47,5:41:15
+457,618,Ginny Cataldi,F45-49,36,Female,United States,31:29,,3:22:58,,1:40:29,5:41:15
+458,1050,Susan Moerdyk,F40-44,66,Female,South Africa,34:01,,3:16:34,,1:44:17,5:41:19
+459,1191,Jos Bretherick,F35-39,82,Female,South Africa,31:13,,3:17:06,,1:46:47,5:41:20
+460,616,Rebecca Carpenter,F45-49,37,Female,United States,29:55,,3:15:29,,1:49:33,5:41:25
+461,1767,Maëlle DERUAZ,F25-29,74,Female,France,40:52,,3:14:18,,1:39:27,5:41:27
+462,1344,Meghan Newcomer,F35-39,83,Female,United States,32:42,,3:14:41,,1:48:10,5:41:32
+463,1472,Rachel Breslin,F30-34,97,Female,Ireland,30:11,,3:27:15,,1:38:15,5:41:37
+464,1291,Maricruz Larrea,F35-39,84,Female,Chile,34:35,,3:17:07,,1:43:54,5:41:44
+465,935,Isabelle Dickens,F40-44,67,Female,United States,34:51,,3:17:11,,1:43:22,5:41:50
+466,1065,Lara Newell,F40-44,68,Female,United Kingdom,40:15,,3:09:14,,1:45:43,5:41:53
+467,1166,Juana Abdalla,F35-39,85,Female,Brazil,31:32,,3:21:16,,1:43:28,5:41:57
+468,464,Claudia Heindl,F50-54,17,Female,Germany,40:30,,3:10:51,,1:41:22,5:42:00
+469,1114,Eleanor Standen,F40-44,69,Female,United Kingdom,38:21,,3:18:59,,1:38:43,5:42:00
+470,1362,Inge Prasetyo,F35-39,86,Female,Indonesia,32:40,,3:19:31,,1:43:12,5:42:04
+471,657,Andrea Gallo,F45-49,38,Female,Switzerland,34:28,,3:12:51,,1:47:25,5:42:05
+472,1419,Krista Soldt,F35-39,87,Female,Netherlands,31:29,,3:16:06,,1:48:43,5:42:05
+473,334,Juliana Nievergelt,F55-59,5,Female,United States,29:22,,3:14:20,,1:51:34,5:42:08
+474,1296,Lauren Lipsey,F35-39,88,Female,United States,34:03,,3:14:15,,1:47:02,5:42:09
+475,1425,Florence Vidal,F35-39,89,Female,France,41:38,,3:08:23,,1:45:59,5:42:10
+476,985,Suzy Hawkins,F40-44,70,Female,United Kingdom,38:30,,3:23:12,,1:32:34,5:42:12
+477,601,Christelle Bego,F45-49,39,Female,France,37:34,,3:16:27,,1:40:09,5:42:19
+478,1036,Simone Mayer,F40-44,71,Female,Germany,33:17,,3:19:19,,1:43:13,5:42:19
+479,1269,Inalize Oosthuizen,F35-39,90,Female,South Africa,34:49,,3:21:17,,1:40:35,5:42:21
+480,697,Christine Kachinsky,F45-49,40,Female,United States,37:17,,3:17:52,,1:40:08,5:42:24
+481,1482,Jasmine Carlson,F30-34,98,Female,United States,35:15,,3:18:18,,1:42:46,5:42:25
+482,817,Claudia Steiding,F45-49,41,Female,Germany,41:20,,3:08:00,,1:45:26,5:42:26
+483,1909,Emily Taylor,F25-29,75,Female,Canada,34:13,,3:18:19,,1:43:04,5:42:32
+484,900,Tracy Campbell,F40-44,72,Female,United States,36:57,,3:17:57,,1:40:07,5:42:32
+485,1488,Charlene Chaix,F30-34,99,Female,France,38:20,,3:21:26,,1:37:07,5:42:34
+486,1335,Paula Munoz Valencia,F35-39,91,Female,Chile,29:29,,3:22:40,,1:43:40,5:42:39
+487,1870,Eloïse Piron,F25-29,76,Female,Belgium,31:04,,3:23:44,,1:42:06,5:42:43
+488,1477,Carla Bustos Rodríguez,F30-34,100,Female,Chile,31:12,,3:23:23,,1:42:05,5:42:46
+489,1871,Josephine Pratiwi,F25-29,77,Female,Indonesia,41:04,,3:10:05,,1:46:36,5:42:53
+490,744,Alicja Medak,F45-49,42,Female,Poland,39:37,,3:18:09,,1:38:46,5:42:53
+491,1189,Kate Braybrook,F35-39,92,Female,Australia,38:33,,3:16:23,,1:41:21,5:42:54
+492,1552,Lea Huggenberger,F30-34,101,Female,Switzerland,36:42,,3:09:56,,1:49:01,5:42:58
+493,1293,Allison Lehnen,F35-39,93,Female,United States,36:08,,3:21:37,,1:39:28,5:43:00
+494,976,Sonia Guilloux Reynaud,F40-44,73,Female,France,37:00,,3:16:02,,1:43:02,5:43:01
+495,1320,Christine McKinley,F35-39,94,Female,Canada,27:51,,3:15:24,,1:53:42,5:43:02
+496,737,Claudia Mccoy,F45-49,43,Female,United States,37:17,,3:20:41,,1:38:35,5:43:02
+497,1821,Morgan Klein,F25-29,78,Female,United States,31:38,,3:21:04,,1:43:39,5:43:02
+498,1958,Linda Detering,F18-24,42,Female,South Africa,32:11,,3:15:01,,1:49:56,5:43:03
+499,2023,Leigh Sandbach,F18-24,43,Female,United States,30:29,,3:18:21,,1:48:11,5:43:04
+500,708,Maaike Kruseman,F45-49,44,Female,Switzerland,40:51,,3:08:52,,1:47:12,5:43:08
+501,568,Petra Voegeli,F50-54,18,Female,Switzerland,39:15,,3:16:20,,1:39:57,5:43:12
+502,603,Nina Bergkulla,F45-49,45,Female,Finland,39:22,,3:16:45,,1:41:08,5:43:14
+503,849,Louise Wells,F45-49,46,Female,Bermuda,38:22,,3:16:21,,1:41:54,5:43:15
+504,1693,Victoria Waight,F30-34,102,Female,United Kingdom,34:42,,3:14:54,,1:48:10,5:43:17
+505,861,Kathryn Aguilar,F40-44,74,Female,United States,35:01,,3:15:24,,1:44:49,5:43:24
+506,1433,Lori Westcott,F35-39,95,Female,United Kingdom,32:20,,3:14:05,,1:50:38,5:43:24
+507,1481,Fiona Carlon,F30-34,103,Female,United States,30:38,,3:26:38,,1:39:35,5:43:26
+508,1355,Anna-Kaisa Pietilainen,F35-39,96,Female,Finland,35:57,,3:16:45,,1:44:55,5:43:27
+509,1734,Caitlin Bowerman,F25-29,79,Female,United States,38:23,,3:09:23,,1:48:37,5:43:28
+510,1652,Annette Rogers,F30-34,104,Female,United States,28:37,,3:16:34,,1:52:19,5:43:30
+511,1837,Ha Na Lee,F25-29,80,Female,United States,38:50,,3:13:42,,1:43:08,5:43:34
+512,1601,Stacy Mercer,F30-34,105,Female,United States,35:25,,3:23:17,,1:37:07,5:43:35
+513,857,Audrey Zerbini,F45-49,47,Female,France,37:12,,3:19:29,,1:39:55,5:43:39
+514,681,Andrea Höller,F45-49,48,Female,Austria,32:46,,3:08:00,,1:55:33,5:43:41
+515,973,Sol Gonzalez,F40-44,75,Female,Argentina,35:29,,3:23:53,,1:37:59,5:44:04
+516,1467,Brenda Bernard,F30-34,106,Female,Argentina,31:38,,3:28:39,,1:36:37,5:44:07
+517,1757,Jessica Cooper,F25-29,81,Female,United States,36:02,,3:10:30,,1:50:09,5:44:16
+518,946,Philippa Fancourt,F40-44,76,Female,United Kingdom,36:21,,3:23:59,,1:38:27,5:44:16
+519,487,Ingrid Letourneur,F50-54,19,Female,South Africa,38:23,,3:18:13,,1:40:18,5:44:17
+520,1146,Anna Wächtershäuser,F40-44,77,Female,Germany,38:34,,3:12:26,,1:46:47,5:44:20
+521,1387,Maria De Los Angles Schwamm,F35-39,97,Female,Argentina,37:06,,3:21:31,,1:39:23,5:44:22
+522,288,Linda Hurley,F55-59,6,Female,United States,32:37,,3:18:04,,1:46:45,5:44:24
+523,1316,nicole mcconkie,F35-39,98,Female,United States,34:55,,3:06:33,,1:55:47,5:44:28
+524,1781,Caroline Finkbeiner,F25-29,82,Female,United States,26:02,,3:28:02,,1:43:30,5:44:28
+525,892,Leanne BRETT,F40-44,78,Female,New Zealand,44:15,,3:10:49,,1:42:32,5:44:32
+526,897,Grazyna Bury,F40-44,79,Female,Germany,42:41,,3:06:57,,1:48:55,5:44:33
+527,848,Daniela Weber,F45-49,49,Female,Germany,36:07,,3:18:08,,1:43:53,5:44:34
+528,1932,Chau Yu Ng,F25-29,83,Female,Hong Kong,34:02,,3:15:21,,1:49:07,5:44:36
+529,1911,Anna Torres,F25-29,84,Female,Ecuador,35:43,,3:20:25,,1:41:52,5:44:37
+530,1148,Sarah Watson,F40-44,80,Female,Australia,35:38,,3:19:23,,1:43:06,5:44:40
+531,1007,Nagima Kerimbayeva,F40-44,81,Female,Kazakhstan,39:02,,3:13:40,,1:44:46,5:44:40
+532,1540,Edwina Hartwell,F30-34,107,Female,United Kingdom,32:25,,3:19:59,,1:46:59,5:44:42
+533,653,Elaine Floriano,F45-49,50,Female,Brazil,31:59,,3:13:50,,1:52:10,5:44:45
+534,872,Jennifer Bach,F40-44,82,Female,Denmark,39:52,,3:15:50,,1:41:15,5:44:49
+535,828,Jennifer Temperley,F45-49,51,Female,United States,31:40,,3:17:29,,1:48:32,5:44:49
+536,1516,Emma Evans,F30-34,108,Female,United Kingdom,39:44,,3:18:24,,1:40:10,5:44:53
+537,696,Edina Jung,F45-49,52,Female,Switzerland,38:19,,3:21:21,,1:38:35,5:45:01
+538,1960,Iris Dijkstra,F18-24,44,Female,Netherlands,36:32,,3:28:10,,1:34:37,5:45:10
+539,1006,Michaela Kaufhold,F40-44,83,Female,Germany,42:39,,3:12:35,,1:43:07,5:45:11
+540,952,Maria Teresa Gurrero,F40-44,84,Female,Ecuador,39:10,,3:26:45,,1:31:55,5:45:12
+541,1503,Gabriela Delgado,F30-34,109,Female,Ecuador,36:36,,3:22:40,,1:38:06,5:45:14
+542,1311,Suzanne Matonti,F35-39,99,Female,United Kingdom,39:10,,3:20:04,,1:39:00,5:45:15
+543,1153,Aafke Willemsen,F40-44,85,Female,Netherlands,37:46,,3:20:47,,1:40:19,5:45:17
+544,912,Katie Corbin,F40-44,86,Female,United States,30:42,,3:22:52,,1:44:39,5:45:22
+545,939,Stephanie Downey,F40-44,87,Female,United States,35:04,,3:16:50,,1:46:17,5:45:24
+546,1728,Victoria Bishop,F25-29,85,Female,United Kingdom,33:40,,3:22:31,,1:43:35,5:45:32
+547,1654,Paola Rossi Perez,F30-34,110,Female,Guatemala,35:00,,3:22:58,,1:39:42,5:45:34
+548,1723,Katie Ball,F25-29,86,Female,United Kingdom,38:20,,3:26:33,,1:34:46,5:45:48
+549,1375,Rocio Rodriguez Vallejo,F35-39,100,Female,Spain,35:33,,3:32:50,,1:29:50,5:45:48
+550,1660,Anna Schaefer,F30-34,111,Female,Germany,38:32,,3:20:06,,1:38:25,5:45:49
+551,434,Jody Dushay,F50-54,20,Female,United States,39:59,,3:26:18,,1:32:18,5:45:49
+552,1770,Stephanie Doyon,F25-29,87,Female,Canada,36:32,,3:22:42,,1:39:59,5:45:50
+553,1171,Fernanda Angotti Cucolo,F35-39,101,Female,Brazil,34:23,,3:25:42,,1:39:23,5:45:54
+554,435,Suzanne Endsley,F50-54,21,Female,United States,39:59,,3:15:31,,1:42:06,5:46:02
+555,1484,Schirlei Casas,F30-34,112,Female,Brazil,35:07,,3:23:12,,1:40:48,5:46:09
+556,1138,Line Vaillancourt,F40-44,88,Female,Canada,31:49,,3:22:29,,1:46:39,5:46:16
+557,1533,Doris Gschwandtl,F30-34,113,Female,Austria,36:01,,3:20:33,,1:44:18,5:46:20
+558,389,Birgit Bachmann-Goetzer,F50-54,22,Female,Germany,41:48,,3:13:41,,1:43:01,5:46:33
+559,1917,Charlotte Verhaegen,F25-29,88,Female,Belgium,31:45,,3:21:15,,1:47:51,5:46:34
+560,1623,Barbara Perkins,F30-34,114,Female,United States,30:51,,3:30:19,,1:39:21,5:46:35
+561,818,Bettina Steiger,F45-49,53,Female,Switzerland,36:45,,3:21:49,,1:39:55,5:46:39
+562,447,Valérie Graziani,F50-54,23,Female,France,43:36,,3:14:11,,1:43:05,5:46:41
+563,1565,Claire Kirby,F30-34,115,Female,New Zealand,32:24,,3:22:42,,1:45:56,5:46:43
+564,1797,Carly Guggemos,F25-29,89,Female,United States,31:09,,3:23:14,,1:45:44,5:46:46
+565,1860,Malgorzata Nowak,F25-29,90,Female,Poland,42:54,,3:14:19,,1:44:19,5:46:47
+566,1500,Severine Da Costa,F30-34,116,Female,France,42:44,,3:09:57,,1:48:14,5:46:51
+567,1294,Rebecca Lewis,F35-39,102,Female,Australia,35:35,,3:20:06,,1:45:57,5:46:54
+568,1880,Camila Rutford,F25-29,91,Female,United States,36:03,,3:25:17,,1:37:49,5:46:56
+569,1170,Anfimova Nadezhda,F35-39,103,Female,Russian Federation,45:58,,3:20:06,,1:35:18,5:46:57
+570,1135,Meredith Turany,F40-44,89,Female,United States,32:42,,3:28:48,,1:38:45,5:47:04
+571,1364,Tafara Pulse,F35-39,104,Female,United States,41:44,,3:16:39,,1:42:45,5:47:10
+572,529,Magali Reymonenq,F50-54,24,Female,France,44:13,,3:17:53,,1:38:29,5:47:17
+573,805,Sabine Schön,F45-49,54,Female,Germany,34:29,,3:19:00,,1:46:50,5:47:17
+574,1633,Amelia Power,F30-34,117,Female,Canada,34:54,,3:14:13,,1:52:14,5:47:17
+575,1251,Dominique Gütle,F35-39,105,Female,Germany,33:02,,3:18:21,,1:48:56,5:47:19
+576,1157,Heidi Wouters,F40-44,90,Female,Belgium,38:10,,3:18:58,,1:43:57,5:47:22
+577,700,Melanie Katholnig-Url,F45-49,55,Female,Austria,36:51,,3:18:57,,1:44:39,5:47:22
+578,934,Kerri Dewe,F40-44,91,Female,New Zealand,36:19,,3:24:02,,1:41:37,5:47:23
+579,1725,Berber Bergsma,F25-29,92,Female,Netherlands,34:13,,3:21:53,,1:43:49,5:47:27
+580,1259,Lynsey Henderson,F35-39,106,Female,United Kingdom,32:14,,3:21:01,,1:46:13,5:47:29
+581,1537,Rachael Hallewell,F30-34,118,Female,United Kingdom,32:13,,3:10:19,,1:59:16,5:47:45
+582,1106,Valentina Sestan,F40-44,92,Female,Italy,38:10,,3:21:58,,1:40:52,5:47:48
+583,862,Kiram Ait Kabboura,F40-44,93,Female,Belgium,39:01,,3:15:54,,1:44:15,5:47:50
+584,370,Juliet Vickery,F55-59,7,Female,United Kingdom,36:59,,3:24:54,,1:39:19,5:47:53
+585,1211,Carly Conrad,F35-39,107,Female,United States,30:35,,3:20:30,,1:48:35,5:47:56
+586,1580,Megan Leubner,F30-34,119,Female,United States,38:09,,3:24:49,,1:39:52,5:48:02
+587,1013,Grace Laman,F40-44,94,Female,United States,37:21,,3:21:05,,1:42:02,5:48:02
+588,1449,Nattero Alice,F30-34,120,Female,Italy,37:06,,3:16:14,,1:47:49,5:48:04
+589,1923,Jenny Wallace,F25-29,93,Female,United Kingdom,31:55,,3:22:26,,1:47:38,5:48:11
+590,1711,Anna Zychska,F30-34,121,Female,Poland,39:52,,3:14:29,,1:46:54,5:48:27
+591,1776,Hannah Ewens,F25-29,94,Female,United Kingdom,36:10,,3:16:54,,1:48:25,5:48:31
+592,1381,Amy Ryan,F35-39,108,Female,Australia,37:51,,3:17:41,,1:47:02,5:48:32
+593,1676,Alessandra Stroili,F30-34,122,Female,Italy,34:22,,3:23:34,,1:44:56,5:48:37
+594,1882,Constanza San Martín,F25-29,95,Female,Chile,36:41,,3:22:04,,1:44:36,5:48:55
+595,1879,Natalie Ruffell,F25-29,96,Female,United Kingdom,40:48,,3:26:15,,1:34:30,5:48:57
+596,604,Sara Bergström,F45-49,56,Female,Sweden,41:37,,3:20:07,,1:39:45,5:48:59
+597,1915,Rebecca Van Huyssteen,F25-29,97,Female,South Africa,37:39,,3:15:11,,1:48:39,5:49:00
+598,966,Julie Gagnon,F40-44,95,Female,Canada,35:31,,3:24:13,,1:41:36,5:49:00
+599,1987,Caitlin Mosier,F18-24,45,Female,United States,29:10,,3:11:18,,2:01:07,5:49:00
+600,2024,Fiona Sander,F18-24,46,Female,Germany,33:48,,3:11:17,,1:57:32,5:49:06
+601,746,Hayley Mee,F45-49,57,Female,South Africa,29:27,,3:23:32,,1:49:53,5:49:13
+602,962,Monika Frank,F40-44,96,Female,Switzerland,37:29,,3:23:15,,1:41:07,5:49:13
+603,1478,Andreea Calugaru,F30-34,123,Female,Romania,42:31,,3:20:49,,1:39:44,5:49:17
+604,1641,Anja Rehlinger,F30-34,124,Female,Luxembourg,46:18,,3:10:29,,1:45:46,5:49:24
+605,587,Vanessa Aldous,F45-49,58,Female,Australia,37:06,,3:26:10,,1:39:11,5:49:26
+606,759,Melanie Newton,F45-49,59,Female,Australia,38:58,,3:28:28,,1:34:53,5:49:27
+607,655,Genevieve Freeman,F45-49,60,Female,United Kingdom,36:34,,3:14:20,,1:52:01,5:49:32
+608,1156,Deanne Wooden,F40-44,97,Female,Australia,33:59,,3:23:50,,1:46:03,5:49:33
+609,1258,Julie Hemar,F35-39,109,Female,France,43:16,,3:12:46,,1:47:00,5:49:36
+610,1285,Julie Wirth,F35-39,110,Female,United States,37:35,,3:22:27,,1:43:00,5:49:40
+611,1350,Kristen Osborn,F35-39,111,Female,United States,35:36,,3:15:04,,1:52:11,5:49:42
+612,440,Daniele Flammang,F50-54,25,Female,Luxembourg,36:03,,3:27:00,,1:39:42,5:49:43
+613,1828,Enni Kukkasniemi,F25-29,98,Female,Finland,32:27,,3:33:02,,1:39:08,5:49:49
+614,1833,Elyse Lambert,F25-29,99,Female,Australia,33:20,,3:15:08,,1:54:18,5:49:55
+615,470,Christy Johnson,F50-54,26,Female,United States,38:36,,3:10:17,,1:54:03,5:50:03
+616,751,Luisa Miguens,F45-49,61,Female,Argentina,40:51,,3:20:01,,1:42:00,5:50:03
+617,1226,Alexis Dunn,F35-39,112,Female,United States,32:56,,3:26:38,,1:43:39,5:50:04
+618,1348,Katya Olivares Alvarez,F35-39,113,Female,Mexico,40:12,,3:33:30,,1:30:23,5:50:11
+619,1656,Faye Sanders,F30-34,125,Female,United Kingdom,32:46,,3:25:36,,1:45:13,5:50:12
+620,1984,Svenja Kersten,F18-24,47,Female,Switzerland,35:49,,3:26:25,,1:42:36,5:50:22
+621,1859,Ishida Nagiho,F25-29,100,Female,Japan,30:39,,3:32:45,,1:38:49,5:50:28
+622,662,Maria Luz Gill,F45-49,62,Female,Paraguay,40:00,,3:09:28,,1:51:55,5:50:29
+623,1756,Jennifer Colwell,F25-29,101,Female,Australia,40:35,,3:12:45,,1:51:50,5:50:33
+624,882,Luciana Bermudez,F40-44,98,Female,Spain,33:34,,3:24:45,,1:46:06,5:50:39
+625,1823,Kim Knape,F25-29,102,Female,Netherlands,39:59,,3:19:01,,1:43:04,5:50:39
+626,1236,Yesica Fernandez,F35-39,114,Female,Mexico,37:23,,3:25:08,,1:40:02,5:50:41
+627,1329,Caitlin Mooney,F35-39,115,Female,United States,34:24,,3:23:27,,1:46:32,5:50:46
+628,839,Valero Valero Vazquez,F45-49,63,Female,Spain,32:46,,3:28:38,,1:43:18,5:50:49
+629,682,Gemma Hollis,F45-49,64,Female,United States,36:15,,3:27:25,,1:42:12,5:50:50
+630,1119,Andrea Sulzer,F40-44,99,Female,Switzerland,36:13,,3:23:54,,1:44:50,5:50:52
+631,1262,Alexandra Hewett,F35-39,116,Female,United Kingdom,37:03,,3:19:13,,1:48:15,5:50:56
+632,1873,Laura Daniela Ramirez,F25-29,103,Female,Colombia,32:08,,3:31:34,,1:40:14,5:51:03
+633,1342,Victoria Nealon,F35-39,117,Female,United Kingdom,37:32,,3:38:02,,1:27:57,5:51:05
+634,1149,Teresa Webb,F40-44,100,Female,United States,30:23,,3:21:04,,1:53:05,5:51:06
+635,881,Delphine Bense,F40-44,101,Female,France,37:50,,3:22:51,,1:43:08,5:51:09
+636,1438,Lin Xu,F35-39,118,Female,China,37:16,,3:23:43,,1:43:45,5:51:09
+637,1587,Carole Madiou,F30-34,126,Female,France,36:48,,3:31:42,,1:35:12,5:51:11
+638,1133,Amelia Torrego Rodriguez,F40-44,102,Female,Spain,35:17,,3:22:57,,1:45:55,5:51:15
+639,592,Jane Archer,F45-49,65,Female,United Kingdom,35:38,,3:27:13,,1:41:21,5:51:15
+640,1361,Brooke Poynter,F35-39,119,Female,Australia,33:53,,3:20:49,,1:48:34,5:51:16
+641,1914,Domenica Vallejo,F25-29,104,Female,Peru,30:27,,3:21:55,,1:51:54,5:51:19
+642,1124,Marianne Tarnowskij,F40-44,103,Female,Austria,36:01,,3:23:01,,1:46:26,5:51:21
+643,235,Marijke Zeekant,F60-64,3,Female,Netherlands,31:34,,3:15:58,,1:57:35,5:51:23
+644,1578,Marisa Leitner,F30-34,127,Female,Austria,36:05,,3:19:46,,1:49:31,5:51:25
+645,1653,Karoline Rønning,F30-34,128,Female,Norway,34:28,,3:21:33,,1:49:07,5:51:30
+646,913,Kelly Cory,F40-44,104,Female,United States,37:27,,3:31:00,,1:37:36,5:51:33
+647,1198,Fernanda Carvalho Marques De Oliveira,F35-39,120,Female,Brazil,37:04,,3:20:05,,1:47:23,5:51:34
+648,1203,Natalia Chavarria,F35-39,121,Female,Costa Rica,40:37,,3:19:05,,1:41:42,5:51:36
+649,686,Isabel Ide Vinagre,F45-49,66,Female,Chile,39:45,,3:21:46,,1:42:37,5:51:37
+650,905,Mylène Chalvin,F40-44,105,Female,France,38:04,,3:22:16,,1:44:49,5:51:38
+651,1430,Rebekah Walker,F35-39,122,Female,United States,34:06,,3:26:04,,1:43:49,5:51:39
+652,2000,Pauline Minguy,F18-24,48,Female,France,34:58,,3:22:06,,1:46:23,5:51:39
+653,1132,ELAINE DE TOLEDO,F40-44,106,Female,Brazil,40:13,,3:21:29,,1:44:08,5:51:46
+654,2028,Anna Shveshkeyev,F18-24,49,Female,United States,35:45,,3:09:25,,1:59:35,5:51:48
+655,855,Maria Yarur Terre,F45-49,67,Female,Chile,36:30,,3:27:40,,1:41:59,5:51:51
+656,1332,Shannon Morrison,F35-39,123,Female,United States,42:01,,3:15:00,,1:45:44,5:51:53
+657,1208,Lindsay Cole,F35-39,124,Female,Canada,34:13,,3:29:33,,1:41:32,5:51:56
+658,1301,Elena Lugo Barranco,F35-39,125,Female,Mexico,33:45,,3:20:27,,1:50:05,5:51:57
+659,844,Marie-Caroline Verstraete,F45-49,68,Female,France,37:02,,3:26:10,,1:41:49,5:51:59
+660,1493,Emily Cochrane,F30-34,129,Female,United Kingdom,41:22,,3:19:57,,1:44:16,5:52:03
+661,593,Marialuz Arellano,F45-49,69,Female,Ecuador,39:55,,3:24:50,,1:39:28,5:52:07
+662,1409,Kerri Thomas,F35-39,126,Female,Australia,36:52,,3:19:56,,1:49:00,5:52:13
+663,1039,Clare Mcculloch,F40-44,107,Female,United Kingdom,37:13,,3:29:05,,1:39:51,5:52:15
+664,254,CABANERO Marie-Pierre,F55-59,8,Female,France,31:55,,3:14:39,,1:57:57,5:52:18
+665,701,Phaedra Kennedy,F45-49,70,Female,Canada,39:56,,3:21:20,,1:42:58,5:52:21
+666,417,Erin Carson,F50-54,27,Female,United States,36:36,,3:17:40,,1:51:06,5:52:22
+667,731,Christel Martinez,F45-49,71,Female,Guadeloupe,37:37,,3:20:46,,1:47:26,5:52:27
+668,1981,Nicole Jordan,F18-24,50,Female,United States,29:08,,3:26:12,,1:50:44,5:52:29
+669,1378,Sarah Roth,F35-39,127,Female,Canada,40:41,,3:26:46,,1:37:27,5:52:37
+670,1053,Alejandra Morales,F40-44,108,Female,Mexico,43:25,,3:27:00,,1:33:47,5:52:40
+671,906,Béatrice Clemenceau,F40-44,109,Female,France,48:23,,3:23:14,,1:33:48,5:52:41
+672,1399,Sarah Stapleton,F35-39,128,Female,Ireland,39:24,,3:14:48,,1:51:59,5:52:46
+673,756,Colleen Murray,F45-49,72,Female,United States,40:22,,3:17:55,,1:46:53,5:52:51
+674,240,Bodil Arlander,F55-59,9,Female,United States,34:06,,3:22:23,,1:48:03,5:52:51
+675,1997,Madeline Margevicius,F18-24,51,Female,United States,39:11,,3:23:00,,1:45:26,5:52:52
+676,930,Evelyn Degrendele,F40-44,110,Female,Belgium,41:53,,3:13:15,,1:51:00,5:52:52
+677,1360,Olivia Fitz-Poole,F35-39,129,Female,United Kingdom,37:17,,3:11:16,,1:57:30,5:52:53
+678,635,Carole Badolle Dechamp,F45-49,73,Female,France,37:35,,3:25:14,,1:44:01,5:52:54
+679,889,Monika Born,F40-44,111,Female,Switzerland,37:40,,3:12:59,,1:54:38,5:52:56
+680,716,Cécile Lennoz Gratin,F45-49,74,Female,France,41:32,,3:21:10,,1:43:48,5:52:59
+681,979,Haddad Luciana,F40-44,112,Female,Brazil,37:58,,3:33:57,,1:35:35,5:53:01
+682,566,Genelle Van Der Riet,F50-54,28,Female,South Africa,36:35,,3:24:39,,1:46:17,5:53:09
+683,972,Florence Goffinet,F40-44,113,Female,Belgium,39:50,,3:23:45,,1:41:40,5:53:14
+684,358,Valérie Sinko,F55-59,10,Female,France,39:59,,3:19:35,,1:43:30,5:53:16
+685,1416,Elzabe Van Den Heever,F35-39,130,Female,South Africa,32:26,,3:29:10,,1:45:42,5:53:21
+686,1306,Carolin Mann,F35-39,131,Female,Germany,39:06,,3:20:52,,1:46:10,5:53:24
+687,1456,Denise Arbulu,F30-34,130,Female,Peru,37:03,,3:26:03,,1:44:20,5:53:25
+688,380,Susanne Åkerberg,F50-54,29,Female,Sweden,41:51,,3:12:45,,1:50:30,5:53:27
+689,875,Jacqui Barber,F40-44,114,Female,United States,28:54,,3:22:52,,1:54:29,5:53:37
+690,810,Julita Sikora,F45-49,75,Female,Poland,39:39,,3:20:42,,1:47:45,5:53:40
+691,1538,Chloé Hamard,F30-34,131,Female,France,39:08,,3:24:22,,1:43:19,5:53:44
+692,1563,Lauren Kilian,F30-34,132,Female,United Kingdom,33:31,,3:25:10,,1:48:04,5:53:45
+693,983,Annabelle Hartigan,F40-44,115,Female,Australia,38:07,,3:27:57,,1:41:19,5:53:49
+694,259,Vinciane Cols,F55-59,11,Female,Belgium,36:39,,3:24:34,,1:45:42,5:53:54
+695,1014,Corina Landtwing,F40-44,116,Female,Switzerland,33:52,,3:17:28,,1:55:32,5:53:55
+696,1120,Stacy Sweetser,F40-44,117,Female,United States,29:57,,3:30:24,,1:47:03,5:54:00
+697,1286,Morgan Krajewski,F35-39,132,Female,United States,34:30,,3:15:49,,1:56:10,5:54:01
+698,1330,Daniela Morales-Bermudez,F35-39,133,Female,Peru,34:56,,3:32:13,,1:40:01,5:54:05
+699,1667,Emilia Skolubowicz,F30-34,133,Female,Poland,36:56,,3:32:16,,1:37:11,5:54:06
+700,282,Margaret Hepworth,F55-59,12,Female,United States,36:41,,3:17:23,,1:51:49,5:54:10
+701,1126,Birke Thielen,F40-44,118,Female,Germany,39:26,,3:18:23,,1:49:19,5:54:10
+702,1460,Lyllian Banzon,F30-34,134,Female,Philippines,34:47,,3:25:13,,1:48:04,5:54:13
+703,612,Emma Bush,F45-49,76,Female,United Kingdom,38:02,,3:27:30,,1:42:21,5:54:16
+704,438,Joelle Ettinger,F50-54,30,Female,Switzerland,34:59,,3:20:28,,1:51:29,5:54:18
+705,454,Johane Hacquart,F50-54,31,Female,France,42:19,,3:11:58,,1:50:24,5:54:20
+706,980,Chantal Hager,F40-44,119,Female,Switzerland,36:26,,3:14:30,,1:55:42,5:54:22
+707,1795,Ariel Gliboff,F25-29,105,Female,United States,34:46,,3:28:05,,1:43:56,5:54:26
+708,1267,Nadine Hunzinger,F35-39,134,Female,Germany,38:58,,3:14:18,,1:53:07,5:54:32
+709,1852,Amanda Almond,F25-29,106,Female,United States,36:00,,3:28:03,,1:43:02,5:54:38
+710,277,Marie Lorraine Gaude,F55-59,13,Female,France,40:31,,3:17:04,,1:48:17,5:54:39
+711,1502,Jeha Isadora,F30-34,135,Female,Brazil,45:09,,3:28:36,,1:33:52,5:54:41
+712,748,Marie Mettier,F45-49,77,Female,France,38:11,,3:17:44,,1:51:53,5:54:46
+713,328,Kristi Moen,F55-59,14,Female,United States,39:09,,3:25:00,,1:43:00,5:54:50
+714,902,Dorte Carlsson,F40-44,120,Female,Denmark,39:34,,3:25:40,,1:42:52,5:54:54
+715,351,Monika Schneider,F55-59,15,Female,Germany,40:11,,3:23:27,,1:43:50,5:54:55
+716,1246,Marie-Christine Grise,F35-39,135,Female,Canada,36:42,,3:23:26,,1:48:35,5:54:56
+717,497,Joanne Mclaughlan,F50-54,32,Female,Australia,36:02,,3:20:27,,1:51:23,5:54:57
+718,1097,Caroline Samson-Belair,F40-44,121,Female,Canada,41:25,,3:25:47,,1:41:22,5:55:02
+719,474,Sarah Kerswell,F50-54,33,Female,United Kingdom,34:28,,3:24:25,,1:48:43,5:55:03
+720,522,Jacqui Phillips,F50-54,34,Female,United Kingdom,35:08,,3:22:51,,1:49:39,5:55:21
+721,1304,Yelena Maloney,F35-39,136,Female,United States,46:18,,3:24:38,,1:37:53,5:55:23
+722,483,Nathalie Laurendeau,F50-54,35,Female,Australia,36:09,,3:09:00,,2:00:05,5:55:26
+723,1283,Bettina Kornitz,F35-39,137,Female,Argentina,37:10,,3:31:07,,1:40:54,5:55:34
+724,1207,Chantel Coetzer,F35-39,138,Female,United Kingdom,39:29,,3:17:02,,1:48:25,5:55:35
+725,941,Claudia Helena Dumont,F40-44,122,Female,Brazil,30:40,,3:15:35,,2:02:27,5:55:38
+726,1751,Trine Stamp Christensen,F25-29,107,Female,Denmark,40:12,,3:22:21,,1:46:23,5:55:40
+727,1318,Sarah Mceachern,F35-39,139,Female,Australia,37:41,,3:19:28,,1:51:23,5:55:49
+728,1838,Violène Léon,F25-29,108,Female,France,31:35,,3:22:31,,1:54:51,5:55:56
+729,1581,Nicole Levenson,F30-34,136,Female,United States,32:55,,3:39:39,,1:36:20,5:55:59
+730,1520,Emma Forster,F30-34,137,Female,Australia,35:53,,3:21:00,,1:51:39,5:56:00
+731,1690,Hannah Verhaeghe,F30-34,138,Female,Belgium,43:01,,3:18:29,,1:48:33,5:56:01
+732,1288,Katerina Kratka,F35-39,140,Female,Czechia,35:46,,3:27:24,,1:45:13,5:56:03
+733,1590,Bere Mtz,F30-34,139,Female,Mexico,31:08,,3:29:22,,1:46:46,5:56:07
+734,1782,Louise Fleming,F25-29,109,Female,United Kingdom,33:56,,3:30:32,,1:43:30,5:56:09
+735,663,Tomoko Gnodtke,F45-49,78,Female,Japan,39:59,,3:22:58,,1:46:14,5:56:09
+736,1061,Ines Najvirt,F40-44,123,Female,Slovenia,43:58,,3:24:35,,1:40:21,5:56:24
+737,727,Jeannine Mahoney,F45-49,79,Female,United States,37:45,,3:23:14,,1:46:57,5:56:26
+738,732,Rachel Matthews,F45-49,80,Female,Australia,33:52,,3:27:02,,1:47:05,5:56:33
+739,1647,Melissa Rios La Luz,F30-34,140,Female,Puerto Rico,28:32,,3:31:08,,1:51:26,5:56:34
+740,1697,Samantha Weinberg,F30-34,141,Female,United States,44:28,,3:25:17,,1:38:54,5:56:35
+741,1523,Emily Gage,F30-34,142,Female,United States,34:32,,3:31:38,,1:43:46,5:56:35
+742,1674,Justine Stephani,F30-34,143,Female,Switzerland,38:54,,3:25:08,,1:46:11,5:56:39
+743,1892,Theresa Schörkmaier,F25-29,110,Female,Austria,38:14,,3:23:00,,1:49:13,5:56:43
+744,279,Cordula Gruber,F55-59,16,Female,Germany,32:06,,3:21:03,,1:55:05,5:56:46
+745,581,Karen Wood,F50-54,36,Female,United States,35:53,,3:25:57,,1:46:01,5:56:50
+746,670,Celine Guillamet,F45-49,81,Female,France,36:36,,3:17:42,,1:56:14,5:56:57
+747,1680,Annelise Taine,F30-34,144,Female,France,40:44,,3:23:06,,1:46:30,5:56:59
+748,808,Joanna Shallcross,F45-49,82,Female,United Kingdom,35:48,,3:21:32,,1:52:24,5:57:00
+749,1907,Lauren Symmonds,F25-29,111,Female,South Africa,35:08,,3:21:42,,1:51:39,5:57:01
+750,1353,Mariana Perez Lingg,F35-39,141,Female,Venezuela,33:43,,3:28:46,,1:48:24,5:57:04
+751,965,Gabriela EGLI,F40-44,124,Female,Switzerland,41:41,,3:26:23,,1:43:05,5:57:05
+752,1079,Virginie Perrin,F40-44,125,Female,France,38:58,,3:19:22,,1:52:33,5:57:06
+753,1574,Colleen Lafrance,F30-34,145,Female,United States,34:23,,3:24:49,,1:51:30,5:57:09
+754,221,Donna Smyers,F60-64,4,Female,United States,37:27,,3:15:21,,1:58:02,5:57:10
+755,270,Lynne Fiedler,F55-59,17,Female,United States,42:56,,3:21:14,,1:45:11,5:57:10
+756,1254,Johanna Hautamäki,F35-39,142,Female,Finland,35:02,,3:27:57,,1:47:32,5:57:14
+757,452,Emmanuelle Guiol,F50-54,37,Female,France,41:08,,3:20:21,,1:49:29,5:57:18
+758,733,Kylie Matulick,F45-49,83,Female,Australia,36:42,,3:16:49,,1:55:00,5:57:20
+759,1431,Magdalena Warzybok,F35-39,143,Female,Poland,39:26,,3:21:19,,1:50:21,5:57:21
+760,993,Kirsten Hill,F40-44,126,Female,Australia,34:12,,3:17:30,,1:58:23,5:57:23
+761,1550,Lisa Holt,F30-34,146,Female,United States,36:29,,3:25:00,,1:47:40,5:57:29
+762,1234,RINA FLORENCIA FAY,F35-39,144,Female,Argentina,37:26,,3:26:01,,1:46:08,5:57:30
+763,1865,Rhianna Parkinson,F25-29,112,Female,United Kingdom,36:11,,3:26:02,,1:48:38,5:57:32
+764,1754,Katheryn Cochrane,F25-29,113,Female,Canada,39:42,,3:29:21,,1:40:41,5:57:38
+765,565,Ingun Vaglid,F50-54,38,Female,Norway,34:23,,3:23:27,,1:51:58,5:57:43
+766,508,Melinda Nagle,F50-54,39,Female,United States,35:26,,3:21:48,,1:52:07,5:57:45
+767,798,erica ruge,F45-49,84,Female,United States,38:18,,3:31:47,,1:40:56,5:57:46
+768,1736,Sophie Broglia,F25-29,114,Female,France,37:05,,3:16:07,,1:57:48,5:57:50
+769,672,SANDRINE HAGENBACH,F45-49,85,Female,France,43:04,,3:12:12,,1:54:39,5:57:51
+770,1842,Liu Qianruo,F25-29,115,Female,China,42:05,,3:26:55,,1:41:24,5:57:52
+771,826,Ashley Tappin-Doussan,F45-49,86,Female,United States,31:31,,3:24:43,,1:54:27,5:57:54
+772,1526,Marianne Geisler,F30-34,147,Female,France,37:14,,3:25:06,,1:47:20,5:57:55
+773,1142,Helen Van Niekerk,F40-44,127,Female,South Africa,34:28,,3:28:44,,1:47:14,5:58:00
+774,1944,Payton Boylston,F18-24,52,Female,United States,39:17,,3:23:01,,1:49:31,5:58:00
+775,1371,Elodie Richard,F35-39,145,Female,France,40:18,,3:27:57,,1:43:47,5:58:00
+776,1945,Sarah Buchanan,F18-24,53,Female,Australia,39:04,,3:23:57,,1:48:38,5:58:04
+777,1103,Sybille Schorm,F40-44,128,Female,Austria,39:36,,3:28:15,,1:43:01,5:58:04
+778,344,Linda Potts,F55-59,18,Female,South Africa,37:46,,3:25:45,,1:47:07,5:58:08
+779,1240,Deanna Fuller,F35-39,146,Female,United States,32:43,,3:28:18,,1:49:18,5:58:09
+780,1615,Daniela Noya,F30-34,148,Female,Bolivia,41:46,,3:24:37,,1:44:19,5:58:11
+781,179,Barbara Holmes,F60-64,5,Female,United Kingdom,31:48,,3:23:13,,1:56:07,5:58:12
+782,1813,Jane Jackson-Miller,F25-29,116,Female,South Africa,36:59,,3:22:11,,1:51:57,5:58:16
+783,1051,Elisabeth Mondon,F40-44,129,Female,France,36:03,,3:28:03,,1:48:08,5:58:16
+784,1679,Caitlin Switaj,F30-34,149,Female,United States,30:43,,3:43:14,,1:36:53,5:58:16
+785,258,Christine Claasen,F55-59,19,Female,South Africa,40:44,,3:26:01,,1:43:20,5:58:17
+786,1139,Macarena Valdes,F40-44,130,Female,Chile,41:56,,3:21:09,,1:46:19,5:58:27
+787,1626,Manon Peters,F30-34,150,Female,Netherlands,46:48,,3:17:58,,1:49:29,5:58:29
+788,404,Marie Boyle,F50-54,40,Female,Ireland,40:06,,3:16:31,,1:54:31,5:58:29
+789,1755,Pauline Colavita,F25-29,117,Female,France,38:14,,3:24:55,,1:47:37,5:58:38
+790,1620,Mollie Anna Pearse,F30-34,151,Female,United Kingdom,34:46,,3:26:19,,1:50:11,5:58:46
+791,874,Barbara Larcher,F40-44,131,Female,Austria,39:06,,3:26:55,,1:46:05,5:58:48
+792,854,Manuela Wolfrath,F45-49,87,Female,Germany,44:00,,3:21:43,,1:44:50,5:58:49
+793,1695,Christine Massey,F30-34,152,Female,United States,35:46,,3:31:17,,1:45:51,5:58:54
+794,1415,Xochil Valencia,F35-39,147,Female,Mexico,33:30,,3:25:25,,1:51:26,5:58:55
+795,1761,Maricela Cuello,F25-29,118,Female,Argentina,43:14,,3:27:32,,1:42:16,5:58:58
+796,1452,Amadee Nicolaas,F30-34,153,Female,Aruba,43:14,,3:27:00,,1:39:19,5:58:59
+797,1490,Irene See Win,F30-34,154,Female,Malaysia,30:02,,3:20:22,,2:00:25,5:59:02
+798,831,Bianca Thönnes,F45-49,88,Female,Germany,37:59,,3:20:25,,1:52:39,5:59:03
+799,2041,Hannah White,F18-24,54,Female,United States,30:14,,3:32:00,,1:51:31,5:59:04
+800,2009,Kelsey Pebly,F18-24,55,Female,United States,35:18,,3:20:07,,1:54:46,5:59:04
+801,1645,Laura Richard,F30-34,155,Female,Canada,43:56,,3:21:25,,1:48:11,5:59:07
+802,674,Fiona Hampton,F45-49,89,Female,Australia,35:32,,3:20:27,,1:56:39,5:59:14
+803,1501,Valentina Danna,F30-34,156,Female,Colombia,38:37,,3:29:36,,1:43:02,5:59:16
+804,2006,Magdalena Napoli,F18-24,56,Female,Argentina,35:03,,3:32:43,,1:43:00,5:59:19
+805,1709,Jennie Zinchuk,F30-34,157,Female,United States,41:33,,3:27:17,,1:43:12,5:59:21
+806,1816,Emily JAY,F25-29,119,Female,Australia,33:26,,3:22:44,,1:56:10,5:59:24
+807,501,Jacqueline Miller,F50-54,41,Female,United States,40:03,,3:24:20,,1:48:14,5:59:27
+808,338,Djurdjica Orepic,F55-59,20,Female,Croatia,42:14,,3:22:01,,1:46:34,5:59:29
+809,1689,Josien Vergroesen,F30-34,158,Female,Netherlands,44:48,,3:11:18,,1:56:29,5:59:32
+810,267,Danielle Deley,F55-59,21,Female,Belgium,35:28,,3:29:30,,1:47:42,5:59:41
+811,1048,Melanie Mitchell,F40-44,132,Female,Canada,33:59,,3:26:03,,1:52:24,5:59:44
+812,1724,Marie-Benoît Benault,F25-29,120,Female,France,44:27,,3:18:01,,1:49:19,5:59:49
+813,624,Christine Cogger,F45-49,90,Female,Canada,39:47,,3:20:40,,1:52:56,5:59:51
+814,1055,Natalie Mortimer,F40-44,133,Female,United Kingdom,39:29,,3:32:48,,1:40:59,5:59:55
+815,1940,Sara Bilich,F18-24,57,Female,United States,34:31,,3:22:27,,1:56:18,5:59:56
+816,1561,Marta Kaminowska Biega?a,F30-34,159,Female,Poland,31:56,,3:44:11,,1:37:13,6:00:03
+817,1440,Mackenzie Yates,F35-39,148,Female,United States,37:16,,3:24:03,,1:51:08,6:00:10
+818,1292,Kelly Lefler,F35-39,149,Female,United States,34:43,,3:42:36,,1:36:45,6:00:12
+819,1077,Laetitia Paveau,F40-44,134,Female,France,43:58,,3:17:32,,1:52:12,6:00:13
+820,1536,Yasmin Halawa,F30-34,160,Female,Egypt,39:25,,3:23:23,,1:48:49,6:00:14
+821,1421,Joke Vandebuerie,F35-39,150,Female,Belgium,39:18,,3:24:42,,1:47:16,6:00:19
+822,1075,Kimberley Patterson,F40-44,135,Female,United States,43:26,,3:27:27,,1:40:28,6:00:23
+823,1202,Trinidad Chauriye Clarck,F35-39,151,Female,Chile,41:35,,3:15:06,,1:55:02,6:00:25
+824,1443,Katja Zeh,F35-39,152,Female,Germany,41:08,,3:26:26,,1:45:02,6:00:26
+825,1727,Tiziana Billy,F25-29,121,Female,Guatemala,38:12,,3:16:04,,1:59:45,6:00:29
+826,1515,Emma Fox,F30-34,161,Female,United Kingdom,40:52,,3:23:13,,1:49:29,6:00:30
+827,1730,Kasha Bonneville,F25-29,122,Female,Canada,35:16,,3:16:23,,2:00:17,6:00:34
+828,1694,Loren Ward,F30-34,162,Female,United Kingdom,37:23,,3:18:35,,1:57:44,6:00:39
+829,1331,Anisa Mori,F35-39,153,Female,Canada,36:00,,3:28:21,,1:49:23,6:00:39
+830,1710,Giorgia Zoccatelli,F30-34,163,Female,Italy,39:50,,3:33:29,,1:39:00,6:00:42
+831,1144,Iryna Vasilevskaya,F40-44,136,Female,Ukraine,42:17,,3:17:27,,1:52:40,6:00:43
+832,1498,Ryan Corrigan,F30-34,164,Female,United States,39:01,,3:27:52,,1:46:15,6:00:45
+833,1228,Katie Elliott,F35-39,154,Female,United States,38:16,,3:29:59,,1:46:00,6:00:46
+834,1834,Meghan Lamers,F25-29,123,Female,Canada,33:42,,3:23:35,,1:55:33,6:00:46
+835,1032,Kirsten Mangelsdorf,F40-44,137,Female,Germany,38:12,,3:32:55,,1:43:02,6:00:47
+836,1351,Anette Paulsen,F35-39,155,Female,Denmark,41:29,,3:22:51,,1:49:01,6:00:48
+837,1698,Hannah Welling,F30-34,165,Female,United Kingdom,44:54,,3:23:57,,1:45:11,6:00:48
+838,950,Hannah Fatt,F40-44,138,Female,United Kingdom,42:30,,3:21:55,,1:46:01,6:01:00
+839,749,Deanna Meyer,F45-49,91,Female,United States,31:36,,3:34:56,,1:45:58,6:01:01
+840,2026,Emie Seban,F18-24,58,Female,France,32:43,,3:21:09,,1:58:51,6:01:02
+841,342,Gabriella Picco,F55-59,22,Female,Switzerland,38:59,,3:24:31,,1:49:35,6:01:03
+842,879,Linda Basson,F40-44,139,Female,South Africa,33:58,,3:18:10,,2:01:41,6:01:06
+843,1005,Junko Nakamura,F40-44,140,Female,Japan,33:05,,3:31:29,,1:49:44,6:01:07
+844,811,Sharley Simpson,F45-49,92,Female,United States,36:16,,3:32:02,,1:45:29,6:01:18
+845,1340,Jinno Natsuko,F35-39,156,Female,Japan,42:35,,3:20:30,,1:51:45,6:01:30
+846,951,Melina Guedes,F40-44,141,Female,Brazil,39:02,,3:26:13,,1:48:20,6:01:31
+847,410,Alison Buckley,F50-54,42,Female,United Kingdom,38:52,,3:19:15,,1:56:38,6:01:35
+848,762,Fernanda Nunez,F45-49,93,Female,Argentina,35:46,,3:31:59,,1:46:41,6:01:37
+849,651,Agnieszka Fijolek-Warszewska,F45-49,94,Female,Poland,49:09,,3:27:03,,1:38:41,6:01:52
+850,1904,Gabrielle Suver,F25-29,124,Female,United States,39:13,,3:31:15,,1:43:35,6:01:53
+851,1327,LILIAN MIRANDA,F35-39,157,Female,Brazil,42:52,,3:23:17,,1:48:52,6:01:58
+852,1435,Olimpia Wojtylo,F35-39,158,Female,Poland,35:11,,3:27:52,,1:51:30,6:02:05
+853,801,Tammy Rutherford,F45-49,95,Female,United States,33:16,,3:28:03,,1:53:40,6:02:16
+854,284,Diane Hier,F55-59,23,Female,United Kingdom,34:38,,3:33:10,,1:48:53,6:02:17
+855,372,June Ward,F55-59,24,Female,Australia,37:44,,3:23:15,,1:53:08,6:02:21
+856,613,Christiana Butter,F45-49,96,Female,Austria,37:48,,3:32:07,,1:46:03,6:02:22
+857,237,Jacquie Allgire,F55-59,25,Female,United States,41:16,,3:26:42,,1:48:02,6:02:26
+858,413,Sandra Byrne,F50-54,43,Female,United States,33:31,,3:23:20,,1:57:54,6:02:30
+859,280,Jo Gundle,F55-59,26,Female,United Kingdom,45:03,,3:23:45,,1:46:09,6:02:39
+860,1576,Nikki Leblanc,F30-34,166,Female,Canada,35:02,,3:20:00,,1:59:55,6:02:44
+861,1604,Elise Meyering,F30-34,167,Female,South Africa,44:12,,3:27:58,,1:43:06,6:02:47
+862,858,Heather Zygun,F45-49,97,Female,Canada,38:56,,3:23:04,,1:53:22,6:02:49
+863,1994,Julia Mace,F18-24,59,Female,United States,41:11,,3:24:44,,1:51:46,6:02:54
+864,1891,Carla Schoo-Lastra,F25-29,125,Female,Chile,38:31,,3:30:30,,1:46:51,6:02:55
+865,994,Stacey Hodnett,F40-44,142,Female,United States,33:33,,3:27:39,,1:55:05,6:03:01
+866,1646,Kara Ringo,F30-34,168,Female,United States,36:31,,3:33:23,,1:45:28,6:03:07
+867,300,Siobhan Kennedy,F55-59,27,Female,Ireland,43:52,,3:28:17,,1:42:27,6:03:09
+868,1175,Virginie Barbeau,F35-39,159,Female,Canada,39:17,,3:17:44,,2:00:07,6:03:19
+869,904,Wendy Casterton,F40-44,143,Female,United Kingdom,34:03,,3:18:57,,2:04:05,6:03:23
+870,476,Michelle Kitze,F50-54,44,Female,United States,39:31,,3:29:37,,1:46:08,6:03:26
+871,1047,Myia Miller,F40-44,144,Female,United States,39:37,,3:20:57,,1:53:53,6:03:28
+872,1650,Tegan Roberts,F30-34,169,Female,United Kingdom,47:02,,3:15:46,,1:52:40,6:03:34
+873,936,Claire Diethe,F40-44,145,Female,Ireland,34:40,,3:39:22,,1:43:17,6:03:46
+874,395,Anne Becu,F50-54,45,Female,France,36:59,,3:24:14,,1:53:04,6:03:58
+875,425,Debra Daley,F50-54,46,Female,United States,37:51,,3:34:32,,1:43:39,6:03:58
+876,1780,Elizabeth Ferrer,F25-29,126,Female,United States,37:36,,3:28:07,,1:51:49,6:04:05
+877,1009,Margita Kovacova,F40-44,146,Female,Slovakia,48:04,,3:29:48,,1:38:28,6:04:19
+878,1363,Catherine Priday,F35-39,160,Female,South Africa,35:57,,3:35:00,,1:45:40,6:04:24
+879,1197,Cantú Adalia,F35-39,161,Female,Mexico,36:52,,3:47:32,,1:32:22,6:04:25
+880,1707,Jimena Zamora,F30-34,170,Female,Mexico,41:18,,3:23:52,,1:51:44,6:04:33
+881,1324,Mia Nielsen,F35-39,162,Female,Denmark,33:57,,3:21:48,,2:02:13,6:04:34
+882,527,Carmen Rehkopf,F50-54,47,Female,Germany,40:00,,3:19:05,,1:56:28,6:04:43
+883,1712,Emma Adriaens,F25-29,127,Female,United States,44:30,,3:22:41,,1:50:17,6:04:48
+884,387,Sonya Ariely,F50-54,48,Female,Israel,45:06,,3:21:43,,1:48:40,6:04:48
+885,1893,Juhi Shah,F25-29,128,Female,United States,50:22,,3:24:41,,1:40:53,6:04:49
+886,1160,Dj Young,F40-44,147,Female,United States,33:33,,3:31:00,,1:52:59,6:04:55
+887,1617,Carolyn Paajanen,F30-34,171,Female,Finland,44:54,,3:30:48,,1:41:18,6:05:02
+888,1367,Jessica Rangel,F35-39,163,Female,United States,39:48,,3:37:53,,1:39:51,6:05:14
+889,1325,Nicole Mikhael,F35-39,164,Female,Canada,41:16,,3:31:24,,1:44:50,6:05:17
+890,743,Dee Mcmurtrie,F45-49,98,Female,Australia,33:18,,3:36:44,,1:47:49,6:05:23
+891,852,Alicja Weyer,F45-49,99,Female,Poland,39:03,,3:26:26,,1:52:55,6:05:23
+892,383,Sara Alvaeus,F50-54,49,Female,Sweden,42:03,,3:23:52,,1:52:53,6:05:24
+893,728,Danielle Many,F45-49,100,Female,United States,40:13,,3:35:50,,1:42:32,6:05:24
+894,1769,Caitlin Dowd,F25-29,129,Female,United States,35:09,,3:22:43,,2:00:22,6:05:24
+895,1735,Ali Brock,F25-29,130,Female,United States,40:28,,3:19:02,,1:59:02,6:05:35
+896,1898,Carolina Rodrigues Cruz Alves De Souza,F25-29,131,Female,Brazil,34:05,,3:28:41,,1:55:19,6:05:37
+897,379,Lori Aho-Ouwinga,F50-54,50,Female,United States,41:31,,3:15:21,,2:01:28,6:05:38
+898,1268,Emma Igelstrom,F35-39,165,Female,Sweden,28:36,,3:25:12,,2:03:34,6:05:43
+899,847,Shari Watson,F45-49,101,Female,United States,35:42,,3:37:07,,1:43:52,6:05:44
+900,1817,Vera Sophie Jegminat,F25-29,132,Female,Germany,35:52,,3:28:56,,1:54:36,6:05:45
+901,1068,Laura Nuñez,F40-44,148,Female,Paraguay,42:17,,3:32:46,,1:40:55,6:05:47
+902,1556,Lize-Mari Jacobs,F30-34,172,Female,South Africa,34:35,,3:39:27,,1:44:15,6:05:52
+903,1476,Tamsin Browne,F30-34,173,Female,New Zealand,39:46,,3:40:32,,1:39:50,6:05:55
+904,760,Fabiana Nicoletti,F45-49,102,Female,Italy,36:53,,3:27:12,,1:52:22,6:05:59
+905,747,Megumi Masuda,F45-49,103,Female,United States,31:40,,3:34:14,,1:53:46,6:06:14
+906,856,Tracey Zammit,F45-49,104,Female,Australia,32:18,,3:34:46,,1:52:45,6:06:17
+907,220,Nancy Smith,F60-64,6,Female,United States,34:47,,3:28:36,,1:52:19,6:06:22
+908,1413,Gerrida Uys,F35-39,166,Female,Namibia,41:56,,3:27:35,,1:49:06,6:06:23
+909,1429,Amy Waldron,F35-39,167,Female,United Kingdom,40:40,,3:31:16,,1:47:10,6:06:23
+910,1603,Soraya Merrylees,F30-34,174,Female,United Kingdom,35:30,,3:25:42,,1:56:14,6:06:25
+911,1074,Monika Papst-Gindl,F40-44,149,Female,Austria,39:07,,3:23:09,,1:56:28,6:06:25
+912,694,Rebecca Joslin,F45-49,105,Female,Australia,34:01,,3:18:47,,2:05:57,6:06:26
+913,1583,Elizabeth Lindsay,F30-34,175,Female,United States,40:24,,3:29:00,,1:48:30,6:06:27
+914,1078,Michelle Pepperall,F40-44,150,Female,Australia,38:30,,3:20:18,,1:58:31,6:06:37
+915,896,Viktoria Brown,F40-44,151,Female,Hungary,46:14,,3:24:34,,1:46:41,6:06:41
+916,1173,Nancy Arcoverde Cavalcanti,F35-39,168,Female,Brazil,37:32,,3:30:28,,1:51:33,6:06:44
+917,1123,Alexandra Szczerban,F40-44,152,Female,Venezuela,32:42,,3:37:14,,1:46:35,6:06:46
+918,1929,Stephanie Wise,F25-29,133,Female,United Kingdom,43:30,,3:25:46,,1:49:31,6:06:46
+919,516,Debbie Wheeler,F50-54,51,Female,Canada,48:32,,3:22:52,,1:46:35,6:06:48
+920,609,Sandrine Colas,F45-49,106,Female,France,37:36,,3:27:55,,1:54:00,6:07:01
+921,428,Fiona Day,F50-54,52,Female,Australia,40:32,,3:26:57,,1:52:34,6:07:02
+922,645,Pam Estill,F45-49,107,Female,United States,39:35,,3:24:44,,1:54:53,6:07:02
+923,832,Krissa Thoreson,F45-49,108,Female,United States,45:59,,3:21:57,,1:49:38,6:07:02
+924,249,Sandra Bordoni,F55-59,28,Female,Chile,46:48,,3:25:02,,1:46:17,6:07:04
+925,1902,Gillian Staudt,F25-29,134,Female,United States,30:09,,3:40:07,,1:48:26,6:07:05
+926,1567,Eva Kodouskova,F30-34,176,Female,Czechia,36:58,,3:16:38,,2:07:06,6:07:06
+927,1593,Solène Masson,F30-34,177,Female,France,41:24,,3:32:27,,1:45:27,6:07:08
+928,1248,Theresa Graninger,F35-39,169,Female,United States,38:44,,3:33:56,,1:47:29,6:07:12
+929,1819,Natsinee Kanokworakan,F25-29,135,Female,Thailand,49:06,,3:24:04,,1:40:02,6:07:14
+930,735,Laurence Mazard,F45-49,109,Female,France,40:25,,3:27:43,,1:51:43,6:07:21
+931,302,Kristine Kester,F55-59,29,Female,United States,31:53,,3:31:43,,1:58:02,6:07:24
+932,305,Birgitte Klitgaard,F55-59,30,Female,Denmark,46:05,,3:17:03,,1:56:09,6:07:26
+933,1643,Stephanie Reinhold,F30-34,178,Female,United States,41:53,,3:31:17,,1:43:04,6:07:29
+934,519,Aimee PERRETT,F50-54,53,Female,New Zealand,33:32,,3:24:25,,2:01:02,6:07:29
+935,925,Adele De La Rey,F40-44,153,Female,Namibia,39:39,,3:33:31,,1:47:05,6:07:30
+936,869,Lysa Aued,F40-44,154,Female,Panama,40:22,,3:29:42,,1:49:28,6:07:40
+937,1843,Florence Loader,F25-29,136,Female,New Zealand,35:23,,3:25:30,,1:57:45,6:07:41
+938,1192,Melyssa Brochu,F35-39,170,Female,Canada,41:01,,3:31:56,,1:46:35,6:07:44
+939,455,Melanie Haliburton,F50-54,54,Female,United States,34:53,,3:38:49,,1:46:03,6:07:57
+940,1759,Sarah Virginia Costeira,F25-29,137,Female,Portugal,41:45,,3:32:41,,1:45:57,6:08:02
+941,932,Carolina Dell Orefice,F40-44,155,Female,Argentina,41:13,,3:35:34,,1:43:30,6:08:04
+942,1359,Rafal Pomorski,F35-39,171,Female,Poland,40:27,,3:41:59,,1:38:39,6:08:10
+943,1222,Pia Dewar,F35-39,172,Female,South Africa,36:03,,3:31:56,,1:52:45,6:08:11
+944,991,Melissa Heyen,F40-44,156,Female,United States,39:37,,3:30:17,,1:51:41,6:08:15
+945,1241,Jesselyn Garrisi,F35-39,173,Female,United States,33:18,,3:31:44,,1:56:04,6:08:18
+946,1127,Kerri Thomas,F40-44,157,Female,United States,40:18,,3:29:48,,1:49:37,6:08:21
+947,244,Pascale Bayssat,F55-59,31,Female,France,48:23,,3:13:29,,1:56:49,6:08:27
+948,880,Amanda Beaudin,F40-44,158,Female,Canada,33:26,,3:18:19,,2:07:05,6:08:28
+949,1328,Ioana Molnar,F35-39,174,Female,Romania,44:56,,3:28:20,,1:48:28,6:08:31
+950,1279,Caroline Kennedy,F35-39,175,Female,New Zealand,33:46,,3:32:31,,1:54:18,6:08:35
+951,1774,Taylor Ellis,F25-29,138,Female,United States,33:26,,3:39:24,,1:48:18,6:08:36
+952,945,Maria Ekström,F40-44,159,Female,Sweden,43:12,,3:28:49,,1:49:45,6:08:39
+953,1404,Melissa Strong,F35-39,176,Female,United States,32:46,,3:34:30,,1:53:34,6:08:46
+954,265,Louise Dalphond,F55-59,32,Female,Canada,37:54,,3:33:35,,1:50:32,6:08:49
+955,317,Kelly Luttmer,F55-59,33,Female,United States,39:20,,3:29:14,,1:52:40,6:08:58
+956,853,Jules Widdowson,F45-49,110,Female,United Kingdom,36:11,,3:34:54,,1:51:27,6:09:00
+957,264,M-J COSSETTE,F55-59,34,Female,Canada,31:58,,3:35:44,,1:54:44,6:09:02
+958,1001,Tiencia James,F40-44,160,Female,United States,45:42,,3:33:55,,1:41:58,6:09:06
+959,579,Mimi Winsberg,F50-54,55,Female,United States,40:38,,3:29:54,,1:48:54,6:09:07
+960,621,Justine Clark,F45-49,111,Female,Hong Kong,44:02,,3:27:52,,1:47:42,6:09:09
+961,864,Claudia Alvarez,F40-44,161,Female,Panama,40:43,,3:32:33,,1:46:20,6:09:10
+962,517,Kelly Parcell,F50-54,56,Female,United States,40:07,,3:19:08,,2:03:29,6:09:11
+963,1003,Alexandra Johnson,F40-44,162,Female,Australia,36:10,,3:31:52,,1:54:28,6:09:12
+964,910,Jennifer Comfort,F40-44,163,Female,United States,34:42,,3:28:49,,1:58:24,6:09:13
+965,764,Louise O´shea,F45-49,112,Female,Ireland,39:52,,3:27:13,,1:53:40,6:09:16
+966,337,Nancy Obreno,F55-59,35,Female,Belgium,35:15,,3:21:50,,2:04:17,6:09:16
+967,1410,Camila Trevelin,F35-39,177,Female,Brazil,37:32,,3:26:53,,1:57:51,6:09:19
+968,197,June Mcminn,F60-64,7,Female,Ireland,41:40,,3:26:22,,1:53:34,6:09:20
+969,814,Christy Soncrant,F45-49,113,Female,United States,39:18,,3:32:44,,1:50:19,6:09:22
+970,1432,Rie Watanabe,F35-39,178,Female,Japan,40:51,,3:37:05,,1:45:14,6:09:25
+971,1041,Celine Mc Phillips,F40-44,164,Female,Ireland,36:59,,3:20:12,,2:03:04,6:09:26
+972,1747,Amanda Chang,F25-29,139,Female,United States,47:31,,3:43:51,,1:30:25,6:09:26
+973,456,Tori Hamill,F50-54,57,Female,United States,36:17,,3:33:24,,1:51:01,6:09:30
+974,1835,Luciana Soledad Lavia,F25-29,140,Female,Argentina,40:40,,3:31:54,,1:50:05,6:09:33
+975,401,Jessica Bibza,F50-54,58,Female,United States,39:13,,3:23:01,,2:00:51,6:09:39
+976,999,Jen Ingram,F40-44,165,Female,United States,44:45,,3:22:38,,1:54:17,6:09:52
+977,1266,Raya Usher,F35-39,179,Female,United Kingdom,,,3:21:31,,2:06:19,6:09:55
+978,481,Petro Kuiper,F50-54,59,Female,Australia,35:20,,3:32:28,,1:53:47,6:09:59
+979,448,Sanet Griesel,F50-54,60,Female,South Africa,41:23,,3:33:40,,1:47:51,6:10:00
+980,1069,Tracy Nyamuda,F40-44,166,Female,South Africa,31:53,,3:38:59,,1:53:34,6:10:03
+981,1369,Caroline Reumont,F35-39,180,Female,France,45:55,,3:27:23,,1:49:05,6:10:05
+982,2033,Shipulina Tanya,F18-24,60,Female,Russian Federation,48:53,,3:23:29,,1:50:54,6:10:05
+983,1562,Emma Kennedy,F30-34,179,Female,United Kingdom,42:54,,3:29:45,,1:50:50,6:10:08
+984,1312,Jen Matro,F35-39,181,Female,United States,35:32,,3:39:58,,1:46:38,6:10:14
+985,319,Sharon Mackinnon,F55-59,36,Female,Canada,37:05,,3:28:15,,1:56:10,6:10:27
+986,1255,Jennifer Hayes,F35-39,182,Female,United States,38:13,,3:35:38,,1:47:21,6:10:28
+987,1506,Erica Doucet,F30-34,180,Female,Canada,44:08,,3:36:27,,1:42:35,6:10:32
+988,1863,Chantal Ivory,F25-29,141,Female,Australia,42:10,,3:34:51,,1:45:35,6:10:40
+989,1196,Maria Cabrera,F35-39,183,Female,Argentina,40:27,,3:40:44,,1:42:08,6:10:40
+990,773,Tori Peter,F45-49,114,Female,United Kingdom,36:15,,3:25:49,,2:02:11,6:10:52
+991,1168,Carolin Aldinger,F35-39,184,Female,Germany,42:26,,3:29:44,,1:50:40,6:10:53
+992,1093,Ana Karina Rodriguez Rivera,F40-44,167,Female,Mexico,48:50,,3:24:10,,1:47:43,6:11:07
+993,312,Andrea Leber,F55-59,37,Female,United States,41:35,,3:32:51,,1:49:00,6:11:08
+994,676,Susie Heath,F45-49,115,Female,Australia,35:11,,3:27:25,,1:56:49,6:11:10
+995,738,Morag Mcdowall,F45-49,116,Female,United Kingdom,35:24,,3:32:47,,1:56:30,6:11:11
+996,557,Marion Templeman,F50-54,61,Female,United Kingdom,33:35,,3:21:51,,2:08:54,6:11:16
+997,1677,Stephanie Sullivan,F30-34,181,Female,United States,36:59,,3:27:56,,1:57:39,6:11:20
+998,955,Julia Fermayer,F40-44,168,Female,United States,38:22,,3:21:13,,2:03:32,6:11:20
+999,1338,Agnieszka Najnigier Pierzynowska,F35-39,185,Female,Poland,43:24,,3:35:29,,1:43:49,6:11:25
+1000,514,Gina Otterbein,F50-54,62,Female,United States,42:00,,3:24:47,,1:58:03,6:11:26
+1001,1310,Mel Marsh,F35-39,186,Female,United Kingdom,37:45,,3:26:20,,1:59:26,6:11:29
+1002,1977,Victoria Huang,F18-24,61,Female,Australia,32:53,,3:34:34,,1:56:16,6:11:31
+1003,1866,Beate Paulsrud,F25-29,142,Female,Norway,39:08,,3:35:03,,1:49:55,6:11:38
+1004,1746,Sofia Cerda,F25-29,143,Female,Chile,36:49,,3:31:51,,1:54:10,6:11:44
+1005,1233,Lucie Fauck,F35-39,187,Female,France,40:49,,3:29:49,,1:52:48,6:11:47
+1006,1883,Luisa Sanchez,F25-29,144,Female,Colombia,39:08,,3:36:45,,1:47:41,6:11:48
+1007,656,Sara Fusetti,F45-49,117,Female,Italy,39:03,,3:31:49,,1:52:42,6:11:55
+1008,486,Tanya Lee-Parker,F50-54,63,Female,New Zealand,32:12,,3:40:16,,1:52:59,6:11:56
+1009,496,Frances Malin,F50-54,64,Female,United Kingdom,42:38,,3:38:06,,1:43:22,6:11:58
+1010,1815,Lirayen Jara,F25-29,145,Female,Chile,33:57,,3:36:28,,1:55:33,6:11:59
+1011,1613,Mikka Nordby,F30-34,182,Female,United States,36:29,,3:29:09,,1:59:09,6:11:59
+1012,683,Joyce Holsten,F45-49,118,Female,United States,40:27,,3:35:52,,1:46:23,6:11:59
+1013,472,Claudia Karl,F50-54,65,Female,Germany,38:13,,3:22:23,,1:58:22,6:12:03
+1014,552,Julie Stevens,F50-54,66,Female,Australia,38:46,,3:29:44,,1:55:30,6:12:08
+1015,1225,Gerda Maria Dumitru,F35-39,188,Female,Romania,35:17,,3:37:56,,1:52:15,6:12:09
+1016,1459,Vikki Aust,F30-34,183,Female,United Kingdom,37:06,,3:34:16,,1:52:23,6:12:10
+1017,1496,Bonnie Collins,F30-34,184,Female,Australia,37:23,,3:34:59,,1:51:56,6:12:13
+1018,2020,Louise Saggers,F18-24,62,Female,Australia,38:14,,3:43:01,,1:43:46,6:12:14
+1019,1888,Amanda Schevers,F25-29,146,Female,Canada,39:53,,3:20:16,,2:04:45,6:12:16
+1020,741,Heidi Schmitt,F45-49,119,Female,United States,37:15,,3:31:05,,1:56:40,6:12:17
+1021,954,Zoe Ferguson,F40-44,169,Female,Australia,35:25,,3:25:59,,2:04:28,6:12:28
+1022,2007,Marine Navarro,F18-24,63,Female,France,41:01,,3:23:52,,2:01:07,6:12:29
+1023,871,Claudia Avendaño,F40-44,170,Female,Chile,43:30,,3:39:43,,1:41:23,6:12:31
+1024,923,Barbara De Busschere,F40-44,171,Female,Belgium,30:09,,3:30:48,,2:03:37,6:12:33
+1025,1486,Amanda Altoe,F30-34,185,Female,Brazil,39:28,,3:35:52,,1:48:52,6:12:33
+1026,1180,Flavia Beatriz Belini,F35-39,189,Female,Brazil,36:04,,3:38:26,,1:50:33,6:12:36
+1027,1040,Audrey Mcmurry,F40-44,172,Female,United States,38:41,,3:37:22,,1:48:03,6:12:37
+1028,793,Elizabeth Ricaud,F45-49,120,Female,France,41:55,,3:35:17,,1:48:50,6:12:38
+1029,922,Cristina De Alba,F40-44,173,Female,Panama,38:37,,3:37:39,,1:49:51,6:12:43
+1030,626,Anella Conradie,F45-49,121,Female,South Africa,40:14,,3:41:00,,1:40:04,6:12:44
+1031,1089,Andrea Stadler,F40-44,174,Female,Ecuador,38:07,,3:36:20,,1:50:45,6:12:44
+1032,350,M. Pia Sanhueza,F55-59,38,Female,Chile,46:22,,3:23:12,,1:54:07,6:12:45
+1033,729,Elizabeth Karina Margueritte,F45-49,122,Female,Argentina,39:16,,3:31:51,,1:53:55,6:12:52
+1034,1405,Kelly Szklany,F35-39,190,Female,United States,40:29,,3:32:33,,1:50:07,6:12:55
+1035,917,Georgina Crawshaw,F40-44,175,Female,United Kingdom,37:01,,3:40:50,,1:48:03,6:12:55
+1036,1855,Daniela Montiel,F25-29,147,Female,Venezuela,32:23,,3:19:05,,2:16:22,6:12:57
+1037,437,Heidi Erpelding,F50-54,67,Female,United States,44:05,,3:32:04,,1:48:44,6:12:58
+1038,899,Julia Calogeropulos,F40-44,176,Female,Argentina,37:22,,3:29:55,,1:57:20,6:13:02
+1039,1991,Johanna Lechner,F18-24,64,Female,Germany,35:40,,3:37:32,,1:54:10,6:13:03
+1040,642,Sheena Dullaghan,F45-49,123,Female,Ireland,34:32,,3:40:19,,1:49:04,6:13:09
+1041,1513,Jennifer El Aile,F30-34,186,Female,United States,36:34,,3:38:24,,1:52:16,6:13:14
+1042,1176,Jennifer Barcellona,F35-39,191,Female,United States,36:09,,3:32:48,,1:57:23,6:13:14
+1043,1512,Rachel Edwards,F30-34,187,Female,United Kingdom,36:56,,3:33:46,,1:54:03,6:13:15
+1044,1136,Veronica Uhen,F40-44,177,Female,Malaysia,42:09,,3:31:31,,1:50:48,6:13:18
+1045,957,DENISE DA SILVA FIORIO LANZA,F40-44,178,Female,Brazil,37:11,,3:42:00,,1:48:00,6:13:24
+1046,492,Carmen Lorenz,F50-54,68,Female,Germany,34:08,,3:36:36,,1:55:48,6:13:26
+1047,1179,Natalie Beckenstrater,F35-39,192,Female,South Africa,37:03,,3:46:38,,1:42:36,6:13:31
+1048,1299,Milena Lorecik,F35-39,193,Female,Germany,45:19,,3:32:34,,1:49:07,6:13:35
+1049,1829,Karolane Laberge,F25-29,148,Female,Canada,41:20,,3:33:17,,1:52:57,6:13:46
+1050,1023,Danielle Liubicich,F40-44,179,Female,United States,38:13,,3:36:12,,1:49:59,6:13:56
+1051,296,Denise Jones,F55-59,39,Female,United States,38:53,,3:31:42,,1:56:07,6:13:58
+1052,167,Julienne Drysdale,F60-64,8,Female,Australia,35:03,,3:33:19,,1:56:03,6:13:59
+1053,893,Ashley McCabe,F40-44,180,Female,United States,41:03,,3:33:04,,1:50:09,6:14:05
+1054,1906,Lin Swik,F25-29,149,Female,Belgium,40:49,,3:30:21,,1:55:45,6:14:10
+1055,1453,Alexandra Anasson,F30-34,188,Female,Australia,38:01,,3:39:34,,1:45:59,6:14:10
+1056,1630,Karem Pita,F30-34,189,Female,Ecuador,37:36,,3:40:30,,1:47:01,6:14:10
+1057,550,Julia Spark,F50-54,69,Female,New Zealand,41:11,,3:27:29,,1:55:34,6:14:13
+1058,661,Meg Geshay,F45-49,124,Female,United States,37:27,,3:35:19,,1:53:30,6:14:15
+1059,1393,Holly Sloan,F35-39,194,Female,United States,40:20,,3:36:54,,1:50:12,6:14:15
+1060,1655,Nichakarn Ruttanaporn,F30-34,190,Female,Thailand,34:14,,3:45:31,,1:46:35,6:14:18
+1061,562,Lucie Turcotte,F50-54,70,Female,Canada,33:28,,3:36:37,,1:58:12,6:14:19
+1062,402,Armelle Bilard-Campion,F50-54,71,Female,Switzerland,34:26,,3:28:48,,2:03:56,6:14:22
+1063,1239,Tina Fritzson,F35-39,195,Female,Sweden,40:57,,3:35:57,,1:50:20,6:14:27
+1064,1020,DEBORAH LEVASSEUR,F40-44,181,Female,Canada,42:16,,3:27:25,,1:56:12,6:14:29
+1065,977,Genia Gulyas,F40-44,182,Female,Hungary,41:57,,3:32:50,,1:49:11,6:14:37
+1066,1505,Marie-Michelle Desrochers,F30-34,191,Female,Canada,38:50,,3:34:56,,1:51:45,6:14:44
+1067,520,Karin Peters,F50-54,72,Female,United States,44:16,,3:26:02,,1:56:48,6:14:44
+1068,1108,Wu Shu,F40-44,183,Female,China,54:43,,3:26:22,,1:43:29,6:14:46
+1069,545,Ayako Shirato,F50-54,73,Female,Japan,40:09,,3:35:31,,1:49:36,6:14:46
+1070,347,Suzan Ribenboim,F55-59,40,Female,United States,49:53,,3:27:29,,1:48:12,6:14:53
+1071,2003,MOREAU Emelyne,F18-24,65,Female,France,33:33,,3:29:30,,2:05:21,6:15:05
+1072,515,Nathalie Pantaleon,F50-54,74,Female,France,42:37,,3:29:11,,1:53:23,6:15:10
+1073,1794,Luca Barcik Glaser,F25-29,150,Female,Brazil,33:28,,3:40:49,,1:53:44,6:15:11
+1074,480,Renate Kuen,F50-54,75,Female,Italy,35:58,,3:23:28,,2:06:47,6:15:12
+1075,648,Basia Fazan,F45-49,125,Female,Poland,36:40,,3:32:42,,1:58:47,6:15:14
+1076,439,Paula Maria Moadeb,F50-54,76,Female,Argentina,42:04,,3:29:29,,1:54:55,6:15:19
+1077,161,Judy Daggett,F60-64,9,Female,United States,40:24,,3:43:37,,1:42:41,6:15:19
+1078,1289,Kristen Larimer,F35-39,196,Female,United States,37:12,,3:33:02,,1:57:08,6:15:28
+1079,641,Sara Duff,F45-49,126,Female,United Kingdom,39:06,,3:34:06,,1:55:32,6:15:32
+1080,349,Solveig Gysland Saeby,F55-59,41,Female,Norway,40:30,,3:34:53,,1:52:28,6:15:47
+1081,1669,Kim Solomons,F30-34,192,Female,Australia,44:33,,3:36:40,,1:46:38,6:15:52
+1082,911,Gena Constantopoulos,F40-44,184,Female,New Zealand,44:00,,3:27:55,,1:55:16,6:15:57
+1083,411,Cécile Buron,F50-54,77,Female,France,36:32,,3:34:46,,1:56:17,6:15:57
+1084,1614,Kc Northup,F30-34,193,Female,United States,40:41,,3:32:22,,1:55:37,6:15:58
+1085,477,Maria Kolosova,F50-54,78,Female,Russian Federation,49:12,,3:37:02,,1:41:54,6:16:03
+1086,1390,Monica Simoes Rodrigues,F35-39,197,Female,Brazil,40:34,,3:37:29,,1:50:03,6:16:07
+1087,1017,Yaneri Leal León,F40-44,185,Female,Chile,44:01,,3:37:04,,1:48:37,6:16:12
+1088,698,Doro Karbach,F45-49,127,Female,Austria,35:50,,3:29:21,,2:02:22,6:16:18
+1089,873,Alexandra Bade,F40-44,186,Female,Canada,41:34,,3:36:22,,1:50:59,6:16:19
+1090,644,Rhodora Ellis,F45-49,128,Female,Philippines,41:16,,3:28:37,,1:59:12,6:16:26
+1091,1897,Mauren Solano,F25-29,151,Female,Costa Rica,35:38,,3:23:46,,2:08:58,6:16:28
+1092,680,Michelle Hildebrand,F45-49,129,Female,United States,41:12,,3:32:30,,1:54:09,6:16:28
+1093,1186,Kate Bongiovanni,F35-39,198,Female,United States,34:14,,3:30:47,,2:02:48,6:16:37
+1094,1401,Doris Steere,F35-39,199,Female,United States,34:44,,3:51:32,,1:44:15,6:16:41
+1095,70,Julie Moss,F60-64,10,Female,United States,35:22,,3:35:00,,1:58:35,6:16:45
+1096,850,Linda Wesolowski,F45-49,130,Female,Canada,41:42,,3:29:36,,1:54:03,6:16:53
+1097,1231,Stephanie Ernst,F35-39,200,Female,United States,39:51,,3:29:19,,2:00:13,6:16:54
+1098,353,Jennifer Sereno,F55-59,42,Female,United States,38:14,,3:25:03,,2:05:11,6:17:01
+1099,1067,Fabiola Noya,F40-44,187,Female,Bolivia,47:22,,3:34:17,,1:47:38,6:17:01
+1100,627,Susan Corti,F45-49,131,Female,United States,35:46,,3:34:14,,2:00:04,6:17:09
+1101,1811,Chelsea-Ann Ingledew,F25-29,152,Female,South Africa,41:41,,3:35:02,,1:55:07,6:17:09
+1102,1305,Manco Sabrina,F35-39,201,Female,Italy,44:30,,3:21:06,,2:02:43,6:17:15
+1103,968,Kelly Gardiner,F40-44,188,Female,Canada,39:12,,3:31:31,,1:58:06,6:17:16
+1104,815,Carolyn Soules,F45-49,132,Female,United States,37:24,,3:41:55,,1:50:01,6:17:19
+1105,643,Krista Dungey,F45-49,133,Female,Canada,36:16,,3:31:36,,2:01:42,6:17:19
+1106,1719,Rebecca Archibald,F25-29,153,Female,Australia,39:06,,3:32:13,,1:59:02,6:17:25
+1107,453,Anna Guy,F50-54,79,Female,New Zealand,40:55,,3:35:47,,1:52:52,6:17:26
+1108,461,Susana Hauswirth,F50-54,80,Female,Argentina,41:13,,3:29:51,,1:59:29,6:17:33
+1109,189,Joyce Langridge,F60-64,11,Female,Canada,45:54,,3:32:03,,1:50:45,6:17:34
+1110,974,Karin Gould,F40-44,189,Female,Canada,34:17,,3:59:11,,1:38:19,6:17:49
+1111,141,Ulrike Baeuerle,F60-64,12,Female,Germany,41:17,,3:25:32,,2:03:34,6:17:49
+1112,1130,Mandy Tik,F40-44,190,Female,Hong Kong,33:21,,3:45:44,,1:49:17,6:17:50
+1113,468,Jenny Hart,F50-54,81,Female,Australia,44:09,,3:36:46,,1:47:53,6:17:52
+1114,1688,Maria Vallasciani,F30-34,194,Female,Argentina,47:05,,3:37:58,,1:44:17,6:17:53
+1115,1847,Kate Mccallin,F25-29,154,Female,United Kingdom,34:05,,3:36:16,,1:59:38,6:17:54
+1116,1008,Margaret Ko,F40-44,191,Female,Taiwan,40:29,,3:35:18,,1:54:43,6:17:57
+1117,1475,Kara Mosteller,F30-34,195,Female,United States,41:21,,3:29:11,,1:58:08,6:17:57
+1118,2027,Megan Shine,F18-24,66,Female,Australia,38:23,,3:34:45,,1:56:43,6:17:57
+1119,564,Vicki Updike,F50-54,82,Female,United States,37:45,,3:25:43,,2:04:34,6:17:59
+1120,181,Kim Isherwood,F60-64,13,Female,Denmark,39:15,,3:39:07,,1:51:25,6:17:59
+1121,986,Rachel Hayes,F40-44,192,Female,United States,33:38,,3:28:47,,2:06:34,6:18:00
+1122,1714,Kimberly Alcorn,F25-29,155,Female,Australia,43:36,,3:30:32,,1:57:19,6:18:00
+1123,610,Jessica Briseño Cortez,F45-49,134,Female,Mexico,36:46,,3:40:38,,1:52:27,6:18:07
+1124,1900,Kirsty Standing,F25-29,156,Female,South Africa,35:35,,3:38:00,,1:57:06,6:18:13
+1125,398,Ulrika Berglund,F50-54,83,Female,Sweden,40:51,,3:36:33,,1:54:15,6:18:16
+1126,827,Elena Tarasova,F45-49,135,Female,Russian Federation,42:30,,3:39:23,,1:49:02,6:18:16
+1127,730,Mirna Marovic,F45-49,136,Female,Croatia,38:01,,3:27:46,,2:00:22,6:18:20
+1128,1862,Phoebe Oldach,F25-29,157,Female,United States,40:19,,3:34:08,,1:55:49,6:18:22
+1129,325,Mary Lynne Mcelhaney,F55-59,43,Female,United States,33:56,,3:33:59,,2:02:23,6:18:23
+1130,1343,Mirjana Rankovic,F35-39,202,Female,Serbia,35:44,,3:35:02,,1:59:55,6:18:25
+1131,542,Birgit Schulz,F50-54,84,Female,Oman,43:26,,3:46:22,,1:39:20,6:18:25
+1132,1857,Sian Morgan,F25-29,158,Female,United Kingdom,39:18,,3:44:27,,1:47:38,6:18:31
+1133,1703,Andrea Yanez Pazmino,F30-34,196,Female,Ecuador,46:59,,3:38:42,,1:45:18,6:18:42
+1134,776,Fred poillet,F45-49,137,Female,France,39:20,,3:27:14,,2:04:16,6:18:43
+1135,1758,Fernanda Cordeiro,F25-29,159,Female,Brazil,33:58,,3:40:46,,1:54:57,6:18:46
+1136,1844,Flore Magnard,F25-29,160,Female,France,50:52,,3:31:11,,1:48:48,6:18:55
+1137,1382,Talita Saab,F35-39,203,Female,Brazil,36:03,,3:36:20,,1:57:31,6:19:00
+1138,1850,Nathalia Melo,F25-29,161,Female,Brazil,33:48,,3:41:16,,1:56:08,6:19:08
+1139,1908,Charlene Tang,F25-29,162,Female,Singapore,36:01,,3:36:24,,1:56:09,6:19:08
+1140,1052,Tessa Moorfield,F40-44,193,Female,Australia,34:51,,3:37:43,,1:57:00,6:19:08
+1141,1627,Steph Langdon,F30-34,197,Female,United Kingdom,34:26,,3:28:13,,2:08:38,6:19:10
+1142,1379,Paula Rovani,F35-39,204,Female,Brazil,42:14,,3:47:45,,1:40:15,6:19:25
+1143,567,Debbie Vanner,F50-54,85,Female,United Kingdom,37:18,,3:34:08,,1:59:30,6:19:25
+1144,1779,Ané Ferreira,F25-29,163,Female,South Africa,39:09,,3:40:12,,1:47:29,6:19:30
+1145,1455,Daniela Araujo,F30-34,198,Female,Venezuela,37:48,,3:47:44,,1:45:52,6:19:39
+1146,377,Ewa Wójcik,F55-59,44,Female,Poland,45:18,,3:29:28,,1:56:13,6:19:51
+1147,615,Cristina Capaldi-Cosas,F45-49,138,Female,United Kingdom,42:11,,3:42:36,,1:48:39,6:19:57
+1148,1998,Ludovica Massa,F18-24,67,Female,Italy,37:30,,3:37:43,,1:58:47,6:19:57
+1149,1878,Kellie Pope,F25-29,164,Female,United States,29:04,,3:48:03,,1:51:45,6:19:59
+1150,1049,Yukie Miura,F40-44,194,Female,Japan,40:27,,3:34:07,,1:56:36,6:20:00
+1151,574,Alison Whiteman,F50-54,86,Female,Australia,37:27,,3:27:37,,2:06:29,6:20:01
+1152,1876,Alexandra Reid,F25-29,165,Female,South Africa,37:33,,3:25:44,,2:08:04,6:20:02
+1153,1162,Caroline Zandin,F40-44,195,Female,Sweden,38:28,,3:27:33,,2:06:44,6:20:14
+1154,836,Pauline Tunstead,F45-49,139,Female,South Africa,38:53,,3:21:37,,2:09:47,6:20:24
+1155,432,Kerstin Dr. Wagner,F50-54,87,Female,Germany,34:34,,3:43:50,,1:54:11,6:20:25
+1156,1314,Olga Kurki,F35-39,205,Female,Russian Federation,32:21,,3:43:57,,1:57:37,6:20:28
+1157,348,Monica Rinne,F55-59,45,Female,Germany,38:21,,3:33:08,,2:00:53,6:20:28
+1158,1487,Maria Cecília Lagreca De Paiva Barbosa,F30-34,199,Female,Brazil,40:52,,3:35:17,,1:57:12,6:20:34
+1159,1531,Jennifer Gottschalk,F30-34,200,Female,United States,29:34,,3:51:51,,1:51:51,6:20:35
+1160,177,Ellen Hart,F60-64,14,Female,United States,44:02,,3:37:20,,1:49:42,6:20:49
+1161,1886,Jessica Saunders,F25-29,166,Female,United Kingdom,43:05,,3:48:36,,1:39:45,6:20:57
+1162,541,Silvia Schreer,F50-54,88,Female,Brazil,38:29,,3:33:59,,1:59:22,6:20:57
+1163,502,Debra Minor,F50-54,89,Female,Australia,42:49,,3:33:27,,1:54:55,6:21:00
+1164,658,Michelle Gemmell,F45-49,140,Female,Australia,36:59,,3:41:32,,1:53:02,6:21:07
+1165,1143,Deirdre Van Rensburg,F40-44,196,Female,United States,41:06,,3:37:29,,1:53:27,6:21:11
+1166,365,Paola Torretti,F55-59,46,Female,Italy,40:14,,3:38:45,,1:53:20,6:21:22
+1167,1388,Nadine Schymski,F35-39,206,Female,Germany,35:21,,3:40:58,,1:57:57,6:21:34
+1168,231,Robyn Williams,F60-64,15,Female,United States,31:32,,3:33:23,,2:06:29,6:21:37
+1169,290,Cynthia Hutchings,F55-59,47,Female,United States,38:15,,3:31:36,,2:05:14,6:21:41
+1170,636,Ilaria Del Grande,F45-49,141,Female,Italy,32:14,,3:39:25,,2:01:53,6:21:42
+1171,813,Julie Smith,F45-49,142,Female,United States,41:55,,3:34:15,,1:56:10,6:21:42
+1172,598,Nicole Barber,F45-49,143,Female,United States,43:07,,3:35:08,,1:54:02,6:21:45
+1173,1257,Ewa Hellström,F35-39,207,Female,Sweden,48:14,,3:35:04,,1:49:57,6:21:56
+1174,867,Mia (Anna) Andersson,F40-44,197,Female,Sweden,44:24,,3:38:42,,1:50:22,6:21:57
+1175,1060,Barbara Naef,F40-44,198,Female,Switzerland,34:00,,3:42:21,,1:57:03,6:22:02
+1176,1639,Juliette Raudrant,F30-34,201,Female,France,44:28,,3:33:49,,1:53:09,6:22:05
+1177,534,Lynda Rowan,F50-54,90,Female,Australia,38:40,,3:33:42,,2:03:38,6:22:09
+1178,614,Natalia Caffaro,F45-49,144,Female,Argentina,36:54,,3:36:55,,1:59:20,6:22:13
+1179,633,Breda Daly,F45-49,145,Female,Ireland,38:31,,3:51:05,,1:47:07,6:22:16
+1180,1098,Eliana Sanchez,F40-44,199,Female,Chile,41:48,,3:47:16,,1:46:22,6:22:23
+1181,1321,Flor Maria Mendoza Davila,F35-39,208,Female,Ecuador,40:27,,3:25:16,,2:10:24,6:22:31
+1182,1542,Heather Helms,F30-34,202,Female,United States,41:48,,3:39:45,,1:49:34,6:22:32
+1183,790,Asta Reynisdottir Parker,F45-49,146,Female,Iceland,47:48,,3:46:14,,1:40:06,6:22:35
+1184,346,Diane Reeber Lin,F55-59,48,Female,United States,40:41,,3:33:35,,1:59:03,6:22:38
+1185,959,Christine Flohr,F40-44,200,Female,United States,39:49,,3:39:52,,1:53:12,6:22:38
+1186,830,Jennifer Thompson,F45-49,147,Female,United States,31:02,,3:27:11,,2:14:59,6:22:41
+1187,1030,Joanne Mak,F40-44,201,Female,Singapore,44:09,,3:32:56,,1:55:35,6:22:43
+1188,400,Jennifer Betancourt,F50-54,91,Female,Puerto Rico,40:11,,3:47:49,,1:45:29,6:22:44
+1189,1034,Amy Mason,F40-44,202,Female,United States,37:56,,3:44:47,,1:51:16,6:22:46
+1190,807,Nickie Scriven,F45-49,148,Female,Australia,40:14,,3:30:29,,2:03:43,6:22:55
+1191,188,Riitta Knodt,F60-64,16,Female,Finland,42:44,,3:42:13,,1:48:30,6:22:57
+1192,625,Dinah Coggon,F45-49,149,Female,United Kingdom,37:45,,3:31:49,,2:05:45,6:22:59
+1193,795,Karen Ross,F45-49,150,Female,Australia,40:53,,3:34:59,,1:58:13,6:23:05
+1194,596,Monica Andrade,F45-49,151,Female,Brazil,33:13,,3:55:14,,1:45:24,6:23:08
+1195,582,Lisa Wourms,F50-54,92,Female,United States,40:33,,3:28:45,,2:03:47,6:23:10
+1196,130,Rosemary Wedlake,F65-69,1,Female,Canada,42:23,,3:32:21,,1:58:31,6:23:14
+1197,707,Mia Koskinen,F45-49,152,Female,Finland,34:08,,3:40:45,,1:58:44,6:23:15
+1198,1412,Katharina Turza,F35-39,209,Female,Austria,45:42,,3:40:36,,1:49:14,6:23:17
+1199,742,Kara Mcmachen,F45-49,153,Female,United States,32:24,,3:45:49,,1:57:09,6:23:19
+1200,112,Missy LeStrange,F65-69,2,Female,United States,38:46,,3:38:48,,1:58:21,6:23:26
+1201,669,Astrid Grønningen,F45-49,154,Female,Norway,42:04,,3:42:47,,1:50:35,6:23:36
+1202,1084,Eleanor Quested,F40-44,203,Female,United Kingdom,36:45,,3:55:22,,1:43:54,6:23:40
+1203,546,Iris Simon,F50-54,93,Female,Germany,42:50,,3:36:12,,1:53:52,6:23:41
+1204,837,Joanna Tywczynski,F45-49,155,Female,Germany,42:44,,3:42:54,,1:52:05,6:23:44
+1205,931,Elena D'Elia,F40-44,204,Female,Italy,52:13,,3:31:45,,1:51:26,6:23:44
+1206,840,Carole Vallée,F45-49,156,Female,France,41:41,,3:47:01,,1:47:17,6:23:45
+1207,2021,Gwendoline Saint-Laurent,F18-24,68,Female,France,44:23,,3:42:44,,1:50:16,6:23:46
+1208,800,Carmen Ruiz,F45-49,157,Female,Mexico,37:53,,3:42:15,,1:54:11,6:23:48
+1209,570,Helle Voss,F50-54,94,Female,Denmark,45:07,,3:21:23,,2:09:09,6:23:49
+1210,695,Claire Joyce,F45-49,158,Female,United Kingdom,38:06,,3:39:04,,1:58:35,6:23:58
+1211,1972,Steph Hart,F18-24,69,Female,United States,46:52,,3:34:15,,1:54:46,6:24:05
+1212,418,Sophie Chabut,F50-54,95,Female,France,41:23,,3:30:44,,2:06:35,6:24:05
+1213,1992,Chloe Leger,F18-24,70,Female,France,32:50,,3:57:08,,1:47:25,6:24:07
+1214,426,Juliana Davidson,F50-54,96,Female,Australia,46:51,,3:35:07,,1:53:39,6:24:20
+1215,1424,Pham Thuy Vi,F35-39,210,Female,Vietnam,33:12,,3:48:09,,1:54:08,6:24:24
+1216,172,Irene Gambaro,F60-64,17,Female,Switzerland,45:06,,3:30:45,,1:59:09,6:24:34
+1217,1227,Kate Elliott,F35-39,211,Female,Canada,33:49,,3:45:25,,1:58:01,6:24:35
+1218,1706,Pei Lin Yuen,F30-34,203,Female,Singapore,45:07,,3:30:52,,2:00:08,6:24:37
+1219,1642,Hayley Reid,F30-34,204,Female,Australia,33:28,,3:36:55,,2:04:26,6:24:39
+1220,1128,Amanda Thompson,F40-44,205,Female,Australia,35:12,,3:35:06,,2:05:34,6:24:42
+1221,1553,Estefania Ibuado,F30-34,205,Female,Mexico,36:35,,3:42:09,,1:58:48,6:24:46
+1222,903,Amanda Carpo,F40-44,206,Female,Philippines,43:56,,3:35:42,,1:53:36,6:24:49
+1223,168,Mary Duprey,F60-64,18,Female,United States,45:53,,3:33:26,,1:56:22,6:24:56
+1224,958,Allison Flaim,F40-44,207,Female,United States,44:21,,3:29:12,,2:05:16,6:24:58
+1225,1775,Rosangel Espinoza,F25-29,167,Female,Venezuela,36:32,,3:44:41,,1:55:55,6:25:04
+1226,345,Amy Rappaport,F55-59,49,Female,United States,39:29,,3:46:56,,1:48:26,6:25:09
+1227,1483,Lynsey Carveth,F30-34,206,Female,United Kingdom,31:05,,3:43:48,,2:03:13,6:25:13
+1228,330,Anne Morrissey,F55-59,50,Female,Ireland,38:11,,3:47:04,,1:52:31,6:25:24
+1229,720,Allyson Lindsay,F45-49,159,Female,Australia,38:43,,3:40:07,,1:59:05,6:25:27
+1230,513,Solange Olbertz,F50-54,97,Female,Chile,42:30,,3:41:52,,1:52:07,6:25:31
+1231,1391,Julie Simon,F35-39,212,Female,United States,37:27,,3:53:32,,1:41:42,6:25:35
+1232,1115,Amy Stoyles,F40-44,208,Female,United States,41:18,,3:43:56,,1:50:07,6:25:35
+1233,953,Sian Fenner,F40-44,209,Female,Australia,35:41,,3:53:40,,1:47:49,6:25:48
+1234,1172,Anna Fritz,F35-39,213,Female,Germany,45:41,,3:30:31,,2:01:25,6:25:52
+1235,324,Narelle Mcclelland,F55-59,51,Female,Australia,41:20,,3:31:06,,2:04:53,6:25:52
+1236,1112,Mhairi Smith,F40-44,210,Female,United Kingdom,40:48,,3:39:44,,1:56:17,6:25:53
+1237,457,Linda Charlotte Hansen,F50-54,98,Female,Denmark,45:34,,3:38:16,,1:54:17,6:25:55
+1238,1524,Havelet Gallegos,F30-34,207,Female,Chile,43:09,,3:40:02,,1:55:02,6:25:58
+1239,685,Katharina Horsch-Littig,F45-49,160,Female,Germany,41:32,,3:41:57,,1:54:59,6:26:08
+1240,1868,Eline Peterse,F25-29,168,Female,Netherlands,37:32,,3:49:57,,1:52:36,6:26:19
+1241,1877,Stefany Rodriguez Sifuentes,F25-29,169,Female,Peru,46:03,,3:38:21,,1:54:02,6:26:20
+1242,226,Ginger Watkins,F60-64,19,Female,United States,40:12,,3:38:33,,1:57:26,6:26:21
+1243,1612,Katherine Newman,F30-34,208,Female,United States,41:21,,3:55:18,,1:41:16,6:26:22
+1244,532,Connie Roberts,F50-54,99,Female,United States,44:35,,3:34:46,,1:55:48,6:26:23
+1245,1037,Ann McCamey,F40-44,211,Female,United States,38:26,,3:40:47,,1:59:26,6:26:26
+1246,580,Karen Wolfson,F50-54,100,Female,United States,41:31,,3:33:51,,2:00:07,6:26:40
+1247,791,Jansen Rhonda,F45-49,161,Female,United Kingdom,40:13,,3:42:36,,1:54:49,6:26:40
+1248,1356,Jessica Pigott,F35-39,214,Female,United States,40:36,,3:42:44,,1:56:39,6:26:41
+1249,450,Valerie Grosse,F50-54,101,Female,France,37:43,,3:43:15,,1:54:47,6:26:42
+1250,771,Annie Parker,F45-49,162,Female,United Kingdom,38:05,,3:52:07,,1:50:01,6:26:51
+1251,750,Jessica Michalofsky,F45-49,163,Female,Canada,36:03,,3:50:00,,1:51:30,6:26:51
+1252,1598,Patrícia Mendes Franco,F30-34,209,Female,Brazil,37:48,,3:35:30,,2:03:24,6:26:52
+1253,386,Nancy Arena,F50-54,102,Female,United States,36:37,,3:48:25,,1:54:09,6:26:54
+1254,216,Robyn Scott,F60-64,20,Female,Australia,33:22,,3:32:26,,2:14:25,6:26:57
+1255,1570,Kucmierz Marta,F30-34,210,Female,Poland,40:36,,3:38:03,,2:00:48,6:27:00
+1256,1018,Mei Yin Lee,F40-44,212,Female,Singapore,40:38,,3:42:46,,1:53:23,6:27:07
+1257,712,Monique Lanz,F45-49,164,Female,South Africa,44:53,,3:42:05,,1:50:39,6:27:08
+1258,745,Genee Mee,F45-49,165,Female,South Africa,34:19,,3:37:55,,2:06:55,6:27:13
+1259,1038,Kylie Mccorquodale,F40-44,213,Female,Australia,42:55,,3:31:55,,2:04:48,6:27:15
+1260,1988,Jazmin Lagier,F18-24,71,Female,Argentina,55:12,,3:41:36,,1:40:14,6:27:16
+1261,384,Cristina Andonegui,F50-54,103,Female,Chile,42:16,,3:37:41,,1:59:59,6:27:25
+1262,1521,Jayde Fouche,F30-34,211,Female,South Africa,34:29,,3:39:36,,2:02:48,6:27:27
+1263,1083,Adriana Prieto De Alfonzo-Larrain,F40-44,214,Female,Panama,43:10,,3:21:56,,2:11:37,6:27:28
+1264,1644,Anja Renner,F30-34,212,Female,Germany,35:27,,3:13:19,,2:29:48,6:27:30
+1265,1111,Marie Slattery,F40-44,215,Female,Ireland,43:49,,3:36:36,,1:57:28,6:27:32
+1266,507,Deeann Murphy,F50-54,104,Female,United States,39:26,,3:38:14,,2:02:45,6:27:32
+1267,909,Esther Collinetti,F40-44,216,Female,United States,37:31,,3:44:22,,1:56:01,6:27:43
+1268,446,Jacqueline Gravesande,F50-54,105,Female,Australia,42:58,,3:34:05,,2:01:17,6:27:46
+1269,360,Sandra J. Spielmann,F55-59,52,Female,United States,45:58,,3:45:05,,1:47:36,6:27:48
+1270,1105,Nadine Seferian,F40-44,217,Female,United States,40:27,,3:44:57,,1:54:17,6:27:51
+1271,725,Vanuza Regina Maciel,F45-49,166,Female,Brazil,38:47,,3:41:23,,2:00:26,6:27:56
+1272,1831,Johanna Lalanne,F25-29,170,Female,France,41:45,,3:41:43,,1:56:49,6:28:11
+1273,451,Elena Gualini,F50-54,106,Female,Italy,44:16,,3:44:01,,1:50:15,6:28:11
+1274,430,Christine Desrochers,F50-54,107,Female,United States,46:25,,3:28:43,,2:06:22,6:28:28
+1275,1011,Diana Buran,F40-44,218,Female,United States,36:22,,3:42:12,,2:01:38,6:28:30
+1276,422,Ilka Cordeiro,F50-54,108,Female,Brazil,37:29,,3:46:15,,1:55:01,6:28:32
+1277,929,Jodi Decalvares,F40-44,219,Female,Canada,47:21,,3:44:17,,1:50:51,6:28:49
+1278,1849,Catherine Anne Meier,F25-29,171,Female,South Africa,41:15,,3:46:07,,1:54:03,6:28:50
+1279,1190,Stephanie Brealey,F35-39,215,Female,Costa Rica,43:30,,3:41:11,,1:55:40,6:28:55
+1280,283,Jane Hermann,F55-59,53,Female,Australia,39:02,,3:34:22,,2:07:24,6:28:55
+1281,1297,Jan Lohman,F35-39,216,Female,United States,37:03,,3:43:48,,1:58:52,6:29:03
+1282,368,Tina Van Wyk,F55-59,54,Female,South Africa,39:18,,3:41:00,,2:00:31,6:29:07
+1283,1634,Cindy Pressé,F30-34,213,Female,Canada,36:15,,3:47:39,,1:54:29,6:29:14
+1284,186,Deb Kempe,F60-64,21,Female,Australia,42:25,,3:31:17,,2:08:03,6:29:18
+1285,1962,Isabelle Fischer,F18-24,72,Female,United States,38:31,,3:48:39,,1:55:21,6:29:25
+1286,1063,Stacey Neilson,F40-44,220,Female,Canada,40:46,,3:40:42,,1:57:54,6:29:26
+1287,987,Shannon Hedrick,F40-44,221,Female,United States,34:02,,3:57:25,,1:50:32,6:29:33
+1288,1066,Kristen Nichols,F40-44,222,Female,United States,40:56,,3:36:36,,2:05:04,6:29:35
+1289,597,Elfrid Auvray,F45-49,167,Female,France,40:44,,3:40:46,,2:02:04,6:29:39
+1290,1454,Kerri Anderson,F30-34,214,Female,South Africa,32:47,,3:27:29,,2:20:49,6:29:43
+1291,159,Kathleen Crowley,F60-64,22,Female,United States,40:15,,3:39:13,,1:59:33,6:29:47
+1292,540,Ellen Scholz,F50-54,109,Female,Germany,37:46,,3:38:50,,2:05:18,6:29:53
+1293,675,Aya Hasegawa,F45-49,168,Female,Japan,39:40,,3:43:24,,1:56:49,6:29:54
+1294,1778,Camila Fernanda Ferrada Fuentes,F25-29,172,Female,Chile,38:16,,3:44:57,,2:00:13,6:29:54
+1295,1096,Kelly Rothwell,F40-44,223,Female,United States,42:59,,3:45:10,,1:54:00,6:30:31
+1296,1223,Laura Dollisson,F35-39,217,Female,Canada,36:50,,3:43:31,,2:01:19,6:30:42
+1297,1497,Sophie Cookson,F30-34,215,Female,United Kingdom,45:39,,3:30:55,,2:06:30,6:30:47
+1298,928,Andri De Wit,F40-44,224,Female,United Kingdom,35:13,,3:52:34,,1:57:05,6:30:52
+1299,316,Charleen Lundberg,F55-59,55,Female,United States,48:21,,3:33:28,,1:59:42,6:30:53
+1300,308,Cynthia Koke,F55-59,56,Female,United States,34:27,,3:34:57,,2:12:40,6:30:56
+1301,602,Lucy Bennett-Poole,F45-49,169,Female,United Kingdom,43:02,,3:41:04,,1:57:28,6:31:04
+1302,1622,Tamires De Moraes Pereira,F30-34,216,Female,Brazil,39:01,,3:47:41,,1:58:10,6:31:04
+1303,521,Diane Peterson,F50-54,110,Female,United States,44:25,,3:40:58,,1:56:17,6:31:05
+1304,916,Suzanna Cox,F40-44,225,Female,United Kingdom,38:39,,3:38:21,,2:04:26,6:31:06
+1305,689,Adriana Jaramillo,F45-49,170,Female,Colombia,47:16,,3:43:03,,1:52:20,6:31:20
+1306,705,Amy B. Koepp,F45-49,171,Female,United States,35:52,,3:58:48,,1:46:45,6:31:29
+1307,637,Vicky Deligeorgi,F45-49,172,Female,Greece,40:09,,3:51:47,,1:51:23,6:31:35
+1308,408,Ester Brink,F50-54,111,Female,South Africa,48:19,,3:42:41,,1:47:50,6:31:39
+1309,409,Jacqueline Brinkhorst,F50-54,112,Female,United Kingdom,41:45,,3:44:40,,1:55:34,6:31:40
+1310,1071,Susan Orcutt,F40-44,226,Female,United States,46:34,,3:43:48,,1:54:28,6:31:45
+1311,1085,Monique Radman,F40-44,227,Female,United States,38:22,,3:50:14,,1:55:02,6:31:50
+1312,269,Giuliana Fatule,F55-59,57,Female,Peru,42:43,,3:37:51,,2:02:14,6:31:52
+1313,491,Clare Lintereur,F50-54,113,Female,United States,43:59,,3:32:43,,2:07:05,6:31:54
+1314,1793,Rachel Gilbert,F25-29,173,Female,United Kingdom,36:08,,3:37:00,,2:11:53,6:31:55
+1315,558,Chris Thompson,F50-54,114,Female,Australia,41:18,,3:41:49,,2:00:14,6:32:05
+1316,938,Raffaella Dotti,F40-44,228,Female,Italy,40:26,,3:34:38,,2:09:33,6:32:14
+1317,761,Carito Noceda,F45-49,173,Female,Argentina,42:08,,3:44:41,,1:58:14,6:32:14
+1318,978,Sayer Gunn,F40-44,229,Female,United States,45:20,,3:47:52,,1:49:12,6:32:17
+1319,225,Trish Vickery,F60-64,23,Female,Australia,43:36,,3:31:38,,2:08:06,6:32:27
+1320,970,Megan Gibney,F40-44,230,Female,United States,39:33,,3:49:32,,1:54:28,6:32:28
+1321,1507,Ali Douglas,F30-34,217,Female,Canada,40:48,,3:36:50,,2:08:20,6:32:35
+1322,2036,Ka Hung Tsang,F18-24,73,Female,Hong Kong,38:34,,3:45:41,,2:02:14,6:32:37
+1323,489,veronica lienhard,F50-54,115,Female,Argentina,38:34,,3:40:15,,2:05:32,6:32:41
+1324,792,Renata Ribeiro,F45-49,174,Female,Panama,36:35,,3:40:55,,2:06:24,6:32:44
+1325,1657,Mara Araujo,F30-34,218,Female,Brazil,46:12,,3:40:27,,1:56:16,6:32:49
+1326,1218,Thea Davies,F35-39,218,Female,United Kingdom,40:37,,3:47:39,,1:54:54,6:32:50
+1327,213,Marie-Hélène Rouch,F60-64,24,Female,France,45:00,,3:42:07,,1:56:59,6:32:52
+1328,1054,Chantel Moran-Ellis,F40-44,231,Female,United States,36:33,,3:35:24,,2:08:35,6:32:54
+1329,1274,Yan Jin,F35-39,219,Female,China,50:00,,3:31:09,,2:02:04,6:33:02
+1330,176,Nora Haggart,F60-64,25,Female,United Kingdom,44:29,,3:44:43,,1:56:09,6:33:04
+1331,1681,Andrea Talmacsi,F30-34,219,Female,Hungary,36:40,,3:45:26,,2:02:43,6:33:12
+1332,144,Jane Bell,F60-64,26,Female,United Kingdom,38:49,,3:47:06,,2:00:03,6:33:14
+1333,699,Elizabeth Kates,F45-49,175,Female,United States,38:15,,3:59:42,,1:47:55,6:33:19
+1334,1158,Kelli Wunderlich,F40-44,232,Female,United States,36:45,,3:39:14,,2:08:46,6:33:22
+1335,405,Maria Luisa Brain,F50-54,116,Female,Chile,42:26,,3:41:07,,2:00:34,6:33:22
+1336,419,Carina Chacon,F50-54,117,Female,Argentina,41:17,,3:49:22,,1:54:06,6:33:26
+1337,356,Bernadette Sidney,F55-59,58,Female,United States,37:12,,3:47:43,,1:55:42,6:33:28
+1338,1605,Laetitia Michel,F30-34,220,Female,France,34:28,,3:53:13,,1:59:30,6:33:29
+1339,823,Tomoko Takahashi,F45-49,176,Female,Japan,46:50,,3:35:21,,2:00:08,6:33:30
+1340,247,Sarah Jane Blair,F55-59,59,Female,New Zealand,39:09,,3:42:54,,2:03:06,6:33:45
+1341,504,Julie Morgan,F50-54,118,Female,New Zealand,43:44,,3:42:37,,1:57:36,6:33:46
+1342,1308,Carolina Margarella,F35-39,220,Female,United States,46:13,,3:50:37,,1:47:33,6:34:01
+1343,575,Liz Wickham,F50-54,119,Female,New Zealand,36:27,,3:43:25,,2:05:56,6:34:07
+1344,414,Mariana Calderon,F50-54,120,Female,Argentina,46:18,,3:42:34,,1:58:15,6:34:18
+1345,509,Andrea Neugarten-Maio,F50-54,121,Female,United States,43:09,,3:39:21,,2:01:18,6:34:21
+1346,1936,Megan Anley,F18-24,74,Female,South Africa,37:51,,3:34:16,,2:15:13,6:34:21
+1347,1575,Pui Ling Connie Lau,F30-34,221,Female,Hong Kong,45:39,,3:44:37,,1:55:24,6:34:23
+1348,2019,Anjelika Ruggier,F18-24,75,Female,Malta,32:47,,3:54:27,,1:58:03,6:34:27
+1349,494,Patricia Madrigal,F50-54,122,Female,Spain,40:42,,3:47:53,,1:54:31,6:34:41
+1350,1466,Maria Jose Bermudez,F30-34,222,Female,Colombia,45:09,,3:47:32,,1:53:09,6:34:52
+1351,535,Diana Ruderman,F50-54,123,Female,United States,41:19,,3:38:23,,2:02:55,6:34:53
+1352,500,Diana Messer-Kruse,F50-54,124,Female,United States,45:44,,3:34:14,,2:05:53,6:35:00
+1353,619,Claire Chapman,F45-49,177,Female,South Africa,37:36,,3:37:34,,2:07:27,6:35:00
+1354,1420,Madré Van Zyl,F35-39,221,Female,South Africa,41:54,,3:43:30,,2:00:11,6:35:02
+1355,1824,Rayna Kratchman,F25-29,174,Female,United States,41:21,,3:49:08,,1:52:49,6:35:03
+1356,1249,Amanda Green,F35-39,222,Female,New Zealand,48:42,,3:44:13,,1:53:47,6:35:04
+1357,469,Silvia Jimenez,F50-54,125,Female,Peru,39:28,,3:42:06,,2:02:25,6:35:05
+1358,1468,Julimer Besereni,F30-34,223,Female,Venezuela,49:20,,3:38:40,,1:58:59,6:35:10
+1359,778,Bénédicte Porta Creutin,F45-49,178,Female,France,42:25,,3:28:09,,2:14:43,6:35:11
+1360,1802,Katharine Hayes,F25-29,175,Female,United Kingdom,41:37,,3:32:55,,2:13:57,6:35:13
+1361,252,Maureen Burns,F55-59,60,Female,United States,53:10,,3:34:03,,1:57:03,6:35:16
+1362,1164,Samantha Zeps,F40-44,233,Female,Australia,40:05,,3:53:37,,1:54:48,6:35:18
+1363,1749,Wang Ruby Cheng,F25-29,176,Female,Hong Kong,33:54,,3:46:03,,2:08:12,6:35:19
+1364,654,Christelle Foucault,F45-49,179,Female,France,41:17,,3:45:23,,2:01:28,6:35:21
+1365,1881,Natalia Salema,F25-29,177,Female,Brazil,45:31,,3:51:31,,1:49:20,6:35:21
+1366,228,Sue Watson,F60-64,27,Female,Canada,39:48,,3:37:10,,2:09:29,6:35:35
+1367,1080,Marie-Louise Philippe,F40-44,234,Female,Austria,43:01,,3:39:48,,2:04:53,6:35:48
+1368,301,Lea Kessell,F55-59,61,Female,Australia,41:16,,3:41:55,,2:02:58,6:35:57
+1369,766,Gaye Ottogalli,F45-49,180,Female,Australia,38:22,,3:44:45,,2:05:31,6:36:02
+1370,1952,Kylie Cheung,F18-24,76,Female,Hong Kong,35:19,,3:42:03,,2:12:10,6:36:06
+1371,1129,Mette Wisbom Thomsen,F40-44,235,Female,Denmark,47:03,,3:34:53,,2:04:54,6:36:09
+1372,1290,Cecilia Larra,F35-39,223,Female,Guatemala,46:47,,3:42:07,,1:58:53,6:36:16
+1373,1059,Sylva Mullen,F40-44,236,Female,Czechia,39:26,,4:02:24,,1:45:17,6:36:16
+1374,1948,Kenia Campos Haedo,F18-24,77,Female,Argentina,41:30,,3:43:28,,2:04:53,6:36:23
+1375,736,Kathleen Mccormack,F45-49,181,Female,United States,41:11,,3:40:54,,2:04:19,6:36:26
+1376,1800,Katie Tyler,F25-29,178,Female,United States,43:13,,3:37:00,,2:07:45,6:36:26
+1377,1600,Vanessa Mendola,F30-34,224,Female,Venezuela,45:12,,3:27:17,,2:14:07,6:36:35
+1378,160,Nancy Cullen,F60-64,28,Female,Australia,39:49,,3:47:51,,2:01:13,6:36:35
+1379,361,Alice Spriesterbach,F55-59,62,Female,United States,41:39,,3:38:47,,2:06:23,6:36:44
+1380,715,Nathalie Leger,F45-49,182,Female,France,42:48,,3:48:26,,1:57:56,6:36:46
+1381,1912,Laura Moran,F25-29,179,Female,South Africa,33:41,,3:36:24,,2:16:53,6:36:53
+1382,528,Jennifer Rentch,F50-54,126,Female,United States,38:45,,3:44:34,,2:03:21,6:36:57
+1383,1495,Victoria Coffee,F30-34,225,Female,United States,45:33,,3:48:25,,1:55:00,6:37:01
+1384,1687,Valerie Richard,F30-34,226,Female,France,40:05,,3:51:40,,1:58:20,6:37:04
+1385,271,Sally Flewitt,F55-59,63,Female,United Kingdom,35:04,,3:37:42,,2:16:04,6:37:07
+1386,318,Lynette Itani,F55-59,64,Female,New Zealand,38:07,,3:39:20,,2:10:53,6:37:12
+1387,1737,Leah BROOKS,F25-29,180,Female,Canada,39:29,,3:49:13,,2:00:54,6:37:20
+1388,1147,Mandy Wang,F40-44,237,Female,Taiwan,46:29,,3:41:21,,1:59:14,6:37:33
+1389,467,Heidi Hutchinson,F50-54,127,Female,United States,38:35,,3:43:50,,2:05:27,6:37:34
+1390,763,Ruanda Oberholzer,F45-49,183,Female,South Africa,40:19,,3:39:32,,2:07:43,6:37:35
+1391,553,Gloria Shrewsbury,F50-54,128,Female,United States,40:42,,3:40:26,,2:04:32,6:37:36
+1392,559,Flávia Toledo Leite Da Silva,F50-54,129,Female,Brazil,41:14,,3:45:27,,2:01:53,6:37:39
+1393,458,Gina Hart,F50-54,130,Female,Trinidad and Tobago,42:58,,3:45:51,,2:00:13,6:37:44
+1394,1696,Justine Waters,F30-34,227,Female,United States,35:02,,4:00:28,,1:54:20,6:37:51
+1395,1238,Shiri Friedler,F35-39,224,Female,New Zealand,40:37,,3:42:26,,1:58:36,6:37:53
+1396,819,Terri Stone,F45-49,184,Female,United States,47:41,,3:41:21,,1:56:27,6:38:02
+1397,547,Isabelle Smeets,F50-54,131,Female,Belgium,43:40,,3:36:15,,2:09:48,6:38:22
+1398,556,Tawnee Tatro,F50-54,132,Female,United States,37:49,,3:51:39,,2:01:05,6:38:27
+1399,866,Pam Anderson,F40-44,238,Female,New Zealand,38:41,,3:36:29,,2:15:55,6:38:31
+1400,250,Anke Brisske-Rode,F55-59,65,Female,Germany,44:09,,3:31:02,,2:15:33,6:38:36
+1401,363,Yuhua Tao,F55-59,66,Female,China,45:50,,3:44:26,,2:01:41,6:38:45
+1402,1094,Christina Rose,F40-44,239,Female,Australia,39:21,,3:52:14,,1:58:30,6:38:47
+1403,933,Jiayu Deng,F40-44,240,Female,China,47:18,,3:38:19,,2:02:45,6:38:56
+1404,677,Shellie Heggenberger,F45-49,185,Female,United States,43:02,,3:42:55,,2:05:29,6:39:07
+1405,835,Michele Trujillo-Veit,F45-49,186,Female,United States,38:08,,3:45:49,,2:05:20,6:39:09
+1406,1107,Rachel Shaw,F40-44,241,Female,United Kingdom,39:00,,3:45:18,,2:06:26,6:39:10
+1407,578,Maria Emilia Willmott,F50-54,133,Female,Portugal,44:07,,3:40:09,,2:07:03,6:39:13
+1408,1319,Chloe McGillivray,F35-39,225,Female,Australia,45:27,,3:51:22,,1:53:11,6:39:14
+1409,1392,Stacey Simon,F35-39,226,Female,United States,41:03,,3:49:40,,2:01:09,6:39:24
+1410,961,Starr Fowler,F40-44,242,Female,United States,43:29,,3:51:00,,1:56:19,6:39:26
+1411,321,Lisa Martin,F55-59,67,Female,United States,42:05,,3:37:33,,2:10:01,6:39:28
+1412,1983,Scarlet Kaplan,F18-24,78,Female,United States,33:37,,3:29:02,,2:32:02,6:39:41
+1413,1221,Izaane Demetriou,F35-39,227,Female,South Africa,44:24,,3:44:25,,2:00:33,6:39:51
+1414,523,Kris Plant,F50-54,134,Female,Canada,39:38,,3:38:12,,2:09:37,6:39:53
+1415,1588,Lucia Manzano Tomas,F30-34,228,Female,Spain,42:19,,3:38:29,,2:11:14,6:40:00
+1416,2044,Kristine Meidell Dahle,F18-24,79,Female,Norway,47:19,,3:45:01,,1:58:46,6:40:02
+1417,1584,Soo Hui Liow,F30-34,229,Female,Singapore,50:29,,3:34:08,,2:05:11,6:40:08
+1418,1628,Mariana Pinheiro,F30-34,230,Female,Brazil,45:47,,3:48:21,,1:55:45,6:40:12
+1419,551,Kathy Spencer,F50-54,135,Female,United States,38:37,,3:42:45,,2:09:56,6:40:15
+1420,724,Mirka Lumia,F45-49,187,Female,Finland,48:27,,3:42:48,,2:01:25,6:40:17
+1421,816,Catherine Souyet,F45-49,188,Female,Chile,38:40,,3:58:56,,1:54:11,6:40:25
+1422,713,Anne Lavandon,F45-49,189,Female,France,43:20,,3:47:17,,2:00:01,6:40:33
+1423,311,Lia Kutzscher,F55-59,68,Female,Canada,40:40,,3:51:25,,1:58:02,6:40:36
+1424,1872,Beibei Qiao,F25-29,181,Female,China,44:24,,3:47:53,,1:58:10,6:40:37
+1425,942,Melanie Dunlap,F40-44,243,Female,United States,44:12,,3:44:53,,2:02:08,6:40:37
+1426,1031,Deborah Maldonado,F40-44,244,Female,Puerto Rico,42:19,,4:04:52,,1:44:58,6:40:38
+1427,366,Helen Vagnoni,F55-59,69,Female,Australia,36:09,,3:47:09,,2:07:56,6:40:41
+1428,1352,Patrícia Peixoto,F35-39,228,Female,Brazil,36:43,,3:46:29,,2:06:20,6:40:59
+1429,1188,Meredith King,F35-39,229,Female,United States,37:26,,3:56:52,,1:58:21,6:41:01
+1430,1104,Sonya Schwaller,F40-44,245,Female,Ireland,47:52,,3:39:49,,2:05:45,6:41:15
+1431,887,Brandice Blum,F40-44,246,Female,Canada,43:26,,3:40:31,,2:08:10,6:41:21
+1432,376,Sharon Winiewicz,F55-59,70,Female,United States,49:01,,3:44:05,,1:57:28,6:41:33
+1433,688,Tana Jackson,F45-49,190,Female,United States,41:54,,3:43:48,,2:06:50,6:41:36
+1434,785,Guicharnaud Rannveig Anna,F45-49,191,Female,Iceland,36:01,,3:44:21,,2:12:08,6:41:40
+1435,297,Tina Kader,F55-59,71,Female,Canada,43:28,,3:52:21,,1:54:08,6:41:41
+1436,248,Karen Blamick,F55-59,72,Female,United States,43:32,,3:43:22,,2:06:38,6:41:41
+1437,573,Emma Wheeler,F50-54,136,Female,United Kingdom,40:25,,3:48:06,,2:03:43,6:41:46
+1438,526,Allison Ratcliffe,F50-54,137,Female,Australia,36:26,,3:44:45,,2:10:10,6:41:50
+1439,443,Nancy Goodnight,F50-54,138,Female,United States,46:36,,3:52:10,,1:53:44,6:42:06
+1440,1586,Sophie Lysaght,F30-34,231,Female,New Zealand,43:58,,3:49:14,,2:01:22,6:42:16
+1441,863,Alex Wilkinson,F40-44,247,Female,United Kingdom,41:11,,3:49:43,,2:02:59,6:42:17
+1442,1012,Michelle Lake,F40-44,248,Female,United States,35:12,,3:45:46,,2:11:59,6:42:21
+1443,1210,Mariette Conning,F35-39,230,Female,South Africa,41:12,,3:52:28,,2:00:08,6:42:24
+1444,493,Leanne Lowden,F50-54,139,Female,United States,43:07,,3:44:57,,2:06:36,6:42:35
+1445,263,Jackie Cooper,F55-59,73,Female,United States,40:21,,3:50:48,,2:02:04,6:42:43
+1446,506,Clare Munroe,F50-54,140,Female,Canada,43:41,,3:46:33,,2:01:15,6:42:44
+1447,1245,Oksana Gitelman,F35-39,231,Female,Russian Federation,40:33,,3:52:41,,2:01:53,6:42:45
+1448,1426,Herme Visser,F35-39,232,Female,South Africa,32:32,,3:24:41,,2:38:30,6:42:49
+1449,885,Emma Blacklock,F40-44,249,Female,Australia,42:39,,3:33:53,,2:14:52,6:42:55
+1450,475,Annemarie Kilshaw,F50-54,141,Female,Australia,41:35,,3:55:21,,1:58:57,6:42:55
+1451,298,Dianne Kaltenegger,F55-59,74,Female,Canada,41:03,,3:48:19,,2:03:39,6:43:01
+1452,1982,Puvini Kahandawala,F18-24,80,Female,Sri Lanka,37:51,,3:45:45,,2:09:40,6:43:10
+1453,1028,Nisha Anil Madgavkar,F40-44,250,Female,India,33:27,,3:58:23,,2:00:37,6:43:18
+1454,915,Monica Cox,F40-44,251,Female,United States,48:08,,3:53:45,,1:50:49,6:43:19
+1455,313,Sue Libbis,F55-59,75,Female,Australia,40:19,,3:54:07,,2:01:22,6:43:24
+1456,1541,Elise Hawkins,F30-34,232,Female,United States,39:49,,3:56:37,,1:53:05,6:43:32
+1457,433,Geni Duró Leitão de Almeida,F50-54,142,Female,Brazil,39:43,,3:49:35,,2:06:20,6:43:39
+1458,1154,Cindy Williamson,F40-44,252,Female,South Africa,42:38,,3:56:26,,1:55:44,6:43:41
+1459,1670,Paula Mey Sousa,F30-34,233,Female,Brazil,43:21,,3:56:17,,1:55:26,6:43:45
+1460,921,Vicky Dawkins,F40-44,253,Female,Australia,36:35,,3:40:22,,2:18:28,6:43:52
+1461,1910,Briar TEMPLETON,F25-29,182,Female,New Zealand,51:06,,3:44:40,,2:01:24,6:44:01
+1462,245,Brigitte Berod,F55-59,76,Female,France,45:49,,3:50:30,,1:58:45,6:44:08
+1463,772,Carol Pedauga,F45-49,192,Female,Ecuador,46:35,,3:56:23,,1:53:26,6:44:18
+1464,753,Wakui Mizuho,F45-49,193,Female,Japan,42:25,,3:49:42,,2:00:03,6:44:21
+1465,721,Natalie Livings,F45-49,194,Female,Australia,37:44,,3:50:26,,2:08:10,6:44:25
+1466,510,Agnes Nieburg,F50-54,143,Female,South Africa,40:36,,3:43:52,,2:10:06,6:44:29
+1467,403,Kirsty Blackford,F50-54,144,Female,South Africa,43:22,,3:45:07,,2:04:12,6:44:30
+1468,554,Susan Sweitzer,F50-54,145,Female,United States,40:05,,3:52:35,,2:03:10,6:44:32
+1469,1358,Alina Pitsika,F35-39,233,Female,United States,42:28,,3:41:02,,2:12:45,6:44:38
+1470,471,Mischelle Jolly,F50-54,146,Female,South Africa,40:42,,3:33:57,,2:20:51,6:44:39
+1471,549,Catherine Smithson,F50-54,147,Female,United Kingdom,42:13,,3:41:33,,2:11:04,6:44:54
+1472,1474,Adelle Brits,F30-34,234,Female,South Africa,38:08,,3:53:14,,2:04:38,6:44:54
+1473,340,Claudia Paez,F55-59,77,Female,Argentina,45:59,,3:55:56,,1:53:04,6:45:00
+1474,781,Nada Prouty,F45-49,195,Female,United States,44:04,,3:48:07,,2:01:13,6:45:10
+1475,397,Anne Bennett,F50-54,148,Female,United Kingdom,44:36,,3:40:17,,2:11:06,6:45:12
+1476,262,Gretchen Cooney,F55-59,78,Female,United States,35:34,,3:52:59,,2:07:28,6:45:16
+1477,1131,Melina Timson-Katchis,F40-44,254,Female,Cyprus,35:20,,3:56:29,,2:05:10,6:45:18
+1478,193,Rhonda Mareina,F60-64,29,Female,United States,36:08,,3:50:54,,2:08:23,6:45:22
+1479,219,Nadia Teixeira De Siqueira,F60-64,30,Female,Brazil,48:36,,3:51:03,,1:53:13,6:45:34
+1480,412,Pam Buxton,F50-54,149,Female,Canada,43:45,,3:46:54,,2:04:11,6:45:39
+1481,1971,Kathryn Harris,F18-24,81,Female,United States,35:23,,4:00:04,,2:03:55,6:45:41
+1482,1942,Taynara Bonetti Da Silveira,F18-24,82,Female,Brazil,32:31,,3:57:44,,2:06:40,6:45:45
+1483,1271,Debbie James,F35-39,234,Female,United States,30:59,,3:53:22,,2:13:14,6:45:56
+1484,1073,Runa T. Øverland,F40-44,255,Female,Norway,41:20,,3:42:28,,2:14:15,6:46:00
+1485,322,Martine Hofer,F55-59,79,Female,France,44:27,,3:42:14,,2:09:04,6:46:15
+1486,1224,Lara-May Drole,F35-39,235,Female,France,37:14,,3:47:30,,2:13:58,6:46:16
+1487,531,Cathy Roberts,F50-54,150,Female,United Kingdom,45:33,,3:52:52,,1:58:34,6:46:21
+1488,1768,Jessica Diaz,F25-29,183,Female,Colombia,33:48,,3:44:06,,2:21:09,6:46:33
+1489,1072,Erika Ostrander,F40-44,256,Female,United States,47:59,,3:54:31,,1:54:40,6:46:37
+1490,924,Ivonne De La Barrera Jimenez,F40-44,257,Female,Mexico,37:07,,3:47:03,,2:13:45,6:46:49
+1491,757,Debra NEIL,F45-49,196,Female,Australia,36:06,,3:45:08,,2:15:48,6:46:58
+1492,560,Susanne Trageser,F50-54,151,Female,Germany,45:39,,3:45:11,,2:08:15,6:47:08
+1493,754,Deborah Moorelai,F45-49,197,Female,United States,37:27,,3:49:35,,2:09:56,6:47:12
+1494,364,Carmel Tindale Fox,F55-59,80,Female,Canada,34:46,,3:54:20,,2:08:14,6:47:18
+1495,1081,Amanda Pieterse,F40-44,258,Female,South Africa,48:25,,3:54:46,,1:51:47,6:47:22
+1496,1597,Elizabeth Meier,F30-34,235,Female,United States,44:07,,4:05:24,,1:50:29,6:47:38
+1497,202,Kathryn Moore,F60-64,31,Female,United Kingdom,41:32,,3:51:38,,2:05:53,6:47:57
+1498,122,Kathleen Richards,F65-69,3,Female,United States,41:13,,3:55:41,,2:00:48,6:48:02
+1499,1950,Samantha Chai,F18-24,83,Female,United States,50:46,,3:59:12,,1:50:08,6:48:10
+1500,1953,Cameron Coleal,F18-24,84,Female,United States,42:53,,3:49:13,,2:05:15,6:48:19
+1501,752,David Miller,F45-49,198,Female,United States,44:24,,3:47:48,,2:05:52,6:48:19
+1502,151,Jane Bremner,F60-64,32,Female,United Kingdom,47:05,,4:04:36,,1:43:13,6:48:25
+1503,463,marie-anne hebert,F50-54,152,Female,Canada,40:57,,3:49:34,,2:09:44,6:48:26
+1504,944,Sarah Eftink,F40-44,259,Female,United States,38:54,,3:48:39,,2:09:23,6:48:41
+1505,605,Fiona Betts,F45-49,199,Female,United Kingdom,42:58,,3:55:30,,1:59:39,6:48:43
+1506,1029,Samantha Magill,F40-44,260,Female,United States,40:38,,4:00:19,,1:56:04,6:48:46
+1507,162,Ingrid De Boer,F60-64,33,Female,Belgium,40:51,,3:53:35,,2:06:43,6:48:47
+1508,236,Barbara Addis,F55-59,81,Female,United States,40:56,,3:40:11,,2:17:52,6:49:05
+1509,255,Anne-Christine Calvel,F55-59,82,Female,France,44:42,,3:41:44,,2:12:14,6:49:15
+1510,499,Gineth Mendez-Yibirin,F50-54,153,Female,Colombia,41:22,,3:51:48,,2:07:01,6:49:33
+1511,407,Steffi Breidenbach,F50-54,154,Female,Australia,38:47,,3:48:52,,2:12:16,6:49:35
+1512,1372,Monique Richter,F35-39,236,Female,Germany,41:17,,3:46:35,,2:14:05,6:49:49
+1513,423,Leann Crosby,F50-54,155,Female,United States,45:03,,3:33:38,,2:21:26,6:49:58
+1514,444,Barbara Goranson,F50-54,156,Female,United States,46:19,,3:54:47,,1:59:14,6:50:07
+1515,257,Sophie Chouidira Merlin,F55-59,83,Female,France,46:41,,3:58:02,,1:54:33,6:50:08
+1516,1397,Eva Smolka Cabezas,F35-39,237,Female,Spain,38:32,,3:39:21,,2:17:00,6:50:10
+1517,1295,Catherine Li,F35-39,238,Female,Hong Kong,42:45,,3:55:19,,2:01:59,6:50:12
+1518,371,Catherine Walker,F55-59,84,Female,Canada,40:55,,3:49:05,,2:11:27,6:50:12
+1519,1934,Erika Tejada Moreyra,F18-24,85,Female,Peru,41:08,,3:54:31,,2:04:46,6:50:19
+1520,110,Felicitas Kuld,F65-69,4,Female,Germany,51:51,,3:52:24,,1:55:25,6:50:20
+1521,734,Lorena Maya Lopez,F45-49,200,Female,Mexico,41:24,,3:52:46,,2:07:11,6:50:25
+1522,726,Madeleine Seletto,F45-49,201,Female,Australia,48:52,,3:55:11,,1:58:12,6:50:30
+1523,1125,Candice Taylor,F40-44,261,Female,United States,36:48,,4:02:42,,2:01:14,6:50:32
+1524,441,Sharon Ford,F50-54,157,Female,Australia,40:58,,3:54:30,,2:04:35,6:50:44
+1525,1152,Ana SILVA,F40-44,262,Female,Australia,47:24,,3:54:52,,1:58:37,6:50:54
+1526,1169,May Alhaji,F35-39,239,Female,Bahrain,46:59,,3:50:10,,2:04:27,6:50:55
+1527,392,Guylaine Barnes,F50-54,158,Female,Canada,44:37,,3:54:11,,2:02:00,6:50:58
+1528,739,Tammy McEwan,F45-49,202,Female,Australia,40:07,,3:50:11,,2:08:48,6:51:01
+1529,1937,Madeleine Cartagena,F18-24,86,Female,Philippines,33:36,,3:54:35,,2:15:31,6:51:12
+1530,230,Gabriele Weiler,F60-64,34,Female,Germany,46:34,,3:50:46,,2:06:09,6:51:30
+1531,1890,Katherine Schmitt,F25-29,184,Female,United States,32:46,,3:53:34,,2:15:10,6:51:35
+1532,1205,Lea Arapakis,F35-39,240,Female,United Kingdom,37:04,,4:10:47,,1:57:06,6:51:38
+1533,1033,Elena Markwalder,F40-44,263,Female,Switzerland,51:38,,3:52:09,,1:58:28,6:51:41
+1534,783,Natalia Quesada Vargas,F45-49,203,Female,Costa Rica,39:46,,4:02:35,,2:01:51,6:52:19
+1535,585,Suzanne Zmenak,F50-54,159,Female,Canada,43:55,,3:49:59,,2:08:28,6:52:38
+1536,765,Jan O'sullivan,F45-49,204,Female,Australia,41:47,,3:48:14,,2:13:49,6:52:40
+1537,281,Andrea Helmuth,F55-59,85,Female,Germany,46:38,,3:49:57,,2:06:25,6:52:55
+1538,341,Narelle Patrick,F55-59,86,Female,Australia,44:20,,4:06:45,,1:51:18,6:53:01
+1539,647,Dena Fairley,F45-49,205,Female,United States,51:01,,3:55:30,,1:56:30,6:53:10
+1540,1333,Marie-Claude Moura,F35-39,241,Female,France,38:16,,3:56:21,,2:10:41,6:53:30
+1541,214,Kate Samuelson,F60-64,35,Female,United States,47:39,,3:54:37,,2:02:37,6:53:30
+1542,2001,Della Jennings,F18-24,87,Female,United States,39:55,,4:00:03,,2:04:53,6:53:31
+1543,1715,Cassady Allen,F25-29,185,Female,United States,42:11,,3:49:08,,2:14:58,6:53:50
+1544,1771,Carla Edworthy,F25-29,186,Female,South Africa,37:26,,3:55:49,,2:13:16,6:54:04
+1545,2035,Lucille Tasker,F18-24,88,Female,United States,47:33,,3:47:46,,2:11:47,6:54:59
+1546,1448,Jessica Alberico,F30-34,236,Female,United States,43:09,,3:59:10,,2:04:42,6:55:05
+1547,607,Terri-Ann Box,F45-49,206,Female,Australia,36:14,,4:06:04,,2:03:07,6:55:19
+1548,2025,Amanda Sanders,F18-24,89,Female,United States,32:38,,3:59:15,,2:14:32,6:55:19
+1549,194,Jennifer Martin,F60-64,36,Female,United States,46:45,,3:48:34,,2:09:41,6:55:20
+1550,208,Moira Player,F60-64,37,Female,United Kingdom,42:36,,3:49:47,,2:13:30,6:55:29
+1551,639,Maria Depanfilis,F45-49,207,Female,United States,43:11,,4:04:38,,1:55:51,6:55:29
+1552,139,Maria Désirée Awad,F60-64,38,Female,Mexico,46:32,,4:04:43,,1:55:51,6:55:37
+1553,170,Lynette Fischer,F60-64,39,Female,South Africa,39:26,,3:38:19,,2:28:22,6:55:40
+1554,359,Lauren Smith,F55-59,87,Female,United States,35:44,,3:31:33,,2:41:18,6:55:47
+1555,1995,Mao Kurano,F18-24,90,Female,Japan,30:37,,3:54:38,,2:24:01,6:56:01
+1556,431,Dea Ditchfield,F50-54,160,Female,United Kingdom,46:48,,3:57:21,,2:03:07,6:56:16
+1557,1560,Lindsay Jolly,F30-34,237,Female,South Africa,40:03,,3:52:00,,2:14:46,6:56:34
+1558,1200,Laura Casto,F35-39,242,Female,United States,36:45,,4:06:23,,2:03:32,6:56:35
+1559,173,Glenda Goscomb,F60-64,40,Female,United Kingdom,50:39,,3:49:48,,2:06:04,6:56:41
+1560,586,Fernanda Aguiar,F45-49,208,Female,Brazil,42:40,,3:56:18,,2:07:23,6:57:03
+1561,623,Corlia Coetzee,F45-49,209,Female,South Africa,46:46,,3:54:52,,2:03:17,6:57:09
+1562,421,Jo Cope,F50-54,161,Female,Australia,43:25,,3:51:15,,2:12:30,6:57:11
+1563,378,Birgit Adler,F50-54,162,Female,Germany,44:30,,3:48:18,,2:14:00,6:57:25
+1564,246,Kimberly Birdseye,F55-59,88,Female,United States,44:11,,3:50:16,,2:11:16,6:57:33
+1565,908,Carla Coira,F40-44,264,Female,Puerto Rico,43:12,,4:21:31,,1:43:04,6:57:33
+1566,326,Karen MEADOWS,F55-59,89,Female,United States,49:56,,3:54:11,,2:02:36,6:57:50
+1567,299,Lisa Keller,F55-59,90,Female,United States,45:59,,3:47:22,,2:13:59,6:58:04
+1568,1610,Naoko Kasahara,F30-34,238,Female,Japan,32:42,,3:55:47,,2:19:59,6:58:04
+1569,94,Joan Dean,F65-69,5,Female,United States,50:55,,3:58:26,,1:59:43,6:58:10
+1570,1151,Yasmin Wendefeier,F40-44,265,Female,Germany,43:45,,3:49:31,,2:14:46,6:58:12
+1571,124,Jean Toth,F65-69,6,Female,United States,41:48,,3:57:11,,2:07:59,6:58:15
+1572,120,Kathleen Peck,F65-69,7,Female,United States,42:00,,3:45:08,,2:19:38,6:58:21
+1573,293,Yolanda Iribarren,F55-59,91,Female,Mexico,47:34,,3:44:00,,2:14:18,6:58:23
+1574,629,Narelle Crofts,F45-49,210,Female,Australia,40:23,,3:42:22,,2:26:59,6:58:25
+1575,211,Jennifer Reinhart,F60-64,41,Female,United States,32:25,,3:44:13,,2:32:55,6:58:27
+1576,561,Ann Tryssesoone,F50-54,163,Female,Belgium,49:14,,3:35:22,,2:23:49,6:58:39
+1577,1705,Yi-Hsiu Yang,F30-34,239,Female,Taiwan,39:07,,3:54:21,,2:16:43,6:59:05
+1578,128,Janet Watson,F65-69,8,Female,United Kingdom,49:36,,3:45:52,,2:12:47,6:59:12
+1579,268,Angelika Fanai-Nimmesgern,F55-59,92,Female,Germany,50:36,,3:46:04,,2:09:49,6:59:15
+1580,142,Laura Baños,F60-64,42,Female,Mexico,56:05,,3:46:56,,2:06:35,6:59:29
+1581,1313,Lynn Mattix,F35-39,243,Female,United States,45:37,,3:57:58,,2:06:02,6:59:33
+1582,870,Thiri Holebrook,F40-44,266,Female,New Zealand,42:30,,4:01:32,,2:04:09,6:59:33
+1583,182,Karlene Ivy,F60-64,43,Female,United States,52:49,,3:46:23,,2:11:53,6:59:56
+1584,1861,Courtney O'Brien,F25-29,187,Female,United States,52:15,,4:06:02,,1:54:12,7:00:00
+1585,780,Kirsten Poynter,F45-49,211,Female,United Kingdom,35:11,,4:03:31,,2:10:52,7:00:12
+1586,385,RITA DE CASSIA SVERSUT APPEZZATO,F50-54,164,Female,Brazil,39:01,,4:12:08,,1:59:42,7:00:13
+1587,684,Samantha Holyoak,F45-49,212,Female,Hong Kong,35:58,,4:02:32,,2:12:15,7:00:15
+1588,275,Renate Gaisser,F55-59,93,Female,United States,52:40,,4:05:54,,1:51:23,7:00:16
+1589,343,Jane Piombo,F55-59,94,Female,United States,44:11,,3:46:27,,2:15:57,7:00:17
+1590,691,Mia Johansson,F45-49,213,Female,Sweden,48:52,,3:56:11,,2:06:17,7:01:01
+1591,673,Rochelle Hammond,F45-49,214,Female,Australia,43:08,,3:55:28,,2:11:38,7:01:10
+1592,1062,Nao Imamoto,F40-44,267,Female,Japan,47:15,,3:53:13,,2:08:28,7:01:15
+1593,238,Leonie Andersen,F55-59,95,Female,Australia,39:01,,4:02:31,,2:12:01,7:01:25
+1594,571,Mizue Wagner,F50-54,165,Female,Japan,45:53,,4:06:38,,2:00:37,7:01:38
+1595,218,Alison Simmons,F60-64,44,Female,United States,37:00,,4:07:51,,2:05:59,7:02:28
+1596,215,Sylvia Schulter,F60-64,45,Female,United States,47:38,,3:54:08,,2:10:34,7:02:34
+1597,1743,Carly Caissie,F25-29,188,Female,Canada,41:50,,4:09:44,,2:03:42,7:02:42
+1598,223,Kristine Story,F60-64,46,Female,United States,43:53,,4:01:03,,2:09:25,7:02:43
+1599,802,Beth Samuel,F45-49,215,Female,United States,44:05,,3:48:20,,2:16:20,7:03:01
+1600,569,Anne Vollstad,F50-54,166,Female,Norway,44:04,,3:32:51,,2:36:03,7:03:04
+1601,1649,Shelley Roaten,F30-34,240,Female,United States,32:36,,4:27:12,,1:52:57,7:03:27
+1602,251,Ruth Bullen,F55-59,96,Female,Australia,42:25,,4:02:21,,2:10:09,7:03:31
+1603,1941,Robin Bolten Van Heerden,F18-24,91,Female,South Africa,40:46,,4:00:05,,2:15:14,7:03:33
+1604,711,Kellie Langley,F45-49,216,Female,Australia,38:51,,3:55:44,,2:19:10,7:03:35
+1605,1056,Laura Moul,F40-44,268,Female,United States,43:57,,3:50:20,,2:17:53,7:03:54
+1606,722,Ximena Lobbosco,F45-49,217,Female,Argentina,43:19,,3:53:50,,2:17:21,7:04:05
+1607,224,Mary Torre,F60-64,47,Female,Switzerland,40:48,,3:43:18,,2:30:53,7:04:10
+1608,1064,Shannon Nel,F40-44,269,Female,South Africa,39:57,,4:00:24,,2:13:41,7:04:21
+1609,894,Malin Bronsdon,F40-44,270,Female,Sweden,54:58,,3:48:37,,2:11:28,7:04:41
+1610,770,Lira Paredes,F45-49,218,Female,Peru,48:32,,3:53:13,,2:11:35,7:04:48
+1611,180,Carrie Holzman-Little,F60-64,48,Female,United States,45:53,,3:57:04,,2:10:23,7:04:55
+1612,429,Christine Delmas,F50-54,167,Female,Belgium,45:08,,4:10:29,,2:01:50,7:05:09
+1613,165,Reiko Donato,F60-64,49,Female,United States,49:44,,3:47:41,,2:13:16,7:05:10
+1614,184,Stephanie Johnston,F60-64,50,Female,Australia,52:09,,3:50:48,,2:10:11,7:05:20
+1615,1109,Kyrsten Sinema,F40-44,271,Female,United States,44:46,,4:10:33,,1:58:35,7:05:52
+1616,104,Francoise Haudry,F65-69,9,Female,France,42:10,,3:48:51,,2:27:23,7:06:11
+1617,525,Kat Rafferty,F50-54,168,Female,Australia,49:31,,3:46:39,,2:18:00,7:06:14
+1618,479,Deann Krill,F50-54,169,Female,United States,37:05,,4:02:45,,2:15:08,7:06:20
+1619,630,Bernadette Curtis,F45-49,219,Female,Australia,51:18,,3:54:06,,2:10:48,7:06:22
+1620,1275,Kate Jones,F35-39,244,Female,New Zealand,40:31,,4:04:48,,2:09:23,7:06:49
+1621,274,Gaby Reiländer,F55-59,97,Female,Germany,43:38,,4:08:37,,2:01:20,7:07:13
+1622,261,Christine Cook,F55-59,98,Female,Australia,45:56,,4:05:26,,2:06:03,7:07:16
+1623,294,Anne Jackson,F55-59,99,Female,United States,53:47,,3:53:47,,2:10:37,7:08:08
+1624,327,Pam Meaux,F55-59,100,Female,United States,56:52,,4:06:52,,1:54:03,7:08:20
+1625,1514,Jennifer Elliott,F30-34,241,Female,United States,43:27,,4:16:32,,2:00:08,7:08:21
+1626,511,Gabriela Obregon,F50-54,170,Female,Argentina,46:52,,3:56:04,,2:14:40,7:08:31
+1627,315,Jenny Lorenz,F55-59,101,Female,United States,42:10,,3:53:50,,2:22:02,7:08:35
+1628,114,Kathy Medford,F65-69,10,Female,United States,42:48,,4:04:43,,2:12:24,7:08:35
+1629,260,Lisa Contino,F55-59,102,Female,United States,52:04,,3:56:48,,2:09:56,7:08:43
+1630,2032,Rachel Tam,F18-24,92,Female,Hong Kong,35:39,,4:06:37,,2:16:13,7:08:47
+1631,533,Laurie Rose,F50-54,171,Female,United States,47:03,,3:52:38,,2:20:27,7:08:54
+1632,544,Susana Sena,F50-54,172,Female,Argentina,43:48,,4:01:00,,2:13:02,7:09:03
+1633,1599,Stacey Mendez,F30-34,242,Female,Philippines,45:52,,3:58:22,,2:14:14,7:09:17
+1634,108,Karin Kaulmann,F65-69,11,Female,Germany,45:47,,4:00:16,,2:14:18,7:09:20
+1635,424,Soledad Cunliffe,F50-54,173,Female,Peru,36:19,,4:15:05,,2:10:44,7:09:53
+1636,1368,Becky Somers,F35-39,245,Female,Antarctica,59:11,,4:04:09,,1:56:11,7:10:02
+1637,505,Maureen Mossop,F50-54,174,Female,South Africa,44:06,,3:57:38,,2:19:00,7:10:05
+1638,113,Lori L Mccarney,F65-69,12,Female,United States,47:13,,3:51:38,,2:18:32,7:10:17
+1639,136,Catherine André,F60-64,51,Female,France,46:24,,4:00:54,,2:14:30,7:10:45
+1640,1595,Ana Matos,F30-34,243,Female,Brazil,45:50,,4:02:38,,2:12:45,7:10:49
+1641,693,Michelle Johnson,F45-49,220,Female,United States,45:26,,3:57:31,,2:17:04,7:10:52
+1642,1999,Isadora Miato Andreatti,F18-24,93,Female,Brazil,42:13,,3:52:41,,2:26:38,7:10:55
+1643,1713,Rana Al Alawi,F25-29,189,Female,Bahrain,42:38,,4:15:17,,2:03:17,7:11:19
+1644,825,Jennifer Tapner,F45-49,221,Female,United States,43:28,,4:08:43,,2:10:42,7:11:42
+1645,1738,Appoline Bufkens,F25-29,190,Female,Belgium,50:23,,4:16:32,,1:57:47,7:11:51
+1646,1985,Caoimhe Kirwan,F18-24,94,Female,Ireland,43:26,,4:01:01,,2:19:16,7:11:55
+1647,1675,Kriska Sto Domingo,F30-34,244,Female,Philippines,45:13,,4:05:10,,2:14:14,7:12:57
+1648,185,Mary Jorden,F60-64,52,Female,United States,41:37,,3:43:45,,2:37:00,7:13:19
+1649,1788,Maddy Gaffaney,F25-29,191,Female,United States,39:04,,4:09:24,,2:17:54,7:13:20
+1650,1088,Qian Ran,F40-44,272,Female,China,53:20,,4:16:23,,1:54:19,7:13:33
+1651,992,Korrie Hicks,F40-44,273,Female,United States,43:22,,3:56:09,,2:26:08,7:13:37
+1652,563,Nicole Tziavaras,F50-54,175,Female,Australia,43:06,,4:00:26,,2:19:31,7:13:46
+1653,1334,Michelle Müller,F35-39,246,Female,Germany,50:08,,3:55:32,,2:19:23,7:14:02
+1654,99,Lorraine Gersitz,F65-69,13,Female,United States,44:58,,4:07:47,,2:06:55,7:14:28
+1655,171,Share Forrester,F60-64,53,Female,United Kingdom,52:02,,4:05:33,,2:00:04,7:14:32
+1656,155,Lora Chen,F60-64,54,Female,United States,46:44,,3:54:18,,2:19:04,7:14:34
+1657,416,MARILZA CANDIDA SALDANHA,F50-54,176,Female,Brazil,41:04,,4:03:54,,2:17:11,7:14:37
+1658,1684,Wai Yan Tsang,F30-34,245,Female,Hong Kong,54:51,,3:52:02,,2:16:42,7:14:52
+1659,131,Debra Weier,F65-69,14,Female,United States,41:13,,3:51:02,,2:30:44,7:14:58
+1660,588,Dina Altayeb,F45-49,222,Female,Saudi Arabia,47:35,,4:00:30,,2:13:56,7:15:20
+1661,253,Janet Buss,F55-59,103,Female,United States,35:59,,4:25:59,,2:03:49,7:15:22
+1662,1187,Utra Boonlue,F35-39,247,Female,Thailand,50:50,,4:04:06,,2:11:46,7:15:40
+1663,692,Jodi Johnson,F45-49,223,Female,United States,46:01,,4:14:22,,2:03:54,7:15:53
+1664,1411,Stefanie Trombetta,F35-39,248,Female,Germany,42:20,,4:01:16,,2:22:13,7:15:55
+1665,1015,Michelle Latham,F40-44,274,Female,United Kingdom,36:36,,3:58:28,,2:30:46,7:16:13
+1666,459,Erin Harvego,F50-54,177,Female,United States,44:32,,4:11:17,,2:09:12,7:16:26
+1667,154,Mary Cavnar-Johnson,F60-64,55,Female,United States,47:11,,3:58:12,,2:18:45,7:16:40
+1668,503,Melissa Moeckel,F50-54,178,Female,United States,42:57,,3:58:55,,2:25:39,7:16:42
+1669,632,Magali Falomi,F45-49,224,Female,France,54:10,,4:09:26,,2:04:51,7:17:03
+1670,1201,Catherine Cerezo,F35-39,249,Female,France,48:14,,3:39:39,,2:40:13,7:17:26
+1671,1045,Marcela Mihanovich,F40-44,275,Female,Singapore,54:47,,4:01:23,,2:09:12,7:17:30
+1672,201,Theresa Miller,F60-64,56,Female,United States,44:41,,4:04:43,,2:18:23,7:17:30
+1673,809,Tomomi Shinohara,F45-49,225,Female,Japan,37:32,,3:54:07,,2:36:12,7:17:52
+1674,149,Susie Bowers,F60-64,57,Female,United States,45:09,,4:03:37,,2:22:27,7:18:14
+1675,758,Alicia Newman,F45-49,226,Female,Australia,39:27,,4:05:10,,2:22:22,7:18:22
+1676,1965,Alexa Gaffaney,F18-24,95,Female,United States,35:42,,4:20:41,,2:14:23,7:18:39
+1677,306,Christine Knight,F55-59,104,Female,United Kingdom,45:40,,3:59:00,,2:22:56,7:19:11
+1678,304,Yasuyo Kikuoka,F55-59,105,Female,Japan,50:39,,4:02:37,,2:15:12,7:19:32
+1679,628,Jennifer Coyne,F45-49,227,Female,United States,45:21,,3:56:53,,2:25:34,7:19:41
+1680,374,Janet Wendle,F55-59,106,Female,United States,41:07,,4:11:05,,2:14:39,7:20:11
+1681,203,Takako Morinaga,F60-64,58,Female,Japan,46:04,,3:58:14,,2:25:34,7:20:31
+1682,1016,Karelle Laurent,F40-44,276,Female,France,44:33,,4:03:59,,2:24:43,7:21:06
+1683,868,Lama Arjeh,F40-44,277,Female,Syrian Arab Republic,54:40,,4:06:54,,2:06:50,7:21:10
+1684,599,Charlotte Barton,F45-49,228,Female,United Kingdom,49:52,,4:02:47,,2:19:04,7:21:18
+1685,210,Vicki Reardon,F60-64,59,Female,New Zealand,47:08,,4:08:39,,2:13:58,7:21:34
+1686,782,Tracy Putnam,F45-49,229,Female,United States,43:01,,4:11:33,,2:16:34,7:21:42
+1687,838,Kazue Uekuri,F45-49,230,Female,Japan,44:13,,3:57:22,,2:30:04,7:22:14
+1688,406,Lynn Brannon,F50-54,179,Female,United States,41:41,,3:57:37,,2:31:03,7:22:42
+1689,1365,Kartika Rajaram,F35-39,250,Female,India,53:42,,4:11:44,,2:09:04,7:22:56
+1690,1957,Fernanda De La Vega,F18-24,96,Female,Mexico,42:58,,4:13:39,,2:16:36,7:22:59
+1691,115,Leslie Mellet,F65-69,15,Female,United States,42:20,,4:04:05,,2:25:02,7:23:18
+1692,143,Leslie Bartoshesky,F60-64,60,Female,United States,42:53,,4:08:47,,2:19:22,7:23:29
+1693,1836,Anna Leach,F25-29,192,Female,United States,46:43,,4:10:14,,2:15:28,7:23:29
+1694,1058,Sommer Mueller,F40-44,278,Female,United States,49:29,,4:05:00,,2:17:48,7:23:37
+1695,178,Jennifer Hollibaugh,F60-64,61,Female,United States,47:55,,4:03:35,,2:20:16,7:23:56
+1696,1806,Jenna-Leigh Hill,F25-29,193,Female,South Africa,56:27,,4:17:42,,2:01:37,7:24:12
+1697,291,Roxana Iannone,F55-59,107,Female,Argentina,48:22,,3:55:10,,2:28:22,7:24:29
+1698,484,Bik Sai Ida Lee,F50-54,180,Female,Hong Kong,54:58,,4:11:45,,2:04:26,7:24:42
+1699,285,Okada Hiromi,F55-59,108,Female,Japan,44:38,,4:12:02,,2:14:17,7:24:49
+1700,710,雪莲 赖,F45-49,231,Female,China,46:53,,4:08:11,,2:20:40,7:24:53
+1701,415,Jami Callahan-Brill,F50-54,181,Female,United States,42:02,,4:10:34,,2:22:00,7:25:19
+1702,572,Wai Hing Idy Chiu,F50-54,182,Female,Hong Kong,48:58,,4:03:53,,2:19:32,7:25:27
+1703,2043,芸萩 向,F18-24,97,Female,China,45:24,,4:15:35,,2:09:38,7:25:29
+1704,555,WENDY TAN CHAI EIAN,F50-54,183,Female,Malaysia,47:17,,4:07:39,,2:17:43,7:25:35
+1705,183,cherie Johnson,F60-64,62,Female,United States,38:25,,4:02:51,,2:34:50,7:26:23
+1706,822,Chiaki Takahashi,F45-49,232,Female,Japan,41:16,,4:10:24,,2:21:44,7:26:38
+1707,195,Nancy Mclaughlin,F60-64,63,Female,Canada,43:26,,4:03:47,,2:25:47,7:26:50
+1708,490,Sau Foong June Liew,F50-54,184,Female,Hong Kong,51:38,,4:10:35,,2:12:43,7:27:10
+1709,382,Theresa Allison,F50-54,185,Female,United States,45:33,,3:58:08,,2:32:35,7:27:49
+1710,187,Pat Ketcham,F60-64,64,Female,United States,42:16,,4:05:18,,2:28:53,7:28:22
+1711,233,Nicole Wu Tiu Yen,F60-64,65,Female,France,46:45,,4:11:41,,2:19:05,7:28:26
+1712,303,Stephanie Khan,F55-59,109,Female,United States,36:17,,4:16:54,,2:24:37,7:28:36
+1713,95,Ann Devine,F65-69,16,Female,United States,45:15,,4:02:53,,2:23:34,7:28:53
+1714,842,Kirsten Vasey,F45-49,233,Female,Australia,41:26,,4:14:01,,2:24:12,7:28:57
+1715,320,Mika Maeda,F55-59,110,Female,Japan,46:24,,4:04:38,,2:27:34,7:29:02
+1716,352,Helge Seeck,F55-59,111,Female,Germany,53:03,,4:07:43,,2:19:13,7:29:21
+1717,449,Suzanne Groenland,F50-54,186,Female,Australia,39:44,,3:51:46,,2:45:13,7:29:56
+1718,310,midori kurobane,F55-59,112,Female,Japan,45:59,,4:17:07,,2:16:25,7:30:13
+1719,1244,Vicki Gill,F35-39,251,Female,Thailand,44:02,,4:03:39,,2:32:21,7:30:15
+1720,125,Catherine Tulloh,F65-69,17,Female,Australia,44:46,,4:10:52,,2:21:49,7:30:23
+1721,163,Nicky Deane-Simmons,F60-64,66,Female,United Kingdom,42:10,,4:09:07,,2:27:26,7:30:32
+1722,137,MIDORI AOKI,F60-64,67,Female,Japan,46:32,,4:15:32,,2:16:43,7:30:32
+1723,96,Alexandra Dronkers,F65-69,18,Female,Netherlands,41:48,,4:10:02,,2:27:49,7:30:47
+1724,543,Cheryl Scigousky,F50-54,187,Female,United States,45:47,,4:07:38,,2:28:46,7:30:52
+1725,111,Nicole Lafleur,F65-69,19,Female,Canada,46:24,,4:06:30,,2:27:16,7:31:03
+1726,135,Diane Anderson,F60-64,68,Female,United States,45:50,,4:07:12,,2:27:27,7:31:14
+1727,821,Paige Swenson,F45-49,234,Female,United States,37:10,,4:01:06,,2:40:35,7:31:23
+1728,373,Gladys Weingort,F55-59,113,Female,Colombia,52:43,,4:09:56,,2:17:06,7:31:37
+1729,2022,Fernanda Salazar Ezquerra,F18-24,98,Female,Chile,36:05,,4:00:33,,2:46:58,7:31:50
+1730,83,Linda Spillane,F70-74,1,Female,United Kingdom,49:59,,4:08:38,,2:20:46,7:32:03
+1731,169,Corinne Fabian,F60-64,69,Female,Australia,41:37,,4:04:06,,2:36:34,7:32:56
+1732,200,Manon Mercier,F60-64,70,Female,Canada,48:51,,4:04:34,,2:30:49,7:33:01
+1733,375,Natalie Wilkinson,F55-59,114,Female,South Africa,39:48,,4:06:37,,2:30:12,7:33:06
+1734,212,Elisete Rollo,F60-64,71,Female,Brazil,49:20,,4:01:42,,2:32:15,7:33:58
+1735,118,Erna Ortner,F65-69,20,Female,Austria,58:19,,4:02:39,,2:23:25,7:34:34
+1736,2040,Simone Weichenrieder,F18-24,99,Female,Germany,47:33,,4:02:35,,2:35:06,7:34:49
+1737,158,Cary Craig,F60-64,72,Female,United States,46:07,,4:22:00,,2:17:13,7:35:29
+1738,420,Pamela Coley,F50-54,188,Female,United States,55:14,,4:14:42,,2:17:02,7:36:00
+1739,123,Patricia Rosen,F65-69,21,Female,United States,45:52,,4:15:14,,2:24:37,7:36:48
+1740,589,Lynda Anderson,F45-49,235,Female,United Kingdom,50:02,,4:15:22,,2:23:08,7:37:24
+1741,222,Susan K Starykowicz,F60-64,73,Female,United States,48:28,,3:59:15,,2:39:52,7:37:34
+1742,295,Jean Johns,F55-59,115,Female,United States,39:55,,4:21:25,,2:24:00,7:38:09
+1743,1019,Juliana Leite,F40-44,279,Female,Brazil,51:54,,4:13:03,,2:23:09,7:38:38
+1744,846,Lisa Zietlow,F45-49,236,Female,United States,41:47,,4:28:09,,2:20:48,7:38:38
+1745,884,Louise Ann Bishop,F40-44,280,Female,United Kingdom,46:43,,4:16:03,,2:24:19,7:39:25
+1746,127,Diane Warren,F65-69,22,Female,United Kingdom,52:29,,4:08:55,,2:25:23,7:39:26
+1747,138,Ingrid Arning,F60-64,74,Female,Paraguay,47:09,,4:11:25,,2:23:39,7:40:19
+1748,391,Michelle Bandur,F50-54,189,Female,United States,50:08,,4:10:45,,2:30:27,7:40:45
+1749,971,Nadia Glazier,F40-44,281,Female,Australia,45:43,,4:11:48,,2:29:43,7:40:52
+1750,824,Kazuko Tanaka,F45-49,237,Female,Japan,52:01,,4:18:37,,2:16:35,7:41:06
+1751,1989,Sawyer Lay,F18-24,100,Female,United States,39:21,,4:06:26,,2:46:44,7:43:00
+1752,718,Hongwei Liang,F45-49,238,Female,China,53:49,,4:15:55,,2:20:43,7:43:38
+1753,191,Laura Libenson,F60-64,75,Female,Argentina,56:51,,4:13:49,,2:24:42,7:45:18
+1754,577,Vicki Wilkins,F50-54,190,Female,Australia,44:42,,4:09:41,,2:40:53,7:45:31
+1755,768,Jennifer Paggi,F45-49,239,Female,United States,46:50,,4:05:00,,2:42:06,7:45:37
+1756,166,Merredith Douglas,F60-64,76,Female,Australia,40:47,,4:17:17,,2:36:39,7:45:43
+1757,539,Sayuri Kamehama,F50-54,191,Female,Japan,45:57,,4:26:12,,2:20:54,7:46:37
+1758,2034,Violaine Tarizzo,F18-24,101,Female,France,46:26,,4:27:30,,2:24:31,7:47:15
+1759,204,Karen Nancarrow,F60-64,77,Female,New Zealand,45:11,,4:15:15,,2:34:59,7:47:54
+1760,84,Inge Stettner,F70-74,2,Female,Germany,49:58,,4:14:01,,2:33:58,7:47:58
+1761,147,Anette Blicher,F60-64,78,Female,Denmark,48:09,,4:20:14,,2:30:26,7:48:15
+1762,1100,Anna Scarth,F40-44,282,Female,United Kingdom,44:10,,4:13:39,,2:38:42,7:49:19
+1763,92,Carey Cribbs,F65-69,23,Female,United States,41:36,,4:23:57,,2:33:07,7:50:29
+1764,117,Cande Olsen,F65-69,24,Female,United States,48:54,,4:21:12,,2:33:18,7:52:58
+1765,196,Monica Sjans,F60-64,79,Female,Sweden,44:02,,4:18:40,,2:41:29,7:53:49
+1766,119,Mercedes Pardo,F65-69,25,Female,Argentina,56:49,,4:03:42,,2:40:05,7:53:58
+1767,664,Cushla Gooch,F45-49,240,Female,Australia,43:14,,4:27:30,,2:32:13,7:54:03
+1768,1638,Vinolee Ramalingam,F30-34,246,Female,India,43:46,,4:18:04,,2:40:38,7:54:13
+1769,98,Stephanie Dutton,F65-69,26,Female,United Kingdom,47:10,,4:14:07,,2:41:40,7:55:16
+1770,1260,Turid Herland,F35-39,252,Female,Norway,43:46,,4:28:15,,2:35:07,7:55:19
+1771,116,Lynda Neuman,F65-69,27,Female,United States,55:27,,4:14:07,,2:34:05,7:55:42
+1772,1744,Manon Caudrelier,F25-29,194,Female,France,40:55,,4:33:34,,2:31:31,7:56:56
+1773,174,Siobhan Greer,F60-64,80,Female,Ireland,47:19,,4:19:51,,2:41:32,7:58:53
+1774,81,Diane Ridgway,F70-74,3,Female,United States,53:19,,4:09:06,,2:51:22,8:03:38
+1775,100,Barbara Grüter,F65-69,28,Female,Switzerland,46:06,,4:17:02,,2:49:34,8:04:08
+1776,393,Leslie Battle,F50-54,192,Female,United States,49:28,,4:23:26,,2:42:40,8:08:15
+1777,242,Inês Barbosa,F55-59,116,Female,Brazil,51:43,,4:13:39,,2:48:42,8:09:26
+,478,Petra Krallmann-Brüll,F50-54,,Female,Germany,,,,,,
+,241,Kaye Atkins,F55-59,,Female,Australia,50:56,,,,,
+,1931,Yaqi Yang,F25-29,,Female,China,56:28,,,,,
+,997,Bethan Hughes,F40-44,,Female,United Kingdom,34:51,,3:04:18,,,
+,969,Alysha Gauthier,F40-44,,Female,Canada,53:55,,4:31:20,,,
+,91,Kitty Cole,F65-69,,Female,United States,53:33,,5:13:28,,,
+,12,Lauren Goss,FPRO,,Female,United States,,,,,,
+,152,Sandy Brown,F60-64,,Female,United States,55:48,,4:52:28,,,
+,719,Roberta Liguori,F45-49,,Female,Italy,40:46,,,,,
+,357,ANA SILVIA DAVINI PALLER,F55-59,,Female,Brazil,,,,,,
+,266,Alanna Dawes,F55-59,,Female,Australia,,,,,,
+,1663,Jenna-Caer Seefried,F30-34,,Female,Canada,,,,,,
+,806,Mary Schroeder,F45-49,,Female,United States,45:35,,4:34:49,,,
+,73,Ana Monteros,F75-79,,Female,Argentina,51:43,,,,,
+,988,Claudia Heemsen,F40-44,,Female,United States,,,,,,
+,77,Heidi Hoffmann,F70-74,,Female,United States,1:06:06,,,,,
+,668,Michelle GROCOCK,F45-49,,Female,Australia,58:06,,,,,
+,1784,Nicole Flütsch,F25-29,,Female,Switzerland,,,,,,
+,157,Gayle Colella,F60-64,,Female,Australia,49:25,,4:58:07,,,
+,314,Kathrin Liebmann,F55-59,,Female,Germany,,,,,,
+,1427,Danielle Treise,F35-39,,Female,United States,,,,,,
+,1057,Abby Mowinski,F40-44,,Female,United States,,,,,,
+,339,Ana María Orezzoli,F55-59,,Female,Peru,50:36,,4:31:57,,,
+,833,Thuy Le Thi Thu,F45-49,,Female,Vietnam,56:41,,4:20:48,,,
+,146,Ruth Benner,F60-64,,Female,Germany,1:10:32,,,,,
+,1183,Ashley Blake,F35-39,,Female,United States,,,,,,
+,101,Gwyn Guiney,F65-69,,Female,South Africa,,,,,,
+,109,Karen Kramer,F65-69,,Female,United States,1:02:30,,,,,
+,1194,Sophie Bubb,F35-39,,Female,United Kingdom,,,,,,
+,1825,Joanna Krawiec,F25-29,,Female,Poland,,,,,,
+,102,Maggie Haaland,F65-69,,Female,United States,,,,,,
+,1278,Louise Kelly,F35-39,,Female,United Kingdom,,,,,,
+,1302,建静 马,F35-39,,Female,China,,,,,,
+,1990,Fanoy Leanne,F18-24,,Female,United Arab Emirates,,,,,,
+,1000,Elizabeth Lnpyn,F40-44,,Female,,,,,,,
+,256,Janice Campbell,F55-59,,Female,Canada,,,,,,
+,1161,Skye Young,F40-44,,Female,Australia,,,,,,
+,209,Sheila Power,F60-64,,Female,Ireland,,,,,,
+,394,Rachael Beck,F50-54,,Female,Ireland,,,,,,
+,51,Sarah Piampiano,FPRO,,Female,United States,,,,,,
+,97,Cheryl Durstein-Decker,F65-69,,Female,United States,48:16,,5:08:23,,,
+,1209,Georgi Colella,F35-39,,Female,Australia,48:56,,4:21:16,,,
+,207,Christina Norris,F60-64,,Female,United States,48:14,,,,,
+,442,Mylene Garcia,F50-54,,Female,Guam,1:10:47,,,,,
+,1924,Margaret Wang,F25-29,,Female,Canada,,,,,,
+,15,Helle Frederiksen,FPRO,,Female,Denmark,,,,,,
+,918,Thelma D'Amelio,F40-44,,Female,Brazil,,,,,,
+,518,Ursula Perez-Platz,F50-54,,Female,Germany,1:01:05,,,,,
+,60,Alexandra Tondeur,FPRO,,Female,Belgium,,,,,,
+,1204,chow chi ngan,F35-39,,Female,Hong Kong,,,,,,
+,1974,Lisa Hedback,F18-24,,Female,Sweden,,,,,,
+,2008,Sarah Nielsen,F18-24,,Female,Denmark,,,,,,
+,140,Veronique Bacot- Réaume,F60-64,,Female,France,,,,,,
+,41,Amber Ferreira,FPRO,,Female,United States,29:21,,2:53:59,,,
+,1437,Xin Yao,F35-39,,Female,China,,,,,,
+,1791,Reema Gardner,F25-29,,Female,,,,,,,
+,1546,Maria Hodges,F30-34,,Female,Philippines,,,,,,
+,1002,Petra Jirankova,F40-44,,Female,Czechia,,,,,,
+,702,Keiko Kaitlin Kikuchi,F45-49,,Female,Japan,35:32,,,,,
+,445,Isabelle Goulay,F50-54,,Female,France,,,,,,
+,198,Elaine Mcnamara,F60-64,,Female,Australia,52:48,,4:53:13,,,
+,164,Kimberley Dittrich,F60-64,,Female,Canada,52:56,,4:42:22,,,
+,369,Priscila Ventura,F55-59,,Female,Brazil,,,,,,
+,86,Janet Van Woudenberg,F70-74,,Female,Netherlands,51:24,,4:25:44,,,
+,794,Suzanne Rinehart,F45-49,,Female,United States,,,,,,
+,530,Nicole Rickenbacher,F50-54,,Female,Switzerland,48:23,,3:53:26,,,
+,964,Jun Fu,F40-44,,Female,China,51:39,,,,,
+,659,Florence Geoffroy,F45-49,,Female,France,,,,,,
+,132,sandi wiebe,F65-69,,Female,United States,,,,,,
+,333,Elaine Nettleton,F55-59,,Female,United Kingdom,49:35,,4:29:10,,,
+,591,Mariya Anyfantakis,F45-49,,Female,Ukraine,,,,,,
+,145,Patricia Benavides,F60-64,,Female,Peru,44:34,,4:42:52,,,
+,289,Lorraine Hurley,F55-59,,Female,United States,,,,,,
+,45,Leonie Konczalla,FPRO,,Female,Germany,,,,,,
+,227,Jean Watson,F60-64,,Female,,,,,,,
+,796,Naseema Roue,F45-49,,Female,United Kingdom,,,,,,
+,1480,Michael Cannon,F30-34,,Female,South Africa,,,,,,
+,704,Charlotte Knudsen,F45-49,,Female,Norway,,,,,,
+,1856,Katie Moore,F25-29,,Female,United States,43:51,,,,,
+,1518,Anja Fachbach,F30-34,,Female,Germany,,,,,,
+,427,Hilary Davies,F50-54,,Female,United Kingdom,39:46,,,,,
+,784,Liza Rachetto,F45-49,,Female,,,,,,,
+,1010,Anna Thamavongsa,F40-44,,Female,United Kingdom,,,,,,
+,1470,Michel Botha,F30-34,,Female,South Africa,,,,,,
+,895,Kate Brown,F40-44,,Female,New Zealand,,,,,,
+,205,Patricia Naruse,F60-64,,Female,United States,37:18,,,,,
+,890,Céline Bousrez,F40-44,,Female,France,,,,,,
+,1786,Gloriana Fonseca,F25-29,,Female,Costa Rica,,,,,,
+,548,Karen Smith,F50-54,,Female,Bermuda,34:32,,3:28:08,,,
+,1549,Mikaela Holmberg,F30-34,,Female,Sweden,38:26,,,,,
+,1087,Nicole Ramsden,F40-44,,Female,Hong Kong,,,,,,
+,1798,Giorgia Guidicelli,F25-29,,Female,Philippines,,,,,,
+,1384,Michela Santini,F35-39,,Female,Italy,,,,,,
+,843,Maria Fernanda Ventura,F45-49,,Female,Argentina,52:45,,,,,
+,329,Kerstin Mogull,F55-59,,Female,United Kingdom,,,,,,
+,336,Pille Nurmis,F55-59,,Female,Estonia,59:02,,5:05:37,,,
+,841,Monica Van Vuuren,F45-49,,Female,South Africa,1:00:48,,,,,
+,1489,Donna Nickole Chew,F30-34,,Female,Singapore,58:47,,4:39:12,,,
+,466,Tanya Houghton,F50-54,,Female,United States,,,,,,
+,767,Keiko Ozaki,F45-49,,Female,Japan,48:50,,4:27:57,,,
+,1896,Alexandra Soegaard,F25-29,,Female,Denmark,,,,,,
+,600,Susan Beattie,F45-49,,Female,Australia,41:40,,3:42:15,,,
+,1337,Kathleen Murray,F35-39,,Female,United States,,,,,,
+,1092,Anna Rindefjell,F40-44,,Female,Sweden,,,,,,
+,307,Shelby Knudson,F55-59,,Female,United States,47:43,,4:42:59,,,
+,43,Erika Burgos,FPRO,,Female,Philippines,,,,,,
+,524,Sari Puumalaq,F50-54,,Female,Finland,,,,,,
+,485,Rachel Lee,F50-54,,Female,United States,,,,,,
+,1082,Maria Fernanda Poveda Franco,F40-44,,Female,Ecuador,,,,,,
+,865,Marcela Alvarez,F40-44,,Female,Mexico,,,,,,
+,774,Annie Peters,F45-49,,Female,United States,39:14,,,,,
+,88,Julia Nancy Bracegirdle,F65-69,,Female,New Zealand,49:28,,4:27:24,,,
+,927,Asha De Vos,F40-44,,Female,Sri Lanka,,,,,,
+,1922,Olympia Von Berg,F25-29,,Female,United States,31:16,,3:34:11,,,
+,82,Shirley Rolston,F70-74,,Female,New Zealand,52:29,,4:24:33,,,
+,272,Helene Fortier,F55-59,,Female,Canada,,,,,,
+,1875,Clara Redetzki,F25-29,,Female,Germany,,,,,,
+,332,Kanako Namai,F55-59,,Female,Japan,50:16,,4:30:51,,,
+,153,Pam Carter,F60-64,,Female,United States,,,,,,
+,1832,NGAN LAM TUC,F25-29,,Female,Vietnam,,,,,,
+,1973,Chloe Hartnett,F18-24,,Female,Australia,,,,,,
+,1606,Lina Patricia Montoya Restrepo,F30-34,,Female,,,,,,,
+,192,Leslie Logan,F60-64,,Female,United States,,,,,,
+,396,Christine Bell,F50-54,,Female,Australia,35:01,,,,,
+,11,Heather Wurtele,FPRO,,Female,Canada,,,,,,
+,1943,Megan Bordes,F18-24,,Female,United States,,,,,,
+,126,Liudmila Voronova,F65-69,,Female,Russian Federation,45:50,,4:38:27,,,
+,1820,Ina Karlsson Elmholt,F25-29,,Female,Norway,,,,,,
+,89,Marj Carpenter,F65-69,,Female,United States,1:00:50,,,,,
+,690,Gro Hege Jermstad,F45-49,,Female,Norway,,,,,,
+,190,Zhen Li,F60-64,,Female,China,1:27:05,,,,,
+,206,Gail Norman,F60-64,,Female,United States,,,,,,
+,362,Lori Stewart,F55-59,,Female,Canada,,,,,,
+,2039,Nicole Waldeck,F18-24,,Female,South Africa,44:29,,4:40:28,,,
+,926,Annick De Pooter,F40-44,,Female,Belgium,34:18,,,,,
+,667,Beni Gras-Thompson,F45-49,,Female,United States,,,,,,
+,74,Linda Ashmore,F70-74,,Female,United Kingdom,,,,,,
+,148,Brigitte Borelli,F60-64,,Female,Australia,52:05,,5:01:56,,,
+,87,Dexter Yeats,F70-74,,Female,United States,56:28,,4:44:57,,,
+,665,Sarah Gott,F45-49,,Female,United States,,,,,,
+,80,Aida Milinarsky,F70-74,,Female,Chile,,,,,,
+,901,Cristina Cardoze,F40-44,,Female,Panama,,,,,,
+,10,Laura Philipp,FPRO,,Female,Germany,,,,,,
+,1276,Kerstyn Jurado,F35-39,,Female,,,,,,,
+,995,Barkley Hope,F40-44,,Female,United States,,,,,,
+,1925,Alexandra Watt-Shannon,F25-29,,Female,United States,,,,,,
+,1919,Clara Vido,F25-29,,Female,,,,,,,
+,37,Laura Dennis,FPRO,,Female,Australia,,,,,,
+,354,Lisa Sharpe,F55-59,,Female,Ecuador,,,,,,
+,1827,Nicole Krill,F25-29,,Female,United States,,,,,,
+,217,Martina Seidel,F60-64,,Female,Germany,48:57,,4:16:39,,,
+,631,Abigail Cutler,F45-49,,Female,United States,,,,,,
+,79,Barbara Mathewson,F70-74,,Female,United States,45:25,,,,,
+,1303,Alison Mackenzie,F35-39,,Female,United Kingdom,,,,,,
+,286,Margaret Hoff,F55-59,,Female,Australia,47:08,,4:40:17,,,
+,75,Kathleen Broder,F70-74,,Female,United States,1:05:09,,,,,
+,803,Ayesha San Miguel,F45-49,,Female,Puerto Rico,,,,,,
+,229,Denise Webber,F60-64,,Female,United States,,,,,,
+,21,Fenella Langridge,FPRO,,Female,United Kingdom,,,,,,
+,1374,Tami Ritchie,F35-39,,Female,United States,,,,,,
+,1341,Karina Navarrete,F35-39,,Female,Ecuador,,,,,,
+,706,Kim Korson,F45-49,,Female,United States,,,,,,
+,2045,myoungjee yoon,F60-64,,Female,Korea,57:58,,4:25:52,,,
+,278,Jennifer Gibson,F55-59,,Female,United States,,,,,,
+,62,Hannah Berry,FPRO,,Female,New Zealand,,,,,,
+,1558,Zhang Jie,F30-34,,Female,China,,,,,,
+,3,Anne Haug,FPRO,,Female,Germany,,,,,,
+,2005,Erzsebet Nagy,F18-24,,Female,United States,,,,,,
+,714,Shannon Fedor,F45-49,,Female,Canada,,,,,,
+,1442,Martha Isabel Zamora,F35-39,,Female,Ecuador,58:30,,3:41:12,,,
+,133,Roxanne Youngs,F65-69,,Female,United States,1:10:04,,,,,
+,292,Della Irby,F55-59,,Female,United States,,,,,,
+,1346,Melissa Norcross,F35-39,,Female,United States,,,,,,
+,388,Inna Atkinson,F50-54,,Female,Germany,,,,,,
+,1905,Ushakova Svetlana,F25-29,,Female,Russian Federation,,,,,,
+,1265,Ching Hua Hsiao,F35-39,,Female,Taiwan,1:01:53,,,,,
+,1808,Christine HUGHES,F25-29,,Female,United States,,,,,,
+,1230,Gabriela Ergas Gennari,F35-39,,Female,Brazil,,,,,,
+,1704,Qian Yang,F30-34,,Female,,,,,,,
+,64,Laura Wood,FPRO,,Female,New Zealand,,,,,,
+,243,Irma Baron,F55-59,,Female,,,,,,,
+,1773,Nathalie Eklund,F25-29,,Female,Sweden,,,,,,
+,820,Victoria Street,F45-49,,Female,Hong Kong,,,,,,
+,1899,Anthea Stacey,F25-29,,Female,Australia,,,,,,
+,72,Sibyl Jacobson,F75-79,,Female,United States,56:04,,4:35:57,,,
+,1809,Amber Hulleman,F25-29,,Female,Netherlands,,,,,,
+,687,Maria Ivoneida Matos Moraes,F45-49,,Female,Brazil,,,,,,
+,1445,Kristina Margaretha Ziemons,F35-39,,Female,Germany,,,,,,
+,40,Annamaria Eberhardt,FPRO,,Female,Hungary,,,,,,
+,660,Sylvia George,F45-49,,Female,South Africa,52:52,,,,,
+,1807,YI-FAN HSIAO,F25-29,,Female,Taiwan,48:58,,4:27:26,,,
+,1651,Rachael Robnett,F30-34,,Female,United States,,,,,,
+,1184,Anna Boikova,F35-39,,Female,Russian Federation,,,,,,
+,71,Cherie Gruenfeld,F75-79,,Female,United States,,,,,,
+,175,Gisela Gubeli,F60-64,,Female,Chile,48:58,,5:13:54,,,
+,335,Jackie Nunes,F55-59,,Female,United States,1:06:47,,,,,
+,121,Dianne Power,F65-69,,Female,Australia,,,,,,
+,1118,Catherine Sugasa,F40-44,,Female,United States,,,,,,
+,355,Tamara Shuler,F55-59,,Female,United States,,,,,,
+,90,Vicky Carpenter,F65-69,,Female,United Kingdom,,,,,,
+,129,Cecilia Weber,F65-69,,Female,United States,52:46,,4:14:02,,,
+,779,Charlotte Porter,F45-49,,Female,New Zealand,,,,,,
+,1686,Alyx Ulbrich,F30-34,,Female,United States,,,,,,
+,1801,Rachel Hawker,F25-29,,Female,,,,,,,
+,2042,Erika Wilson,F18-24,,Female,United States,,,,,,
+,17,Sarah Crowley,FPRO,,Female,Australia,,,,,,
+,1589,Agatha Marques Peixoto,F30-34,,Female,Brazil,,,,,,
+,1076,Brigitte Bruce,F40-44,,Female,Germany,,,,,,
+,23,Lisa Norden,FPRO,,Female,Sweden,26:29,,2:40:18,,,
+,1232,Maria Eduarda  Falcão Vasconcellos,F35-39,,Female,,,,,,,
+,2002,Allison Moczynski,F18-24,,Female,United States,49:55,,,,,
+,48,Rachel Olson,FPRO,,Female,United States,,,,,,
+,1509,Elicia DRIVER,F30-34,,Female,Australia,,,,,,
+,367,Caroline Van Aartrijk,F55-59,,Female,Qatar,,,,,,
+,85,Lesley Tuggle,F70-74,,Female,United States,53:03,,4:21:21,,,
+,1869,Melanie Pirinoli,F25-29,,Female,Switzerland,,,,,,
+,106,Mary Houbolt,F65-69,,Female,United States,42:27,,,,,
+,390,Susan Baker,F50-54,,Female,United States,,,,,,
+,1858,Imelda Muller,F25-29,,Female,United States,,,,,,
+,595,Veronica Arriagada,F45-49,,Female,Chile,,,,,,
+,1287,Adrienn Krasznai,F35-39,,Female,Hungary,,,,,,
+,1027,Xuebin Lu,F40-44,,Female,China,59:32,,4:18:30,,,
+,32,Nikki Bartlett,FPRO,,Female,United Kingdom,,,,,,
+,107,Pamela Kallio,F65-69,,Female,United States,57:56,,4:29:57,,,
+,76,Joanne Dondero,F70-74,,Female,United States,51:00,,4:55:59,,,
+,1528,Yana Glaser,F30-34,,Female,Brazil,,,,,,
+,309,Mika Kume,F55-59,,Female,Japan,51:49,,4:33:45,,,
+,2029,Viktoria Siorpaes,F18-24,,Female,Austria,36:17,,3:30:58,,,
+,93,Carol Davenport,F65-69,,Female,United States,57:35,,5:05:18,,,
+,1439,Xueru Yang,F35-39,,Female,China,,,,,,
+,1799,Laura Haley,F25-29,,Female,United States,,,,,,
+,650,Rocio Fields,F45-49,,Female,United States,,,,,,
+,1385,Jennifer Santoyo,F35-39,,Female,United States,,,,,,
+,276,María Laura Galar Sorenson,F55-59,,Female,Argentina,,,,,,
+,24,Barbara Riveros,FPRO,,Female,Chile,,,,,,
+,1407,Pan Tao,F35-39,,Female,China,,,,,,
+,105,Linda Honneus,F65-69,,Female,United States,,,,,,
+,156,千賀子 吉澤,F60-64,,Female,Japan,,,,,,
+,982,Lisa Ann Hancox,F40-44,,Female,United Kingdom,,,,,,
+,1277,Nicole Jurisch,F35-39,,Female,,,,,,,
+,473,Lynn Keane,F50-54,,Female,United States,,,,,,
+,804,Nayiri Doudikian-Scaff,F45-49,,Female,United States,40:11,,4:40:12,,,
+,1525,Paola Gamboa,F30-34,,Female,Ecuador,,,,,,
+,1568,Akari Koge,F30-34,,Female,Japan,,,,,,
+,634,Susanne Davis,F45-49,,Female,United States,,,,,,

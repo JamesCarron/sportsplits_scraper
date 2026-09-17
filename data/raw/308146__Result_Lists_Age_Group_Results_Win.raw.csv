@@ -1,0 +1,91 @@
+__contest__,__group__,BIB,ID,WithStatus([AgeGroupRankExcp]),FIRSTNAME,LASTNAME,YEAR,SEX,ATF2,TIMETEXT
+#1_Sprint Distance,#1_F25-29,186,524,1.,Kate,ruane,1997,f,South Coast TC 2024,01:34:17
+#1_Sprint Distance,#1_F25-29,111,449,2.,Jessie,Carroll,1998,f,South Coast TC 2024,01:44:47
+#1_Sprint Distance,#2_F30-34,138,476,1.,Meabh,Kelleher,1992,f,Cobh Tri Club,02:07:18
+#1_Sprint Distance,#2_F30-34,180,518,DNS,Joanne,Oneill,1993,f,,
+#1_Sprint Distance,#3_F40-44,195,533,1.,Carol,Stone,1980,f,South Coast TC 2024,01:31:39
+#1_Sprint Distance,#3_F40-44,124,462,2.,Áine,Delaney,1982,f,South Coast TC 2024,01:39:21
+#1_Sprint Distance,#3_F40-44,102,440,3.,Magdalena,Biernat,1981,f,Cobh Tri Club,01:42:45
+#1_Sprint Distance,#3_F40-44,141,479,4.,Joanna,Kelly,1983,f,South Coast TC 2024,01:44:41
+#1_Sprint Distance,#3_F40-44,129,467,5.,Neasa,Flynn,1981,f,West Cork Triathlon Club,01:48:27
+#1_Sprint Distance,#4_F45-49,158,496,1.,Emma,Martin,1979,f,South Coast TC 2024,01:36:43
+#1_Sprint Distance,#4_F45-49,125,463,2.,Anne,Dennehy,1976,f,Mallow TC,01:36:49
+#1_Sprint Distance,#4_F45-49,174,512,3.,Josephine,O Sullivan,1976,f,South Coast TC 2024,01:36:53
+#1_Sprint Distance,#4_F45-49,130,468,4.,Thelma,Fogarty,1977,f,South Coast TC 2024,01:36:58
+#1_Sprint Distance,#4_F45-49,152,490,5.,Ann,Lyons,1978,f,Blackwater Triathlon Club,01:37:02
+#1_Sprint Distance,#4_F45-49,144,482,6.,Claire,Kilgannon,1977,f,South Coast TC 2024,01:39:58
+#1_Sprint Distance,#4_F45-49,143,481,7.,Yvonne,Kennedy,1977,f,South Coast TC 2024,01:40:55
+#1_Sprint Distance,#4_F45-49,147,485,8.,Gillian,Landers,1979,f,South Coast TC 2024,01:43:14
+#1_Sprint Distance,#4_F45-49,139,477,9.,Paula,Kelly,1977,f,Predator Triathlon Club,01:45:55
+#1_Sprint Distance,#4_F45-49,114,452,10.,Deirdre,Cashman,1978,f,South Coast TC 2024,01:51:31
+#1_Sprint Distance,#4_F45-49,199,537,11.,Olwyn,Venables,1978,f,South Coast TC 2024,01:52:53
+#1_Sprint Distance,#4_F45-49,196,534,12.,Aoife,Swan,1977,f,New Ross Triathlon Club,01:55:27
+#1_Sprint Distance,#5_F50-54,105,443,1.,Linda,Bradfield,1972,f,Tried and Tested ,01:45:22
+#1_Sprint Distance,#5_F50-54,127,465,2.,Claire,Fitzgerald,1974,f,South Coast TC 2024,01:54:08
+#1_Sprint Distance,#5_F50-54,189,527,3.,Rosemary,Ryan,1973,f,South Coast TC 2024,02:00:32
+#1_Sprint Distance,#6_F55-59,120,458,1.,Brigid,Coffey,1969,f,Tried and Tested ,01:32:35
+#1_Sprint Distance,#6_F55-59,184,522,2.,Catherine,Quirke,1967,f,Blackwater Triathlon Club,01:46:58
+#1_Sprint Distance,#6_F55-59,119,457,3.,Karn,Cliffe,1969,f,Naas TC,01:47:54
+#1_Sprint Distance,#6_F55-59,118,456,4.,Catherine,Clancy,1967,f,South Coast TC 2024,01:59:37
+#1_Sprint Distance,#7_M16-19,146,484,1.,Cillian,Kirk,2006,m,Athy Triathlon Club,01:20:52
+#1_Sprint Distance,#7_M16-19,178,516,2.,Sean,O'Keeffe,2006,m,,01:45:07
+#1_Sprint Distance,#7_M16-19,159,497,DNF,Senan,Mc Donnell,2006,m,Galway Triathlon Club,
+#1_Sprint Distance,#8_M20-24,162,500,1.,Aidan,McDonough,2000,m,,01:24:09
+#1_Sprint Distance,#8_M20-24,149,487,2.,Adam,Lazaryev,2000,m,,01:26:09
+#1_Sprint Distance,#8_M20-24,167,505,DNS,Eoin,O Brien,2001,m,,
+#1_Sprint Distance,#9_M25-29,148,486,1.,Daniel,Landers,1997,m,South Coast TC 2024,01:33:24
+#1_Sprint Distance,#9_M25-29,179,517,2.,Harry,Oliphant,1997,m,,01:33:39
+#1_Sprint Distance,#10_M30-34,122,460,1.,Brendan,Condon,1990,m,South Coast TC 2024,01:20:31
+#1_Sprint Distance,#10_M30-34,164,502,2.,Ferdia,Mchugh,1994,m,,01:23:03
+#1_Sprint Distance,#10_M30-34,154,492,3.,Sean,Maher,1994,m,,01:24:51
+#1_Sprint Distance,#10_M30-34,1,539,4.,Brian,Whyte,1990,m,,01:30:15
+#1_Sprint Distance,#10_M30-34,177,515,5.,Jamie,O'Driscoll,1993,m,,01:33:36
+#1_Sprint Distance,#11_M35-39,153,491,1.,Michael,Lyons,1985,m,Blackwater Triathlon Club,01:11:02
+#1_Sprint Distance,#11_M35-39,173,511,2.,Simon,Bedford,,m,,01:12:15
+#1_Sprint Distance,#11_M35-39,172,510,3.,Brian,O hagan,1986,m,Blackwater Triathlon Club,01:14:16
+#1_Sprint Distance,#11_M35-39,171,509,4.,Eric,O Connor,1987,m,South Coast TC 2024,01:23:42
+#1_Sprint Distance,#11_M35-39,115,453,DNF,Stephen,Chambers,1987,m,South Coast TC 2024,
+#1_Sprint Distance,#12_M40-44,160,566,1.,John,O Connell,1982,m,,01:12:45
+#1_Sprint Distance,#12_M40-44,191,529,2.,Fergal,Sargent,1980,m,,01:12:55
+#1_Sprint Distance,#12_M40-44,142,480,3.,Derek,Kenefick,1980,m,South Coast TC 2024,01:21:51
+#1_Sprint Distance,#12_M40-44,200,538,4.,Kenneth,Walsh,1983,m,South Coast TC 2024,01:26:31
+#1_Sprint Distance,#12_M40-44,140,478,5.,Ted,Kelly,1982,m,South Coast TC 2024,01:26:46
+#1_Sprint Distance,#12_M40-44,193,531,6.,Gerard,Sheehan,1980,m,Crosshaven Triathlon Club,01:27:28
+#1_Sprint Distance,#12_M40-44,183,521,7.,Damien,Parker,1980,m,,01:28:19
+#1_Sprint Distance,#12_M40-44,103,441,8.,Adam,Blaiklock,1980,m,,01:35:42
+#1_Sprint Distance,#12_M40-44,126,464,9.,Conor,Fenlon,1980,m,Cork Triathlon Club,01:35:58
+#1_Sprint Distance,#12_M40-44,194,532,10.,Paul,Smithers,1982,m,,01:40:58
+#1_Sprint Distance,#12_M40-44,123,461,11.,Diarmuid,Crowley,1984,m,South Coast TC 2024,01:44:38
+#1_Sprint Distance,#13_M45-49,176,514,1.,Michael,O'Brien,1979,m,Waterford Triathalon Club,01:13:13
+#1_Sprint Distance,#13_M45-49,121,459,2.,Conor,Coleman,1977,m,South Coast TC 2024,01:13:15
+#1_Sprint Distance,#13_M45-49,155,493,3.,Tim,Mahony,1976,m,Midleton Cycling and Triathlon Club,01:17:40
+#1_Sprint Distance,#13_M45-49,185,523,4.,John,Rogers,1979,m,South Coast TC 2024,01:18:22
+#1_Sprint Distance,#13_M45-49,182,520,5.,Will,O'Reilly,1977,m,Carrick-on-Suir TC,01:19:50
+#1_Sprint Distance,#13_M45-49,157,495,6.,Darragh,Martin,1978,m,South Coast TC 2024,01:25:08
+#1_Sprint Distance,#13_M45-49,175,513,7.,Lorcan,O’muiri,1975,m,Tried and Tested ,01:26:56
+#1_Sprint Distance,#13_M45-49,166,504,8.,Robert,Mulligan,1975,m,Limerick TC,01:33:22
+#1_Sprint Distance,#13_M45-49,132,470,9.,Edward,Hennessy,1978,m,South Coast TC 2024,01:44:56
+#1_Sprint Distance,#13_M45-49,100,438,10.,Johannes,Ahlmann,1979,m,,01:55:13
+#1_Sprint Distance,#14_M50-54,161,499,1.,Eugene,McCarthy,1970,m,South Coast TC 2024,01:18:43
+#1_Sprint Distance,#14_M50-54,104,442,2.,Martin,Bohane,1971,m,Cork Triathlon Club,01:19:05
+#1_Sprint Distance,#14_M50-54,136,474,3.,Carl,Jackson,1973,m,,01:21:57
+#1_Sprint Distance,#14_M50-54,133,471,4.,Mick,Holland,1971,m,South Coast TC 2024,01:22:46
+#1_Sprint Distance,#14_M50-54,108,446,5.,Terry,Broderick,1974,m,Blackwater Triathlon Club,01:24:25
+#1_Sprint Distance,#14_M50-54,197,535,6.,Robert,Swan,1972,m,New Ross Triathlon Club,01:24:53
+#1_Sprint Distance,#14_M50-54,165,503,7.,Barry,Morrissey,1971,m,Tried and Tested ,01:36:05
+#1_Sprint Distance,#14_M50-54,106,444,8.,Shane,Bradley,1970,m,,01:36:44
+#1_Sprint Distance,#14_M50-54,128,466,9.,Gerry,Fitzgerald,1970,m,South Coast TC 2024,01:52:23
+#1_Sprint Distance,#14_M50-54,168,506,10.,David,O Brien,1974,m,South Coast TC 2024,01:55:23
+#1_Sprint Distance,#14_M50-54,187,525,n.a.,Charles,Russell,1973,m,Blackwater Triathlon Club,
+#1_Sprint Distance,#15_M55-59,151,489,1.,Vincent,Lucey,1967,m,South Coast TC 2024,01:21:05
+#1_Sprint Distance,#15_M55-59,156,494,2.,Tomás,Mahony,1969,m,Tried and Tested ,01:25:17
+#1_Sprint Distance,#15_M55-59,101,439,3.,Aidan,Barry,1968,m,South Coast TC 2024,01:27:42
+#1_Sprint Distance,#15_M55-59,137,475,4.,Dermot,Johnson,1968,m,Blackwater Triathlon Club,01:30:40
+#1_Sprint Distance,#15_M55-59,107,445,5.,Pat,Bradley,1965,m,Cobh Tri Club,01:35:26
+#1_Sprint Distance,#15_M55-59,145,483,6.,Mark,Kimmins,1965,m,Drogheda Triathlon Club,01:37:04
+#1_Sprint Distance,#15_M55-59,192,530,7.,Batt,Sheehan,1968,m,South Coast TC 2024,01:37:56
+#1_Sprint Distance,#16_M60,110,448,1.,Billy,Carr,1960,m,South Coast TC 2024,01:37:09
+#1_Sprint Distance,#16_M60,188,526,2.,Noel,Ryall,1964,m,,01:37:56
+#1_Sprint Distance,#16_M60,112,450,3.,Daniel,Carroll,1964,m,Cobh Tri Club,01:43:58
+#1_Sprint Distance,#17_M65-69,181,519,1.,Eddie,O'Regan,1958,m,South Coast TC 2024,01:32:40
+#1_Sprint Distance,#18_M70-74,109,447,1.,adrian jp,byrne,1953,m,,01:26:59

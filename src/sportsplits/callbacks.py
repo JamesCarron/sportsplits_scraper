@@ -6,7 +6,7 @@ from sportsplits.viz import fmt_td
 from sportsplits.viz.web import fig_to_base64, plot_single_panel, plot_comparison
 from sportsplits.viz.notebook import plot_athlete_extended
 from sportsplits.layout import _build_summary_stats, _build_fastest_splits, _build_median_splits
-from sportsplits.races import add_race_from_url
+from sportsplits.races import add_race_from_url, race_collections
 from sportsplits.parsers.raceresult.common import search_events
 
 
@@ -57,12 +57,19 @@ def register_callbacks(app, race_dfs: dict):
         Output('add-race-status', 'children'),
         Input('add-race-btn', 'n_clicks'),
         Input('search-add-btn', 'n_clicks'),
+        Input('race-category-selector', 'value'),
         State('add-url', 'value'),
         State('add-name', 'value'),
         State('search-results', 'value'),
         prevent_initial_call=True,
     )
-    def add_race(manual_clicks, search_clicks, url, name, selected):
+    def add_race(manual_clicks, search_clicks, category, url, name, selected):
+        if ctx.triggered_id == 'race-category-selector':
+            names = race_collections(race_dfs)[category]
+            options = [{'label': n, 'value': n} for n in names]
+            value = names[0] if names else no_update
+            return options, value, no_update
+
         if ctx.triggered_id == 'search-add-btn':
             if not selected:
                 return no_update, no_update, html.Span(

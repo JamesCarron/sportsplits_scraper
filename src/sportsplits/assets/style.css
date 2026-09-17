@@ -398,3 +398,20 @@ hr {
     color: #1a1a2e;
     margin-bottom: 2px;
 }
+
+/* Age-group analysis */
+.summary-table.ag-table td, .summary-table.ag-table th {
+    text-align: right;
+}
+.summary-table.ag-table td:first-child, .summary-table.ag-table th:first-child {
+    text-align: left;
+}
+.ag-table tr.highlight {
+    background: #fff3cd;
+    font-weight: 600;
+}
+.ag-note {
+    color: #666;
+    font-size: 0.85rem;
+    margin: 8px 0 16px;
+}

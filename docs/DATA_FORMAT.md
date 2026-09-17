@@ -13,6 +13,14 @@ Events hosted on my.raceresult.com go through two separated stages (engine in `s
 
 Both stages overwrite their outputs, so re-pulling never duplicates rows. The metric columns (below) are **not** stored in the CSV — they are recomputed at app load by `metrics.build_metrics_from_df`.
 
+### Ironman World Championship races — manual fetch, then process
+
+Ironman-branded races (the full-distance World Championship and the 70.3 World Championship) aren't on my.raceresult.com — there's no numeric event ID or API to point a scraper at. The best available source with real swim/T1/bike/T2/run splits is CoachCox's IMStats site (`coachcox.co.uk/imstats`), whose public JSON API (`wp-json/imstats/v.../race/results/<race_id>`) backs its results pages.
+
+Both `ironman.com` and `coachcox.co.uk` disallow AI crawlers (`ClaudeBot` etc.) in `robots.txt`, so this pipeline is **not** auto-scraped like RaceResult's. The raw files were instead fetched by hand through a browser (Claude in Chrome, driven by the user's own session) and saved verbatim to `data/raw/ironman/<race_id>.json` — one JSON array per race, each element one athlete. Refreshing or extending this data means repeating that manual browser fetch for any new race id, not running a notebook cell.
+
+Once the raw JSON exists, processing is a normal pure-Python step (engine in `src/sportsplits/parsers/ironman/common.py`): `di`/`g` map to `Age_Group`/`Class`, `st`/`t1t`/`bt`/`t2t`/`rt`/`ot` (plain integer seconds) map to the six split columns, and `c` (country — there's no club field in this source) fills `Club`. The race list lives in `parsers/ironman/events.py`, same "single list is the REGISTRY" pattern as RaceResult's `events.py`.
+
 ## Raw Parse Output
 
 Produced by the registry loaders in `sportsplits.races`. One row per athlete.

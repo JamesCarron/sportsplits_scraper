@@ -1,0 +1,120 @@
+Place,Bib,Name,Age_Group,Group_Rank,Class,Club,Swim,T1,Bike,T2,Run,Finish
+1,68,Mark Mc Ginley,M25-29,1,Open,247 Triathlon Club,11:35,0:30,30:10,0:50,17:47,1:00:54
+2,123,PSBR PSBR,,1,,Northwest TC,11:35,0:36,31:55,0:32,17:50,1:02:29
+3,119,Evan Tosh,M16-19,2,Open,,11:06,0:35,33:21,0:41,17:08,1:02:54
+4,71,Sean Mc laughlin,M35-39,3,Open,Northwest TC,12:07,0:42,32:02,0:50,17:53,1:03:35
+5,98,Emmett Mullan,M30-34,4,Open,Northwest TC,11:14,0:34,32:49,0:38,18:31,1:03:47
+6,83,Jordan McIlwaine,M25-29,5,Open,TUNA TC,12:47,0:54,32:24,0:47,17:44,1:04:38
+7,93,Mike Millar,M35-39,6,Open,,13:58,1:05,31:49,0:49,18:06,1:05:49
+8,47,Michael Holland,M40-44,7,Open,Omagh TC,11:47,0:43,32:04,1:15,21:59,1:07:50
+9,59,Judith MacCombe,F30-34,1,Female,Northwest TC,14:32,0:45,31:23,1:01,20:26,1:08:08
+10,62,Joe Mc Connellogue,M50-54,8,Open,Northwest TC,12:52,0:42,32:25,0:58,21:57,1:08:56
+11,54,Gavin Loughrey,M25-29,9,Open,Olympian Triathlon Club,11:04,0:50,36:01,0:46,20:14,1:08:58
+12,87,Jonathan Mclaren,M50-54,10,Open,Northwest TC,12:59,0:44,34:54,0:44,19:57,1:09:20
+13,63,Colin Mc Cormack,M45-49,11,Open,Northwest TC,14:05,0:47,32:45,0:46,21:04,1:09:29
+14,99,Conan Murray,M40-44,12,Open,Northwest TC,13:05,0:51,33:50,0:42,21:04,1:09:34
+15,61,Jason Maxwell,M25-29,13,Open,Strabane Triathlon Club,14:14,0:50,35:13,1:13,18:52,1:10:23
+16,15,Joseph Coyle,M40-44,14,Open,Northwest TC,13:04,0:48,33:57,0:55,21:39,1:10:25
+17,74,Peter McCamphill,M40-44,15,Open,Northwest TC,12:54,0:50,34:47,1:03,22:00,1:11:36
+18,110,Jack Quigley,M40-44,16,Open,Northwest TC,14:12,0:35,33:44,0:55,22:15,1:11:42
+19,23,Kian Divin,M20-24,17,Open,,13:37,0:48,36:56,1:02,20:20,1:12:45
+20,79,Orla McGandy,F35-39,2,Female,Olympian Triathlon Club,12:07,0:43,38:21,0:49,20:59,1:13:01
+21,82,Anna McGinley,F20-24,3,Female,Galway Triathlon Club,14:11,0:42,36:39,1:16,20:17,1:13:08
+22,53,Colin Louden,M40-44,18,Open,Triangle Triathlon Club,13:54,1:03,35:01,1:17,22:04,1:13:21
+23,75,Paul Mcconnellogue,M55-59,19,Open,Northwest TC,13:07,0:53,35:30,1:06,22:49,1:13:27
+24,30,Allister Doherty,M30-34,20,Open,,14:16,1:23,36:15,1:07,21:15,1:14:18
+25,121,Michael Doherty,M45-49,21,Open,Northwest TC,17:09,1:01,37:05,0:57,19:27,1:15:42
+26,22,Gavin Divin,M45-49,22,Open,,14:11,1:00,37:04,1:46,21:56,1:15:58
+27,6,Thomas Bradley,M40-44,23,Open,Northwest TC,13:47,0:36,37:45,1:10,22:48,1:16:08
+28,21,Conor Cummings,M30-34,24,Open,Northwest TC,13:37,1:03,38:39,0:43,22:26,1:16:30
+29,73,Paul McCafferty,M55-59,25,Open,Northwest TC,16:02,1:12,36:37,1:16,22:25,1:17:34
+30,112,Greg Roberts,M40-44,26,Open,Northwest TC,14:30,1:45,40:28,1:27,20:19,1:18:32
+31,1,David Arbuckle,M35-39,27,Open,Strabane Triathlon Club,15:34,1:40,38:21,1:32,21:24,1:18:33
+32,88,Sabrina Mclaughlin,F40-44,4,Female,Triangle Triathlon Club,14:32,0:49,39:43,0:55,22:56,1:18:58
+33,176,David McCready,M40-44,28,Open,Northwest TC,14:28,1:26,39:54,1:16,22:01,1:19:07
+34,51,Sam Linton,M45-49,29,Open,Triangle Triathlon Club,18:27,1:05,39:25,0:57,19:20,1:19:16
+35,67,Geoff Mc gillian,M45-49,30,Open,Strabane Triathlon Club,15:28,0:54,41:23,0:57,20:36,1:19:20
+36,20,Ian Cullen,M45-49,31,Open,Northwest TC,14:24,0:55,37:16,1:05,25:41,1:19:23
+37,27,Kevin Doherty,M40-44,32,Open,Northwest TC,15:47,1:01,38:23,0:57,23:19,1:19:28
+38,40,John Grant,M50-54,33,Open,,15:52,1:20,37:55,1:02,23:45,1:19:56
+39,113,Joe Rotherham,M45-49,34,Open,Northwest TC,12:15,1:47,42:12,1:11,22:31,1:19:59
+40,24,Fiona Doherty,F40-44,5,Female,Northwest TC,14:22,1:00,39:46,1:23,23:27,1:20:00
+41,120,Howard Triggs,M60,35,Open,,16:04,1:13,36:32,1:12,25:10,1:20:13
+42,56,Anthony Lynch,M40-44,36,Open,Northwest TC,17:05,1:00,40:43,0:27,21:04,1:20:19
+43,70,Patrick Mc laughlin,M45-49,37,Open,Northwest TC,15:19,1:14,41:02,0:57,22:23,1:20:56
+44,52,DEAGLAN LONG,M35-39,38,Open,,14:41,1:07,39:55,1:42,23:35,1:21:01
+45,90,Peter Mclaughlin,M70-74,39,Open,Northwest TC,,,,0:40,23:53,1:21:30
+46,58,Enda Lynch,M45-49,40,Open,,14:40,1:03,43:26,0:59,21:52,1:22:02
+47,95,Gavin Morrison,M50-54,41,Open,Northwest TC,16:34,1:12,37:36,1:16,25:27,1:22:07
+48,66,Shane Mc gale,M55-59,42,Open,Omagh TC,14:33,0:58,41:55,1:18,23:23,1:22:09
+49,111,Michael Redden,M40-44,43,Open,MSC Tri,17:26,0:55,35:24,0:47,27:45,1:22:18
+50,33,Stephen Duffy,M40-44,44,Open,Northwest TC,14:52,0:59,39:01,1:15,26:36,1:22:45
+51,159,Owen Falconer,M50-54,45,Open,Omagh TC,19:30,1:09,39:07,0:47,22:35,1:23:10
+52,13,Claire Casselton,F50-54,6,Female,Northwest TC,14:41,1:11,41:39,1:04,25:17,1:23:55
+53,16,Martin Coyle,M45-49,46,Open,,16:55,1:17,40:25,1:13,24:54,1:24:46
+54,18,Michael Coyle,M30-34,47,Open,,19:55,0:32,44:31,0:25,19:33,1:24:58
+55,64,Stephen Mc Crory,M50-54,48,Open,Strabane Triathlon Club,18:10,2:15,38:13,0:34,25:49,1:25:03
+56,35,Shane Elder,M50-54,49,Open,Triangle Triathlon Club,19:18,1:47,38:32,1:05,24:27,1:25:10
+57,9,Catherine Butcher,F55-59,7,Female,Triangle Triathlon Club,15:49,1:06,42:53,1:15,24:46,1:25:51
+58,50,Steven Karayiannis,M35-39,50,Open,,18:25,1:19,41:06,1:39,23:24,1:25:54
+59,96,John Muldoon,M50-54,51,Open,Strabane Triathlon Club,17:28,1:20,42:32,0:36,24:35,1:26:34
+60,180,Hannah Janes,F30-34,8,Female,,15:00,1:18,42:42,1:14,26:29,1:26:45
+61,65,Gerry Mc dermott,M55-59,52,Open,Northwest TC,14:25,1:21,42:09,1:17,27:49,1:27:04
+62,37,Daryl Findlay,M35-39,53,Open,Northwest TC,15:41,1:50,40:09,1:21,28:09,1:27:11
+63,92,Claire McWilliams,F40-44,9,Female,,16:01,1:22,44:54,1:04,23:52,1:27:15
+64,49,Margaret Johnston,F40-44,10,Female,,15:08,1:04,46:16,1:15,24:03,1:27:48
+65,42,Sorcha Gueret,F25-29,11,Female,,14:20,0:48,46:00,0:41,26:05,1:27:57
+66,28,Kieran Doherty,M60,54,Open,Triangle Triathlon Club,17:46,1:37,40:53,1:42,26:26,1:28:26
+67,14,Kieran Cooke,M40-44,55,Open,Triangle Triathlon Club,17:51,1:31,41:57,1:09,26:09,1:28:40
+68,31,Terry Donnelly,M70-74,56,Open,,18:32,0:53,43:31,1:29,25:13,1:29:40
+69,85,Jenny Mckinney,F16-19,12,Female,Northwest TC,15:59,0:53,45:21,0:36,27:07,1:29:57
+70,86,Gerald Mckinney,M45-49,57,Open,Northwest TC,15:58,0:52,45:16,1:05,26:45,1:29:58
+71,5,Darren Boyle,M50-54,58,Open,,16:34,1:36,41:07,1:30,29:50,1:30:38
+72,17,John Coyle,M45-49,59,Open,Northwest TC,18:40,2:03,39:06,2:06,29:02,1:30:59
+73,41,Erin Gray,F30-34,13,Female,,12:43,1:02,50:45,0:40,25:53,1:31:05
+74,116,Rachael Stilvern,F40-44,14,Female,247 Triathlon Club,16:51,1:52,44:49,1:12,26:39,1:31:25
+75,4,Suzanne Bogan,F45-49,15,Female,247 Triathlon Club,17:17,1:24,42:55,1:28,28:20,1:31:26
+76,80,Marie McGillian,F45-49,16,Female,Strabane Triathlon Club,18:39,0:51,45:00,0:38,27:34,1:32:44
+77,117,Anthony Sweeney,M40-44,60,Open,,17:33,0:48,47:45,1:22,25:41,1:33:11
+78,78,Miriam McFadden,F55-59,17,Female,Northwest TC,14:52,1:38,46:34,1:46,28:19,1:33:13
+79,103,Grace O’Donnell,F20-24,18,Female,,15:28,1:06,47:16,1:22,28:24,1:33:38
+80,179,Joe Fleming,F20-24,19,Female,,14:34,0:46,50:07,0:37,27:49,1:33:54
+81,114,Conor Rudd,M25-29,61,Open,,18:38,1:45,46:45,1:13,26:20,1:34:41
+82,8,Martyn Broomfield,M55-59,62,Open,Triangle Triathlon Club,16:49,1:57,44:48,2:35,28:41,1:34:52
+83,34,Conor Eannetta,M50-54,63,Open,Omagh TC,15:27,1:38,42:54,1:25,33:57,1:35:23
+84,118,Gina Taylor,F55-59,20,Female,,17:52,1:19,50:57,0:54,24:44,1:35:49
+85,109,Niamh Prevett,F20-24,21,Female,Omagh TC,15:03,1:47,48:10,1:25,29:36,1:36:03
+86,48,Clive Jardine,M45-49,64,Open,Triangle Triathlon Club,24:02,1:54,45:13,1:03,24:30,1:36:45
+87,36,Aine Fearon,F25-29,22,Female,,16:32,0:34,52:11,0:40,26:46,1:36:46
+88,84,Gavin McKevitt,M55-59,65,Open,,17:24,2:49,46:12,1:38,28:58,1:37:02
+89,115,Gavin Stewart,M40-44,66,Open,,26:54,1:00,44:48,0:48,24:07,1:37:40
+90,12,John Cartin,M55-59,67,Open,,23:14,1:58,42:47,2:10,27:43,1:37:54
+91,10,Christopher Callaghan,M65-69,68,Open,247 Triathlon Club,19:33,1:29,49:05,1:11,26:47,1:38:07
+92,7,Cathy Breslin,F50-54,23,Female,Hell Yeah Triathlon Club,27:11,2:40,44:08,0:29,23:41,1:38:12
+93,91,Patrick McLaughlin,M55-59,69,Open,,19:06,1:43,51:24,1:04,25:50,1:39:09
+94,101,Sheila o connor,F40-44,24,Female,,23:30,0:46,49:45,0:32,24:58,1:39:33
+95,104,Rosemary Obey,F50-54,25,Female,Piranha Triathlon Club,18:25,1:50,46:43,1:46,30:58,1:39:44
+96,25,Elaine Doherty,F50-54,26,Female,Northwest TC,19:46,1:17,52:13,1:12,25:55,1:40:25
+97,11,Jason Campbell,M50-54,70,Open,,20:20,2:05,49:19,0:51,28:25,1:41:02
+98,39,Lynsey Grant,F45-49,27,Female,,23:17,2:17,50:32,1:30,25:34,1:43:12
+99,55,Roisin Lynch,F75-79,28,Female,Northwest TC,20:00,1:11,48:45,1:09,32:28,1:43:36
+100,125,The Tri'ers The Tri'ers,,2,,Northwest TC,17:52,1:22,53:01,0:58,30:24,1:43:40
+101,46,Noel Hockley,M50-54,71,Open,Northwest TC,22:03,1:37,53:35,2:27,24:44,1:44:28
+102,106,Joyce O'Goan,F45-49,29,Female,,25:14,1:29,47:38,1:58,28:43,1:45:03
+103,72,Philip Mcavoy,M45-49,72,Open,,18:49,0:53,58:20,0:38,27:01,1:45:43
+104,94,Orla Moran,F50-54,30,Female,,22:03,1:42,53:36,0:56,27:58,1:46:16
+105,43,Kay Hack,F60-64,31,Female,Triangle Triathlon Club,16:20,1:01,46:54,1:50,40:09,1:46:17
+106,2,Lianne Ball,F40-44,32,Female,Northwest TC,19:43,1:17,53:39,1:06,33:12,1:48:59
+107,57,Noelle Lynch,F35-39,33,Female,247 Triathlon Club,17:39,2:42,55:09,0:57,33:32,1:50:01
+108,69,Una Mc Guinness,F50-54,34,Female,,24:12,1:16,53:25,0:58,30:55,1:50:49
+109,60,Eoin Mailey,M50-54,73,Open,Northwest TC,,,,,,1:51:22
+110,3,John Blennerhassett,M60,74,Open,,25:22,2:30,51:37,1:52,30:26,1:51:49
+111,32,Eamonn Downey,M30-34,75,Open,,17:12,2:38,59:23,1:04,32:47,1:53:05
+112,105,Tony Oconnor,M50-54,76,Open,,29:56,2:01,53:08,0:54,27:21,1:53:22
+113,45,Aimee Hegarty,F16-19,35,Female,Northwest TC,20:41,1:10,56:22,0:44,37:20,1:56:18
+114,77,Maureen McDonough,F60-64,36,Female,,19:03,3:10,55:03,1:42,37:40,1:56:40
+115,19,Toni jay Crossan,F40-44,37,Female,Northwest TC,23:50,1:16,57:33,1:04,39:18,2:03:03
+116,107,Fiona page,F45-49,38,Female,,33:40,1:25,1:12:01,1:42,38:19,2:27:09
+,89,Conor McLaughlin,M35-39,,Open,Northwest TC,,,,,,
+,102,Gary O donnell,M45-49,,Open,Northwest TC,,,,,,
+,108,Rory Patterson,M40-44,,Open,Northwest TC,,,,,,

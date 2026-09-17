@@ -1,6 +1,8 @@
 import pandas as pd
 from dash import dcc, html
 from sportsplits.viz import fmt_td
+from sportsplits.races import race_collections
+from sportsplits.age_group_layout import make_age_group_section
 
 SPLIT_COLS = ['Swim', 'T1', 'Bike', 'T2', 'Run', 'Finish']
 
@@ -64,13 +66,24 @@ def _build_median_splits(df: pd.DataFrame) -> list:
     return cells
 
 
-def make_layout(race_names: list):
+def make_layout(race_names: list, age_group_pro_content: dict, age_group_regular_content: dict, age_group_ireland_content: dict):
     default_race = race_names[0]
+    collections = race_collections(race_names)
     return html.Div(className='page', children=[
 
         html.H1('Triathlon Results Analyser', className='page-title'),
 
-        # ── Race selector ─────────────────────────────────────────────────────
+        # ── Race collection + selector ───────────────────────────────────────
+        html.Div(className='race-selector-row', children=[
+            html.Label('Collection', className='race-label'),
+            dcc.Dropdown(
+                id='race-category-selector',
+                options=[{'label': c, 'value': c} for c in collections],
+                value='All Races',
+                clearable=False,
+                className='race-dropdown',
+            ),
+        ]),
         html.Div(className='race-selector-row', children=[
             html.Label('Race', className='race-label'),
             dcc.Dropdown(
@@ -265,4 +278,8 @@ def make_layout(race_names: list):
                 children=html.Img(id='comparison-chart', src='', className='athlete-chart'),
             ),
         ]),
+
+        html.Hr(),
+
+        make_age_group_section(age_group_pro_content, age_group_regular_content, age_group_ireland_content),
     ])

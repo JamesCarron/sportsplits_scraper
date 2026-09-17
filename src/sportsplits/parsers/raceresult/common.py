@@ -27,6 +27,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 import pandas as pd
 import requests
@@ -73,6 +74,12 @@ class EventSpec:
     # Some lists carry several contests; keep only groups with this prefix
     # ("" = keep all). e.g. "#1_" for the individual race only.
     main_contest_prefix: str = ""
+
+    # Newer/larger accounts require the list request itself to be scoped to one
+    # contest (a plain fetch 404s otherwise), unlike older accounts where the
+    # combined multi-contest response is filtered client-side via
+    # main_contest_prefix above. None = omit the param (old behaviour).
+    contest: str | None = None
 
     # Column positions within the age-group list's data fields.
     ag_id_idx: int = 1
@@ -173,11 +180,27 @@ class RaceResultClient:
             try:
                 r = requests.get(f"{base}/config", params=params, timeout=30, headers=_HEADERS)
                 if r.ok:
-                    return base, r.json()
+                    config = r.json()
+                    return self._sharded_base(base, config), config
                 last_err = f"{r.status_code} at {base}"
             except requests.RequestException as e:  # pragma: no cover - network
                 last_err = str(e)
         raise RuntimeError(f"Could not reach RaceResult config for event {self.event_id}: {last_err}")
+
+    @staticmethod
+    def _sharded_base(base: str, config: dict) -> str:
+        """Larger/newer accounts have their list/data calls answered from a
+        different subdomain (e.g. my2.raceresult.com) than the one that answers
+        `config` (always my.raceresult.com), reported in config's 'server' field.
+        Config discovery stays on `base`; list/data calls must move to `server`.
+        """
+        server = config.get("server")
+        if not server:
+            return base
+        parts = urlsplit(base)
+        if parts.netloc == server:
+            return base
+        return urlunsplit(parts._replace(netloc=server))
 
     @property
     def key(self) -> str:
@@ -195,13 +218,11 @@ class RaceResultClient:
                 names.append(n)
         return names
 
-    def fetch_list(self, listname: str) -> dict:
-        r = requests.get(
-            f"{self.base}/list",
-            params={"key": self.key, "listname": listname, "page": self.page, "r": "all"},
-            timeout=30,
-            headers=_HEADERS,
-        )
+    def fetch_list(self, listname: str, contest: str | None = None) -> dict:
+        params = {"key": self.key, "listname": listname, "page": self.page, "r": "all"}
+        if contest is not None:
+            params["contest"] = contest
+        r = requests.get(f"{self.base}/list", params=params, timeout=30, headers=_HEADERS)
         r.raise_for_status()
         return r.json()
 
@@ -248,7 +269,7 @@ def scrape_event(spec: EventSpec) -> dict:
     for listname in [spec.main_list, spec.ag_list]:
         if not listname:
             continue
-        payload = client.fetch_list(listname)
+        payload = client.fetch_list(listname, contest=spec.contest)
         written[listname] = write_raw_csv(payload, spec.raw_path(listname))
     return written
 
