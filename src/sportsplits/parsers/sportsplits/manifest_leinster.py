@@ -20,4 +20,9 @@ RACES = [
     # Youth Series events on the same race skipped, same as every other manifest
     # here (adult individual triathlon only).
     ("tried-and-tested-dungarvan-triathlon-2024", "Tried and Tested Dungarvan Triathlon", 2024),
+    # Limerick, flagged during the Cork/Munster sweep slice as reachable on
+    # Sportsplits (that agent backed off to avoid clashing with a sibling
+    # agent's browser session). Try a Tri (event 1), Olympic (event 3), Sprint
+    # (event 4) pulled; Try a Tri - Junior (event 2) skipped, same convention.
+    ("joey-hannan-triathlon-2024", "Joey Hannan Triathlon", 2024),
 ]
