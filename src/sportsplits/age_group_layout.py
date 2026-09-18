@@ -5,10 +5,17 @@ that client-side).
 """
 from dash import dcc, html
 
+from sportsplits.analytics import AG_ORDER
 from sportsplits.viz import fmt_td
 
 _SIGMA_COLS = [(-3, "-3σ"), (-2, "-2σ"), (-1, "-1σ"), (1, "+1σ"), (2, "+2σ"), (3, "+3σ")]
 _HIGHLIGHT = ("25-29", "30-34")
+
+# Same cutoff plot_age_groups() charts use (its own default max_band="55-59")
+# -- the table should show exactly the bands the chart above it shows, not
+# more: drops 60+ bands and any non-standard-width band (e.g. Monster
+# Timing's "20-34"/"50+") that isn't a genuine 5-year band in AG_ORDER at all.
+_TABLE_BANDS = set(AG_ORDER[:AG_ORDER.index("55-59") + 1])
 
 
 def _fmt_bound(td):
@@ -21,7 +28,8 @@ def _fmt_bound(td):
 
 
 def _age_table(summary_df, gender="Male"):
-    df = summary_df[summary_df["Gender"] == gender].set_index("Band")
+    df = summary_df[summary_df["Gender"] == gender]
+    df = df[df["Band"].isin(_TABLE_BANDS)].set_index("Band")
     header = html.Tr([html.Th("Age group"), html.Th("Participants"),
                        *[html.Th(lbl) for _, lbl in _SIGMA_COLS[:3]],
                        html.Th("Median"),
@@ -108,9 +116,10 @@ def _ireland_distance_tab(d: dict):
     ]
     if d["img_ag"] is None:
         body.append(html.P(
-            "No individual Male/Female age-group breakdown available for this "
-            "format (e.g. relay results are scored by team, not by individual "
-            "age band).", className="ag-note"))
+            "No standard 5-year age-group breakdown available for this "
+            "distance — either results are scored by team rather than "
+            "individual age band (e.g. relay), or the only categories "
+            "published aren't standard 5-year bands.", className="ag-note"))
     else:
         body += [
             html.Img(src=d["img_ag"], className="athlete-chart"),

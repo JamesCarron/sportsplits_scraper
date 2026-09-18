@@ -2,7 +2,13 @@
 races.py's load_all() -- static, non-interactive analysis, so it's computed once and
 served from memory rather than recomputed per-request).
 """
-from sportsplits.analytics import age_group_summary, slowest_pro_female, classify_distance, DISTANCE_ORDER, WC_RACE_DATES
+from sportsplits.analytics import age_group_summary, slowest_pro_female, classify_distance, WC_RACE_DATES
+
+# Only these distance/format buckets are shown on the Ireland tab -- Duathlon,
+# Aquabike, Relay, Mixed, and Other/Unspecified are gathered (see below) but
+# not displayed: too few races, a different discipline, or not comparable on
+# an age-group finish-time chart at all.
+_IRELAND_DISTANCES = ["Try-a-Tri", "Super Sprint", "Sprint", "Olympic / Standard", "Middle / Half"]
 from sportsplits.viz.age_groups import plot_age_groups, plot_slowest_female
 from sportsplits.viz.web import fig_to_base64
 from sportsplits.parsers.ironman.events import EVENTS as WC_EVENTS
@@ -83,46 +89,48 @@ def build_ireland_content() -> dict:
     from sportsplits.parsers.sportsplits.manifest_leinster import RACES as SS_LN_RACES
     from sportsplits.parsers.sportsplits.common import load_race as load_sportsplits_race
 
-    rr_races = list(MT_RACES) + list(KG_RACES) + list(JR_RACES) + list(SM_RACES)
-    races = [(r.name, load_processed_csv(r.processed_path)) for r in rr_races]
-    races += [(r.name, load_processed_csv(r.processed_path)) for r in LN_RR_RACES]
+    races = [(r.name, load_processed_csv(r.processed_path), "monster_timing") for r in MT_RACES]
+    other_rr = list(KG_RACES) + list(JR_RACES) + list(SM_RACES) + list(LN_RR_RACES)
+    races += [(r.name, load_processed_csv(r.processed_path), "raceresult_other") for r in other_rr]
 
-    ss_race_count = 0
     for slug, name, year in list(SS_RACES) + list(SS_LN_RACES):
         for _, (event_name, df) in load_sportsplits_race(slug).items():
-            races.append((f"{name} {year} - {event_name}", df))
-        ss_race_count += 1
+            races.append((f"{name} {year} - {event_name}", df, "sportsplits"))
 
+    # Only the distance buckets in _IRELAND_DISTANCES are shown -- see its
+    # docstring for why the rest are gathered but not displayed.
     by_distance: dict[str, list] = {}
-    for name, df in races:
-        by_distance.setdefault(classify_distance(name), []).append((name, df))
+    for name, df, source in races:
+        label = classify_distance(name)
+        if label in _IRELAND_DISTANCES:
+            by_distance.setdefault(label, []).append((name, df, source))
 
     distances = []
-    for label in DISTANCE_ORDER:
+    for label in _IRELAND_DISTANCES:
         bucket = by_distance.get(label)
         if not bucket:
             continue
-        summary = age_group_summary(bucket)
+        summary = age_group_summary([(name, df) for name, df, _ in bucket])
         # plot_age_groups() returns None when nothing survives its standard-band
-        # filtering for either gender -- e.g. "Relay" (team results have no
-        # individual Male/Female age-group rows at all) or a bucket whose only
-        # bands are non-standard widths like "20-34" (not chartable, but still
-        # shown in the table).
+        # filtering for either gender -- not expected for these 5 buckets given
+        # today's data, but kept defensive in case a future pull adds a race
+        # whose only bands are non-standard widths.
         fig = None if summary.empty else plot_age_groups(
             summary, f"Irish Triathlons 2024-2026 — {label} — age-group participants & median time")
         distances.append({
             "label": label,
             "n_races": len(bucket),
-            "n_rows": sum(len(df) for _, df in bucket),
+            "n_rows": sum(len(df) for _, df, _ in bucket),
             "img_ag": fig_to_base64(fig) if fig is not None else None,
             "summary": summary,
         })
 
+    shown = [row for bucket in by_distance.values() for row in bucket]
     return {
-        "n_monster_timing": len(MT_RACES),
-        "n_raceresult_other": len(KG_RACES) + len(JR_RACES) + len(SM_RACES) + len(LN_RR_RACES),
-        "n_sportsplits": ss_race_count,
-        "n_events": len(races),
-        "n_rows": sum(len(df) for _, df in races),
+        "n_monster_timing": sum(1 for _, _, source in shown if source == "monster_timing"),
+        "n_raceresult_other": sum(1 for _, _, source in shown if source == "raceresult_other"),
+        "n_sportsplits": sum(1 for _, _, source in shown if source == "sportsplits"),
+        "n_events": len(shown),
+        "n_rows": sum(len(df) for _, df, _ in shown),
         "distances": distances,
     }
