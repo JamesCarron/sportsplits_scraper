@@ -14,7 +14,11 @@ def _hours(td) -> float:
 
 def plot_age_groups(summary: pd.DataFrame, title: str, highlight=("25-29", "30-34"), max_band="55-59"):
     """summary: output of analytics.age_group_summary(). Male/Female panels share
-    y-axes (bars = participants, line = median finish time with sigma bands)."""
+    y-axes (bars = participants, line = median finish time with sigma bands).
+    Returns None if nothing survives the standard-band/max_band filtering for
+    either gender (e.g. a bucket whose only bands are non-standard widths like
+    "20-34", or has no individual Male/Female rows at all) -- there's nothing
+    chartable in that case, and the caller is expected to handle None."""
     under_cutoff = AG_ORDER[:AG_ORDER.index(max_band) + 1]
 
     subs = {}
@@ -27,8 +31,11 @@ def plot_age_groups(summary: pd.DataFrame, title: str, highlight=("25-29", "30-3
         sub["std_h"] = sub["std"].map(_hours)
         subs[gender] = sub
 
-    lo = min((subs[g]["median_h"] - 3 * subs[g]["std_h"]).min() for g in subs)
-    hi = max((subs[g]["median_h"] + 3 * subs[g]["std_h"]).max() for g in subs)
+    if all(sub.empty for sub in subs.values()):
+        return None
+
+    lo = min((subs[g]["median_h"] - 3 * subs[g]["std_h"]).min() for g in subs if not subs[g].empty)
+    hi = max((subs[g]["median_h"] + 3 * subs[g]["std_h"]).max() for g in subs if not subs[g].empty)
     pad = (hi - lo) * 0.05
     ylim = (lo - pad, hi + pad)
 

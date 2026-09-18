@@ -3,6 +3,8 @@ outlier analysis. Pure functions over [(race_name, df), ...] pairs (df = standar
 13-column format), decoupled from where the races came from -- used by the Ironman
 World Championship, regular-races, and Ireland views on the Age-Group Analysis page.
 """
+import re
+
 import pandas as pd
 
 AG_ORDER = ["18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54",
@@ -47,6 +49,57 @@ def age_group_summary(races: list) -> pd.DataFrame:
     summary["order"] = summary["Band"].map(_ag_sort_key)
     summary = summary.sort_values(["Gender", "order"]).drop(columns="order")
     return summary
+
+
+# Ordered distance/format buckets, most-specific pattern first so e.g. "Super
+# Sprint" is claimed before the plainer "Sprint" pattern gets a chance at it
+# (matched text is masked out before moving to the next pattern, so a name
+# like "Westport Triathlon - Super Sprint" doesn't also register a "Sprint"
+# hit for the substring it already claimed).
+_DISTANCE_PATTERNS = [
+    ("Try-a-Tri", re.compile(r"try[\s-]?a[\s-]?tri|i\s*tri'?d", re.I)),
+    ("Super Sprint", re.compile(r"super\s*sprint", re.I)),
+    ("Sprint", re.compile(r"\bsprint\b", re.I)),
+    ("Olympic / Standard", re.compile(r"\bolympic\b|\bstandard\b", re.I)),
+    ("Middle / Half", re.compile(r"\bmiddle\b|\bhalf\b|\b70\.3\b", re.I)),
+    ("Full / Long", re.compile(r"\bfull\b|\blong distance\b|\bironman\b", re.I)),
+    ("Duathlon", re.compile(r"duathlon", re.I)),
+    ("Aquabike", re.compile(r"aqua\s*bike", re.I)),
+]
+_RELAY_RE = re.compile(r"\brelay\b", re.I)
+
+# Display order for whatever buckets actually turn up in a given dataset.
+DISTANCE_ORDER = [
+    "Try-a-Tri", "Super Sprint", "Sprint", "Olympic / Standard", "Middle / Half",
+    "Full / Long", "Duathlon", "Aquabike", "Relay",
+    "Mixed (multiple distances combined)", "Other / Unspecified",
+]
+
+
+def classify_distance(name: str) -> str:
+    """Best-effort distance/format bucket from a race (+ event) name, e.g.
+    "Cromane Seafest Sprint Triathlon 2024" -> "Sprint". Team relay events are
+    called out on their own regardless of any distance word also present (the
+    relay format, not the per-leg distance, is what sets them apart from the
+    individual age-group data the rest of this app assumes). A name carrying
+    more than one distance word (e.g. "Ballinskelligs Sprint & Olympic
+    Triathlon") means that race's results list is genuinely a single combined
+    table across distances, not separable after the fact -- flagged as
+    "Mixed" rather than silently assigned to one of them.
+    """
+    if _RELAY_RE.search(name):
+        return "Relay"
+    text = name
+    hits = []
+    for label, pattern in _DISTANCE_PATTERNS:
+        if pattern.search(text):
+            hits.append(label)
+            text = pattern.sub(" ", text)
+    if not hits:
+        return "Other / Unspecified"
+    if len(hits) > 1:
+        return "Mixed (multiple distances combined)"
+    return hits[0]
 
 
 def slowest_pro_female(races: list, race_dates: dict | None = None):

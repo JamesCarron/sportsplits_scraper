@@ -99,6 +99,26 @@ def ironman_regular_tab(content: dict):
     ])
 
 
+def _ireland_distance_tab(d: dict):
+    body = [
+        html.Div(className="stats-bar", children=[
+            _stat(str(d["n_races"]), "Distance/events"),
+            _stat(str(d["n_rows"]), "Finisher rows"),
+        ]),
+    ]
+    if d["img_ag"] is None:
+        body.append(html.P(
+            "No individual Male/Female age-group breakdown available for this "
+            "format (e.g. relay results are scored by team, not by individual "
+            "age band).", className="ag-note"))
+    else:
+        body += [
+            html.Img(src=d["img_ag"], className="athlete-chart"),
+            _age_table(d["summary"]),
+        ]
+    return html.Div(className="section", children=body)
+
+
 def ireland_tab(content: dict):
     return html.Div(className="section", children=[
         html.H2("Irish Triathlons — 2024 / 2025 / 2026"),
@@ -108,8 +128,11 @@ def ireland_tab(content: dict):
                "a further ~25 small/one-off RaceResult accounts (mostly local club "
                "triathlons/duathlons, found via RaceResult's own public event directory) "
                "plus several more Sportsplits.com races, including Dublin City Triathlon. "
-               "Mixed distances (sprint/olympic/etc.) in one combined view, not split by "
-               "distance like the Ironman tabs.", className="ag-note"),
+               "Split into sub-tabs below by distance/format, since finish times aren't "
+               "comparable across distances — a race whose results list combines multiple "
+               "distances in one table (so they can't be separated after the fact) lands in "
+               "\"Mixed\"; one with no distance identifiable from its name lands in "
+               "\"Other / Unspecified\".", className="ag-note"),
         html.P("Sources checked and deliberately left out: RedTag Timing (no 2024-2026 "
                "triathlon coverage), Timing Solutions Ireland (no triathlons in the window), "
                "and SportsTiming.ie / sportmaniacs.com, Blackwater, Ballyhass and "
@@ -126,8 +149,11 @@ def ireland_tab(content: dict):
             _stat(str(content["n_events"]), "Total distance/events"),
             _stat(str(content["n_rows"]), "Total finisher rows"),
         ]),
-        html.Img(src=content["img_ag"], className="athlete-chart"),
-        _age_table(content["summary"]),
+        dcc.Tabs(id="ireland-distance-tabs", value=content["distances"][0]["label"], children=[
+            dcc.Tab(label=f"{d['label']} ({d['n_races']})", value=d["label"],
+                    children=[_ireland_distance_tab(d)])
+            for d in content["distances"]
+        ]),
     ])
 
 

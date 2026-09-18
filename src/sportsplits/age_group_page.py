@@ -2,7 +2,7 @@
 races.py's load_all() -- static, non-interactive analysis, so it's computed once and
 served from memory rather than recomputed per-request).
 """
-from sportsplits.analytics import age_group_summary, slowest_pro_female, WC_RACE_DATES
+from sportsplits.analytics import age_group_summary, slowest_pro_female, classify_distance, DISTANCE_ORDER, WC_RACE_DATES
 from sportsplits.viz.age_groups import plot_age_groups, plot_slowest_female
 from sportsplits.viz.web import fig_to_base64
 from sportsplits.parsers.ironman.events import EVENTS as WC_EVENTS
@@ -69,8 +69,10 @@ def build_ireland_content() -> dict:
     Triathlon Ireland's official race calendar to track down every other
     reachable timing provider for the ~150+ events that pass had missed --
     surfaced several more small/one-off RaceResult accounts plus additional
-    Sportsplits.com races. Sprint/Olympic/etc mixed distances -- one combined
-    age-group view, not split by distance like the Ironman tabs.
+    Sportsplits.com races. Split into sub-tabs by distance/format (Sprint,
+    Olympic, Middle/Half, ...) -- see analytics.classify_distance() for how
+    each race/event name is bucketed, since results across distances aren't
+    comparable on the same age-group finish-time chart.
     """
     from sportsplits.parsers.raceresult.monster_timing_manifest import RACES as MT_RACES
     from sportsplits.parsers.raceresult.kerry_galway_manifest import RACES as KG_RACES
@@ -91,16 +93,36 @@ def build_ireland_content() -> dict:
             races.append((f"{name} {year} - {event_name}", df))
         ss_race_count += 1
 
-    summary = age_group_summary(races)
-    total_rows = sum(len(df) for _, df in races)
+    by_distance: dict[str, list] = {}
+    for name, df in races:
+        by_distance.setdefault(classify_distance(name), []).append((name, df))
+
+    distances = []
+    for label in DISTANCE_ORDER:
+        bucket = by_distance.get(label)
+        if not bucket:
+            continue
+        summary = age_group_summary(bucket)
+        # plot_age_groups() returns None when nothing survives its standard-band
+        # filtering for either gender -- e.g. "Relay" (team results have no
+        # individual Male/Female age-group rows at all) or a bucket whose only
+        # bands are non-standard widths like "20-34" (not chartable, but still
+        # shown in the table).
+        fig = None if summary.empty else plot_age_groups(
+            summary, f"Irish Triathlons 2024-2026 — {label} — age-group participants & median time")
+        distances.append({
+            "label": label,
+            "n_races": len(bucket),
+            "n_rows": sum(len(df) for _, df in bucket),
+            "img_ag": fig_to_base64(fig) if fig is not None else None,
+            "summary": summary,
+        })
 
     return {
         "n_monster_timing": len(MT_RACES),
         "n_raceresult_other": len(KG_RACES) + len(JR_RACES) + len(SM_RACES) + len(LN_RR_RACES),
         "n_sportsplits": ss_race_count,
         "n_events": len(races),
-        "n_rows": total_rows,
-        "img_ag": fig_to_base64(plot_age_groups(
-            summary, "Irish Triathlons 2024-2026 — age-group participants & median time")),
-        "summary": summary,
+        "n_rows": sum(len(df) for _, df in races),
+        "distances": distances,
     }
