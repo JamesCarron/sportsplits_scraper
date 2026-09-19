@@ -1,8 +1,16 @@
 """Precomputes the Age-Group Analysis page's content once at app startup (mirrors
 races.py's load_all() -- static, non-interactive analysis, so it's computed once and
 served from memory rather than recomputed per-request).
+
+Computing this from scratch (mainly parsing 251 regular Ironman races' raw
+JSON) takes 100+ seconds -- paid on every single app boot otherwise, which is
+most of this app's whole startup time. build_all_content() below loads a
+prebaked cache instead when one exists; see scripts/prebake_age_group.py.
 """
+import pickle
+
 from sportsplits.analytics import age_group_summary, slowest_pro_female, classify_distance, WC_RACE_DATES
+from sportsplits.config import CACHE_DIR
 
 # Only these distance/format buckets are shown on the Ireland tab -- Duathlon,
 # Aquabike, Relay, Mixed, and Other/Unspecified are gathered (see below) but
@@ -146,3 +154,38 @@ def build_ireland_content() -> dict:
         "n_rows": sum(len(df) for _, df, _ in shown),
         "distances": distances,
     }
+
+
+CACHE_PATH = CACHE_DIR / "age_group_content.pkl"
+
+
+def build_all_content(use_cache: bool = True) -> tuple:
+    """Returns (pro_content, regular_content, ireland_content) -- everything
+    app.py needs for the Age-Group Analysis page.
+
+    Loads scripts/prebake_age_group.py's cache when one exists and
+    use_cache is True (the default). Falls back to computing everything
+    from scratch if the cache is missing (e.g. a fresh checkout that hasn't
+    run the prebake script yet) -- slow (100+ seconds) but always correct.
+
+    The cache is NOT automatically invalidated by data changes -- there's no
+    hashing of the underlying race data here, deliberately, to keep this
+    simple. Re-run scripts/prebake_age_group.py (and commit the resulting
+    file) after adding/changing any race data this page reads, or after
+    changing these build_*_content() functions themselves.
+    """
+    if use_cache and CACHE_PATH.exists():
+        with open(CACHE_PATH, "rb") as f:
+            return pickle.load(f)
+    return build_pro_ironman_content(), build_ironman_regular_content(), build_ireland_content()
+
+
+def save_cache() -> tuple:
+    """Computes everything from scratch and writes the cache build_all_content()
+    reads. Returns the same tuple it cached, for scripts/prebake_age_group.py
+    to report on."""
+    content = (build_pro_ironman_content(), build_ironman_regular_content(), build_ireland_content())
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    with open(CACHE_PATH, "wb") as f:
+        pickle.dump(content, f)
+    return content

@@ -12,3 +12,4 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"            # source as obtained (API dumps + file-based inputs)
 PROCESSED_DIR = DATA_DIR / "processed"  # generated, app-ready standard-format CSVs
+CACHE_DIR = DATA_DIR / "cache"        # prebaked derived artifacts, e.g. age_group_page's cache

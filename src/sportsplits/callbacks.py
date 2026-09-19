@@ -6,7 +6,7 @@ from sportsplits.viz import fmt_td
 from sportsplits.viz.web import fig_to_base64, plot_single_panel, plot_comparison
 from sportsplits.viz.notebook import plot_athlete_extended
 from sportsplits.layout import _build_summary_stats, _build_fastest_splits, _build_median_splits
-from sportsplits.races import add_race_from_url, race_collections
+from sportsplits.races import REGISTRY, add_race_from_url, get_race_df, race_collections
 from sportsplits.parsers.raceresult.common import search_events
 
 
@@ -84,7 +84,7 @@ def register_callbacks(app, race_dfs: dict):
     )
     def add_race(manual_clicks, search_clicks, category, url, name, selected):
         if ctx.triggered_id == 'race-category-selector':
-            names = race_collections(race_dfs)[category]
+            names = race_collections(REGISTRY)[category]
             options = [{'label': n, 'value': n} for n in names]
             value = names[0] if names else no_update
             return options, value, no_update
@@ -107,7 +107,7 @@ def register_callbacks(app, race_dfs: dict):
         except Exception as exc:
             return no_update, no_update, html.Span(f'Could not add race: {exc}', className='add-error')
 
-        options = [{'label': n, 'value': n} for n in race_dfs]
+        options = [{'label': n, 'value': n} for n in REGISTRY]
         return options, name, html.Span(
             f'Added "{name}" — {len(df)} athletes loaded.', className='add-ok')
 
@@ -124,7 +124,7 @@ def register_callbacks(app, race_dfs: dict):
         Input('race-selector', 'value'),
     )
     def update_race(race_name):
-        df = race_dfs[race_name]
+        df = get_race_df(race_dfs, race_name)
         athlete_options = sorted(
             [{'label': n, 'value': n} for n in df['Name'].dropna().unique()],
             key=lambda o: o['label'],
@@ -149,7 +149,7 @@ def register_callbacks(app, race_dfs: dict):
         if not athlete_name:
             return '', ''
 
-        df = race_dfs[race_name]
+        df = get_race_df(race_dfs, race_name)
 
         if view == 'extended':
             fig = plot_athlete_extended(athlete_name, df)
@@ -175,7 +175,7 @@ def register_callbacks(app, race_dfs: dict):
         if not name_a or not name_b:
             return '', ''
 
-        df = race_dfs[race_name]
+        df = get_race_df(race_dfs, race_name)
         fig = plot_comparison(name_a, name_b, view, df)
 
         if fig is None:
