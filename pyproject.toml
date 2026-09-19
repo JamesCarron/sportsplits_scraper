@@ -14,6 +14,7 @@ dependencies = [
     "numpy",
     "matplotlib",
     "requests",
+    "gunicorn",
 ]
 
 [project.optional-dependencies]

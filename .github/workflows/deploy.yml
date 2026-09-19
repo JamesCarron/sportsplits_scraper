@@ -1,0 +1,14 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    uses: JamesCarron/infra/.github/workflows/build-and-deploy.yml@main
+    with:
+      app_name: sportsplits
+      infra_repo: JamesCarron/infra
+    secrets:
+      infra_repo_token: ${{ secrets.INFRA_REPO_TOKEN }}
