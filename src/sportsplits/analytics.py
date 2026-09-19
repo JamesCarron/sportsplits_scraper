@@ -3,12 +3,21 @@ outlier analysis. Pure functions over [(race_name, df), ...] pairs (df = standar
 13-column format), decoupled from where the races came from -- used by the Ironman
 World Championship, regular-races, and Ireland views on the Age-Group Analysis page.
 """
+from functools import partial
 import re
 
 import pandas as pd
 
 AG_ORDER = ["18-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54",
             "55-59", "60-64", "65-69", "70-74", "75-79", "80-84"]
+
+# The percentile ladder shown in "percentile" display mode, ordered slowest
+# (least exclusive) to fastest (most exclusive) -- 50 is the median, already
+# available as the `median` column, so it's not duplicated as `p50` here.
+# "Top P%" = the P-th percentile of finish time (ascending): P% of the field
+# finished at or faster than this, so a LOWER P is a FASTER, more exclusive
+# threshold (Top 2% is much faster than Top 60%).
+PERCENTILE_LADDER = [60, 40, 30, 20, 10, 5, 2]
 
 # Only genuine 5-year age bands (e.g. "25-29"), not custom wide buckets some
 # sources use for smaller categories (e.g. Monster Timing's "20-34"/"50+").
@@ -20,12 +29,19 @@ def _ag_sort_key(band: str) -> int:
 
 
 def age_group_summary(races: list) -> pd.DataFrame:
-    """races: [(name, df), ...]. Returns Gender/Band/n/median/mean/std, band-ordered.
+    """races: [(name, df), ...]. Returns Gender/Band/n/median/mean/std/p60/p40/
+    p30/p20/p10/p5/p2, band-ordered.
 
     Gender comes from Class (Open->Male, Female->Female) -- the one field every
     source in this app already normalizes consistently -- not parsed out of
     Age_Group, since only Ironman's Age_Group carries a gender prefix ("M25-29");
     Sportsplits/Monster Timing's is just the band ("25-29"), gender is separate.
+
+    The p<N> columns are empirical percentiles of Finish (see PERCENTILE_LADDER),
+    computed straight off the real distribution rather than assumed from
+    mean/std -- used by the "percentile" display mode, an alternative to the
+    default mean+std-dev sigma bands that shows real skew instead of assuming
+    a normal distribution.
     """
     frames = []
     for name, df in races:
@@ -41,9 +57,10 @@ def age_group_summary(races: list) -> pd.DataFrame:
     ag = all_df[all_df["Gender"].notna() & band.str.match(_BAND_RE, na=False) & all_df["Finish"].notna()].copy()
     ag["Band"] = band[ag.index]
 
+    percentile_cols = {f"p{p}": partial(pd.Series.quantile, q=p / 100) for p in PERCENTILE_LADDER}
     summary = (
         ag.groupby(["Gender", "Band"])["Finish"]
-        .agg(n="count", median="median", mean="mean", std="std")
+        .agg(n="count", median="median", mean="mean", std="std", **percentile_cols)
         .reset_index()
     )
     summary["order"] = summary["Band"].map(_ag_sort_key)

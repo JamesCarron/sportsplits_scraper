@@ -415,3 +415,27 @@ hr {
     font-size: 0.85rem;
     margin: 8px 0 16px;
 }
+
+/* Std-dev / percentile display toggle: every chart+table pair renders both
+   modes (age_group_layout.py's _chart_and_table()); this is what shows only
+   one at a time. Toggled by a class on <body>, flipped by one clientside
+   callback (callbacks.py) reacting to the single page-wide button below --
+   not per-chart, so every pair switches together. */
+body:not(.stats-mode-percentile) .stats-percentile {
+    display: none;
+}
+body.stats-mode-percentile .stats-sigma {
+    display: none;
+}
+.stats-mode-btn {
+    font-size: 0.95rem;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    cursor: pointer;
+    margin: 4px 0 16px;
+}
+.stats-mode-btn:hover {
+    background: #eee;
+}

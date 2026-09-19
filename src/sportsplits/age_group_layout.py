@@ -1,14 +1,22 @@
 """Layout builder for the Age-Group Analysis section: three tabs (Pro-Ironman,
 Ironman, Ireland). Static content, precomputed once at startup by age_group_page.py,
 so this just renders it -- no callbacks needed for tab switching (dcc.Tabs handles
-that client-side).
+that client-side). The one exception is the std-dev/percentile display toggle,
+which is a genuine client-side callback (see callbacks.py's
+register_stats_mode_toggle()) purely to flip a CSS class -- everything both
+modes could ever show is already rendered into the page up front by
+age_group_page.py, nothing is computed on click.
 """
 from dash import dcc, html
 
-from sportsplits.analytics import AG_ORDER
+from sportsplits.analytics import AG_ORDER, PERCENTILE_LADDER
 from sportsplits.viz import fmt_td
 
 _SIGMA_COLS = [(-3, "-3σ"), (-2, "-2σ"), (-1, "-1σ"), (1, "+1σ"), (2, "+2σ"), (3, "+3σ")]
+# Table column order matches the chart's line order: slowest/least-exclusive
+# first, median in the middle, fastest/most-exclusive last.
+_PERCENTILE_COLS_BEFORE_MEDIAN = [p for p in PERCENTILE_LADDER if p > 50]
+_PERCENTILE_COLS_AFTER_MEDIAN = [p for p in PERCENTILE_LADDER if p < 50]
 _HIGHLIGHT = ("25-29", "30-34")
 
 # Same cutoff plot_age_groups() charts use (its own default max_band="55-59")
@@ -27,7 +35,7 @@ def _fmt_bound(td):
     return fmt_td(td)
 
 
-def _age_table(summary_df, gender="Male"):
+def _age_table_sigma(summary_df, gender="Male"):
     df = summary_df[summary_df["Gender"] == gender]
     df = df[df["Band"].isin(_TABLE_BANDS)].set_index("Band")
     header = html.Tr([html.Th("Age group"), html.Th("Participants"),
@@ -43,6 +51,47 @@ def _age_table(summary_df, gender="Male"):
         cells += [html.Td(_fmt_bound(median + sigma * std)) for sigma, _ in _SIGMA_COLS[3:]]
         rows.append(html.Tr(cells, className="highlight" if band in _HIGHLIGHT else ""))
     return html.Table(rows, className="summary-table ag-table")
+
+
+def _age_table_percentile(summary_df, gender="Male"):
+    df = summary_df[summary_df["Gender"] == gender]
+    df = df[df["Band"].isin(_TABLE_BANDS)].set_index("Band")
+    header = html.Tr([html.Th("Age group"), html.Th("Participants"),
+                       *[html.Th(f"Top {p}%") for p in _PERCENTILE_COLS_BEFORE_MEDIAN],
+                       html.Th("Median"),
+                       *[html.Th(f"Top {p}%") for p in _PERCENTILE_COLS_AFTER_MEDIAN]])
+    rows = [header]
+    for band in df.index:
+        cells = [html.Td(f"{gender[0]}{band}"), html.Td(int(df.loc[band, "n"]))]
+        cells += [html.Td(fmt_td(df.loc[band, f"p{p}"])) for p in _PERCENTILE_COLS_BEFORE_MEDIAN]
+        cells.append(html.Td(html.B(fmt_td(df.loc[band, "median"]))))
+        cells += [html.Td(fmt_td(df.loc[band, f"p{p}"])) for p in _PERCENTILE_COLS_AFTER_MEDIAN]
+        rows.append(html.Tr(cells, className="highlight" if band in _HIGHLIGHT else ""))
+    return html.Table(rows, className="summary-table ag-table")
+
+
+def _chart_and_table(img_dict, summary_df, gender="Male"):
+    """One chart+table pair, rendered in both display modes -- CSS (see
+    assets/style.css) shows only one at a time based on a class toggled on
+    <body> by the page's std-dev/percentile button."""
+    return html.Div([
+        html.Div(className="stats-sigma", children=[
+            html.Img(src=img_dict["sigma"], className="athlete-chart"),
+            _age_table_sigma(summary_df, gender),
+        ]),
+        html.Div(className="stats-percentile", children=[
+            html.Img(src=img_dict["percentile"], className="athlete-chart"),
+            _age_table_percentile(summary_df, gender),
+        ]),
+    ])
+
+
+def stats_mode_toggle():
+    """One button, page-wide: flips every _chart_and_table() pair between
+    std-dev and percentile mode at once via a class on <body> (clientside
+    callback in callbacks.py -- no server round-trip, nothing recomputed)."""
+    return html.Button("Showing: Std deviation — click for Percentile",
+                        id="stats-mode-toggle", className="stats-mode-btn")
 
 
 def _stat(value: str, label: str):
@@ -82,11 +131,9 @@ def pro_ironman_tab(content: dict):
                "(shown as ±68%/95%/99.7% of finishers). Your transition (25–29 → "
                "30–34) is highlighted.", className="ag-note"),
         html.H3("Full-distance World Championship (Kona / Nice)"),
-        html.Img(src=content["img_ag_full"], className="athlete-chart"),
-        _age_table(content["summary_full"]),
+        _chart_and_table(content["img_ag_full"], content["summary_full"]),
         html.H3("Ironman 70.3 World Championship"),
-        html.Img(src=content["img_ag_half"], className="athlete-chart"),
-        _age_table(content["summary_half"]),
+        _chart_and_table(content["img_ag_half"], content["summary_half"]),
     ])
 
 
@@ -99,11 +146,9 @@ def ironman_regular_tab(content: dict):
                f"larger than the World Championship one (elite qualifiers only) — the shape "
                f"here reflects the general age-group population.", className="ag-note"),
         html.H3("Full distance"),
-        html.Img(src=content["img_ag_full"], className="athlete-chart"),
-        _age_table(content["summary_full"]),
+        _chart_and_table(content["img_ag_full"], content["summary_full"]),
         html.H3("Ironman 70.3"),
-        html.Img(src=content["img_ag_half"], className="athlete-chart"),
-        _age_table(content["summary_half"]),
+        _chart_and_table(content["img_ag_half"], content["summary_half"]),
     ])
 
 
@@ -114,17 +159,14 @@ def _ireland_distance_tab(d: dict):
             _stat(str(d["n_rows"]), "Finisher rows"),
         ]),
     ]
-    if d["img_ag"] is None:
+    if d["img_ag"]["sigma"] is None:
         body.append(html.P(
             "No standard 5-year age-group breakdown available for this "
             "distance — either results are scored by team rather than "
             "individual age band (e.g. relay), or the only categories "
             "published aren't standard 5-year bands.", className="ag-note"))
     else:
-        body += [
-            html.Img(src=d["img_ag"], className="athlete-chart"),
-            _age_table(d["summary"]),
-        ]
+        body.append(_chart_and_table(d["img_ag"], d["summary"]))
     return html.Div(className="section", children=body)
 
 
@@ -169,6 +211,12 @@ def ireland_tab(content: dict):
 def make_age_group_section(pro_content: dict, regular_content: dict, ireland_content: dict):
     return html.Section(className="section", children=[
         html.H2("Age-Group Analysis"),
+        html.P("Every age-group chart and table below has two views: median "
+               "± std-dev bands (assumes a normal distribution) or an "
+               "empirical percentile ladder (reads the real, possibly skewed, "
+               "distribution directly). One button switches all of them at "
+               "once.", className="ag-note"),
+        stats_mode_toggle(),
         dcc.Tabs(id="age-group-tabs", value="pro-ironman", children=[
             dcc.Tab(label="Pro-Ironman", value="pro-ironman", children=[pro_ironman_tab(pro_content)]),
             dcc.Tab(label="Ironman", value="ironman", children=[ironman_regular_tab(regular_content)]),

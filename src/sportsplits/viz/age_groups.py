@@ -1,45 +1,79 @@
-"""Charts for the Age-Group Analysis page: age-group participant/median-time bands
-with 1/2/3-sigma lines, and the slowest-pro-female-excluding-outliers scatter."""
+"""Charts for the Age-Group Analysis page: age-group participant/median-time bands,
+either as 1/2/3-sigma lines (assumes a normal distribution) or as an empirical
+percentile ladder (reads the real, possibly skewed, distribution directly) -- see
+plot_age_groups()'s `mode` argument -- plus the slowest-pro-female-excluding-
+outliers scatter."""
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from sportsplits.analytics import AG_ORDER
+from sportsplits.analytics import AG_ORDER, PERCENTILE_LADDER
+
+_SIGMA_LINES = [(3, "99.7%", 0.45, ":"), (2, "95%", 0.6, "--"), (1, "68%", 0.8, "-.")]
+
+# Darkest/thickest for the most exclusive (fastest) thresholds, fading out
+# toward the least exclusive (Top 60%) -- reads like an achievement ladder,
+# so the elite end is the one worth visually emphasizing. Ordered slowest to
+# fastest to match PERCENTILE_LADDER.
+_PERCENTILE_LINES = {60: (0.35, ":"), 40: (0.45, "--"), 30: (0.55, "--"),
+                      20: (0.65, "-."), 10: (0.75, "-."), 5: (0.85, "-"), 2: (1.0, "-")}
 
 
 def _hours(td) -> float:
     return td.total_seconds() / 3600
 
 
-def plot_age_groups(summary: pd.DataFrame, title: str, highlight=("25-29", "30-34"), max_band="55-59"):
-    """summary: output of analytics.age_group_summary(). Male/Female panels share
-    y-axes (bars = participants, line = median finish time with sigma bands).
-    Returns None if nothing survives the standard-band/max_band filtering for
-    either gender (e.g. a bucket whose only bands are non-standard widths like
-    "20-34", or has no individual Male/Female rows at all) -- there's nothing
-    chartable in that case, and the caller is expected to handle None."""
+def _prep(summary: pd.DataFrame, max_band: str) -> dict:
     under_cutoff = AG_ORDER[:AG_ORDER.index(max_band) + 1]
-
     subs = {}
     for gender in ["Male", "Female"]:
         sub = summary[summary["Gender"] == gender].copy()
         sub = sub[sub["Band"].isin(under_cutoff)].copy()
         sub["order"] = sub["Band"].map(under_cutoff.index)
         sub = sub.sort_values("order")
-        sub["median_h"] = sub["median"].map(_hours)
-        sub["std_h"] = sub["std"].map(_hours)
         subs[gender] = sub
+    return subs
 
+
+def plot_age_groups(summary: pd.DataFrame, title: str, highlight=("25-29", "30-34"),
+                     max_band="55-59", mode="sigma"):
+    """summary: output of analytics.age_group_summary(). Male/Female panels share
+    y-axes (bars = participants, line = median finish time with a spread band).
+
+    mode="sigma" (default): median +/- 1/2/3 standard deviations, labeled by
+    their normal-distribution coverage (68%/95%/99.7% of finishers) -- assumes
+    the data is normally distributed around the median.
+
+    mode="percentile": an empirical ladder (Top 60%, Median, Top 40%, 30%, 20%,
+    10%, 5%, 2% -- see analytics.PERCENTILE_LADDER) read directly off the real
+    distribution, so a skewed field (e.g. a long slow-finisher tail) shows up
+    as a visibly asymmetric spread around the median instead of being averaged
+    away into a symmetric band.
+
+    Returns None if nothing survives the standard-band/max_band filtering for
+    either gender (e.g. a bucket whose only bands are non-standard widths like
+    "20-34", or has no individual Male/Female rows at all) -- there's nothing
+    chartable in that case, and the caller is expected to handle None."""
+    subs = _prep(summary, max_band)
     if all(sub.empty for sub in subs.values()):
         return None
 
-    lo = min((subs[g]["median_h"] - 3 * subs[g]["std_h"]).min() for g in subs if not subs[g].empty)
-    hi = max((subs[g]["median_h"] + 3 * subs[g]["std_h"]).max() for g in subs if not subs[g].empty)
+    if mode == "sigma":
+        for sub in subs.values():
+            sub["median_h"] = sub["median"].map(_hours)
+            sub["std_h"] = sub["std"].map(_hours)
+        lo = min((subs[g]["median_h"] - 3 * subs[g]["std_h"]).min() for g in subs if not subs[g].empty)
+        hi = max((subs[g]["median_h"] + 3 * subs[g]["std_h"]).max() for g in subs if not subs[g].empty)
+    else:
+        for sub in subs.values():
+            sub["median_h"] = sub["median"].map(_hours)
+            for p in PERCENTILE_LADDER:
+                sub[f"p{p}_h"] = sub[f"p{p}"].map(_hours)
+        lo = min(subs[g][f"p{min(PERCENTILE_LADDER)}_h"].min() for g in subs if not subs[g].empty)
+        hi = max(subs[g][f"p{max(PERCENTILE_LADDER)}_h"].max() for g in subs if not subs[g].empty)
     pad = (hi - lo) * 0.05
     ylim = (lo - pad, hi + pad)
-
-    sigma_pcts = [(3, "99.7%", 0.45, ":"), (2, "95%", 0.6, "--"), (1, "68%", 0.8, "-.")]
 
     fig, axes = plt.subplots(1, 2, figsize=(13, 5), sharey=True)
     legend_handles = legend_labels = None
@@ -55,19 +89,27 @@ def plot_age_groups(summary: pd.DataFrame, title: str, highlight=("25-29", "30-3
         ax2 = ax.twinx()
         x = sub["Band"]
         ax2.plot(x, sub["median_h"], color="black", marker="o", linewidth=2, zorder=3, label="Median")
-        for sigma, pct, alpha, ls in sigma_pcts:
-            ax2.plot(x, sub["median_h"] + sigma * sub["std_h"], color="black", alpha=alpha,
-                     linewidth=1.1, linestyle=ls, zorder=2, label=f"±{pct} of finishers")
-            ax2.plot(x, sub["median_h"] - sigma * sub["std_h"], color="black", alpha=alpha,
-                     linewidth=1.1, linestyle=ls, zorder=2)
-        ax2.set_ylabel("Median finish (hours)")
+        if mode == "sigma":
+            for sigma, pct, alpha, ls in _SIGMA_LINES:
+                ax2.plot(x, sub["median_h"] + sigma * sub["std_h"], color="black", alpha=alpha,
+                         linewidth=1.1, linestyle=ls, zorder=2, label=f"±{pct} of finishers")
+                ax2.plot(x, sub["median_h"] - sigma * sub["std_h"], color="black", alpha=alpha,
+                         linewidth=1.1, linestyle=ls, zorder=2)
+            ax2.set_ylabel("Median finish (hours)")
+        else:
+            for p in PERCENTILE_LADDER:
+                alpha, ls = _PERCENTILE_LINES[p]
+                ax2.plot(x, sub[f"p{p}_h"], color="black", alpha=alpha, linewidth=1.3,
+                         linestyle=ls, zorder=2, label=f"Top {p}%")
+            ax2.set_ylabel("Finish time (hours)")
         ax2.set_ylim(*ylim)
         if legend_handles is None:
             legend_handles, legend_labels = ax2.get_legend_handles_labels()
 
     fig.suptitle(title)
-    fig.legend(legend_handles, legend_labels, loc="lower center", ncol=4,
-               bbox_to_anchor=(0.5, -0.04), frameon=False, fontsize=9)
+    ncol = 4 if mode == "sigma" else 8
+    fig.legend(legend_handles, legend_labels, loc="lower center", ncol=ncol,
+               bbox_to_anchor=(0.5, -0.04), frameon=False, fontsize=9 if mode == "sigma" else 8)
     fig.tight_layout()
     return fig
 

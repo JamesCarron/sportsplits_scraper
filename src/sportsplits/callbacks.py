@@ -22,6 +22,25 @@ def _athlete_stat_spans(row) -> list:
 
 def register_callbacks(app, race_dfs: dict):
 
+    # Age-Group Analysis page's std-dev/percentile toggle: both modes are
+    # already rendered into the page by age_group_page.py at startup, so this
+    # is purely a CSS class flip on <body> -- no server round-trip, nothing
+    # recomputed on click. See age_group_layout.py's stats_mode_toggle() for
+    # the button and assets/style.css for the display:none rules this drives.
+    app.clientside_callback(
+        """
+        function(n_clicks) {
+            const isPct = document.body.classList.toggle('stats-mode-percentile');
+            return isPct
+                ? 'Showing: Percentile — click for Std deviation'
+                : 'Showing: Std deviation — click for Percentile';
+        }
+        """,
+        Output('stats-mode-toggle', 'children'),
+        Input('stats-mode-toggle', 'n_clicks'),
+        prevent_initial_call=True,
+    )
+
     @app.callback(
         Output('search-results', 'options'),
         Output('search-results', 'value'),
