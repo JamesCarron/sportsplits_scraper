@@ -1,14 +1,11 @@
-# Only data/processed/, data/raw/sportsplits/, and a handful of small
-# data/raw/ root files (races.py reads those directly) are read at runtime
-# -- see races.py and parsers/sportsplits/common.py. Everything else under
-# data/raw/ is scraping/processing input only (~190MB), not needed to run
-# the app, so it's excluded to keep the image small.
-data/raw/ironman/
-data/raw/ironman_regular/
-data/raw/monster_timing/
-data/raw/kerry_galway/
-data/raw/rr_small_races/
-data/raw/*.raw.csv
+# The whole data/ directory (including data/raw/) ships in the image.
+# A prior pass tried to exclude the raw/ subdirectories that only *seemed*
+# to be scraping/processing-time input, reasoning from a partial code
+# read -- that broke the regular Ironman races at runtime
+# (parsers/ironman/regular_events.py parses data/raw/ironman_regular/ raw
+# JSON directly on every load, no processed-CSV step exists for that one
+# source, unlike every other source in this app). Given that mistake,
+# shipping the ~190MB in full is worth more than the size savings.
 
 .git/
 .github/
