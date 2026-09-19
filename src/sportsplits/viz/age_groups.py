@@ -2,22 +2,29 @@
 either as 1/2/3-sigma lines (assumes a normal distribution) or as an empirical
 percentile ladder (reads the real, possibly skewed, distribution directly) -- see
 plot_age_groups()'s `mode` argument -- plus the slowest-pro-female-excluding-
-outliers scatter."""
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+outliers scatter.
+
+Plotly, not matplotlib: these figures ship as a JSON spec to dcc.Graph and
+render client-side -- no server-side rasterization, which matters a lot for
+the per-race Age-Group Breakdown (callbacks.py), computed live per
+race-selector change rather than once at startup like everything else that
+calls plot_age_groups(). Measured matplotlib equivalent: ~1.5s per figure
+(bbox_inches='tight' + 150 dpi PNG encoding) x2 for both display modes,
+enough to make every race selection feel broken. See docs/REFACTOR_NOTES.md.
+"""
 import pandas as pd
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 from sportsplits.analytics import AG_ORDER, PERCENTILE_LADDER
 
-_SIGMA_LINES = [(3, "99.7%", 0.45, ":"), (2, "95%", 0.6, "--"), (1, "68%", 0.8, "-.")]
-
-# Darkest/thickest for the most exclusive (fastest) thresholds, fading out
-# toward the least exclusive (Top 60%) -- reads like an achievement ladder,
-# so the elite end is the one worth visually emphasizing. Ordered slowest to
-# fastest to match PERCENTILE_LADDER.
-_PERCENTILE_LINES = {60: (0.35, ":"), 40: (0.45, "--"), 30: (0.55, "--"),
-                      20: (0.65, "-."), 10: (0.75, "-."), 5: (0.85, "-"), 2: (1.0, "-")}
+# (alpha, dash) -- alpha fades toward the widest/least-exclusive band, dash
+# style distinguishes them when overlapping lines are close together. Matches
+# the matplotlib version's ":"/"--"/"-."/"-"  mapping 1:1 (dot/dash/dashdot/solid).
+_SIGMA_LINES = [(3, "99.7%", 0.45, "dot"), (2, "95%", 0.6, "dash"), (1, "68%", 0.8, "dashdot")]
+_PERCENTILE_LINES = {60: (0.35, "dot"), 40: (0.45, "dash"), 30: (0.55, "dash"),
+                      20: (0.65, "dashdot"), 10: (0.75, "dashdot"), 5: (0.85, "solid"), 2: (1.0, "solid")}
+_GENDER_COLORS = {"Male": "#3b6ea5", "Female": "#a5473b"}
 
 
 def _hours(td) -> float:
@@ -73,44 +80,64 @@ def plot_age_groups(summary: pd.DataFrame, title: str, highlight=("25-29", "30-3
         lo = min(subs[g][f"p{min(PERCENTILE_LADDER)}_h"].min() for g in subs if not subs[g].empty)
         hi = max(subs[g][f"p{max(PERCENTILE_LADDER)}_h"].max() for g in subs if not subs[g].empty)
     pad = (hi - lo) * 0.05
-    ylim = (lo - pad, hi + pad)
+    ylim = [lo - pad, hi + pad]
 
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5), sharey=True)
-    legend_handles = legend_labels = None
-    for ax, gender, color in zip(axes, ["Male", "Female"], ["#3b6ea5", "#a5473b"]):
+    fig = make_subplots(rows=1, cols=2, subplot_titles=["Male", "Female"],
+                         specs=[[{"secondary_y": True}, {"secondary_y": True}]])
+
+    for col, gender in enumerate(["Male", "Female"], start=1):
         sub = subs[gender]
+        color = _GENDER_COLORS[gender]
         bar_colors = ["#f2a516" if b in highlight else color for b in sub["Band"]]
-        ax.bar(sub["Band"], sub["n"], color=bar_colors, alpha=0.75)
-        ax.set_ylabel("Participants")
-        ax.set_xlabel("Age group")
-        ax.tick_params(axis="x", rotation=45)
-        ax.set_title(gender)
+        first_panel = col == 1
 
-        ax2 = ax.twinx()
-        x = sub["Band"]
-        ax2.plot(x, sub["median_h"], color="black", marker="o", linewidth=2, zorder=3, label="Median")
+        fig.add_trace(go.Bar(
+            x=sub["Band"], y=sub["n"], marker_color=bar_colors, opacity=0.75,
+            name="Participants", showlegend=False,
+            hovertemplate="%{x}: %{y} participants<extra></extra>",
+        ), row=1, col=col, secondary_y=False)
+
+        fig.add_trace(go.Scatter(
+            x=sub["Band"], y=sub["median_h"], mode="lines+markers",
+            line=dict(color="black", width=2), marker=dict(size=7),
+            name="Median", showlegend=first_panel, legendgroup="median",
+            hovertemplate="%{x}: %{y:.2f}h<extra>Median</extra>",
+        ), row=1, col=col, secondary_y=True)
+
         if mode == "sigma":
-            for sigma, pct, alpha, ls in _SIGMA_LINES:
-                ax2.plot(x, sub["median_h"] + sigma * sub["std_h"], color="black", alpha=alpha,
-                         linewidth=1.1, linestyle=ls, zorder=2, label=f"±{pct} of finishers")
-                ax2.plot(x, sub["median_h"] - sigma * sub["std_h"], color="black", alpha=alpha,
-                         linewidth=1.1, linestyle=ls, zorder=2)
-            ax2.set_ylabel("Median finish (hours)")
+            for sigma, pct, alpha, dash in _SIGMA_LINES:
+                line = dict(color=f"rgba(0,0,0,{alpha})", width=1.5, dash=dash)
+                fig.add_trace(go.Scatter(
+                    x=sub["Band"], y=sub["median_h"] + sigma * sub["std_h"], mode="lines",
+                    line=line, name=f"±{pct} of finishers", legendgroup=f"s{sigma}",
+                    showlegend=first_panel, hoverinfo="skip",
+                ), row=1, col=col, secondary_y=True)
+                fig.add_trace(go.Scatter(
+                    x=sub["Band"], y=sub["median_h"] - sigma * sub["std_h"], mode="lines",
+                    line=line, name=f"±{pct} of finishers", legendgroup=f"s{sigma}",
+                    showlegend=False, hoverinfo="skip",
+                ), row=1, col=col, secondary_y=True)
+            y_title = "Median finish (hours)"
         else:
             for p in PERCENTILE_LADDER:
-                alpha, ls = _PERCENTILE_LINES[p]
-                ax2.plot(x, sub[f"p{p}_h"], color="black", alpha=alpha, linewidth=1.3,
-                         linestyle=ls, zorder=2, label=f"Top {p}%")
-            ax2.set_ylabel("Finish time (hours)")
-        ax2.set_ylim(*ylim)
-        if legend_handles is None:
-            legend_handles, legend_labels = ax2.get_legend_handles_labels()
+                alpha, dash = _PERCENTILE_LINES[p]
+                fig.add_trace(go.Scatter(
+                    x=sub["Band"], y=sub[f"p{p}_h"], mode="lines",
+                    line=dict(color=f"rgba(0,0,0,{alpha})", width=1.5, dash=dash),
+                    name=f"Top {p}%", legendgroup=f"p{p}", showlegend=first_panel,
+                    hovertemplate=f"%{{x}}: %{{y:.2f}}h<extra>Top {p}%</extra>",
+                ), row=1, col=col, secondary_y=True)
+            y_title = "Finish time (hours)"
 
-    fig.suptitle(title)
-    ncol = 4 if mode == "sigma" else 8
-    fig.legend(legend_handles, legend_labels, loc="lower center", ncol=ncol,
-               bbox_to_anchor=(0.5, -0.04), frameon=False, fontsize=9 if mode == "sigma" else 8)
-    fig.tight_layout()
+        fig.update_yaxes(title_text="Participants", secondary_y=False, row=1, col=col)
+        fig.update_yaxes(title_text=y_title, range=ylim, secondary_y=True, row=1, col=col)
+        fig.update_xaxes(title_text="Age group", tickangle=45, row=1, col=col)
+
+    fig.update_layout(
+        title=title, height=520, barmode="group",
+        legend=dict(orientation="h", yanchor="top", y=-0.22, xanchor="center", x=0.5, font=dict(size=10)),
+        margin=dict(b=120),
+    )
     return fig
 
 
@@ -121,20 +148,27 @@ def plot_slowest_female(result: pd.DataFrame, avg_clean, prefix: str, title: str
     if "date" in result.columns:
         result = result.sort_values("date")
 
-    fig, ax = plt.subplots(figsize=(9, 5))
-    x = range(len(result))
-    ax.scatter(x, result["raw_slowest"].map(_hours), label="Raw slowest", color="#c9506b", s=70, zorder=3)
-    ax.scatter(x, result["clean_slowest"].map(_hours), label="Outliers excluded", color="#2f6f5e", s=70, zorder=3)
-    for xi, raw_h, clean_h in zip(x, result["raw_slowest"].map(_hours), result["clean_slowest"].map(_hours)):
-        if raw_h != clean_h:
-            ax.plot([xi, xi], [clean_h, raw_h], color="#ccc", linewidth=1, zorder=1)
-    ax.axhline(_hours(avg_clean), color="#2f6f5e", linestyle="--", linewidth=1,
-               label=f"Average (excl. outliers): {avg_clean}")
-    ax.set_xticks(list(x))
-    ax.set_xticklabels(result["short"], rotation=40, ha="right", fontsize=8)
-    ax.set_ylabel("Finish time (hours)")
-    ax.set_title(f"{title} (chronological)")
-    ax.legend(fontsize=8)
-    ax.grid(axis="y", color="#eee")
-    fig.tight_layout()
+    x = list(range(len(result)))
+    raw_h = result["raw_slowest"].map(_hours)
+    clean_h = result["clean_slowest"].map(_hours)
+
+    fig = go.Figure()
+    for xi, r, c in zip(x, raw_h, clean_h):
+        if r != c:
+            fig.add_trace(go.Scatter(x=[xi, xi], y=[c, r], mode="lines",
+                                      line=dict(color="#cccccc", width=1),
+                                      showlegend=False, hoverinfo="skip"))
+    fig.add_trace(go.Scatter(x=x, y=raw_h, mode="markers", marker=dict(color="#c9506b", size=11),
+                              name="Raw slowest", text=result["short"],
+                              hovertemplate="%{text}: %{y:.2f}h<extra>Raw slowest</extra>"))
+    fig.add_trace(go.Scatter(x=x, y=clean_h, mode="markers", marker=dict(color="#2f6f5e", size=11),
+                              name="Outliers excluded", text=result["short"],
+                              hovertemplate="%{text}: %{y:.2f}h<extra>Outliers excluded</extra>"))
+    fig.add_hline(y=_hours(avg_clean), line_dash="dash", line_color="#2f6f5e",
+                  annotation_text=f"Average (excl. outliers): {avg_clean}", annotation_position="top left")
+
+    fig.update_xaxes(tickmode="array", tickvals=x, ticktext=result["short"].tolist(), tickangle=-40)
+    fig.update_yaxes(title_text="Finish time (hours)")
+    fig.update_layout(title=f"{title} (chronological)", height=480,
+                       legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1))
     return fig

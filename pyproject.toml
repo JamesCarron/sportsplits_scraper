@@ -12,6 +12,10 @@ dependencies = [
     "dash",
     "pandas",
     "numpy",
+    "plotly",
+    # matplotlib: only viz/notebook.py's plot_athlete() still uses it (notebook-
+    # only, unused by the live app). Every chart the app actually renders is
+    # Plotly now -- see docs/REFACTOR_NOTES.md.
     "matplotlib",
     "requests",
     "gunicorn",

@@ -176,6 +176,11 @@ def make_layout(race_names: list, age_group_pro_content: dict, age_group_regular
                 html.Summary('Median Split Times'),
                 html.Div(id='summary-median', className='split-row'),
             ]),
+
+            html.Details(className='collapsible', children=[
+                html.Summary('Age-Group Breakdown'),
+                dcc.Loading(type='circle', children=html.Div(id='summary-age-group')),
+            ]),
         ]),
 
         html.Hr(),
@@ -220,7 +225,7 @@ def make_layout(race_names: list, age_group_pro_content: dict, age_group_regular
             dcc.Loading(
                 id='chart-loading',
                 type='circle',
-                children=html.Img(id='athlete-chart', src='', className='athlete-chart'),
+                children=dcc.Graph(id='athlete-chart', figure={}, config={'displaylogo': False}, className='athlete-chart'),
             ),
         ]),
 
@@ -275,7 +280,7 @@ def make_layout(race_names: list, age_group_pro_content: dict, age_group_regular
             dcc.Loading(
                 id='comparison-loading',
                 type='circle',
-                children=html.Img(id='comparison-chart', src='', className='athlete-chart'),
+                children=dcc.Graph(id='comparison-chart', figure={}, config={'displaylogo': False}, className='athlete-chart'),
             ),
         ]),
 

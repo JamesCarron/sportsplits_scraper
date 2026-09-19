@@ -18,7 +18,6 @@ from sportsplits.config import CACHE_DIR
 # an age-group finish-time chart at all.
 _IRELAND_DISTANCES = ["Try-a-Tri", "Super Sprint", "Sprint", "Olympic / Standard", "Middle / Half"]
 from sportsplits.viz.age_groups import plot_age_groups, plot_slowest_female
-from sportsplits.viz.web import fig_to_base64
 from sportsplits.parsers.ironman.events import EVENTS as WC_EVENTS
 from sportsplits.parsers.ironman.regular_events import load_regular_races
 from sportsplits.parsers.ironman.regular_races_manifest import FULL_RACES, HALF_RACES
@@ -29,15 +28,17 @@ def _load_wc(distance: str) -> list:
     return [(spec.name, load_processed_csv(spec.processed_path)) for spec in WC_EVENTS if spec.distance == distance]
 
 
-def _both_modes(summary, title) -> dict:
-    """Both display-mode images for one chart, for the page's std-dev/percentile
-    toggle -- both are rendered up front (not on demand) since this whole page
-    is precomputed once at startup and served statically, no callback involved."""
-    fig_sigma = plot_age_groups(summary, title, mode="sigma")
-    fig_pct = plot_age_groups(summary, title, mode="percentile")
+def both_modes(summary, title) -> dict:
+    """Both display-mode Plotly figures for one chart, for the std-dev/
+    percentile toggle -- age_group_layout.py renders these via dcc.Graph, not
+    html.Img, so no PNG/base64 conversion happens here at all. Public:
+    everything on this page renders both up front at startup (nothing
+    computed on click here), but callbacks.py also calls this directly for
+    the per-race Age-Group Breakdown, computed live per race-selector change
+    instead."""
     return {
-        "sigma": fig_to_base64(fig_sigma) if fig_sigma is not None else None,
-        "percentile": fig_to_base64(fig_pct) if fig_pct is not None else None,
+        "sigma": plot_age_groups(summary, title, mode="sigma"),
+        "percentile": plot_age_groups(summary, title, mode="percentile"),
     }
 
 
@@ -54,15 +55,15 @@ def build_pro_ironman_content() -> dict:
     return {
         "slowest_half": (result_half, avg_raw_half, avg_clean_half),
         "slowest_full": (result_full, avg_raw_full, avg_clean_full),
-        "img_slowest_half": fig_to_base64(plot_slowest_female(
+        "fig_slowest_half": plot_slowest_female(
             result_half, avg_clean_half, "IM 70.3 WC ",
-            "Slowest pro female finisher — Ironman 70.3 World Championship")),
-        "img_slowest_full": fig_to_base64(plot_slowest_female(
+            "Slowest pro female finisher — Ironman 70.3 World Championship"),
+        "fig_slowest_full": plot_slowest_female(
             result_full, avg_clean_full, "IM WC ",
-            "Slowest pro female finisher — Ironman World Championship (full)")),
-        "img_ag_full": _both_modes(
+            "Slowest pro female finisher — Ironman World Championship (full)"),
+        "fig_ag_full": both_modes(
             summary_full, "Full-distance Ironman World Championship — age-group participants & median time"),
-        "img_ag_half": _both_modes(
+        "fig_ag_half": both_modes(
             summary_half, "Ironman 70.3 World Championship — age-group participants & median time"),
         "summary_full": summary_full,
         "summary_half": summary_half,
@@ -80,9 +81,9 @@ def build_ironman_regular_content() -> dict:
     return {
         "n_full": len(FULL_RACES),
         "n_half": len(HALF_RACES),
-        "img_ag_full": _both_modes(
+        "fig_ag_full": both_modes(
             summary_full, "Regular full-distance Ironman races 2025-2026 — age-group participants & median time"),
-        "img_ag_half": _both_modes(
+        "fig_ag_half": both_modes(
             summary_half, "Regular Ironman 70.3 races 2025-2026 — age-group participants & median time"),
         "summary_full": summary_full,
         "summary_half": summary_half,
@@ -131,7 +132,7 @@ def build_ireland_content() -> dict:
         if not bucket:
             continue
         summary = age_group_summary([(name, df) for name, df, _ in bucket])
-        # _both_modes()/plot_age_groups() return None for a mode when nothing
+        # both_modes()/plot_age_groups() return None for a mode when nothing
         # survives its standard-band filtering for either gender -- not
         # expected for these 5 buckets given today's data, but kept defensive
         # in case a future pull adds a race whose only bands are non-standard
@@ -141,7 +142,7 @@ def build_ireland_content() -> dict:
             "label": label,
             "n_races": len(bucket),
             "n_rows": sum(len(df) for _, df, _ in bucket),
-            "img_ag": {"sigma": None, "percentile": None} if summary.empty else _both_modes(summary, title),
+            "fig_ag": {"sigma": None, "percentile": None} if summary.empty else both_modes(summary, title),
             "summary": summary,
         })
 

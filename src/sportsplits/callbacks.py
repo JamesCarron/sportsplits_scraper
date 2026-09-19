@@ -2,12 +2,38 @@ import json
 
 import pandas as pd
 from dash import Input, Output, State, ctx, html, no_update
+from sportsplits.analytics import age_group_summary
+from sportsplits.age_group_page import both_modes
+from sportsplits.age_group_layout import chart_and_table_or_note
 from sportsplits.viz import fmt_td
-from sportsplits.viz.web import fig_to_base64, plot_single_panel, plot_comparison
+from sportsplits.viz.web import plot_single_panel, plot_comparison
 from sportsplits.viz.notebook import plot_athlete_extended
 from sportsplits.layout import _build_summary_stats, _build_fastest_splits, _build_median_splits
 from sportsplits.races import REGISTRY, add_race_from_url, get_race_df, race_collections
 from sportsplits.parsers.raceresult.common import search_events
+
+
+def _race_age_group_breakdown(race_name: str, df, cache: dict):
+    """Live per-race counterpart to age_group_page.py's precomputed aggregate
+    charts -- age_group_summary() and both_modes() work over any [(name, df)]
+    list, so a single selected race is just the len-1 case. Follows the same
+    global std-dev/percentile toggle as the Age-Group Analysis page (same CSS
+    classes via chart_and_table_or_note()), no separate button needed.
+
+    Rendering both chart images takes ~3s (matplotlib, same per-image cost
+    age_group_page.py already pays -- just paid live here instead of once at
+    startup), so results are cached by race name: real cost only on a race's
+    first selection each server run, instant on every later reselect."""
+    if race_name in cache:
+        return cache[race_name]
+    summary = age_group_summary([(race_name, df)])
+    if summary.empty:
+        result = chart_and_table_or_note({"sigma": None, "percentile": None}, summary)
+    else:
+        images = both_modes(summary, f"{race_name} — age-group participants & median time")
+        result = chart_and_table_or_note(images, summary)
+    cache[race_name] = result
+    return result
 
 
 def _athlete_stat_spans(row) -> list:
@@ -21,6 +47,7 @@ def _athlete_stat_spans(row) -> list:
 
 
 def register_callbacks(app, race_dfs: dict):
+    race_age_group_cache: dict = {}
 
     # Age-Group Analysis page's std-dev/percentile toggle: both modes are
     # already rendered into the page by age_group_page.py at startup, so this
@@ -115,6 +142,7 @@ def register_callbacks(app, race_dfs: dict):
         Output('summary-kpis', 'children'),
         Output('summary-fastest', 'children'),
         Output('summary-median', 'children'),
+        Output('summary-age-group', 'children'),
         Output('athlete-dropdown', 'options'),
         Output('athlete-dropdown', 'value'),
         Output('athlete-a-dropdown', 'options'),
@@ -133,13 +161,14 @@ def register_callbacks(app, race_dfs: dict):
             _build_summary_stats(df),
             _build_fastest_splits(df),
             _build_median_splits(df),
+            _race_age_group_breakdown(race_name, df, race_age_group_cache),
             athlete_options, None,
             athlete_options, None,
             athlete_options, None,
         )
 
     @app.callback(
-        Output('athlete-chart', 'src'),
+        Output('athlete-chart', 'figure'),
         Output('athlete-stats', 'children'),
         Input('athlete-dropdown', 'value'),
         Input('view-selector', 'value'),
@@ -147,7 +176,7 @@ def register_callbacks(app, race_dfs: dict):
     )
     def render_chart(athlete_name, view, race_name):
         if not athlete_name:
-            return '', ''
+            return {}, ''
 
         df = get_race_df(race_dfs, race_name)
 
@@ -157,14 +186,14 @@ def register_callbacks(app, race_dfs: dict):
             fig = plot_single_panel(athlete_name, view, df)
 
         if fig is None:
-            return '', html.P(f'Could not render chart for "{athlete_name}".')
+            return {}, html.P(f'Could not render chart for "{athlete_name}".')
 
         row = df[df['Name'] == athlete_name].iloc[0]
         stats = html.Div(className='stats-bar', children=_athlete_stat_spans(row))
-        return fig_to_base64(fig), stats
+        return fig, stats
 
     @app.callback(
-        Output('comparison-chart', 'src'),
+        Output('comparison-chart', 'figure'),
         Output('comparison-stats', 'children'),
         Input('athlete-a-dropdown', 'value'),
         Input('athlete-b-dropdown', 'value'),
@@ -173,13 +202,13 @@ def register_callbacks(app, race_dfs: dict):
     )
     def render_comparison(name_a, name_b, view, race_name):
         if not name_a or not name_b:
-            return '', ''
+            return {}, ''
 
         df = get_race_df(race_dfs, race_name)
         fig = plot_comparison(name_a, name_b, view, df)
 
         if fig is None:
-            return '', html.P('Could not render comparison — check athlete names.')
+            return {}, html.P('Could not render comparison — check athlete names.')
 
         row_a = df[df['Name'] == name_a].iloc[0]
         row_b = df[df['Name'] == name_b].iloc[0]
@@ -195,4 +224,4 @@ def register_callbacks(app, race_dfs: dict):
             ]),
         ])
 
-        return fig_to_base64(fig), stats
+        return fig, stats

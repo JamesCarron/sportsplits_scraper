@@ -70,24 +70,43 @@ def _age_table_percentile(summary_df, gender="Male"):
     return html.Table(rows, className="summary-table ag-table")
 
 
-def _chart_and_table(img_dict, summary_df, gender="Male"):
+def chart_and_table(fig_dict, summary_df, gender="Male"):
     """One chart+table pair, rendered in both display modes -- CSS (see
     assets/style.css) shows only one at a time based on a class toggled on
-    <body> by the page's std-dev/percentile button."""
+    <body> by the page's std-dev/percentile button. fig_dict values are
+    Plotly Figure objects (see viz/age_groups.py), rendered via dcc.Graph --
+    no server-side rasterization. Public: also used by callbacks.py for the
+    per-race Age-Group Breakdown (computed live per selection, not
+    precomputed by age_group_page.py like everything else that calls this)."""
+    graph_config = {"displaylogo": False}
     return html.Div([
         html.Div(className="stats-sigma", children=[
-            html.Img(src=img_dict["sigma"], className="athlete-chart"),
+            dcc.Graph(figure=fig_dict["sigma"], config=graph_config, className="athlete-chart"),
             _age_table_sigma(summary_df, gender),
         ]),
         html.Div(className="stats-percentile", children=[
-            html.Img(src=img_dict["percentile"], className="athlete-chart"),
+            dcc.Graph(figure=fig_dict["percentile"], config=graph_config, className="athlete-chart"),
             _age_table_percentile(summary_df, gender),
         ]),
     ])
 
 
+def chart_and_table_or_note(fig_dict, summary_df, gender="Male", note=None):
+    """chart_and_table(), or a fallback note when fig_dict["sigma"] is None
+    (nothing chartable -- e.g. relay results with no individual age-group
+    rows, or a field too small/skewed to yield standard 5-year bands)."""
+    if fig_dict["sigma"] is None:
+        return html.P(note or (
+            "No standard 5-year age-group breakdown available here — either "
+            "results are scored by team rather than individual age band "
+            "(e.g. relay), the field's categories aren't standard 5-year "
+            "bands, or there just aren't enough finishers with a genuine "
+            "age-group tag."), className="ag-note")
+    return chart_and_table(fig_dict, summary_df, gender)
+
+
 def stats_mode_toggle():
-    """One button, page-wide: flips every _chart_and_table() pair between
+    """One button, page-wide: flips every chart_and_table() pair between
     std-dev and percentile mode at once via a class on <body> (clientside
     callback in callbacks.py -- no server round-trip, nothing recomputed)."""
     return html.Button("Showing: Std deviation — click for Percentile",
@@ -98,7 +117,7 @@ def _stat(value: str, label: str):
     return html.Div(className="stat", children=[html.B(value), " ", label])
 
 
-def _slowest_female_block(title, result, avg_raw, avg_clean, img):
+def _slowest_female_block(title, result, avg_raw, avg_clean, fig):
     if result.empty:
         return html.Div([html.H4(title), html.P("No professional women's field found.", className="ag-note")])
     n_pros = int(result["n_pros"].sum())
@@ -110,7 +129,7 @@ def _slowest_female_block(title, result, avg_raw, avg_clean, img):
             _stat(fmt_td(avg_clean), "Average slowest (outliers excluded)"),
             _stat(f"{n_excl} / {n_pros}", f"Finishers excluded as outliers ({n_excl / n_pros * 100:.1f}%)"),
         ]),
-        html.Img(src=img, className="athlete-chart"),
+        dcc.Graph(figure=fig, config={"displaylogo": False}, className="athlete-chart"),
     ])
 
 
@@ -123,17 +142,17 @@ def pro_ironman_tab(content: dict):
                "above Q3 + 1.5×IQR within each race's pro field are treated as “had an "
                "issue” (mechanical failure, injury, etc.) and excluded before finding the "
                "slowest legitimate finisher.", className="ag-note"),
-        _slowest_female_block("Ironman 70.3 World Championship", *slow_half, content["img_slowest_half"]),
-        _slowest_female_block("Ironman World Championship (full distance)", *slow_full, content["img_slowest_full"]),
+        _slowest_female_block("Ironman 70.3 World Championship", *slow_half, content["fig_slowest_half"]),
+        _slowest_female_block("Ironman World Championship (full distance)", *slow_full, content["fig_slowest_full"]),
 
         html.H2("2. Age-group competitiveness"),
         html.P("Bars = participant count. Line = median finish time, with ±1/2/3σ bands "
                "(shown as ±68%/95%/99.7% of finishers). Your transition (25–29 → "
                "30–34) is highlighted.", className="ag-note"),
         html.H3("Full-distance World Championship (Kona / Nice)"),
-        _chart_and_table(content["img_ag_full"], content["summary_full"]),
+        chart_and_table(content["fig_ag_full"], content["summary_full"]),
         html.H3("Ironman 70.3 World Championship"),
-        _chart_and_table(content["img_ag_half"], content["summary_half"]),
+        chart_and_table(content["fig_ag_half"], content["summary_half"]),
     ])
 
 
@@ -146,9 +165,9 @@ def ironman_regular_tab(content: dict):
                f"larger than the World Championship one (elite qualifiers only) — the shape "
                f"here reflects the general age-group population.", className="ag-note"),
         html.H3("Full distance"),
-        _chart_and_table(content["img_ag_full"], content["summary_full"]),
+        chart_and_table(content["fig_ag_full"], content["summary_full"]),
         html.H3("Ironman 70.3"),
-        _chart_and_table(content["img_ag_half"], content["summary_half"]),
+        chart_and_table(content["fig_ag_half"], content["summary_half"]),
     ])
 
 
@@ -158,15 +177,12 @@ def _ireland_distance_tab(d: dict):
             _stat(str(d["n_races"]), "Distance/events"),
             _stat(str(d["n_rows"]), "Finisher rows"),
         ]),
-    ]
-    if d["img_ag"]["sigma"] is None:
-        body.append(html.P(
+        chart_and_table_or_note(d["fig_ag"], d["summary"], note=(
             "No standard 5-year age-group breakdown available for this "
             "distance — either results are scored by team rather than "
             "individual age band (e.g. relay), or the only categories "
-            "published aren't standard 5-year bands.", className="ag-note"))
-    else:
-        body.append(_chart_and_table(d["img_ag"], d["summary"]))
+            "published aren't standard 5-year bands.")),
+    ]
     return html.Div(className="section", children=body)
 
 
